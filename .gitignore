@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+
+# Generated feed data (rebuilt by CI)
+data/
+frontend/public/data/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Environment
+.env
+.envrc
