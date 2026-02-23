@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "5a22e9a0d74dd81b",
+      "url": "https://steipete.me/posts/2020/building-with-swift-trunk/",
+      "title": "Building with Swift Trunk Development Snapshots",
+      "summary": "A troubleshooting guide for building with Swift trunk development snapshots, documenting compilation errors, linker issues, and their solutions.",
+      "date_published": "2020-06-12T15:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2020-06"
+}

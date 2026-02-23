@@ -1,0 +1,21 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "fab5b3afe7317939",
+      "url": "https://siddhantkhare2694.medium.com/stepping-up-from-a-fledgling-engineer-de203000db67?source=rss-d33fc21fba5d------2",
+      "title": "Stepping up from a Fledgling Engineer",
+      "date_published": "2024-05-18T16:20:16Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2024-05"
+}

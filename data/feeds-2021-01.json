@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "81b92bc55d154c7c",
+      "url": "https://steipete.me/posts/2021/fixing-keyboardshortcut-in-swiftui/",
+      "title": "Fixing keyboardShortcut in SwiftUI",
+      "summary": "Debugging and fixing a SwiftUI keyboardShortcut bug that fails when mixing SwiftUI with UIKit through reverse engineering and LLDB analysis.",
+      "date_published": "2021-01-31T11:30:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "9be2608acd5c05d8",
+      "url": "https://steipete.me/posts/2021/supporting-both-tap-and-longpress-on-button-in-swiftui/",
+      "title": "Supporting Both Tap and Long Press on a Button in SwiftUI",
+      "summary": "Creating a SwiftUI button that supports both tap and long-press gestures by bridging to UIKit when SwiftUI's gesture system fails on Catalyst.",
+      "date_published": "2021-01-27T16:30:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2021-01"
+}

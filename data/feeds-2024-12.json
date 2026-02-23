@@ -1,0 +1,63 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "cf91b5d40d0da519",
+      "url": "https://siddhantkhare2694.medium.com/genz-the-worst-creatures-of-humankind-adfaf5427de1?source=rss-d33fc21fba5d------2",
+      "title": "GenZ: the worst creatures of humankind?",
+      "date_published": "2024-12-28T20:20:54Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "79e53fe62b05479d",
+      "url": "https://dev.to/siddhantkcode/querying-s3-logs-in-a-flash-with-duckdb-p44",
+      "title": "Querying S3 logs in a flash with DuckDB 🦆",
+      "summary": "Amazon S3 server access logs are a treasure trove of valuable information, detailing requests made to...",
+      "date_published": "2024-12-08T12:14:55Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "6d8e753dba60d4b3",
+      "url": "https://dev.to/siddhantkcode/submission-for-the-devcycle-feature-flag-challenge-ai-feature-flag-suggestions-566m",
+      "title": "Submission for the DevCycle Feature Flag Challenge: AI Feature Flag Suggestions 🧠",
+      "summary": "This is a submission for the DevCycle Feature Flag Challenge: Feature Flag Funhouse           What I...",
+      "date_published": "2024-12-07T18:03:11Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "062bfd2d1113c656",
+      "url": "https://dev.to/siddhantkcode/turbocharging-aws-lambda-how-to-eliminate-cold-starts-forever-3c54",
+      "title": "Turbocharging AWS Lambda: How to eliminate cold starts forever",
+      "summary": "Imagine rushing to grab your morning coffee, only to find the barista needs to boot up the espresso...",
+      "date_published": "2024-12-01T18:23:54Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2024-12"
+}

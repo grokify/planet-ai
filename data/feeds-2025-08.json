@@ -1,0 +1,167 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "504aa9ad373cafa1",
+      "url": "https://siddhantkhare.com/writing/ready-to-eat-knowledge-economy",
+      "title": "Ready-to-eat knowledge economy",
+      "summary": "Your AI teacher is free, available 24/7, and infinitely patient. Stop asking for permission to learn.",
+      "date_published": "2025-08-31T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "5e76f3c9e66efc1b",
+      "url": "https://siddhantkhare.com/writing/the-visibility-game",
+      "title": "The visibility game",
+      "summary": "Organizations will always reward perceived value over hidden value. The question is whether you'll play the game as it is.",
+      "date_published": "2025-08-28T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "dce1fb5c3359863a",
+      "url": "https://steipete.me/posts/2025/optimal-ai-development-workflow/",
+      "title": "My Current AI Dev Workflow",
+      "summary": "Went fully back to Ghostty, VS Code on the side, and Claude Code as my main driver. Here's what actually works after months of experimentation.",
+      "date_published": "2025-08-25T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "cfb754038f96b695",
+      "url": "https://steipete.me/posts/2025/essential-reading-august-2025/",
+      "title": "Essential Reading for Agentic Engineers - August 2025",
+      "summary": "Five essential perspectives that cut through AI hype: from developer evolution stages to junior learning crises, productivity reality checks, platform disruption, and MCP server pitfalls.",
+      "date_published": "2025-08-22T01:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "cb220fb0fa8dca9f",
+      "url": "https://siddhantkhare.com/writing/gpu-memory-virtualization-for-llms",
+      "title": "GPU memory virtualization for LLMs",
+      "summary": "LLM inference is shifting from compute-bound to memory-bound. Treating GPU memory like an OS does RAM is the path forward.",
+      "date_published": "2025-08-21T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "b0ee3ee2dd3970f4",
+      "url": "https://steipete.me/posts/just-one-more-prompt/",
+      "title": "Just One More Prompt",
+      "summary": "Hi, my name is Peter and I'm a Claudoholic. A reflection on AI addiction, extreme work culture, and the blurry line between productivity and obsession in the age of agentic engineering.",
+      "date_published": "2025-08-19T08:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "4b6bab066f78610c",
+      "url": "https://siddhantkhare2694.medium.com/attention-by-subtraction-5ca5fe8f357a?source=rss-d33fc21fba5d------2",
+      "title": "Attention by subtraction",
+      "date_published": "2025-08-16T08:42:08Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "f4d9a486898ffaac",
+      "url": "https://dev.to/siddhantkcode/how-to-make-ai-code-edits-more-accurate-bbe",
+      "title": "How to make AI code edits more accurate",
+      "summary": "A technical examination of production-grade LSP-MCP integration  After spending months analyzing AI...",
+      "date_published": "2025-08-15T05:07:54Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "de1fd9327017fbd8",
+      "url": "https://steipete.me/posts/2025/poltergeist-ghost-keeps-builds-fresh/",
+      "title": "Poltergeist: The Ghost That Keeps Your Builds Fresh",
+      "summary": "Meet Poltergeist: an AI-friendly universal build watcher that auto-detects and rebuilds any project—Swift, Rust, Node.js, CMake, or anything else—the moment you save a file. Zero config, just haunting productivity.",
+      "date_published": "2025-08-05T14:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "c3ccda7af71499d7",
+      "url": "https://steipete.me/posts/2025/startup-slop/",
+      "title": "Don't read this Startup Slop",
+      "summary": "My website was banned from Lobsters as 'startup slop' for using AI agents to help write blog posts. When does tool-assisted writing become slop, and why are we having the wrong conversation about AI in content creation?",
+      "date_published": "2025-08-02T14:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "75d90ddf82ff9d0b",
+      "url": "https://steipete.me/posts/2025/essential-reading-july-2025/",
+      "title": "Essential Reading for Agentic Engineers - July 2025",
+      "summary": "Fresh insights on AI-assisted development: practical experiences with Claude Code and the evolving landscape of full-breadth developers in the age of AI",
+      "date_published": "2025-08-02T01:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-08"
+}

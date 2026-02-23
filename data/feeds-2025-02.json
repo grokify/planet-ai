@@ -1,0 +1,90 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "bc9323648097d7a4",
+      "url": "https://dev.to/siddhantkcode/tackling-cold-starts-in-aws-lambda-a-deep-dive-with-llrt-17d7",
+      "title": "Tackling Cold Starts in AWS Lambda: A Deep Dive with LLRT",
+      "summary": "AWS Lambda is the go-to serverless computing service for developers who love event-driven...",
+      "date_published": "2025-02-24T06:17:31Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "e194386a0dc6d8da",
+      "url": "https://www.fast.ai/posts/2025-02-20-fasttransform.html",
+      "title": "fasttransform: Reversible Pipelines Made Simple",
+      "summary": " Introducing fasttransform, a Python library that makes data transformations reversible and extensible through the power of multiple dispatch. ",
+      "date_published": "2025-02-19T14:00:00Z",
+      "authors": [
+        {
+          "name": "Rens Dimmendaal, Hamel Husain, \u0026 Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "baaf570528a52bec",
+      "url": "https://siddhantkhare2694.medium.com/engineering-with-intent-a-mental-checklist-for-clear-thinking-f4f21ff2431e?source=rss-d33fc21fba5d------2",
+      "title": "Engineering with intent: A mental checklist for clear thinking",
+      "date_published": "2025-02-08T11:23:08Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "372ada0047133266",
+      "url": "https://www.fast.ai/posts/2025-02-03-cpath-foundation/index.html",
+      "title": "What AI can tell us about microscope slides",
+      "summary": " \u003cem\u003eThis article was originally posted on \u003ca href=\"https://rachel.fast.ai/\"\u003erachel.fast.ai\u003c/a\u003e, where Rachel has been writing about her journey as an AI researcher returning to school for immunology.\u003c/em\u003e ",
+      "date_published": "2025-02-02T14:00:00Z",
+      "authors": [
+        {
+          "name": "Rachel Thomas"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "health",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "0a9543a01769b665",
+      "url": "https://dev.to/siddhantkcode/how-we-slashed-ci-build-time-using-gos-cache-500f",
+      "title": "How we slashed CI build time using Go’s cache",
+      "summary": "Our CI pipeline’s integration tests were running sluggishly. The primary bottleneck wasn't the tests...",
+      "date_published": "2025-02-01T21:51:15Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-02"
+}

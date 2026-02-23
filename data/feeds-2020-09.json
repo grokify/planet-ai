@@ -1,0 +1,53 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "c56c0ae8e7307321",
+      "url": "https://steipete.me/posts/2020/forbidden-controls-in-catalyst-mac-idiom/",
+      "title": "Forbidden Controls in Catalyst: Optimize Interface for Mac",
+      "summary": "Investigating why certain UIKit controls throw runtime exceptions in Catalyst's 'Optimize Interface for Mac' mode and discovering which controls are forbidden.",
+      "date_published": "2020-09-22T18:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "bfc3189473151860",
+      "url": "https://steipete.me/posts/2020/disabling-keyboard-avoidance-in-swiftui-uihostingcontroller/",
+      "title": "Disabling Keyboard Avoidance in SwiftUI's UIHostingController",
+      "summary": "Fixing unwanted keyboard avoidance behavior in UIHostingController using runtime dynamic subclassing to override keyboard notification handling methods.",
+      "date_published": "2020-09-21T20:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "1c037a1e6c5b3e70",
+      "url": "https://steipete.me/posts/2020/state-of-swiftui/",
+      "title": "The State of SwiftUI",
+      "summary": "Testing SwiftUI's production readiness in iOS 14 and macOS Big Sur through Apple's Fruta sample app, revealing performance issues and platform-specific limitations.",
+      "date_published": "2020-09-13T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2020-09"
+}

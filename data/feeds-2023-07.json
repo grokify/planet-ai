@@ -1,0 +1,48 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "562fade9255a8ae8",
+      "url": "https://www.fast.ai/posts/2023-07-29-ai-centralizes-power/index.html",
+      "title": "The real risk of AI is how it concentrates power",
+      "summary": " Friends with no previous interest in AI ethics have begun asking me questions in the wake of the release of ChatGPT4, Bard, and Bing Chat. This new generation of large language models \u003ca href=\"https://www.nytimes.com/2022/12/10/technology/ai-chat-bot-chatgpt.html\"\u003ehas made headlines\u003c/a\u003e and sparked widespread debate. To consider the risks posed by new AI applications, it is useful to first understand several underlying concepts. \u003ca href=\"https://rachel.fast.ai/about.html\"\u003eI spent years\u003c/a\u003e researching the mechanisms by which algorithmic systems can cause harm, and in late 2021, I gave a 20-minute talk on what I consider key ideas at the heart of AI ethics. With the advent of the newest generation of language models, these concepts are more relevant than ever. ",
+      "date_published": "2023-07-28T14:00:00Z",
+      "authors": [
+        {
+          "name": "Rachel Thomas"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "ai-in-society"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "2566b96208ba8bae",
+      "url": "https://www.fast.ai/posts/2023-11-07-dislightenment.html",
+      "title": "AI Safety and the Age of Dislightenment",
+      "summary": " Proposals for stringent AI model licensing and surveillance will likely be ineffective or counterproductive, concentrating power in unsustainable ways, and potentially rolling back the societal gains of the Enlightenment. The balance between defending society and empowering society to defend itself is delicate. We should advocate for openness, humility and broad consultation to develop better responses aligned with our principles and values — responses that can evolve as we learn more about this technology with the potential to transform society for good or ill. ",
+      "date_published": "2023-07-09T14:00:00Z",
+      "authors": [
+        {
+          "name": "Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "ai-in-society"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2023-07"
+}

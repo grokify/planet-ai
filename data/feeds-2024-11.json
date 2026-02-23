@@ -1,0 +1,99 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "f7de1bd78482a27f",
+      "url": "https://dev.to/siddhantkcode/2x-faster-40-less-ram-the-cloud-run-stdout-logging-hack-1iig",
+      "title": "2x Faster, 40% less RAM: The Cloud Run stdout logging hack",
+      "summary": "Sometimes, the simplest solutions yield the most dramatic improvements. In a recent private project,...",
+      "date_published": "2024-11-24T17:57:54Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "8f586b4084f64000",
+      "url": "https://dev.to/siddhantkcode/deep-dive-optimizing-self-hosted-github-actions-runners-on-aws-and-gcp-for-cost-efficiency-58o8",
+      "title": "Deep dive: optimizing self-hosted GitHub Actions Runners on AWS and GCP for cost efficiency",
+      "summary": "Running self-hosted GitHub Actions runners on the cloud provides great control, but the costs can...",
+      "date_published": "2024-11-20T14:52:31Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "3887cde454de1800",
+      "url": "https://dev.to/siddhantkcode/building-smarter-docker-images-for-your-development-environments-with-pants-51al",
+      "title": "Building smarter Docker Images for your development environments with Pants 🚀",
+      "summary": "When you think about Docker, what comes to mind? Is it containerized apps for production? Maybe...",
+      "date_published": "2024-11-17T09:58:27Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "b898b0c8f000fdfb",
+      "url": "https://dev.to/siddhantkcode/critical-changes-coming-to-github-actions-ubuntu-24-migration-guide-oo8",
+      "title": "Critical changes coming to GitHub Actions: Ubuntu 24 migration guide",
+      "summary": "The looming change   On November 5, 2024, GitHub announced a significant change that will...",
+      "date_published": "2024-11-10T08:14:26Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "2bf600261b253dbc",
+      "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
+      "title": "A New Chapter for fast.ai: How To Solve It With Code",
+      "summary": " \u003cem\u003eUpdate from Jeremy 11 months later\u003c/em\u003e: This was so popular it sold out within 24 hours of me posting this. We’ve got a page with \u003ca href=\"https://solve.it.com/testimonials\"\u003ehundreds of comments\u003c/a\u003e from the alums. Since it went so well, we’ve spent this year building on it to create a full scalable platform, and we’re doing a new course with it starting Nov 3 2025. To avoid missing out, please sign up as soon as you can here: \u003ca href=\"https://solve.it.com/\"\u003esolve.it.com\u003c/a\u003e. ",
+      "date_published": "2024-11-06T14:00:00Z",
+      "authors": [
+        {
+          "name": "Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "education",
+        "courses"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "ccf73b4fcfa3d6f8",
+      "url": "https://dev.to/siddhantkcode/solving-aws-ecs-connect-timeouts-configure-default-settings-easily-41n2",
+      "title": "Solving AWS ECS connect timeouts: configure default settings easily",
+      "summary": "If you've ever scratched your head over unexpected timeouts in your AWS ECS Service Connect...",
+      "date_published": "2024-11-02T08:38:09Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2024-11"
+}

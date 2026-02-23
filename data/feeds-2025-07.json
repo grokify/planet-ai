@@ -1,0 +1,140 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "57c1c6d6e3f7510a",
+      "url": "https://steipete.me/posts/2025/self-hosting-ai-models/",
+      "title": "Self-Hosting AI Models After Claude's Usage Limits",
+      "summary": "After Claude Pro changed to weekly limits, I explored self-hosting Qwen3-Coder-480B with 400k context windows. Here's what I learned about costs, alternatives, and why Claude Code still dominates the landscape.",
+      "date_published": "2025-07-31T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "e2e1c2a8771139cd",
+      "url": "https://steipete.me/posts/2025/logging-privacy-shenanigans/",
+      "title": "Logging Privacy Shenanigans",
+      "summary": "Apple's logs redact your debugging data as \u003cprivate\u003e. Here's what actually gets hidden, why old tricks don't work anymore, and the only reliable way to see your logs again.",
+      "date_published": "2025-07-29T07:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "c1539c0002ef16d6",
+      "url": "https://siddhantkhare2694.medium.com/the-work-finds-you-back-3c56a28e43a9?source=rss-d33fc21fba5d------2",
+      "title": "The work finds you back",
+      "date_published": "2025-07-23T02:32:31Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "72c16236ce64ed4b",
+      "url": "https://steipete.me/posts/2025/vibetunnel-first-anniversary/",
+      "title": "VibeTunnel's first AI-anniversary",
+      "summary": "It's been one month since we released the first version of VibeTunnel, and since in the AI world time is so much faster, let's call it VibeTunnel's first anniversary!",
+      "date_published": "2025-07-16T19:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "3994ecc1a3b4de8c",
+      "url": "https://steipete.me/posts/2025/applescript-cli-macos-complete-guide/",
+      "title": "Making AppleScript Work in macOS CLI Tools: The Undocumented Parts",
+      "summary": "How to make AppleScript work in macOS CLI tools without permission dialogs blaming Terminal. A deep dive into Info.plist embedding, TCC, and undocumented APIs born from building Terminator MCP.",
+      "date_published": "2025-07-03T13:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "c3acb7693c455e8c",
+      "url": "https://steipete.me/posts/2025/peekaboo-2-freeing-the-cli-from-its-mcp-shackles/",
+      "title": "Peekaboo 2.0 – Free the CLI from its MCP shackles",
+      "summary": "Peekaboo 2.0 ditches the MCP-only approach for a CLI-first architecture, because CLIs are the universal interface that both humans and AI agents can actually use effectively",
+      "date_published": "2025-07-03T01:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "402a449866f87773",
+      "url": "https://steipete.me/posts/command-your-claude-code-army-reloaded/",
+      "title": "Command your Claude Code Army, Reloaded",
+      "summary": "Enhance your Claude Code workflow with VibeTunnel terminal title management for better multi-session tracking",
+      "date_published": "2025-07-03T00:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "75631c25595ee4b6",
+      "url": "https://dev.to/siddhantkcode/an-easy-way-to-stop-claude-code-from-forgetting-the-rules-h36",
+      "title": "An easy way to stop Claude code from forgetting the rules",
+      "summary": "You spend time setting up Claude Code with specific instructions in your CLAUDE.md file. Maybe you...",
+      "date_published": "2025-07-02T20:45:23Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "4511ba67ffc79a8d",
+      "url": "https://steipete.me/posts/2025/essential-reading/",
+      "title": "Essential Reading for Agentic Engineers",
+      "summary": "A curated collection of must-read articles and videos for mastering Claude Code, agentic coding workflows, and the future of AI-assisted development",
+      "date_published": "2025-07-01T02:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-07"
+}

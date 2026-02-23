@@ -1,0 +1,112 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "504ea704eaad91b9",
+      "url": "https://www.fast.ai/posts/2025-10-30-build-to-last.html",
+      "title": "Build to Last",
+      "summary": " Note from Jeremy: We’re teaching a course starting Nov 3rd on how to build towards software mastery and craftsmanship whilst leveraging AI effectively. Have a look at \u003ca href=\"https://solve.it.com\"\u003esolve.it.com\u003c/a\u003e if you’re interested. ",
+      "date_published": "2025-10-29T14:00:00Z",
+      "authors": [
+        {
+          "name": "Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "advice",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "8e5c4218a02beb3f",
+      "url": "https://dev.to/siddhantkcode/why-agent-orchestration-is-harder-than-kubernetes-lessons-while-building-agentflow-4jm3",
+      "title": "Why agent orchestration is harder than kubernetes - Lessons while building Agentflow",
+      "summary": "TL;DR: While building AgentFlow, an open source orchestration engine for AI agents, I discovered...",
+      "date_published": "2025-10-23T16:15:12Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "389bb2492d9cd2d7",
+      "url": "https://dev.to/siddhantkcode/serverless-economics-why-cloud-run-crushes-app-runner-until-it-doesnt-5fh3",
+      "title": "Serverless economics: why Cloud Run crushes App Runner (until it doesn’t)",
+      "summary": "This analysis is based on official pricing documentation and straightforward cost calculations.      ...",
+      "date_published": "2025-10-20T04:10:35Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "be3b2f81c40d6013",
+      "url": "https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers.html",
+      "title": "Let’s Build the GPT Tokenizer: A Complete Guide to Tokenization in LLMs",
+      "summary": " \u003cem\u003e18 months ago, Andrej Karpathy \u003ca href=\"https://x.com/karpathy/status/1760740503614836917\"\u003eset a challenge\u003c/a\u003e: “Can you take my 2h13m tokenizer video and translate the video into the format of a book chapter”. We’ve done it, and the chapter is below, including key pieces of code inlined, and images from the video at key points (hyperlinked to the video timestamp). It’s a great video for learning this key piece of how LLMs work, and this new text version is great too.\u003c/em\u003e ",
+      "date_published": "2025-10-15T14:00:00Z",
+      "authors": [
+        {
+          "name": "Andrej Karpathy, via Solveit and Kerem Turgutlu"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "cff08e1bb1d70d69",
+      "url": "https://www.fast.ai/posts/2025-10-15-solveit2.html",
+      "title": "How to Solve it With Code course now available",
+      "summary": " \u003cstrong\u003etl/dr:\u003c/strong\u003e This is a copy of a one-off email I sent to all fast.ai forum users, with a long-overdue update. I had planned to send this email \u003ca href=\"https://www.fast.ai/posts/2024-11-07-solveit.html\"\u003ea year ago\u003c/a\u003e to let you know you could sign up for our new fast.ai course, “How to Solve it With Code”, but by the time I woke up the day after launching it, it was full. :O The good news is that we’ve spent the last year making it much better, and a brand new version is ready to go now. You can jump straight to it here: \u003ca href=\"https://solve.it.com/\"\u003esolve.it.com\u003c/a\u003e . It’s designed mainly for experienced coders, AI practitioners, and data scientists, although folks from nearly any technical field should find it helpful. ",
+      "date_published": "2025-10-14T14:00:00Z",
+      "authors": [
+        {
+          "name": "Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "courses"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "cfc8f3a031959497",
+      "url": "https://steipete.me/posts/just-talk-to-it/",
+      "title": "Just Talk To It - the no-bs Way of Agentic Engineering",
+      "summary": "A practical guide to working with AI coding agents without the hype.",
+      "date_published": "2025-10-14T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-10"
+}

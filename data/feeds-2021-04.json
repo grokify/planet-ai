@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "1bcecaf128d738fe",
+      "url": "https://steipete.me/posts/2021/top-level-menu-visibility-in-swiftui/",
+      "title": "Top-Level Menu Visibility in SwiftUI for macOS",
+      "summary": "Working around SwiftUI's CommandsBuilder limitations to conditionally show top-level menus on macOS using direct AppKit integration.",
+      "date_published": "2021-04-09T16:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2021-04"
+}

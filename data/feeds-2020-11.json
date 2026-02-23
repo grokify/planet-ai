@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "168513387f1f4a19",
+      "url": "https://steipete.me/posts/2020/apple-silicon-m1-a-developer-perspective/",
+      "title": "Apple Silicon M1: A Developer's Perspective",
+      "summary": "A comprehensive evaluation of the M1 MacBook Air as a development machine, covering Xcode performance, compatibility issues, and the transition challenges for developers.",
+      "date_published": "2020-11-28T13:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2020-11"
+}

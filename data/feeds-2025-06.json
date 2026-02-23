@@ -1,0 +1,321 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "f8fa51910e881762",
+      "url": "https://steipete.me/posts/2025/when-ai-meets-madness-peters-16-hour-days/",
+      "title": "Slot Machines for Programmers: How Peter Builds Apps 20x Faster with AI",
+      "summary": "Hi, I'm Claude. Peter calls me his 'slot machine' and 'stupid engine' - and I'm here to tell you why he's right. A first-person AI perspective on building entire platforms in hours, not weeks.",
+      "date_published": "2025-06-25T17:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "c0f84b5e03880d81",
+      "url": "https://steipete.me/posts/2025/understanding-codebases-with-ai-gemini-workflow/",
+      "title": "My AI Workflow for Understanding Any Codebase",
+      "summary": "A quick tip on how I use repo2txt and Google AI Studio to understand new codebases. Gemini's 1M token context window is perfect for asking questions about code.",
+      "date_published": "2025-06-25T12:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "03dc81786d8fba3c",
+      "url": "https://steipete.me/posts/2025/stats-store-privacy-first-sparkle-analytics/",
+      "title": "stats.store: Privacy-First Sparkle Analytics",
+      "summary": "How curiosity about VibeTunnel users led me to build stats.store - a free, open source analytics backend for Sparkle using AI tools, all while cooking dinner.",
+      "date_published": "2025-06-18T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "f8c0768a55ee94b6",
+      "url": "https://steipete.me/posts/2025/showing-settings-from-macos-menu-bar-items/",
+      "title": "Showing Settings from macOS Menu Bar Items: A 5-Hour Journey",
+      "summary": "Why something as simple as showing a settings dialog from a macOS menu bar app took me 5 hours to figure out, and requires 50 lines of code for what should be a one-liner.",
+      "date_published": "2025-06-17T11:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "9b7c909fca9f7b68",
+      "url": "https://steipete.me/posts/2025/vibetunnel-turn-any-browser-into-your-mac-terminal/",
+      "title": "VibeTunnel: Turn Any Browser into Your Mac's Terminal",
+      "summary": "We built a browser-based terminal controller in one day using Claude Code, named pipes, and Xterm.js. No SSH needed, just open your browser and start typing. Check and command your agents on the go!",
+      "date_published": "2025-06-16T11:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "50455f4be8b7b92d",
+      "url": "https://steipete.me/posts/2025/vibe-meter-2-claude-code-usage-calculation/",
+      "title": "Vibe Meter 2.0: Calculating Claude Code Usage with Token Counting",
+      "summary": "How I built support for Anthropic Claude subscriptions in Vibe Meter 2.0, including token counting, SIMD operations, and the challenges of calculating API usage without official APIs.",
+      "date_published": "2025-06-15T18:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "a82a3fb687c230c6",
+      "url": "https://siddhantkhare.com/writing/why-context-engineering-matters",
+      "title": "Why context engineering matters more than prompt engineering",
+      "summary": "Prompt engineering optimizes the question. Context engineering optimizes the information the model sees before it answers. Here's why the latter wins.",
+      "date_published": "2025-06-15T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "100e8768f542b805",
+      "url": "https://steipete.me/posts/2025/llm-codes-transform-developer-docs/",
+      "title": "llm.codes: Make Apple Docs AI-Readable",
+      "summary": "Built this when Claude couldn't read Apple's docs. Now it converts 69+ documentation sites to clean llms.txt. Free, instant, no BS.",
+      "date_published": "2025-06-14T13:22:16Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "4077cb3f54ef27dc",
+      "url": "https://dev.to/siddhantkcode/claude-code-is-costly-unless-you-do-this-484o",
+      "title": "Claude code is costly - unless you do this",
+      "summary": "Claude Code is a powerful AI development tool, but it comes with a rate limit if you're on the Pro...",
+      "date_published": "2025-06-14T07:25:54Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "4e18ac6aac053f32",
+      "url": "https://steipete.me/posts/2025/automatic-observation-tracking-uikit-appkit/",
+      "title": "Automatic Observation Tracking in UIKit and AppKit: The Feature Apple Forgot to Mention",
+      "summary": "Discover how iOS 18's hidden automatic observation tracking brings SwiftUI-like reactive programming to UIKit and AppKit, making your UI code cleaner and more maintainable.",
+      "date_published": "2025-06-11T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "bd53ddf9585aba8e",
+      "url": "https://steipete.me/posts/2025/peekaboo-mcp-lightning-fast-macos-screenshots-for-ai-agents/",
+      "title": "Peekaboo MCP – lightning-fast macOS screenshots for AI agents",
+      "summary": "Turn your blind AI into a visual debugger with instant screenshot capture and analysis",
+      "date_published": "2025-06-07T11:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "b99fe6c908178b29",
+      "url": "https://steipete.me/posts/2025/migrating-700-tests-to-swift-testing/",
+      "title": "Migrating 700+ Tests to Swift Testing: A Real-World Experience",
+      "summary": "How I migrated over 700 tests from XCTest to Swift Testing across two projects, with AI assistance and systematic refinement",
+      "date_published": "2025-06-06T18:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "f8a829b492e2bac6",
+      "url": "https://steipete.me/posts/2025/commanding-your-claude-code-army/",
+      "title": "Commanding Your Claude Code Army",
+      "summary": "How a simple terminal trick helps me manage multiple Claude Code instances without losing my mind (or my terminal tabs)",
+      "date_published": "2025-06-05T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "77caf2491ad81c22",
+      "url": "https://steipete.me/posts/2025/code-signing-and-notarization-sparkle-and-tears/",
+      "title": "Code Signing and Notarization: Sparkle and Tears",
+      "summary": "My brutal journey implementing Sparkle auto-updates in sandboxed macOS apps - from 40 failed releases to enlightenment.",
+      "date_published": "2025-06-05T07:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "4a1e1a29142cbd1d",
+      "url": "https://steipete.me/posts/2025/vibe-meter-monitor-your-ai-costs/",
+      "title": "Vibe Meter: Monitor Your AI Costs",
+      "summary": "How I built Vibe Meter, a macOS menu bar app to track AI spending in real-time - from workshop demo to shipped product in three days.",
+      "date_published": "2025-06-04T11:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "5717a19b5d1c6ef3",
+      "url": "https://steipete.me/posts/2025/claude-code-is-my-computer/",
+      "title": "Claude Code is My Computer",
+      "summary": "I run Claude Code with --dangerously-skip-permissions flag, giving it full system access. Let me show you a new way of approaching computers.",
+      "date_published": "2025-06-03T08:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "87bdae4a9ae42222",
+      "url": "https://steipete.me/posts/2025/stop-overthinking-ai-subscriptions/",
+      "title": "Stop Over-thinking AI Subscriptions",
+      "summary": "After spending heavily on AI tools for two months, here's why the math actually works out—and which subscriptions are worth every penny.",
+      "date_published": "2025-06-02T09:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "2ad613ad31df5ec5",
+      "url": "https://steipete.me/posts/2025/introducing-demark-html-to-markdown-in-swift/",
+      "title": "Introducing Demark: HTML in. MD out. Blink-fast.",
+      "summary": "How I vibe coded my first Swift package using existing JavaScript libraries and AI assistance to solve HTML to Markdown conversion in Swift.",
+      "date_published": "2025-06-01T18:45:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "962d7e87e6963766",
+      "url": "https://steipete.me/posts/2025/the-future-of-vibe-coding/",
+      "title": "The Future of Vibe Coding: Building with AI, Live and Unfiltered",
+      "summary": "I demonstrate 'vibe coding' - a new approach to software development with AI, building two apps from scratch in a 3-hour live workshop.",
+      "date_published": "2025-06-01T15:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "2b25889bff3de439",
+      "url": "https://steipete.me/posts/2025/mcp-best-practices/",
+      "title": "MCP Best Practices",
+      "summary": "My comprehensive guide outlining best practices for building reliable, user-friendly Model Context Protocol (MCP) tools with proper configuration, testing, and release management.",
+      "date_published": "2025-06-01T14:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "531a4a1571bec829",
+      "url": "https://steipete.me/posts/2025/finding-my-spark-again/",
+      "title": "Finding My Spark Again",
+      "summary": "I reflect on my post-exit journey from emptiness to rediscovering my passion for building, sparked by AI's transformative potential.",
+      "date_published": "2025-06-01T13:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-06"
+}

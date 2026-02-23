@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "d2f1810754621fca",
+      "url": "https://reorx.com/blog/obsidian-switching-open-files-quickly/",
+      "title": "Switch open files quickly in Obsidian",
+      "content_html": "\u003ch2 id=\"the-problem\"\u003eThe problem\u003c/h2\u003e\n\u003cp\u003esince I use the “Sliding Panes” plugin, there’s always a bunch of files open in my Obsidian. Sometimes I switch to Obsidian with a very clear goal of opening a specific file, so I press Command+O and type in the file name to find it. Because I don’t want to check whether the file is open or not (rather say there’s no way to check open files quickly), I always press Command+Enter to open the file in a new pane. As this process repeats, some files will have redundant panes, the panes are bloated and the workspace ends up being a mess.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/darlal/obsidian-switcher-plus\"\u003eQuick Switcher++\u003c/a\u003e is a very helpful tool, it allows me to search for open editors by typing a special prefix (\u003ccode\u003eedt\u003c/code\u003e by default) in the quick switcher. But after using it a while, I still feel it’s not very intuitive, I want the “search any file and open it” action and “search for existing open file and activate it” to be combined into one thing to use.\u003c/p\u003e\n\u003ch2 id=\"the-solution\"\u003eThe solution\u003c/h2\u003e\n\u003cp\u003eI forked Quicker Switcher ++ and added a new setting item called “Include open files”. When it’s enabled, the switcher modal shows all the open files at the top with a different color style. If the open file is chosen, make that pane active; Other suggestions behave the same as the original, opening the file in the active pane.\u003c/p\u003e\n\u003cfigure\u003e\n\u003cvideo class=\"video-shortcode\" preload=\"\" controls\u003e\n  \u003csource src=\"https://i.imgur.com/bGLcQKl.mp4\" type=\"\"\u003e\n  There should have been a video here but your browser does not seem to support it.\n\u003c/video\u003e\n\u003c/figure\u003e\n\n\u003cp\u003eI’ll test this new feature in my workflow for a while to see if it’s actually useful. Meanwhile, I’d love to hear from the Obsidian community. What do you think about it? Do you have a better idea for my problem? Feel free to leave a message to me.\u003c/p\u003e\n",
+      "summary": "Imagine a quick switcher with open files at the top.",
+      "date_published": "2022-04-20T16:00:00Z",
+      "tags": [
+        "AI",
+        "Development",
+        "Tools"
+      ],
+      "_signal_feed_title": "Reorx’s Forge",
+      "_signal_feed_url": "https://reorx.com/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2022-04"
+}

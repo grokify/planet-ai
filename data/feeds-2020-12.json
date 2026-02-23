@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "dca83fa20bdcd53c",
+      "url": "https://steipete.me/posts/2020/apple-silicon-mac-mini-for-ci/",
+      "title": "On Using Apple Silicon Mac Mini for Continuous Integration",
+      "summary": "Documenting the challenges and solutions for integrating Apple Silicon M1 Mac minis into a continuous integration system, including automation fixes and performance comparisons.",
+      "date_published": "2020-12-14T09:30:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2020-12"
+}

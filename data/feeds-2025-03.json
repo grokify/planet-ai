@@ -1,0 +1,63 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "0161980eb1d37a7d",
+      "url": "https://dev.to/siddhantkcode/extending-claudes-brain-how-mcp-makes-ai-actually-useful-for-developers-35c4",
+      "title": "Extending Claude's Brain: How MCP makes AI actually useful for developers",
+      "summary": "Model Context Protocol (MCP) is a protocol created by Anthropic designed to enable AI models to...",
+      "date_published": "2025-03-26T04:17:44Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "bc5fd6dd15590a75",
+      "url": "https://dev.to/siddhantkcode/how-docs-ai-search-works-mintlify-style-with-openai-agents-sdk-121j",
+      "title": "How docs AI search works: Mintlify-Style with OpenAI Agents SDK",
+      "summary": "Documentation remains a critical resource for developers, serving as the definitive guide and...",
+      "date_published": "2025-03-23T19:02:56Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "dad5eab4be56cef7",
+      "url": "https://siddhantkhare2694.medium.com/surviving-tech-bureaucracy-how-genuine-competence-cuts-through-buzzwords-628a47da6e90?source=rss-d33fc21fba5d------2",
+      "title": "Surviving tech bureaucracy: How genuine competence cuts through buzzwords",
+      "date_published": "2025-03-08T08:49:37Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "df7e39219a1941d8",
+      "url": "https://dev.to/siddhantkcode/isolating-ai-agents-with-devcontainer-a-secure-and-scalable-approach-4hi4",
+      "title": "Isolating AI Agents with DevContainer: A secure and scalable approach",
+      "summary": "AI coding agents like Cline and RooCode are powerful but unpredictable. A simple misconfiguration...",
+      "date_published": "2025-03-04T17:58:39Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-03"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "850ccd3286fb28e2",
+      "url": "https://steipete.me/posts/2020/logging-in-swift/",
+      "title": "Logging in Swift",
+      "summary": "An in-depth exploration of Apple's unified logging system and the promising OSLogStore API that Apple removed from iOS 14 at the last minute.",
+      "date_published": "2020-08-24T17:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2020-08"
+}

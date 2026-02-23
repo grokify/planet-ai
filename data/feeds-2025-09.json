@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "54bd76f97076175e",
+      "url": "https://siddhantkhare.com/writing/what-im-trying-to-escape-as-an-indian-engineer",
+      "title": "What I'm trying to escape as an Indian engineer",
+      "summary": "Competence earns respect, but originality creates legacy.",
+      "date_published": "2025-09-13T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "ae3ddb78ad7e0f43",
+      "url": "https://steipete.me/posts/2025/claude-code-anonymous/",
+      "title": "Claude Code Anonymous",
+      "summary": "Introducing Claude Code Anonymous - a new meetup format for full-breadth developers.",
+      "date_published": "2025-09-09T10:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "ead5f51a3faad823",
+      "url": "https://steipete.me/posts/2025/live-coding-session-building-arena/",
+      "title": "Live Coding Session: Building Arena",
+      "summary": "Watch me build Arena live - a real-time collaborative coding session exploring AI-powered development workflows.",
+      "date_published": "2025-09-06T10:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "afd9720f290bf858",
+      "url": "https://siddhantkhare.com/writing/caring-pays-off",
+      "title": "Caring pays off",
+      "summary": "Whatever you do, care. Care enough to notice. Care enough to act. Care enough to finish things well.",
+      "date_published": "2025-09-06T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2025-09"
+}

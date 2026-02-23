@@ -1,0 +1,57 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "f4302db723133dcc",
+      "url": "https://siddhantkhare2694.medium.com/story-of-my-college-life-f7a5f4f5c4cf?source=rss-d33fc21fba5d------2",
+      "title": "Story of my college life",
+      "date_published": "2023-12-29T20:07:27Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "90cb33132a9e409d",
+      "url": "https://reorx.com/blog/debounce-and-throttle/",
+      "title": "Debounce and Throttle",
+      "content_html": "\u003ch2 id=\"概念\"\u003e概念\u003c/h2\u003e\n\u003cp\u003eDebounce 和 Throttle 是两种相似的频率限制手段。Debounce 顾名思义，去掉弹跳/抖动，能看出防止误操作的意味；Throttle 的意思是节流阀，更加直接了当。作为两种常见的设计模式，理解他们的工作原理和细微区别能够帮助我们写出更健壮的应用程序。\u003c/p\u003e\n\u003cp\u003e虽然是两个通用的概念，但它们的确主要在 JavaScript 中被提及和使用，究其原因，JavaScript 中常常出现连续发生的大量事件，如果不对调用频率做出限制，会产生严重的性能问题。且这些事件是可以舍弃的，一段时间内只需要产生一次有效调用即可。而在后端则很少出现这种情况，所有的事件都必须要处理，性能问题通常通过异步和分布式调用来解决。\u003c/p\u003e\n\u003cp\u003e下面是我对这两种设计模式的理解。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eDebounce\u003c/strong\u003e: 将间隔不超过设定时间的多次连续调用变成一次。\u003c/p\u003e\n\u003cp\u003e从工作原理上来讲，Debounce 会使目标函数变为延迟生效，当对其进行连续多次调用时，若前后两次调用的时间间隔不超过设定值，则前一次调用会被取消。直到某次调用后，在设定的时间内没有出现下一次调用，那么这次调用将不会被取消，从而最终被执行。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eThrottle\u003c/strong\u003e: 确保一个函数被连续多次调用时，在设定时间内最多只实际执行一次。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e放在一起对比的话：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e相似之处\u003c/strong\u003e：Debounce 和 Throttle 都限制了函数执行的最大频率不超过每设定时间一次\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e不同之处\u003c/strong\u003e：在快速（间隔小于设定时间）连续调用时，Throttle 确保了函数会规律执行，但 Debounce 只有当连续调用放缓（间隔大于设定时间）时才会执行。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"应用场景\"\u003e应用场景\u003c/h2\u003e\n\u003cp\u003e设想如下几个场景:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e当用户改变网页窗口的大小后，调用一个函数以调整 UI 布局\u003c/li\u003e\n\u003cli\u003e当用户在滚动浏览网页内容时，根据内容所处的位置，持续更新大纲目录中的链接高亮\u003c/li\u003e\n\u003cli\u003e在一个输入框的下方，让搜索提示结果随着用户的输入持续不断地更新\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e我们一起来看看每个场景分别应用 Debounce 和 Throttle 会有什么样的效果，并评判哪个是更加合适的频率控制方式。\u003c/p\u003e\n\u003ch3 id=\"场景-1\"\u003e场景 1\u003c/h3\u003e\n\u003cp\u003e用户按住鼠标不松一直改变窗口大小，使用 Debounce 的情况下，UI 在用户停顿或者松开鼠标时才会改变；使用 Throttle 的情况下，用户会观察到 UI 在拖拽窗口大小的过程中每隔一会改变一次，容易给人一种反应迟钝或卡住的错觉，因此 Debounce 是更好的选择。\u003c/p\u003e\n\u003ch3 id=\"场景-2\"\u003e场景 2\u003c/h3\u003e\n\u003cp\u003e用户持续向下滚动鼠标滑轮，使用 Debounce 的情况下，大纲的高亮只有当用户停止滚动时才会更新。所以当用户一次性滚动很长时，只能看到一次高亮的改变，中间仿佛跳过了一般；而使用 Throttle 的情况下，随着用户滚动，高亮会稳定地以设定的时间间隔更新，因此 Throttle 是更好的选择。\u003c/p\u003e\n\u003ch3 id=\"场景-3\"\u003e场景 3\u003c/h3\u003e\n\u003cp\u003e用户以较快地速度连续输入字符，使用 Debounce 的情况下，只有当用户停止输入时搜索提示才会更新；使用 Throttle 的情况下，搜索提示会稳定地以设定的时间间隔更新，但如果用户输入最后一个字符的时间，正好处于上一次调用后的间隔期，无法触发新的调用，那么用户所看到的提示就不是根据完整的输入内容做出的。Debounce 由于能够保证函数总是在用户停止输入时执行，是比 Throttle 更好的选择。\u003c/p\u003e\n\u003ch2 id=\"库的使用\"\u003e库的使用\u003c/h2\u003e\n\u003cp\u003e首选 lodash，因为它是一个非常流行且久经考验的库。但如果不想让整个 lodash 混入项目的构建结果，可以安装 \u003ccode\u003elodash.throttle\u003c/code\u003e 和 \u003ccode\u003elodash.debounce\u003c/code\u003e 两个独立的库。如果你使用的 bundler 支持 tree-shaking，也可以通过 \u003ccode\u003elodash-es\u003c/code\u003e 来 import 这两个函数，最终构建结果中只会包含与之相关的代码。\u003c/p\u003e\n\u003cp\u003enpm 狂魔 sindresorhus 也维护了两个包，\u003ca href=\"https://github.com/sindresorhus/debounce\"\u003edebounce\u003c/a\u003e 和 \u003ca href=\"https://github.com/sindresorhus/throttleit\"\u003ethrottleit\u003c/a\u003e, 如果你想要更简洁的实现，可以考虑使用。\u003c/p\u003e\n\u003cp\u003e下面以 \u003ccode\u003elodash.throttle\u003c/code\u003e 为例，展示其如何在一个 TypeScript 项目里安装和使用 :\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-bash\" data-lang=\"bash\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003enpm i lodash.throttle\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"c1\"\u003e# 还需要额外安装 `@types/` 的类型定义\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003enpm i -D @types/lodash.throttle\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp\u003e引入和调用:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-ts\" data-lang=\"ts\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kr\"\u003eimport\u003c/span\u003e \u003cspan class=\"nx\"\u003ethrottle\u003c/span\u003e \u003cspan class=\"kr\"\u003efrom\u003c/span\u003e \u003cspan class=\"s1\"\u003e\u0026#39;lodash/throttle\u0026#39;\u003c/span\u003e\u003cspan class=\"p\"\u003e;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kr\"\u003econst\u003c/span\u003e \u003cspan class=\"nx\"\u003eonScroll\u003c/span\u003e \u003cspan class=\"o\"\u003e=\u003c/span\u003e \u003cspan class=\"p\"\u003e()\u003c/span\u003e \u003cspan class=\"o\"\u003e=\u003c/span\u003e \u003cspan class=\"p\"\u003e{\u003c/span\u003e\u003cspan class=\"cm\"\u003e/* 实现细节 */\u003c/span\u003e\u003cspan class=\"p\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"c1\"\u003e// onScroll 执行的最高频率为每 100 毫秒一次\n\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"c1\"\u003e\u003c/span\u003e\u003cspan class=\"nb\"\u003edocument\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nx\"\u003eaddEventListener\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"s1\"\u003e\u0026#39;scroll\u0026#39;\u003c/span\u003e\u003cspan class=\"p\"\u003e,\u003c/span\u003e \u003cspan class=\"nx\"\u003ethrottle\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003eonScroll\u003c/span\u003e\u003cspan class=\"p\"\u003e,\u003c/span\u003e \u003cspan class=\"mi\"\u003e100\u003c/span\u003e\u003cspan class=\"p\"\u003e));\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003ch2 id=\"后续思考\"\u003e后续思考\u003c/h2\u003e\n\u003cp\u003e这篇笔记来源于\u003ca href=\"https://t.me/reorx_share/4866\"\u003e重构 GitHub TOC Sidebar 扩展\u003c/a\u003e时对场景 2 的思考，之前用的是自己手写的 Debounce，在滚动过程中经常看不到 ToC 的高亮变化，这次换成了 lodash.throttle，终于达到了预期的效果。其实这三个场景我都在过往的开发经历中遇到过，并且是在不了解这两个概念的情况下独立思考出了（简陋或丑陋的）解决方案，直到最近才重新审视，阅读了相关的文章，学习了更好的实现方式。这也是为什么我在\u003ca href=\"https://t.me/reorx_share/4864\"\u003e关于状态机的短文\u003c/a\u003e中感叹基础知识的重要性，如果能更早地知道这两个概念，就能避免曾经在黑暗中摸索的痛苦。当然，因为自己琢磨过，当看到更系统更高级的实现时，就会有更深刻的理解，这大概是\u003ca href=\"https://x.com/noworkforsixian/status/1737122354013360488\"\u003e这位推友\u003c/a\u003e希望自己是通过 Vanilla JS 学习前端的原因。\u003c/p\u003e\n\u003cdiv class=\"tweet social-quote\"\u003e\n  \u003cdiv class=\"title\"\u003e\n    \u003csvg role=\"img\" viewBox=\"0 0 24 24\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003ctitle\u003eTwitter\u003c/title\u003e\u003cpath d=\"M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z\"/\u003e\u003c/svg\u003e\n\n    \n  \u003c/div\u003e\u003cblockquote class=\"twitter-tweet\" data-dnt=\"true\"\u003e\u003cp lang=\"zh\" dir=\"ltr\"\u003e如果重学前端，我肯定老老实实地用原生 JS 去完整地做几个项目，去 appendChild，去切身体会一下手动管理一切状态，命令式更新 UI，还要时刻让它和状态保持一致的痛苦。然后再去学框架，把这些项目重写一遍。 很遗憾我没有写过 jQuery，太早接触框架的最大问题就是对它们在解决什么问题理解得不够深刻\u003c/p\u003e\u0026mdash; Sixian (@noworkforsixian) \u003ca href=\"https://twitter.com/noworkforsixian/status/1737122354013360488?ref_src=twsrc%5Etfw\"\u003eDecember 19, 2023\u003c/a\u003e\u003c/blockquote\u003e\n\n\n\u003c/div\u003e\n\n\n\u003cp\u003e一言以蔽之，开发遇到困难免不了自己琢磨，但在琢磨时多想想能否将问题定义出来，符合一个已有的概念，然后去参考现实世界中系统和标准的解决方案；如果没有也无所谓，未来某一刻这种思考过程会化作某种领悟，不会白费。\u003c/p\u003e\n\u003ch2 id=\"参考资料\"\u003e参考资料\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://css-tricks.com/debouncing-throttling-explained-examples/\"\u003eDebouncing and Throttling Explained Through Examples\u003c/a\u003e: css-tricks 的经典老文\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://kettanaito.com/blog/debounce-vs-throttle\"\u003eDebounce vs Throttle: Definitive Visual Guide\u003c/a\u003e: 用动态可交互的方式展现了 Throttle 和 Debounce 的差异，非常推荐阅读\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://underscorejs.org/docs/modules/throttle.html\"\u003eTHROTTLE.JS\u003c/a\u003e: underscore 的 throttle 源码\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://lodash.com/docs/4.17.15#debounce\"\u003e_.debounce\u003c/a\u003e: lodash 的 debounce 文档\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "summary": "介绍 Debounce 和 Throttle 两种频率限制手段，以具体场景为例展示两者的区别。",
+      "date_published": "2023-12-21T12:23:46Z",
+      "tags": [
+        "AI",
+        "Development",
+        "Tools"
+      ],
+      "_signal_feed_title": "Reorx’s Forge",
+      "_signal_feed_url": "https://reorx.com/"
+    },
+    {
+      "id": "14d4c2271a965318",
+      "url": "https://www.fast.ai/posts/2023-12-12-launch.html",
+      "title": "A new old kind of R\u0026D lab",
+      "summary": " Jeremy Howard (founding CEO, previously co-founder of Kaggle and fast.ai) and Eric Ries (founding director, previously creator of Lean Startup and the Long-Term Stock Exchange) today launched \u003ca href=\"https://answer.ai\"\u003eAnswer.AI\u003c/a\u003e, a new kind of AI R\u0026amp;D lab which creates practical end-user products based on foundational research breakthroughs. The creation of Answer.AI is supported by an investment of USD10m from Decibel VC. Answer.AI will be a fully-remote team of deep-tech generalists—the world’s very best, regardless of where they live, what school they went to, or any other meaningless surface feature. ",
+      "date_published": "2023-12-11T14:00:00Z",
+      "authors": [
+        {
+          "name": "Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "ai-in-society",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2023-12"
+}

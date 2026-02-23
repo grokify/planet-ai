@@ -1,0 +1,48 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "998578701fb79369",
+      "url": "https://www.fast.ai/posts/2023-05-31-extinction.html",
+      "title": "Is Avoiding Extinction from AI Really an Urgent Priority?",
+      "summary": " \u003cem\u003eThis article is the result of a collaboration between philosopher \u003ca href=\"http://www.sethlazar.xyz/\"\u003eSeth Lazar\u003c/a\u003e, AI impacts researcher \u003ca href=\"https://www.cs.princeton.edu/~arvindn/\"\u003eArvind Narayanan\u003c/a\u003e, and fast.ai’s Jeremy Howard. At fast.ai we believe that planning for our future with AI is a complex topic and requires bringing together cross-disciplinary expertise.\u003c/em\u003e ",
+      "date_published": "2023-05-29T14:00:00Z",
+      "authors": [
+        {
+          "name": "Seth Lazar, Jeremy Howard, \u0026 Arvind Narayanan"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "ai-in-society"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "7170612d60fe87e3",
+      "url": "https://www.fast.ai/posts/2023-05-03-mojo-launch.html",
+      "title": "Mojo may be the biggest programming language advance in decades",
+      "summary": " I remember the first time I used the v1.0 of Visual Basic. Back then, it was a program for DOS. Before it, writing programs was extremely complex and I’d never managed to make much progress beyond the most basic toy applications. But with VB, I drew a button on the screen, typed in a single line of code that I wanted to run when that button was clicked, and I had a complete application I could now run. It was such an amazing experience that I’ll never forget that feeling. ",
+      "date_published": "2023-05-03T14:00:00Z",
+      "authors": [
+        {
+          "name": "Jeremy Howard"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2023-05"
+}

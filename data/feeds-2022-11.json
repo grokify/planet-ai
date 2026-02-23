@@ -1,0 +1,23 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "5ecc6092eecaf64e",
+      "url": "https://reorx.com/essays/2022/11/my-thoughts-on-moving-away-from-uuids/",
+      "title": "“Moving away from UUIDs”, Really?",
+      "content_html": "\u003cp\u003eRecently I saw an article called \u003ca href=\"https://neilmadden.blog/2018/08/30/moving-away-from-uuids/\"\u003eMoving away from UUIDs – Neil Madden\u003c/a\u003e on Hacker News. The title immediately got my attention since I use UUIDs a lot in various projects, no matter personal or commercial. Whether I\u0026rsquo;m using it right or wrong is a vital concern from an engineering perspective, so I read it thoroughly and carefully. This article is my summary and thoughts on it.\u003c/p\u003e\n\u003cp\u003eOverall, the author gives an opinion that using UUIDs for \u003cstrong\u003eunguessable random string like session tokens or cookies\u003c/strong\u003e is a bad practice, the reasons are as follows:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eUUID is insecure in cryptography. In some situations, an attacker can take only 35 minutes to brute-force guess a valid result.\u003c/li\u003e\n\u003cli\u003eUUID is inefficient in storing data. Because of its hexadecimal format and the use of extra dashes, a UUID takes 36 characters to represent 16 bytes of data.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eAs a replacement, the author suggests to use a 20 bytes random string that is \u003ca href=\"https://en.wikipedia.org/wiki/Base64#URL_applications\"\u003eURL-safe base64\u003c/a\u003e-encoded. Here\u0026rsquo;s an example comparing with an UUID string:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e20 bytes base64 random: Xl3S2itovd5CDS7cKSNvml4_ODA\nUUID                  : 5a097fe7-1720-457c-8363-8d660a65bab2\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eThe advantages over UUIDs are:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eA 20 bytes random value is almost impossible to guess in a reasonable time.\u003c/li\u003e\n\u003cli\u003eThe length of the string is just 224 characters, resulting in much less storage space than UUIDs.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eGenerally speaking, I think although the conclusion of not using UUIDs for tokens is correct, the assumption is totally wrong. UUID (Universally unique identifier) as the name says, is an ID which should not be used for cryptographic purposes in the first place. The proper scenario for UUIDs is using it as primary keys in distributed systems, in which it prevents collisions without relying on a centralized identity generator. In contrast, random string has no way to achieve that.\u003c/p\u003e\n\u003cp\u003eI did learn something new from this article, but it failed to give me anything useful upon my understanding of how UUIDs should be used.\u003c/p\u003e\n\u003cp\u003eDo not write clickbait posts, as being neutral and accurate is a virtue for engineers.\u003c/p\u003e\n",
+      "summary": "Recently I saw an article called Moving away from UUIDs – Neil Madden on Hacker News. The title immediately got my attention since I use UUIDs a lot in various projects, no matter personal or commercial. Whether I\u0026rsquo;m using it right or wrong is a vital concern from an engineering perspective, so I read it thoroughly and carefully. This article is my summary and thoughts on it.\nOverall, the author gives an opinion that using UUIDs for unguessable random string like session tokens or cookies is a bad practice, the reasons are as follows:",
+      "date_published": "2022-11-23T08:20:31Z",
+      "tags": [
+        "AI",
+        "Development",
+        "Tools"
+      ],
+      "_signal_feed_title": "Reorx’s Forge",
+      "_signal_feed_url": "https://reorx.com/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2022-11"
+}

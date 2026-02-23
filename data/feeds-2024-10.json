@@ -1,0 +1,84 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "5c72c252c2954f53",
+      "url": "https://dev.to/siddhantkcode/when-k6-eats-up-your-ram-slashing-memory-usage-in-load-tests-5148",
+      "title": "When k6 eats up your RAM: Slashing memory usage in load tests",
+      "summary": "tl;dr;   High memory consumption during k6 load tests is often a result of high cardinality...",
+      "date_published": "2024-10-31T08:36:26Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "3234828509421f5e",
+      "url": "https://www.fast.ai/posts/2024-10-29-screen-time/index.html",
+      "title": "In defense of screen time",
+      "summary": " My daughter is constantly creating– her passions include making art, writing fiction, coding interactive games, and composing music. Yet, I regularly see news articles and media pundits suggesting that my husband and I are doing things all wrong. The reason for these claims? My daughter uses screen-based tools, at least partially, and in some cases, entirely, to pursue the interests I listed in my first sentence. To give more detail on how she pursues her passions: ",
+      "date_published": "2024-10-28T14:00:00Z",
+      "authors": [
+        {
+          "name": "Rachel Thomas"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "education"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "4d535f4a55ca913f",
+      "url": "https://dev.to/siddhantkcode/optimizing-database-performance-by-migrating-images-to-gcs-25em",
+      "title": "Optimizing database performance by migrating Images to GCS",
+      "summary": "tl;dr;   Migrating image data from Cloud SQL to GCS significantly improved database...",
+      "date_published": "2024-10-20T18:19:56Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "c190b1ccdbb5fae9",
+      "url": "https://dev.to/siddhantkcode/exploring-parallelism-in-large-language-models-llms-5991",
+      "title": "Exploring parallelism in Large Language Models (LLMs)",
+      "summary": "Introduction   Large Language Models (LLMs) have revolutionized natural language processing...",
+      "date_published": "2024-10-17T05:12:46Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "260f24ec2c5cf4d4",
+      "url": "https://dev.to/siddhantkcode/cost-effective-netlify-deployments-for-large-teams-using-github-actions-2l1c",
+      "title": "Cost-effective Netlify deployments for large teams using GitHub Actions",
+      "summary": "Netlify is a powerful platform for deploying web applications, offering seamless integration with Git...",
+      "date_published": "2024-10-05T16:24:10Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2024-10"
+}

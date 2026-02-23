@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Signal AI",
+  "items": [
+    {
+      "id": "22af3df5fbb837f2",
+      "url": "https://steipete.me/posts/2020/curating-your-twitter-timeline/",
+      "title": "Gardening Your Twitter: Curating Your Timeline",
+      "summary": "Practical strategies for curating your Twitter timeline through strategic following, muting, and filtering to create an informative and enjoyable social media experience.",
+      "date_published": "2020-10-21T14:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "ec46541684e875f9",
+      "url": "https://steipete.me/posts/2020/growing-your-twitter-followers/",
+      "title": "Gardening Your Twitter: Growing Your Followers",
+      "summary": "Strategies for growing a meaningful Twitter following through authentic persona development, consistent engagement, and effective content creation based on 12 years of experience.",
+      "date_published": "2020-10-21T13:00:00Z",
+      "tags": [
+        "iOS",
+        "Development",
+        "Apple",
+        "AI"
+      ],
+      "_signal_feed_title": "Peter Steinberger",
+      "_signal_feed_url": "https://steipete.me/"
+    }
+  ],
+  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_period": "2020-10"
+}
