@@ -1,0 +1,108 @@
+{
+  "title": "Curated Articles",
+  "description": "Hand-picked priority content about AI coding agents",
+  "updated": "2026-02-20T00:00:00Z",
+  "links": [
+    {
+      "title": "Minions: Stripe's one-shot, end-to-end coding agents",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "author": "Stripe Engineering",
+      "date": "2026-02-18T00:00:00Z",
+      "tags": ["AI", "Coding Agents", "Stripe", "Engineering"],
+      "summary": "Introducing Minions, Stripe's internal AI coding agents that complete tasks end-to-end in a single shot.",
+      "rank": 1,
+      "feedTitle": "Stripe Engineering Blog",
+      "feedUrl": "https://stripe.dev/blog"
+    },
+    {
+      "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
+      "author": "Stripe Engineering",
+      "date": "2026-02-19T00:00:00Z",
+      "tags": ["AI", "Coding Agents", "Stripe", "Engineering"],
+      "summary": "Deep dive into the architecture and implementation details of Stripe's Minions coding agents.",
+      "rank": 2,
+      "feedTitle": "Stripe Engineering Blog",
+      "feedUrl": "https://stripe.dev/blog",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47086557",
+          "id": "47086557"
+        }
+      ]
+    },
+    {
+      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
+      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
+      "author": "Ben Gregory",
+      "date": "2026-02-19T00:00:00Z",
+      "tags": ["AI", "Engineering", "Product Development"],
+      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
+      "rank": 3,
+      "feedTitle": "Kasava Blog",
+      "feedUrl": "https://www.kasava.dev/blog",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47078324",
+          "id": "47078324"
+        }
+      ]
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "url": "https://www.linkedin.com/posts/hernanwyler_aimanagement-airiskmanagement-agenticai-activity-7426369346152747008-m0qt",
+      "author": "Prof. Hernan Huwyler, MBA CPA CAIO",
+      "date": "2026-02-08T00:00:00Z",
+      "tags": ["AI", "Risk Management", "Governance", "Compliance", "GRC"],
+      "summary": "AI Risk Management Framework overview covering AI governance, compliance, and agentic AI considerations.",
+      "rank": 4,
+      "feedTitle": "LinkedIn",
+      "feedUrl": "https://www.linkedin.com",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQHYR7Sl4xwPsw/feedshare-shrink_1280/B4EZw_DkUNGoAc-/0/1770584426117?e=2147483647&v=beta&t=Cn95XtPkJseIpxaeUZSwJcnGSqAn1x9BoNA4gpi6-L4",
+      "imageAlt": "AI Risk Management Framework diagram",
+      "source": {
+        "platform": "linkedin",
+        "author": "hernanwyler",
+        "postId": "7426369346152747008"
+      }
+    },
+    {
+      "title": "AI Coding Meme: This meme has been brilliantly updated",
+      "url": "https://www.linkedin.com/posts/andreashorn1_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%97%AF%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B9%F0%9D%98%86-activity-7428132691788652544-6Vv_",
+      "author": "Andreas Horn",
+      "date": "2026-02-13T00:00:00Z",
+      "tags": ["AI", "Coding", "Meme", "Productivity"],
+      "summary": "Updated meme about AI coding capabilities and commentary on ADHD as a superpower in tech.",
+      "rank": 5,
+      "feedTitle": "LinkedIn",
+      "feedUrl": "https://www.linkedin.com",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQHbFAJ3r5PVpw/feedshare-shrink_1280/B4EZxYHUshIMAc-/0/1771004840995?e=2147483647&v=beta&t=XpKYTi6oS11vBkdZJySvNNAO6WeosW_kM-P2WMdfpOY",
+      "imageAlt": "AI coding meme",
+      "source": {
+        "platform": "linkedin",
+        "author": "andreashorn1",
+        "postId": "7428132691788652544"
+      }
+    },
+    {
+      "title": "AI is going to break services firms long before it breaks the enterprise",
+      "url": "https://www.linkedin.com/posts/dsuydam_leadership-digitalservices-ai-activity-7421211948899508224-TLoI",
+      "author": "David Suydam",
+      "date": "2026-01-25T00:00:00Z",
+      "tags": ["AI", "Leadership", "Digital Services", "Future of Work"],
+      "summary": "There's a competitive race where firms must restructure their delivery economics before clients force them to. AI should be treated as the operating system we live in, not a standalone product.",
+      "rank": 6,
+      "feedTitle": "LinkedIn",
+      "feedUrl": "https://www.linkedin.com",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQH5x-yPuY8VAA/feedshare-shrink_1280/B56Zv1w8OmIsAc-/0/1769354806452?e=2147483647&v=beta&t=jrIsVVG3uKGeqhojN8LSYlqPdZRkBoKBMC5FALFG-kc",
+      "imageAlt": "AI breaking services firms infographic",
+      "source": {
+        "platform": "linkedin",
+        "author": "dsuydam",
+        "postId": "7421211948899508224"
+      }
+    }
+  ]
+}

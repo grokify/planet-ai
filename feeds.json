@@ -1,0 +1,69 @@
+{
+  "version": "2.0",
+  "title": "Planet AI",
+  "dateCreated": "2026-02-16T00:00:00Z",
+  "dateModified": "2026-02-16T00:00:00Z",
+  "ownerName": "John Wang",
+  "outlines": [
+    {
+      "text": "AI & Development Blogs",
+      "title": "AI & Development Blogs",
+      "outlines": [
+        {
+          "text": "Peter Steinberger",
+          "title": "Peter Steinberger",
+          "type": "rss",
+          "xmlUrl": "https://steipete.me/rss.xml",
+          "htmlUrl": "https://steipete.me",
+          "description": "iOS development, AI, and Apple ecosystem insights",
+          "categories": ["iOS", "Development", "Apple", "AI"]
+        },
+        {
+          "text": "Steve Yegge",
+          "title": "Steve Yegge",
+          "type": "rss",
+          "xmlUrl": "https://medium.com/feed/@steve-yegge",
+          "htmlUrl": "https://medium.com/@steve-yegge",
+          "description": "Software engineering perspectives and AI commentary",
+          "categories": ["Programming", "Software Engineering", "AI"]
+        },
+        {
+          "text": "Siddhant Khare",
+          "title": "Siddhant Khare",
+          "type": "rss",
+          "xmlUrl": "https://siddhantkhare.com/rss.xml",
+          "htmlUrl": "https://siddhantkhare.com",
+          "description": "Tech and development insights",
+          "categories": ["Tech", "Development", "AI"]
+        },
+        {
+          "text": "fast.ai",
+          "title": "fast.ai",
+          "type": "rss",
+          "xmlUrl": "https://www.fast.ai/index.xml",
+          "htmlUrl": "https://www.fast.ai",
+          "description": "Making neural nets uncool again",
+          "categories": ["AI", "Machine Learning", "Deep Learning"]
+        },
+        {
+          "text": "Reorx's Forge",
+          "title": "Reorx's Forge",
+          "type": "rss",
+          "xmlUrl": "https://reorx.com/feed.xml",
+          "htmlUrl": "https://reorx.com",
+          "description": "AI tools, development, and indie product building",
+          "categories": ["AI", "Development", "Tools"]
+        },
+        {
+          "text": "Armin Ronacher",
+          "title": "Armin Ronacher",
+          "type": "rss",
+          "xmlUrl": "https://lucumr.pocoo.org/feed.atom",
+          "htmlUrl": "https://lucumr.pocoo.org",
+          "description": "Thoughts on programming, AI agents, and software engineering",
+          "categories": ["AI", "Programming", "Python"]
+        }
+      ]
+    }
+  ]
+}
