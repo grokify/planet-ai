@@ -169,7 +169,7 @@ function App() {
     return (
       <div className="container">
         <header>
-          <h1>Signal AI</h1>
+          <h1>Planet AI</h1>
         </header>
         <main>
           <p className="loading">Loading feeds...</p>
@@ -182,7 +182,7 @@ function App() {
     return (
       <div className="container">
         <header>
-          <h1>Signal AI</h1>
+          <h1>Planet AI</h1>
         </header>
         <main>
           <p className="error">Error: {error}</p>
@@ -194,8 +194,8 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Signal AI</h1>
-        <p className="subtitle">Aggregated AI & Development Blog Posts</p>
+        <h1>Planet AI</h1>
+        <p className="subtitle">Aggregated AI & Development Blog Posts · Curated by John Wang</p>
 
         <div className="filter-section">
           <span className="filter-label">Sources:</span>

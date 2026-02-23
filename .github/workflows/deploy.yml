@@ -38,7 +38,7 @@ jobs:
             --output-dir data \
             --monthly \
             --latest-months 24 \
-            --title "Signal AI" \
+            --title "Planet AI" \
             -v
 
       - name: Setup Node.js
