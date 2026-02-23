@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Signal AI",
+  "title": "Planet AI",
   "items": [
     {
       "id": "5cd7322f7084f178",
@@ -48,6 +48,6 @@
       "_signal_feed_url": "https://reorx.com/"
     }
   ],
-  "_signal_generated": "2026-02-23T00:34:26Z",
+  "_signal_generated": "2026-02-23T00:38:45Z",
   "_signal_period": "2023-01"
 }
