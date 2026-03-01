@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "050b28a736ef7a70",
+      "url": "https://siddhantkhare.com/writing/claude-code-permission-model-is-broken",
+      "title": "Claude Code's broken permission model",
+      "summary": "Fifty approval prompts or full shell access. Nothing in between. The permission model needs infrastructure, not prompts.",
+      "date_published": "2026-02-28T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -335,6 +349,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-01T12:41:42Z",
+  "_signal_generated": "2026-03-01T18:29:20Z",
   "_signal_period": "2026-02"
 }
