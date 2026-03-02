@@ -2,7 +2,7 @@
   "version": "2.0",
   "title": "Planet AI",
   "dateCreated": "2026-02-16T00:00:00Z",
-  "dateModified": "2026-02-16T00:00:00Z",
+  "dateModified": "2026-03-02T00:00:00Z",
   "ownerName": "John Wang",
   "outlines": [
     {
@@ -62,6 +62,42 @@
           "htmlUrl": "https://lucumr.pocoo.org",
           "description": "Thoughts on programming, AI agents, and software engineering",
           "categories": ["AI", "Programming", "Python"]
+        },
+        {
+          "text": "Tim Denning",
+          "title": "Tim Denning",
+          "type": "rss",
+          "xmlUrl": "https://timdenning.substack.com/feed",
+          "htmlUrl": "https://timdenning.substack.com",
+          "description": "Writing, productivity, and personal development",
+          "categories": ["Writing", "Productivity", "Personal Development"]
+        },
+        {
+          "text": "Simon Willison",
+          "title": "Simon Willison",
+          "type": "rss",
+          "xmlUrl": "https://simonwillison.net/atom/everything/",
+          "htmlUrl": "https://simonwillison.net",
+          "description": "AI, LLMs, Python, and open source development",
+          "categories": ["AI", "LLM", "Python", "Open Source"]
+        },
+        {
+          "text": "Be a Better Dev",
+          "title": "Be a Better Dev",
+          "type": "rss",
+          "xmlUrl": "https://beabetterdev.com/feed/",
+          "htmlUrl": "https://beabetterdev.com",
+          "description": "AWS, cloud computing, and software development tutorials",
+          "categories": ["AWS", "Cloud", "Development", "Tutorials"]
+        },
+        {
+          "text": "Lucija Gregov",
+          "title": "Lucija Gregov",
+          "type": "rss",
+          "xmlUrl": "https://lucijagregov.com/feed/",
+          "htmlUrl": "https://lucijagregov.com",
+          "description": "Tech career insights and development",
+          "categories": ["Career", "Development", "Tech"]
         }
       ]
     }
