@@ -27,6 +27,20 @@ function hashString(str) {
   return Math.abs(hash)
 }
 
+// Truncate HTML summary to a maximum length, preserving word boundaries
+const MAX_SUMMARY_LENGTH = 500
+function truncateSummary(html) {
+  if (!html || html.length <= MAX_SUMMARY_LENGTH) return html
+  // Strip HTML tags for length calculation
+  const text = html.replace(/<[^>]*>/g, '')
+  if (text.length <= MAX_SUMMARY_LENGTH) return html
+  // Find last space before cutoff to preserve word boundary
+  const truncated = text.slice(0, MAX_SUMMARY_LENGTH)
+  const lastSpace = truncated.lastIndexOf(' ')
+  const cutPoint = lastSpace > MAX_SUMMARY_LENGTH * 0.8 ? lastSpace : MAX_SUMMARY_LENGTH
+  return text.slice(0, cutPoint) + '…'
+}
+
 function App() {
   const [feed, setFeed] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -385,7 +399,7 @@ function App() {
                 </a>
               )}
               {item.summary && (
-                <p className="summary" dangerouslySetInnerHTML={{ __html: item.summary }} />
+                <p className="summary" dangerouslySetInnerHTML={{ __html: truncateSummary(item.summary) }} />
               )}
               {item.tags?.length > 0 && (
                 <div className="tags">
@@ -462,7 +476,7 @@ function App() {
                 </a>
               )}
               {item.summary && (
-                <p className="summary" dangerouslySetInnerHTML={{ __html: item.summary }} />
+                <p className="summary" dangerouslySetInnerHTML={{ __html: truncateSummary(item.summary) }} />
               )}
               {item.tags?.length > 0 && (
                 <div className="tags">
