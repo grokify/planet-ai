@@ -3,6 +3,50 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "f68aadd9eb83eb0d",
+      "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+      "title": "Quoting Donald Knuth",
+      "summary": "\u003cblockquote cite=\"https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf\"\u003e\u003cp\u003eShock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hybrid reasoning model that had been released three weeks earlier! It seems that I'll have to revise my opinions about \"generative AI\" one of these days. What a joy it is to learn not only that my conjecture has a nice solution but also to celebrate this dramatic advance in automatic deduction and creative problem solving.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf\"\u003eDonald Knuth\u003c/a\u003e, Claude's Cycles\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/november-2025-inflection\"\u003enovember-2025-inflection\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/donald-knuth\"\u003edonald-knuth\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-reasoning\"\u003ellm-reasoning\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/anthropic\"\u003eanthropic\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-03T23:59:04Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "november-2025-inflection",
+        "claude",
+        "generative-ai",
+        "llms",
+        "donald-knuth",
+        "llm-reasoning",
+        "anthropic"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "26ad3fc871c327b2",
+      "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
+      "title": "Gemini 3.1 Flash-Lite",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/\"\u003eGemini 3.1 Flash-Lite\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nGoogle's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million output this is 1/8th the price of Gemini 3.1 Pro.\u003c/p\u003e\n\u003cp\u003eIt supports four different thinking levels, so I had it output \u003ca href=\"https://gist.github.com/simonw/99fb28dc11d0c24137d4ff8a33978a9e\"\u003efour different pelicans\u003c/a\u003e:\u003c/p\u003e\n\u003cdiv style=\"\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 8px;\n    margin: 0 auto;\n  \"\u003e\n    \u003cdiv style=\"text-align: center;\"\u003e\n      \u003cdiv style=\"aspect-ratio: 1; overflow: hidden; border-radius: 4px;\"\u003e\n        \u003cimg src=\"https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-minimal.png\" alt=\"A minimalist vector-style illustration of a stylized bird riding a bicycle.\" style=\"width: 100%; height: 100%; object-fit: cover; display: block;\"\u003e\n      \u003c/div\u003e\n      \u003cp style=\"margin: 4px 0 0; font-size: 16px; color: #333;\"\u003eminimal\u003c/p\u003e\n    \u003c/div\u003e\n    \u003cdiv style=\"text-align: center;\"\u003e\n      \u003cdiv style=\"aspect-ratio: 1; overflow: hidden; border-radius: 4px;\"\u003e\n        \u003cimg src=\"https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-low.png\" alt=\"A minimalist graphic of a light blue round bird with a single black dot for an eye, wearing a yellow backpack and riding a black bicycle on a flat grey line.\" style=\"width: 100%; height: 100%; object-fit: cover; display: block;\"\u003e\n      \u003c/div\u003e\n      \u003cp style=\"margin: 4px 0 0; font-size: 16px; color: #333;\"\u003elow\u003c/p\u003e\n    \u003c/div\u003e\n    \u003cdiv style=\"text-align: center;\"\u003e\n      \u003cdiv style=\"aspect-ratio: 1; overflow: hidden; border-radius: 4px;\"\u003e\n        \u003cimg src=\"https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-medium.png\" alt=\"A minimalist digital illustration of a light blue bird wearing a yellow backpack while riding a bicycle.\" style=\"width: 100%; height: 100%; object-fit: cover; display: block;\"\u003e\n      \u003c/div\u003e\n      \u003cp style=\"margin: 4px 0 0; font-size: 16px; color: #333;\"\u003emedium\u003c/p\u003e\n    \u003c/div\u003e\n    \u003cdiv style=\"text-align: center;\"\u003e\n      \u003cdiv style=\"aspect-ratio: 1; overflow: hidden; border-radius: 4px;\"\u003e\n        \u003cimg src=\"https://static.simonwillison.net/static/2026/gemini-3.1-flash-lite-high.png\" alt=\"A minimal, stylized line drawing of a bird-like creature with a yellow beak riding a bicycle made of simple geometric lines.\" style=\"width: 100%; height: 100%; object-fit: cover; display: block;\"\u003e\n      \u003c/div\u003e\n      \u003cp style=\"margin: 4px 0 0; font-size: 16px; color: #333;\"\u003ehigh\u003c/p\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/google\"\u003egoogle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/gemini\"\u003egemini\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-pricing\"\u003ellm-pricing\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"\u003epelican-riding-a-bicycle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-release\"\u003ellm-release\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-03T21:53:54Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "google",
+        "generative-ai",
+        "llms",
+        "gemini",
+        "llm-pricing",
+        "pelican-riding-a-bicycle",
+        "llm-release"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "c4f8b673bc96979e",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
       "title": "GIF optimization tool using WebAssembly and Gifsicle",
@@ -89,6 +133,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-03T18:43:36Z",
+  "_signal_generated": "2026-03-04T01:48:54Z",
   "_signal_period": "2026-03"
 }

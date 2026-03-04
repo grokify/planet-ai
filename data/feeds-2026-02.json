@@ -574,27 +574,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "985ff7bc943c95a5",
-      "url": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
-      "title": "How I think about Codex",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://www.linkedin.com/pulse/how-i-think-codex-gabriel-chua-ukhic\"\u003eHow I think about Codex\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nGabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIn plain terms, Codex is OpenAI’s software engineering agent, available through multiple interfaces, and an agent is a model plus instructions and tools, wrapped in a runtime that can execute tasks on your behalf. [...]\u003c/p\u003e\n\u003cp\u003eAt a high level, I see Codex as three parts working together:\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eCodex = Model + Harness + Surfaces\u003c/em\u003e [...]\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eModel + Harness = the Agent\u003c/li\u003e\n\u003cli\u003eSurfaces = how you interact with the Agent\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eHe defines the harness as \"the collection of instructions and tools\", which is notably open source and lives in the \u003ca href=\"https://github.com/openai/codex\"\u003eopenai/codex\u003c/a\u003e repository.\u003c/p\u003e\n\u003cp\u003eGabriel also provides the first acknowledgment I've seen from an OpenAI insider that the Codex model family are directly trained for the Codex harness:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eCodex models are trained in the presence of the harness. Tool use, execution loops, compaction, and iterative verification aren’t bolted on behaviors — they’re part of how the model learns to operate. The harness, in turn, is shaped around how the model plans, invokes tools, and recovers from failure.\u003c/p\u003e\n\u003c/blockquote\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/definitions\"\u003edefinitions\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openai\"\u003eopenai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/codex-cli\"\u003ecodex-cli\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-22T15:53:43Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "definitions",
-        "openai",
-        "generative-ai",
-        "llms",
-        "ai-assisted-programming",
-        "codex-cli"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -629,25 +608,6 @@
       ],
       "_signal_feed_title": "Be a Better Dev",
       "_signal_feed_url": "https://beabetterdev.com/"
-    },
-    {
-      "id": "54ca229e4ab28b33",
-      "url": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
-      "title": "Quoting Thibault Sottiaux",
-      "summary": "\u003cblockquote cite=\"https://twitter.com/thsottiaux/status/2024947946849186064\"\u003e\u003cp\u003eWe’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/thsottiaux/status/2024947946849186064\"\u003eThibault Sottiaux\u003c/a\u003e, OpenAI\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/openai\"\u003eopenai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-performance\"\u003ellm-performance\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-21T01:30:21Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "openai",
-        "llms",
-        "generative-ai",
-        "llm-performance"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
     },
     {
       "id": "fc44166e3e729564",
@@ -968,6 +928,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-03T18:43:36Z",
+  "_signal_generated": "2026-03-04T01:48:54Z",
   "_signal_period": "2026-02"
 }
