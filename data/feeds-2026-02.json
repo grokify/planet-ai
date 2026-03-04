@@ -530,50 +530,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "3a5a2606848de886",
-      "url": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
-      "title": "The Claude C Compiler: What It Reveals About the Future of Software",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software\"\u003eThe Claude C Compiler: What It Reveals About the Future of Software\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nOn February 5th Anthropic's Nicholas Carlini wrote about a project to use \u003ca href=\"https://www.anthropic.com/engineering/building-c-compiler\"\u003eparallel Claudes to build a C compiler\u003c/a\u003e on top of the brand new Opus 4.6\u003c/p\u003e\n\u003cp\u003eChris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He just published this review of the code.\u003c/p\u003e\n\u003cp\u003eSome points that stood out to me:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eGood software depends on judgment, communication, and clear abstraction. AI has amplified this.\u003c/li\u003e\n\u003cli\u003eAI coding is automation of implementation, so design and stewardship become more important.\u003c/li\u003e\n\u003cli\u003eManual rewrites and translation work are becoming AI-native tasks, automating a large category of engineering effort.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eChris is generally impressed with CCC (the Claude C Compiler):\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eTaken together, CCC looks less like an experimental research compiler and more like a competent textbook implementation, the sort of system a strong undergraduate team might build early in a project before years of refinement. That alone is remarkable.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eIt's a long way from being a production-ready compiler though:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eSeveral design choices suggest optimization toward passing tests rather than building general abstractions like a human would. [...] These flaws are informative rather than surprising, suggesting that current AI systems excel at assembling known techniques and optimizing toward measurable success criteria, while struggling with the open-ended generalization required for production-quality systems.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThe project also leads to deep open questions about how agentic engineering interacts with licensing and IP for both open source and proprietary code:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIf AI systems trained on decades of publicly available code can reproduce familiar structures, patterns, and even specific implementations, where exactly is the boundary between learning and copying?\u003c/p\u003e\n\u003c/blockquote\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/c\"\u003ec\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/compilers\"\u003ecompilers\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/anthropic\"\u003eanthropic\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/nicholas-carlini\"\u003enicholas-carlini\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-22T23:58:43Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "c",
-        "compilers",
-        "open-source",
-        "ai-assisted-programming",
-        "anthropic",
-        "claude",
-        "nicholas-carlini",
-        "coding-agents",
-        "agentic-engineering"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "e723f84febf4048b",
-      "url": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
-      "title": "London Stock Exchange: Raspberry Pi Holdings plc",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://www.londonstockexchange.com/stock/RPI/raspberry-pi-holdings-plc/company-page\"\u003eLondon Stock Exchange: Raspberry Pi Holdings plc\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nStriking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Stock price line chart for RASPBERRY PI showing a 3-month daily view from 24 Nov to 16 Feb. The price trends downward from around 325 to a low near 260, then sharply spikes upward. A tooltip highlights \u0026quot;RASPBERRY PI: 415.00, 16/02/2026\u0026quot;. The y-axis ranges from 240 to 420.\" src=\"https://static.simonwillison.net/static/2026/raspberry-pi-plc.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003eThe Telegraph \u003ca href=\"https://finance.yahoo.com/news/british-computer-maker-soars-ai-141836041.html\"\u003ecredited excitement around OpenClaw\u003c/a\u003e: \u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eRaspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's tiny computers can be used to power a popular AI chatbot.\u003c/p\u003e\n\u003cp\u003eUsers have turned to Raspberry Pi's small computers to run a technology known as OpenClaw, \u003ca href=\"https://www.telegraph.co.uk/business/2026/02/07/i-built-a-whatsapp-bot-and-now-it-runs-my-entire-life/\"\u003ea viral AI personal assistant\u003c/a\u003e. A flood of posts about the practice have been viewed millions of times since the weekend.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eReuters \u003ca href=\"https://finance.yahoo.com/news/raspberry-pi-soars-40-ceo-151342904.html\"\u003ealso credit a stock purchase by CEO Eben Upton\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eShares in Raspberry Pi rose as much as 42% on Tuesday in ‌a record two‑day rally after CEO Eben Upton bought ‌stock in the beaten‑down UK computer hardware firm, halting a months‑long slide, ​as chatter grew that its products could benefit from low‑cost artificial‑intelligence projects.\u003c/p\u003e\n\u003cp\u003eTwo London traders said the driver behind the surge was not clear, though the move followed a filing showing Upton bought ‌about 13,224 pounds ⁠worth of shares at around 282 pence each on Monday.\u003c/p\u003e\n\u003c/blockquote\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/raspberry-pi\"\u003eraspberry-pi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-agents\"\u003eai-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openclaw\"\u003eopenclaw\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-22T23:54:39Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "generative-ai",
-        "raspberry-pi",
-        "llms",
-        "ai-agents",
-        "openclaw"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -928,6 +884,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-04T12:50:59Z",
+  "_signal_generated": "2026-03-04T18:43:51Z",
   "_signal_period": "2026-02"
 }
