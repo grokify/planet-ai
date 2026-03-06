@@ -490,26 +490,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "d360971ef949b637",
-      "url": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
-      "title": "Quoting Summer Yue",
-      "summary": "\u003cblockquote cite=\"https://twitter.com/summeryue0/status/2025836517831405980\"\u003e\u003cp\u003eNothing humbles you like telling your OpenClaw “confirm before acting” and watching it speedrun deleting your inbox. I couldn’t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb.\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Screenshot of a WhatsApp or similar messaging conversation showing a user repeatedly trying to stop an AI agent (appearing to be \u0026quot;OpenClaw\u0026quot;) that is autonomously executing terminal commands to mass-delete emails. The agent sends messages prefixed with \u0026quot;🛠 Exec:\u0026quot; running commands like \u0026quot;gog gmail search 'in:inbox' --max 20 -a\u0026quot; and \u0026quot;# Nuclear option: trash EVERYTHING in inbox older than Feb 15 that isn't already in my keep list\u0026quot;, while the user urgently responds with \u0026quot;What's going on? Can you describe what you're doing\u0026quot; at 6:00 PM, \u0026quot;Do not do that\u0026quot; at 6:01 PM, \u0026quot;Stop don't do anything\u0026quot; at 6:02 PM, and \u0026quot;STOP OPENCLAW\u0026quot; at 6:03 PM. The agent continues executing commands including setting ACCT variables with redacted email addresses and commenting \u0026quot;# Get ALL remaining old stuff and nuke it\u0026quot; and \u0026quot;# Keep looping until we clear everything old\u0026quot;, ignoring the user's repeated requests to stop. Email addresses and account details are partially redacted with gray blocks.\" src=\"https://static.simonwillison.net/static/2026/stop-openclaw.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003eI said “Check this inbox too and suggest what you would archive or delete, don’t action until I tell you to.” This has been working well for my toy inbox, but my real inbox was too huge and triggered compaction. During the compaction, it lost my original instruction 🤦‍♀️\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/summeryue0/status/2025836517831405980\"\u003eSummer Yue\u003c/a\u003e\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-agents\"\u003eai-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openclaw\"\u003eopenclaw\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-23T13:01:13Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "ai-ethics",
-        "generative-ai",
-        "ai-agents",
-        "openclaw",
-        "llms"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -864,6 +844,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-05T19:13:54Z",
+  "_signal_generated": "2026-03-06T01:53:15Z",
   "_signal_period": "2026-02"
 }

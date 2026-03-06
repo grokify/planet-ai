@@ -3,6 +3,26 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "c0ac026bc333db2e",
+      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "title": "Introducing GPT‑5.4",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://openai.com/index/introducing-gpt-5-4/\"\u003eIntroducing GPT‑5.4\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nTwo new API models: \u003ca href=\"https://developers.openai.com/api/docs/models/gpt-5.4\"\u003egpt-5.4\u003c/a\u003e and \u003ca href=\"https://developers.openai.com/api/docs/models/gpt-5.4-pro\"\u003egpt-5.4-pro\u003c/a\u003e, also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 million token context window. Priced \u003ca href=\"https://www.llm-prices.com/#sel=gpt-5.2%2Cgpt-5.2-pro%2Cgpt-5.4%2Cgpt-5.4-272k%2Cgpt-5.4-pro%2Cgpt-5.4-pro-272k\"\u003eslightly higher\u003c/a\u003e than the GPT-5.2 family with a bump in price for both models if you go above 272,000 tokens.\u003c/p\u003e\n\u003cp\u003e5.4 beats coding specialist GPT-5.3-Codex on all of the relevant benchmarks. I wonder if we'll get a 5.4 Codex or if that model line has now been merged into main?\u003c/p\u003e\n\u003cp\u003eGiven Claude's recent focus on business applications it's interesting to see OpenAI highlight this in their announcement of GPT-5.4:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWe put a particular focus on improving GPT‑5.4’s ability to create and edit spreadsheets, presentations, and documents. On an internal benchmark of spreadsheet modeling tasks that a junior investment banking analyst might do, GPT‑5.4 achieves a mean score of \u003cstrong\u003e87.3%\u003c/strong\u003e, compared to \u003cstrong\u003e68.4%\u003c/strong\u003e for GPT‑5.2.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eHere's a pelican on a bicycle \u003ca href=\"https://gist.github.com/simonw/7fe75b8dab6ec9c2b6bd8fd1a5a640a6\"\u003edrawn by GPT-5.4\u003c/a\u003e:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"alt text by GPT-5.4: Illustration of a cartoon pelican riding a bicycle, with a light gray background, dark blue bike frame and wheels, orange beak and legs, and motion lines suggesting movement.\" src=\"https://static.simonwillison.net/static/2026/gpt-5.4-pelican.png\" /\u003e\u003c/p\u003e\n\u003cp\u003eAnd \u003ca href=\"https://gist.github.com/simonw/688c0d5d93a5539b93d3f549a0b733ad\"\u003ehere's one\u003c/a\u003e by GPT-5.4 Pro, which took 4m45s and cost me \u003ca href=\"https://www.llm-prices.com/#it=16\u0026amp;ot=8593\u0026amp;sel=gpt-5.4-pro\"\u003e$1.55\u003c/a\u003e:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Described by GPT-5.4: Illustration of a cartoon pelican riding a blue bicycle on pale green grass against a light gray background, with a large orange beak, gray-and-white body, and orange legs posed on the pedals.\" src=\"https://static.simonwillison.net/static/2026/gpt-5.4-pro-pelican.png\" /\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openai\"\u003eopenai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"\u003epelican-riding-a-bicycle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-release\"\u003ellm-release\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-05T23:56:09Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "openai",
+        "generative-ai",
+        "llms",
+        "pelican-riding-a-bicycle",
+        "llm-release"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "33dc5074933ff0db",
       "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
@@ -242,6 +262,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-05T19:13:54Z",
+  "_signal_generated": "2026-03-06T01:53:15Z",
   "_signal_period": "2026-03"
 }
