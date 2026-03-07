@@ -3,6 +3,26 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "3982a35b6b9f5a02",
+      "url": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
+      "title": "Codex for Open Source",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://developers.openai.com/codex/community/codex-for-oss\"\u003eCodex for Open Source\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nAnthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downloads) \u003ca href=\"https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/\"\u003eon 27th February\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eNow OpenAI have launched their comparable offer: six months of ChatGPT Pro (same $200/month price as Claude Max) with Codex and \"conditional access to Codex Security\" for core maintainers.\u003c/p\u003e\n\u003cp\u003eUnlike Anthropic they don't hint at the exact metrics they care about, but the \u003ca href=\"https://openai.com/form/codex-for-oss/\"\u003eapplication form\u003c/a\u003e does ask for \"information such as GitHub stars, monthly downloads, or why the project is important to the ecosystem.\"\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://twitter.com/openaidevs/status/2029998191043911955\"\u003e@openaidevs\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openai\"\u003eopenai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/codex-cli\"\u003ecodex-cli\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-07T18:13:39Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "open-source",
+        "openai",
+        "generative-ai",
+        "llms",
+        "codex-cli"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "37807b12ab36c5f1",
       "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
       "title": "Quoting Ally Piechowski",
@@ -364,6 +384,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-07T12:40:18Z",
+  "_signal_generated": "2026-03-07T18:29:22Z",
   "_signal_period": "2026-03"
 }

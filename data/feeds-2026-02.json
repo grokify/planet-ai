@@ -357,28 +357,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "eea0337dc230b0af",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
-      "title": "First run the tests",
-      "summary": "\u003cp\u003e\u003cem\u003e\u003ca href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"\u003eAgentic Engineering Patterns\u003c/a\u003e \u0026gt;\u003c/em\u003e\u003c/p\u003e\n    \u003cp\u003eAutomated tests are no longer optional when working with coding agents.\u003c/p\u003e\n\u003cp\u003eThe old excuses for not writing them - that they're time consuming and expensive to constantly rewrite while a codebase is rapidly evolving - no longer hold when an agent can knock them into shape in just a few minutes.\u003c/p\u003e\n\u003cp\u003eThey're also \u003cem\u003evital\u003c/em\u003e for ensuring AI-generated code does what it claims to do.  If the code has never been executed it's pure luck if it actually works when deployed to production.\u003c/p\u003e\n\u003cp\u003eTests are also a great tool to help get an agent up to speed with an existing codebase. Watch what happens when you ask Claude Code or similar about an existing feature - the chances are high that they'll find and read the relevant tests.\u003c/p\u003e\n\u003cp\u003eAgents are already biased towards testing, but the presence of an existing test suite will almost certainly push the agent into testing new changes that it makes.\u003c/p\u003e\n\u003cp\u003eAny time I start a new session with an agent against an existing project I'll start by prompting a variant of the following:\n\u003cdiv\u003e\u003cmarkdown-copy\u003e\u003ctextarea\u003eFirst run the tests\u003c/textarea\u003e\u003c/markdown-copy\u003e\u003c/div\u003e\nFor my Python projects I have \u003ca href=\"https://til.simonwillison.net/uv/dependency-groups\"\u003epyproject.toml set up\u003c/a\u003e such that I can prompt this instead:\n\u003cdiv\u003e\u003cmarkdown-copy\u003e\u003ctextarea\u003eRun \u0026quot;uv run pytest\u0026quot;\u003c/textarea\u003e\u003c/markdown-copy\u003e\u003c/div\u003e\nThese four word prompts serve several purposes:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eIt tells the agent that there is a test suite and forces it to figure out how to run the tests. This makes it almost certain that the agent will run the tests in the future to ensure it didn't break anything.\u003c/li\u003e\n\u003cli\u003eMost test harnesses will give the agent a rough indication of how many tests they are. This can act as a proxy for how large and complex the project is, and also hints that the agent should search the tests themselves if they want to learn more.\u003c/li\u003e\n\u003cli\u003eIt puts the agent in a testing mindset. Having run the tests it's natural for it to then expand them with its own tests later on.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eSimilar to \u003ca href=\"https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/\"\u003e\"Use red/green TDD\"\u003c/a\u003e, \"First run the tests\" provides a four word prompt that encompasses a substantial amount of software engineering discipline that's already baked into the models.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/testing\"\u003etesting\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/tdd\"\u003etdd\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-24T12:30:05Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "testing",
-        "tdd",
-        "llms",
-        "coding-agents",
-        "ai-assisted-programming",
-        "generative-ai",
-        "agentic-engineering"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -733,6 +711,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-07T12:40:18Z",
+  "_signal_generated": "2026-03-07T18:29:22Z",
   "_signal_period": "2026-02"
 }
