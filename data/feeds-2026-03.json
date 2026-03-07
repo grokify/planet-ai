@@ -3,6 +3,24 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "37807b12ab36c5f1",
+      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "title": "Quoting Ally Piechowski",
+      "summary": "\u003cblockquote cite=\"https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/\"\u003e\u003cp\u003e\u003cstrong\u003eQuestions for developers:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e“What’s the one area you’re afraid to touch?”\u003c/li\u003e\n\u003cli\u003e“When’s the last time you deployed on a Friday?”\u003c/li\u003e\n\u003cli\u003e“What broke in production in the last 90 days that wasn’t caught by tests?”\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eQuestions for the CTO/EM:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e“What feature has been blocked for over a year?”\u003c/li\u003e\n\u003cli\u003e“Do you have real-time error visibility right now?”\u003c/li\u003e\n\u003cli\u003e“What was the last feature that took significantly longer than estimated?”\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eQuestions for business stakeholders:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e“Are there features that got quietly turned off and never came back?”\u003c/li\u003e\n\u003cli\u003e“Are there things you’ve stopped promising customers?”\u003c/li\u003e\n\u003c/ul\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/\"\u003eAlly Piechowski\u003c/a\u003e, How to Audit a Rails Codebase\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/technical-debt\"\u003etechnical-debt\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/software-engineering\"\u003esoftware-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/rails\"\u003erails\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-06T21:58:33Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "technical-debt",
+        "software-engineering",
+        "rails"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "ba2a14f0eaf03e5c",
       "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
       "title": "Anthropic and the Pentagon",
@@ -346,6 +364,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-06T18:39:47Z",
+  "_signal_generated": "2026-03-07T01:45:13Z",
   "_signal_period": "2026-03"
 }
