@@ -3,6 +3,24 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "85c7faa361276846",
+      "url": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
+      "title": "Quoting Joseph Weizenbaum",
+      "summary": "\u003cblockquote cite=\"https://archive.org/details/computerpowerhum0000weiz_v0i3?q=realized\"\u003e\u003cp\u003eWhat I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://archive.org/details/computerpowerhum0000weiz_v0i3?q=realized\"\u003eJoseph Weizenbaum\u003c/a\u003e, creator of ELIZA, in 1976 (\u003ca href=\"https://www.tiktok.com/@professorcasey/video/7614890527711825183\"\u003evia\u003c/a\u003e)\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/computer-history\"\u003ecomputer-history\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/internet-archive\"\u003einternet-archive\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-08T14:59:48Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "ai-ethics",
+        "computer-history",
+        "internet-archive"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "3982a35b6b9f5a02",
       "url": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
       "title": "Codex for Open Source",
@@ -384,6 +402,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-08T12:41:37Z",
+  "_signal_generated": "2026-03-08T18:29:48Z",
   "_signal_period": "2026-03"
 }
