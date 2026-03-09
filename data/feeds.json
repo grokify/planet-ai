@@ -3,6 +3,48 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "2a5ab46ffc8fd06d",
+      "url": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+      "title": "Production query plans without production data",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://boringsql.com/posts/portable-stats/\"\u003eProduction query plans without production data\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nRadim Marek describes the new \u003ca href=\"https://www.postgresql.org/docs/current/functions-admin.html#FUNCTIONS-ADMIN-STATSMOD\"\u003e\u003ccode\u003epg_restore_relation_stats()\u003c/code\u003e and \u003ccode\u003epg_restore_attribute_stats()\u003c/code\u003e functions\u003c/a\u003e that were introduced \u003ca href=\"https://www.postgresql.org/docs/current/release-18.html\"\u003ein PostgreSQL 18\u003c/a\u003e in September 2025.\u003c/p\u003e\n\u003cp\u003eThe PostgreSQL query planner makes use of internal statistics to help it decide how to best execute a query. These statistics often differ between production data and development environments, which means the query plans used in production may not be replicable in development.\u003c/p\u003e\n\u003cp\u003ePostgreSQL's new features now let you copy those statistics down to your development environment, allowing you to simulate the plans for production workloads without needing to copy in all of that data first.\u003c/p\u003e\n\u003cp\u003eI found this illustrative example useful:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eSELECT pg_restore_attribute_stats(\n    'schemaname', 'public',\n    'relname', 'test_orders',\n    'attname', 'status',\n    'inherited', false::boolean,\n    'null_frac', 0.0::real,\n    'avg_width', 9::integer,\n    'n_distinct', 5::real,\n    'most_common_vals', '{delivered,shipped,cancelled,pending,returned}'::text,\n    'most_common_freqs', '{0.95,0.015,0.015,0.015,0.005}'::real[]\n);\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThis simulates statistics for a \u003ccode\u003estatus\u003c/code\u003e column that is 95% \u003ccode\u003edelivered\u003c/code\u003e. Based on these statistics PostgreSQL can decide to use an index for \u003ccode\u003estatus = 'shipped'\u003c/code\u003e but to instead perform a full table scan for \u003ccode\u003estatus = 'delivered'\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eThese statistics are pretty small. Radim says:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eStatistics dumps are tiny. A database with hundreds of tables and thousands of columns produces a statistics dump under 1MB. The production data might be hundreds of GB. The statistics that describe it fit in a text file.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI posted on the SQLite user forum asking if SQLite could offer a similar feature and D. Richard Hipp promptly replied \u003ca href=\"https://sqlite.org/forum/forumpost/480c5cb8a3898346\"\u003ethat it has one already\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eAll of the data statistics used by the query planner in SQLite are available in the \u003ca href=\"https://sqlite.org/fileformat.html#the_sqlite_stat1_table\"\u003esqlite_stat1 table\u003c/a\u003e (or also in the \u003ca href=\"https://sqlite.org/fileformat.html#the_sqlite_stat4_table\"\u003esqlite_stat4 table\u003c/a\u003e if you happen to have compiled with SQLITE_ENABLE_STAT4).  That table is writable. You can inject whatever alternative statistics you like.\u003c/p\u003e\n\u003cp\u003eThis approach to controlling the query planner is mentioned in the documentation:\n\u003ca href=\"https://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables\"\u003ehttps://sqlite.org/optoverview.html#manual_control_of_query_plans_using_sqlite_stat_tables\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eSee also \u003ca href=\"https://sqlite.org/lang_analyze.html#fixed_results_of_analyze\"\u003ehttps://sqlite.org/lang_analyze.html#fixed_results_of_analyze\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eThe \".fullschema\" command in the CLI outputs both the schema and the content of the sqlite_statN tables, exactly for the reasons outlined above - so that we can reproduce query problems for testing without have to load multi-terabyte database files.\u003c/p\u003e\n\u003c/blockquote\u003e\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://lobste.rs/s/o8vbb7/production_query_plans_without\"\u003eLobste.rs\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/databases\"\u003edatabases\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/postgresql\"\u003epostgresql\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sql\"\u003esql\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sqlite\"\u003esqlite\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/d-richard-hipp\"\u003ed-richard-hipp\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-09T15:05:15Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "databases",
+        "postgresql",
+        "sql",
+        "sqlite",
+        "d-richard-hipp"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "d5e8ac0b269700ce",
+      "url": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
+      "title": "Perhaps not Boring Technology after all",
+      "summary": "\u003cp\u003eA recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented in their training data, making it harder for new, better tools to break through the noise.\u003c/p\u003e\r\n\u003cp\u003eThis was certainly the case a couple of years ago, when asking models for help with Python or JavaScript appeared to give much better results than questions about less widely used languages.\u003c/p\u003e\r\n\u003cp\u003eWith \u003ca href=\"https://simonwillison.net/tags/november-2025-inflection/\"\u003ethe latest models\u003c/a\u003e running in good coding agent harnesses I'm not sure this continues to hold up.\u003c/p\u003e\r\n\u003cp\u003eI'm seeing excellent results with my \u003ca href=\"https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/\"\u003ebrand new tools\u003c/a\u003e where I start by prompting \"use uvx showboat --help / rodney --help / chartroom --help to learn about these tools\" - the context length of these new models is long enough that they can consume quite a lot of documentation before they start working on a problem.\u003c/p\u003e\r\n\u003cp\u003eDrop a coding agent into \u003cem\u003eany\u003c/em\u003e existing codebase that uses libraries and tools that are too private or too new to feature in the training data and my experience is that it works \u003cem\u003ejust fine\u003c/em\u003e - the agent will consult enough of the existing examples to understand patterns, then iterate and test its own output to fill in the gaps.\u003c/p\u003e\r\n\u003cp\u003eThis is a surprising result. I thought coding agents would prove to be the ultimate embodiment of the \u003ca href=\"https://boringtechnology.club\"\u003eChoose Boring Technology\u003c/a\u003e approach, but in practice they don't seem to be affecting my technology choices in that way at all.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e: A few follow-on thoughts:\u003c/p\u003e\r\n\u003col\u003e\r\n\u003cli\u003eThe issue of what technology LLMs \u003cem\u003erecommend\u003c/em\u003e is a separate one. \u003ca href=\"https://amplifying.ai/research/claude-code-picks\"\u003eWhat Claude Code \u003cem\u003eActually\u003c/em\u003e Chooses\u003c/a\u003e is an interesting recent study where Edwin Ong and Alex Vikati where they proved Claude Code over 2,000 times and found a strong bias towards build-over-buy but also identified a preferred technical stack, with GitHub Actions, Stripe, and shadcn/ui seeing a \"near monopoly\" in their respective categories. For the sake of this post my interest is in what happens when the human makes a technology choice that differs from those preferred by the model harness.\u003c/li\u003e\r\n\u003cli\u003eThe \u003ca href=\"https://simonwillison.net/tags/skills/\"\u003eSkills\u003c/a\u003e mechanism that is being rapidly embraced by most coding agent tools is super-relevant here. We are already seeing projects release official skills to help agents use them - here are examples from \u003ca href=\"https://github.com/remotion-dev/skills\"\u003eRemotion\u003c/a\u003e, \u003ca href=\"https://github.com/supabase/agent-skills\"\u003eSupabase\u003c/a\u003e, \u003ca href=\"https://github.com/vercel-labs/agent-skills\"\u003eVercel\u003c/a\u003e, and \u003ca href=\"https://github.com/prisma/skills\"\u003ePrisma\u003c/a\u003e.\u003c/li\u003e\r\n\u003c/ol\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/boring-technology\"\u003eboring-technology\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/november-2025-inflection\"\u003enovember-2025-inflection\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-09T13:37:45Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "generative-ai",
+        "llms",
+        "ai-assisted-programming",
+        "boring-technology",
+        "coding-agents",
+        "agentic-engineering",
+        "november-2025-inflection"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "85c7faa361276846",
       "url": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
       "title": "Quoting Joseph Weizenbaum",
@@ -689,50 +731,6 @@
         "swift",
         "agentic-engineering",
         "november-2025-inflection"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "f8908c3bf3fddcd0",
-      "url": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
-      "title": "Quoting Kellan Elliott-McCrea",
-      "summary": "\u003cblockquote cite=\"https://laughingmeme.org/2026/02/09/code-has-always-been-the-easy-part.html\"\u003e\u003cp\u003eIt’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That feeling of loss though can be hard to understand emotionally for people my age who entered tech because we were addicted to feeling of agency it gave us. The web was objectively awful as a technology, and genuinely amazing, and nobody got into it because programming in Perl was somehow aesthetically delightful.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://laughingmeme.org/2026/02/09/code-has-always-been-the-easy-part.html\"\u003eKellan Elliott-McCrea\u003c/a\u003e, Code has \u003cem\u003ealways\u003c/em\u003e been the easy part\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/perl\"\u003eperl\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/kellan-elliott-mccrea\"\u003ekellan-elliott-mccrea\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/deep-blue\"\u003edeep-blue\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-25T03:30:32Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "perl",
-        "generative-ai",
-        "kellan-elliott-mccrea",
-        "agentic-engineering",
-        "llms",
-        "deep-blue"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "06537c0e1cf2b3f3",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
-      "title": "Linear walkthroughs",
-      "summary": "\u003cp\u003e\u003cem\u003e\u003ca href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"\u003eAgentic Engineering Patterns\u003c/a\u003e \u0026gt;\u003c/em\u003e\u003c/p\u003e\n    \u003cp\u003eSometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. \u003c/p\u003e\n\u003cp\u003eMaybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole thing and need to understand how it actually works.\u003c/p\u003e\n\u003cp\u003eFrontier models with the right agent harness can construct a detailed walkthrough to help you understand how code works.\u003c/p\u003e\n\u003ch2 id=\"an-example-using-showboat-and-present\"\u003eAn example using Showboat and Present\u003c/h2\u003e\n\u003cp\u003eI recently \u003ca href=\"https://simonwillison.net/2026/Feb/25/present/\"\u003evibe coded a SwiftUI slide presentation app\u003c/a\u003e on my Mac using Claude Code and Opus 4.6.\u003c/p\u003e\n\u003cp\u003eI was speaking about the advances in frontier models between November 2025 and February 2026, and I like to include at least one gimmick in my talks (a \u003ca href=\"https://simonwillison.net/2019/Dec/10/better-presentations/\"\u003eSTAR moment\u003c/a\u003e - Something They'll Always Remember). In this case I decided the gimmick would be revealing at the end of the presentation that the slide mechanism itself was an example of what vibe coding could do.\u003c/p\u003e\n\u003cp\u003eI released the code \u003ca href=\"https://github.com/simonw/present\"\u003eto GitHub\u003c/a\u003e and then realized I didn't know anything about how it actually worked - I had prompted the whole thing into existence (\u003ca href=\"https://gisthost.github.io/?bfbc338977ceb71e298e4d4d5ac7d63c\"\u003epartial transcript here\u003c/a\u003e) without paying any attention to the code it was writing.\u003c/p\u003e\n\u003cp\u003eSo I fired up a new instance of Claude Code for web, pointed it at my repo and prompted:\n\u003cdiv\u003e\u003cmarkdown-copy\u003e\u003ctextarea\u003eRead the source and then plan a linear walkthrough of the code that explains how it all works in detail\n\nThen run “uvx showboat –help” to learn showboat - use showboat to create a walkthrough.md file in the repo and build the walkthrough in there, using showboat note for commentary and showboat exec plus sed or grep or cat or whatever you need to include snippets of code you are talking about\u003c/textarea\u003e\u003c/markdown-copy\u003e\u003c/div\u003e\n\u003ca href=\"https://github.com/simonw/showboat\"\u003eShowboat\u003c/a\u003e is a tool I built to help coding agents write documents that demonstrate their work. You can see the \u003ca href=\"https://github.com/simonw/showboat/blob/main/help.txt\"\u003eshowboat --help output here\u003c/a\u003e, which is designed to give the model everything it needs to know in order to use the tool.\u003c/p\u003e\n\u003cp\u003eThe \u003ccode\u003eshowboat note\u003c/code\u003e command adds Markdown to the document. The \u003ccode\u003eshowboat exec\u003c/code\u003e command accepts a shell command, executes it and then adds both the command and its output to the document.\u003c/p\u003e\n\u003cp\u003eBy telling it to use \"sed or grep or cat or whatever you need to include snippets of code you are talking about\" I ensured that Claude Code would not manually copy snippets of code into the document, since that could introduce a risk of hallucinations or mistakes.\u003c/p\u003e\n\u003cp\u003eThis worked extremely well. Here's the \u003ca href=\"https://github.com/simonw/present/blob/main/walkthrough.md\"\u003edocument Claude Code created with Showboat\u003c/a\u003e, which talks through all six \u003ccode\u003e.swift\u003c/code\u003e files in detail and provides a clear and actionable explanation about how the code works.\u003c/p\u003e\n\u003cp\u003eI learned a great deal about how SwiftUI apps are structured and absorbed some solid details about the Swift language itself just from reading this document.\u003c/p\u003e\n\u003cp\u003eIf you are concerned that LLMs might reduce the speed at which you learn new skills I strongly recommend adopting patterns like this one.  Even a ~40 minute vibe coded toy project can become an opportunity to explore new ecosystems and pick up some interesting new tricks.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/vibe-coding\"\u003evibe-coding\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/swift\"\u003eswift\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/showboat\"\u003eshowboat\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-25T01:07:10Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "agentic-engineering",
-        "llms",
-        "vibe-coding",
-        "coding-agents",
-        "ai-assisted-programming",
-        "swift",
-        "generative-ai",
-        "showboat"
       ],
       "_signal_feed_title": "Simon Willison's Weblog",
       "_signal_feed_url": "http://simonwillison.net/"
@@ -3217,5 +3215,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-09T12:56:25Z"
+  "_signal_generated": "2026-03-09T18:48:42Z"
 }
