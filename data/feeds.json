@@ -420,7 +420,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "0b26cae317090515",
@@ -769,7 +769,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "fc44166e3e729564",
@@ -1291,7 +1291,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "f48d59472a23e9e6",
@@ -2521,7 +2521,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "dad5eab4be56cef7",
@@ -2587,7 +2587,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -2629,7 +2629,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "baaf570528a52bec",
@@ -2962,7 +2962,7 @@
         "application security"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "fab5b3afe7317939",
@@ -2999,7 +2999,7 @@
         "s3"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "654af77ec18da5eb",
@@ -3024,7 +3024,7 @@
         "architecture"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "7a4961b7b69d5d02",
@@ -3063,7 +3063,7 @@
         "cloudwatch query generator"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "f4302db723133dcc",
@@ -3215,5 +3215,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-10T12:54:29Z"
+  "_signal_generated": "2026-03-10T18:42:50Z"
 }
