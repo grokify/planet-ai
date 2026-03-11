@@ -3,6 +3,24 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "8bac7cc322c0c50c",
+      "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
+      "title": "Quoting John Carmack",
+      "summary": "\u003cblockquote cite=\"https://twitter.com/ID_AA_Carmack/status/1405932642005041153\"\u003e\u003cp\u003eIt is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/ID_AA_Carmack/status/1405932642005041153\"\u003eJohn Carmack\u003c/a\u003e, a tweet in June 2021\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/john-carmack\"\u003ejohn-carmack\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/software-engineering\"\u003esoftware-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/yagni\"\u003eyagni\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-11T14:47:09Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "john-carmack",
+        "software-engineering",
+        "yagni"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "39a9fa90c530bada",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
       "title": "AI should help us produce better code",
@@ -440,7 +458,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "0b26cae317090515",
@@ -464,6 +482,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-11T12:54:00Z",
+  "_signal_generated": "2026-03-11T18:50:42Z",
   "_signal_period": "2026-03"
 }

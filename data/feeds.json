@@ -3,6 +3,24 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "8bac7cc322c0c50c",
+      "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
+      "title": "Quoting John Carmack",
+      "summary": "\u003cblockquote cite=\"https://twitter.com/ID_AA_Carmack/status/1405932642005041153\"\u003e\u003cp\u003eIt is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/ID_AA_Carmack/status/1405932642005041153\"\u003eJohn Carmack\u003c/a\u003e, a tweet in June 2021\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/john-carmack\"\u003ejohn-carmack\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/software-engineering\"\u003esoftware-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/yagni\"\u003eyagni\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-11T14:47:09Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "john-carmack",
+        "software-engineering",
+        "yagni"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "39a9fa90c530bada",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
       "title": "AI should help us produce better code",
@@ -440,7 +458,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "0b26cae317090515",
@@ -710,29 +728,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "55a63feeda7be382",
-      "url": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
-      "title": "Claude Code Remote Control",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://code.claude.com/docs/en/remote-control\"\u003eClaude Code Remote Control\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nNew Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session.\u003c/p\u003e\n\u003cp\u003eIt's a little bit janky right now. Initially when I tried it I got the error \"Remote Control is not enabled for your account. Contact your administrator.\" (but I \u003cem\u003eam\u003c/em\u003e my administrator?) - then I logged out and back into the Claude Code terminal app and it started working:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eclaude remote-control\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eYou can only run one session on your machine at a time. If you upgrade the Claude iOS app it then shows up as \"Remote Control Session (Mac)\" in the Code tab.\u003c/p\u003e\n\u003cp\u003eIt appears not to support the \u003ccode\u003e--dangerously-skip-permissions\u003c/code\u003e flag (I passed that to \u003ccode\u003eclaude remote-control\u003c/code\u003e and it didn't reject the option, but it also appeared to have no effect) - which means you have to approve every new action it takes.\u003c/p\u003e\n\u003cp\u003eI also managed to get it to a state where every prompt I tried was met by an API 500 error.\u003c/p\u003e\n\u003cp style=\"text-align: center;\"\u003e\u003cimg src=\"https://static.simonwillison.net/static/2026/vampire-remote.jpg\" alt=\"Screenshot of a \u0026quot;Remote Control session\u0026quot; (Mac:dev:817b) chat interface. User message: \u0026quot;Play vampire by Olivia Rodrigo in music app\u0026quot;. Response shows an API Error: 500 {\u0026quot;type\u0026quot;:\u0026quot;error\u0026quot;,\u0026quot;error\u0026quot;:{\u0026quot;type\u0026quot;:\u0026quot;api_error\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;Internal server error\u0026quot;},\u0026quot;request_id\u0026quot;:\u0026quot;req_011CYVBLH9yt2ze2qehrX8nk\u0026quot;} with a \u0026quot;Try again\u0026quot; button. Below, the assistant responds: \u0026quot;I\u0026#39;ll play \u0026quot;Vampire\u0026quot; by Olivia Rodrigo in the Music app using AppleScript.\u0026quot; A Bash command panel is open showing an osascript command: osascript -e \u0026#39;tell application \u0026quot;Music\u0026quot; activate set searchResults to search playlist \u0026quot;Library\u0026quot; for \u0026quot;vampire Olivia Rodrigo\u0026quot; if (count of searchResults) \u0026gt; 0 then play item 1 of searchResults else return \u0026quot;Song not found in library\u0026quot; end if end tell\u0026#39;\" style=\"max-width: 80%;\" /\u003e\u003c/p\u003e\n\n\u003cp\u003eRestarting the program on the machine also causes existing sessions to start returning mysterious API errors rather than neatly explaining that the session has terminated.\u003c/p\u003e\n\u003cp\u003eI expect they'll iron out all of these issues relatively quickly. It's interesting to then contrast this to solutions like OpenClaw, where one of the big selling points is the ability to control your personal device from your phone.\u003c/p\u003e\n\u003cp\u003eClaude Code still doesn't have a documented mechanism for running things on a schedule, which is the other killer feature of the Claw category of software.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e: I spoke too soon: also today Anthropic announced \u003ca href=\"https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork\"\u003eSchedule recurring tasks in Cowork\u003c/a\u003e, Claude Code's \u003ca href=\"https://simonwillison.net/2026/Jan/12/claude-cowork/\"\u003egeneral agent sibling\u003c/a\u003e. These do include an important limitation:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eScheduled tasks only run while your computer is awake and the Claude Desktop app is open. If your computer is asleep or the app is closed when a task is scheduled to run, Cowork will skip the task, then run it automatically once your computer wakes up or you open the desktop app again.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI really hope they're working on a Cowork Cloud product.\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://twitter.com/claudeai/status/2026418433911603668\"\u003e@claudeai\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/applescript\"\u003eapplescript\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/anthropic\"\u003eanthropic\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude-code\"\u003eclaude-code\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openclaw\"\u003eopenclaw\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-25T17:33:24Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "generative-ai",
-        "applescript",
-        "llms",
-        "anthropic",
-        "claude",
-        "coding-agents",
-        "claude-code",
-        "openclaw"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -766,7 +761,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "fc44166e3e729564",
@@ -1288,7 +1283,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "f48d59472a23e9e6",
@@ -2518,7 +2513,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "dad5eab4be56cef7",
@@ -2584,7 +2579,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -2626,7 +2621,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "baaf570528a52bec",
@@ -2959,7 +2954,7 @@
         "application security"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "fab5b3afe7317939",
@@ -2996,7 +2991,7 @@
         "s3"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "654af77ec18da5eb",
@@ -3021,7 +3016,7 @@
         "architecture"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "7a4961b7b69d5d02",
@@ -3060,7 +3055,7 @@
         "cloudwatch query generator"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "f4302db723133dcc",
@@ -3212,5 +3207,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-11T12:54:00Z"
+  "_signal_generated": "2026-03-11T18:50:42Z"
 }
