@@ -231,24 +231,6 @@
       "_signal_feed_url": "https://lucijagregov.com"
     },
     {
-      "id": "773c413e74339157",
-      "url": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
-      "title": "tldraw issue: Move tests to closed source repo",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://github.com/tldraw/tldraw/issues/8082\"\u003etldraw issue: Move tests to closed source repo\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nIt's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language.\u003c/p\u003e\n\u003cp\u003eThis has worrying implications for open source projects with commercial business models. Here's an example of a response: tldraw, the outstanding collaborative drawing library (see \u003ca href=\"https://simonwillison.net/2023/Nov/16/tldrawdraw-a-ui/\"\u003eprevious coverage\u003c/a\u003e), are moving their test suite to a private repository - apparently in response to \u003ca href=\"https://blog.cloudflare.com/vinext/\"\u003eCloudflare's project to port Next.js to use Vite in a week using AI\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eThey also filed a joke issue, now closed to \u003ca href=\"https://github.com/tldraw/tldraw/issues/8092\"\u003eTranslate source code to Traditional Chinese\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe current tldraw codebase is in English, making it easy for external AI coding agents to replicate. It is imperative that we defend our intellectual property.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eWorth noting that tldraw aren't technically open source - their \u003ca href=\"https://github.com/tldraw/tldraw?tab=License-1-ov-file#readme\"\u003ecustom license\u003c/a\u003e requires a commercial license if you want to use it in \"production environments\".\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e: Well this is embarrassing, it turns out the issue I linked to about removing the tests was \u003ca href=\"https://github.com/tldraw/tldraw/issues/8082#issuecomment-3964650501\"\u003ea joke as well\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eSorry folks, this issue was more of a joke (am I allowed to do that?) but I'll keep the issue open since there's some discussion here. Writing from mobile\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003emoving our tests into another repo would complicate and slow down our development, and speed for us is more important than ever\u003c/li\u003e\n\u003cli\u003emore canvas better, I know for sure that our decisions have inspired other products and that's fine and good\u003c/li\u003e\n\u003cli\u003etldraw itself may eventually be a vibe coded alternative to tldraw\u003c/li\u003e\n\u003cli\u003ethe value is in the ability to produce new and good product decisions for users / customers, however you choose to create the code\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://twitter.com/steveruizok/status/2026581824428753211\"\u003e@steveruizok\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/cloudflare\"\u003ecloudflare\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-25T21:06:53Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "open-source",
-        "cloudflare",
-        "ai-ethics"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "2988d38a00614ce7",
       "url": "https://siddhantkhare.com/writing/why-your-ai-agent-keeps-failing",
       "title": "You're tired because your AI has no feedback loop",
@@ -603,6 +585,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-11T18:50:42Z",
+  "_signal_generated": "2026-03-12T01:50:24Z",
   "_signal_period": "2026-02"
 }

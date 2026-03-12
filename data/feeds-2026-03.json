@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "e7a438c6af8cea03",
+      "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+      "title": "Sorting algorithms",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://tools.simonwillison.net/sort-algorithms\"\u003eSorting algorithms\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nToday in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the \u003ca href=\"https://claude.ai/share/2c09f6f7-57ed-47eb-af2e-fc39ddc4c39f\"\u003efull sequence of prompts\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eInteractive animated demos of the most common sorting algorithms\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThis gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eAdd timsort, look up details in a clone of python/cpython from GitHub\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eLet's add Python's \u003ca href=\"https://en.wikipedia.org/wiki/Timsort\"\u003eTimsort\u003c/a\u003e! Regular Claude chat can clone repos from GitHub these days. In the transcript you can see it clone the repo and then consult \u003ca href=\"https://github.com/python/cpython/blob/d19de375a204c74ab5f3a28ec42335bae139033d/Objects/listsort.txt\"\u003eObjects/listsort.txt\u003c/a\u003e and \u003ca href=\"https://github.com/python/cpython/blob/d19de375a204c74ab5f3a28ec42335bae139033d/Objects/listobject.c\"\u003eObjects/listobject.c\u003c/a\u003e. (I should note that when I asked GPT-5.4 Thinking to review Claude's implementation \u003ca href=\"https://chatgpt.com/share/69b1fc93-f360-8006-b8b7-22c3da639367\"\u003eit picked holes in it\u003c/a\u003e and said the code \"is a simplified, Timsort-inspired adaptive mergesort\".)\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eI don't like the dark color scheme on the buttons, do better\u003c/p\u003e\n\u003cp\u003eAlso add a \"run all\" button which shows smaller animated charts for every algorithm at once in a grid and runs them all at the same time\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eIt came up with a color scheme I liked better, \"do better\" is a fun prompt, and now the \"Run all\" button produces this effect:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Animated sorting algorithm race visualization titled \u0026quot;All algorithms racing\u0026quot; with controls for SIZE (50) and SPEED (100), Stop and Shuffle buttons, and a \u0026quot;Back to single\u0026quot; button. A legend shows Comparing (pink), Swapping (orange), Pivot (red), and Sorted (purple) indicators. Seven algorithms race simultaneously in card panels: Bubble sort (Sorting… — Comparisons: 312, Swaps: 250), Selection sort (Sorting… — Comparisons: 550, Swaps: 12), Insertion sort (Sorting… — Comparisons: 295, Swaps: 266), Merge sort (#3 — Comparisons: 225, Swaps: 225), Quick sort (#2 — Comparisons: 212, Swaps: 103), Heap sort (Sorting… — Comparisons: 358, Swaps: 203), and Timsort (#1 — Comparisons: 215, Swaps: 332). Finished algorithms (Timsort, Quick sort, Merge sort) display fully sorted purple bar charts and are highlighted with purple borders.\" src=\"https://static.simonwillison.net/static/2026/sorts-32-colors-lossy.gif\" /\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/algorithms\"\u003ealgorithms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/computer-science\"\u003ecomputer-science\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/javascript\"\u003ejavascript\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sorting\"\u003esorting\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/explorables\"\u003eexplorables\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/vibe-coding\"\u003evibe-coding\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-11T22:58:06Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "algorithms",
+        "computer-science",
+        "javascript",
+        "sorting",
+        "explorables",
+        "generative-ai",
+        "llms",
+        "claude",
+        "vibe-coding"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "8bac7cc322c0c50c",
       "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
       "title": "Quoting John Carmack",
@@ -482,6 +506,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-11T18:50:42Z",
+  "_signal_generated": "2026-03-12T01:50:24Z",
   "_signal_period": "2026-03"
 }
