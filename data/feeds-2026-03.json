@@ -3,6 +3,26 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "844aba28c84157dd",
+      "url": "https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything",
+      "title": "Quoting Les Orchard",
+      "summary": "\u003cblockquote cite=\"https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/\"\u003e\u003cp\u003eHere's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible.\u003c/p\u003e\n\u003cp\u003eBefore AI, both camps were doing the same thing every day. Writing code by hand. Using the same editors, the same languages, the same pull request workflows. The craft-lovers and the make-it-go people sat next to each other, shipped the same products, looked indistinguishable. The \u003cem\u003emotivation\u003c/em\u003e behind the work was invisible because the process was identical.\u003c/p\u003e\n\u003cp\u003eNow there's a fork in the road. You can let the machine write the code and focus on directing what gets built, or you can insist on hand-crafting it. And suddenly the reason you got into this in the first place becomes visible, because the two camps are making different choices at that fork.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/\"\u003eLes Orchard\u003c/a\u003e, Grief and the AI Split\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/les-orchard\"\u003eles-orchard\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/careers\"\u003ecareers\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-12T16:28:07Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "les-orchard",
+        "ai-assisted-programming",
+        "generative-ai",
+        "llms",
+        "careers"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "e7a438c6af8cea03",
       "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
       "title": "Sorting algorithms",
@@ -506,6 +526,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-12T12:54:04Z",
+  "_signal_generated": "2026-03-12T18:50:29Z",
   "_signal_period": "2026-03"
 }
