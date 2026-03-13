@@ -145,47 +145,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "3f24101deac81060",
-      "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
-      "title": "Quoting Andrej Karpathy",
-      "summary": "\u003cblockquote cite=\"https://twitter.com/karpathy/status/2026731645169185220\"\u003e\u003cp\u003eIt is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work since - the models have significantly higher quality, long-term coherence and tenacity and they can power through large and long tasks, well past enough that it is extremely disruptive to the default programming workflow. [...]\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/karpathy/status/2026731645169185220\"\u003eAndrej Karpathy\u003c/a\u003e\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/andrej-karpathy\"\u003eandrej-karpathy\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/november-2025-inflection\"\u003enovember-2025-inflection\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-26T19:03:27Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "andrej-karpathy",
-        "coding-agents",
-        "ai-assisted-programming",
-        "generative-ai",
-        "agentic-engineering",
-        "llms",
-        "november-2025-inflection"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "854bf1ab0ed02ab8",
-      "url": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules\"\u003eGoogle API Keys Weren\u0026#x27;t Secrets. But then Gemini Changed the Rules.\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nYikes! It turns out Gemini and Google Maps (and other services) share the same API keys... but Google Maps API keys are designed to be public, since they are embedded directly in web pages. Gemini API keys can be used to access private files and make billable API requests, so they absolutely should not be shared.\u003c/p\u003e\n\u003cp\u003eIf you don't understand this it's very easy to accidentally enable Gemini billing on a previously public API key that exists in the wild already.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWhat makes this a privilege escalation rather than a misconfiguration is the sequence of events. \u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eA developer creates an API key and embeds it in a website for Maps. (At that point, the key is harmless.) \u003c/li\u003e\n\u003cli\u003eThe Gemini API gets enabled on the same project. (Now that same key can access sensitive Gemini endpoints.) \u003c/li\u003e\n\u003cli\u003eThe developer is never warned that the keys' privileges changed underneath it. (The key went from public identifier to secret credential).\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eTruffle Security found 2,863 API keys in the November 2025 Common Crawl that could access Gemini, verified by hitting the \u003ccode\u003e/models\u003c/code\u003e listing endpoint. This included several keys belonging to Google themselves, one of which had been deployed since February 2023 (according to the Internet Archive) hence predating the Gemini API that it could now access.\u003c/p\u003e\n\u003cp\u003eGoogle are working to revoke affected keys but it's still a good idea to check that none of yours are affected by this.\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://news.ycombinator.com/item?id=47156925\"\u003eHacker News\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/api-keys\"\u003eapi-keys\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/google\"\u003egoogle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/gemini\"\u003egemini\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-26T04:28:55Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "api-keys",
-        "google",
-        "security",
-        "gemini"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "da402219d66be9e3",
       "url": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
       "title": "The Future of AI",
@@ -567,6 +526,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-12T18:50:29Z",
+  "_signal_generated": "2026-03-13T01:50:56Z",
   "_signal_period": "2026-02"
 }
