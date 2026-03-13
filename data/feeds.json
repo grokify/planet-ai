@@ -3,6 +3,46 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "dee16bfc58f5cc08",
+      "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://claude.com/blog/1m-context-ga\"\u003e1M context is now generally available for Opus 4.6 and Sonnet 4.6\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nHere's what surprised me:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eStandard pricing now applies across the full 1M window for both models, with no long-context premium.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eOpenAI and Gemini both \u003ca href=\"https://www.llm-prices.com/#sel=gemini-3-1-pro-preview-200k%2Cgpt-5.4-272k%2Cgemini-3-1-pro-preview%2Cgpt-5.4\"\u003echarge more\u003c/a\u003e for prompts where the token count goes above a certain point - 200,000 for Gemini 3.1 Pro and 272,000 for GPT-5.4.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/anthropic\"\u003eanthropic\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-pricing\"\u003ellm-pricing\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/long-context\"\u003elong-context\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-13T18:29:13Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "generative-ai",
+        "llms",
+        "anthropic",
+        "claude",
+        "llm-pricing",
+        "long-context"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "c14c8636a23239ea",
+      "url": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
+      "title": "Quoting Craig Mod",
+      "summary": "\u003cblockquote cite=\"https://craigmod.com/essays/software_bonkers/\"\u003e\u003cp\u003eSimply put: It’s a big mess, and no off-the-shelf accounting software does what I need. So after years of pain, I finally sat down last week and started to build my own. It took me about five days. I am now using the best piece of accounting software I’ve ever used. It’s blazing fast. Entirely local. Handles multiple currencies and pulls daily (historical) conversion rates. It’s able to ingest any CSV I throw at it and represent it in my dashboard as needed. It knows US and Japan tax requirements, and formats my expenses and medical bills appropriately for my accountants. I feed it past returns to learn from. I dump 1099s and K1s and PDFs from hospitals into it, and it categorizes and organizes and packages them all as needed. It reconciles international wire transfers, taking into account small variations in FX rates and time for the transfers to complete. It learns as I categorize expenses and categorizes automatically going forward. It’s easy to do spot checks on data. If I find an anomaly, I can talk directly to Claude and have us brainstorm a batched solution, often saving me from having to manually modify hundreds of entries. And often resulting in a new, small, feature tweak. The software feels organic and pliable in a form perfectly shaped to my hand, able to conform to any hunk of data I throw at it. It feels like bushwhacking with a lightsaber.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://craigmod.com/essays/software_bonkers/\"\u003eCraig Mod\u003c/a\u003e, Software Bonkers\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/vibe-coding\"\u003evibe-coding\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-13T17:14:29Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "vibe-coding",
+        "ai-assisted-programming",
+        "generative-ai",
+        "llms"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "2b8ccf0c955e0b93",
       "url": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
@@ -667,51 +707,6 @@
         "coding-agents",
         "agentic-engineering",
         "november-2025-inflection"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "fb6c1d07ccf9f910",
-      "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
-      "title": "Free Claude Max for (large project) open source maintainers",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://claude.com/contact-sales/claude-for-oss\"\u003eFree Claude Max for (large project) open source maintainers\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nAnthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMaintainers:\u003c/strong\u003e You're a primary maintainer or core team member of a public repo with 5,000+ GitHub stars \u003cem\u003eor\u003c/em\u003e 1M+ monthly NPM downloads. You've made commits, releases, or PR reviews within the last 3 months.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eDon't quite fit the criteria\u003c/strong\u003e If you maintain something the ecosystem quietly depends on, apply anyway and tell us about it.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eAlso in the small print: \"Applications are reviewed on a rolling basis. We accept up to 10,000 contributors\".\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://news.ycombinator.com/item?id=47178371\"\u003eHacker News\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/anthropic\"\u003eanthropic\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-27T18:08:22Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "open-source",
-        "generative-ai",
-        "llms",
-        "anthropic",
-        "claude"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "f10cd51c102d168b",
-      "url": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
-      "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://tools.simonwillison.net/unicode-binary-search\"\u003eUnicode Explorer using binary search over fetch() HTTP range requests\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nHere's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity.\u003c/p\u003e\n\u003cp\u003eI've been collecting \u003ca href=\"https://simonwillison.net/tags/http-range-requests/\"\u003eHTTP range tricks\u003c/a\u003e for a while now, and I decided it would be fun to build something with them myself that used binary search against a large file to do something useful.\u003c/p\u003e\n\u003cp\u003eSo I \u003ca href=\"https://claude.ai/share/47860666-cb20-44b5-8cdb-d0ebe363384f\"\u003ebrainstormed with Claude\u003c/a\u003e. The challenge was coming up with a use case for binary search where the data could be naturally sorted in a way that would benefit from binary search.\u003c/p\u003e\n\u003cp\u003eOne of Claude's suggestions was looking up information about unicode codepoints, which means searching through many MBs of metadata.\u003c/p\u003e\n\u003cp\u003eI had Claude write me a spec to feed to Claude Code - \u003ca href=\"https://github.com/simonw/research/pull/90#issue-4001466642\"\u003evisible here\u003c/a\u003e - then kicked off an \u003ca href=\"https://simonwillison.net/2025/Nov/6/async-code-research/\"\u003easynchronous research project\u003c/a\u003e with Claude Code for web against my \u003ca href=\"https://github.com/simonw/research\"\u003esimonw/research\u003c/a\u003e repo to turn that into working code.\u003c/p\u003e\n\u003cp\u003eHere's the \u003ca href=\"https://github.com/simonw/research/tree/main/unicode-explorer-binary-search#readme\"\u003eresulting report and code\u003c/a\u003e. One interesting thing I learned is that Range request tricks aren't compatible with HTTP compression because they mess with the byte offset calculations. I added \u003ccode\u003e'Accept-Encoding': 'identity'\u003c/code\u003e to the \u003ccode\u003efetch()\u003c/code\u003e calls but this isn't actually necessary because Cloudflare and other CDNs automatically skip compression if a \u003ccode\u003econtent-range\u003c/code\u003e header is present.\u003c/p\u003e\n\u003cp\u003eI deployed the result \u003ca href=\"https://tools.simonwillison.net/unicode-binary-search\"\u003eto my tools.simonwillison.net site\u003c/a\u003e, after first tweaking it to query the data via range requests against a CORS-enabled 76.6MB file in an S3 bucket fronted by Cloudflare.\u003c/p\u003e\n\u003cp\u003eThe demo is fun to play with - type in a single character like \u003ccode\u003eø\u003c/code\u003e or a hexadecimal codepoint indicator like \u003ccode\u003e1F99C\u003c/code\u003e and it will binary search its way through the large file and show you the steps it takes along the way:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Animated demo of a web tool called Unicode Explore. I enter the ampersand character and hit Search. A box below shows a sequence of HTTP binary search requests made, finding in 17 steps with 3,864 bytes transferred and telling me that ampersand is U+0026 in Punctuation other, Basic Latin\" src=\"https://static.simonwillison.net/static/2026/unicode-explore.gif\" /\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/algorithms\"\u003ealgorithms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/http\"\u003ehttp\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/research\"\u003eresearch\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/tools\"\u003etools\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/unicode\"\u003eunicode\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/vibe-coding\"\u003evibe-coding\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/http-range-requests\"\u003ehttp-range-requests\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-27T17:50:54Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "algorithms",
-        "http",
-        "research",
-        "tools",
-        "unicode",
-        "generative-ai",
-        "llms",
-        "ai-assisted-programming",
-        "vibe-coding",
-        "http-range-requests"
       ],
       "_signal_feed_title": "Simon Willison's Weblog",
       "_signal_feed_url": "http://simonwillison.net/"
@@ -3223,5 +3218,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-13T12:53:02Z"
+  "_signal_generated": "2026-03-13T18:40:30Z"
 }

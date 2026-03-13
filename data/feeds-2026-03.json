@@ -3,6 +3,46 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "dee16bfc58f5cc08",
+      "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://claude.com/blog/1m-context-ga\"\u003e1M context is now generally available for Opus 4.6 and Sonnet 4.6\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nHere's what surprised me:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eStandard pricing now applies across the full 1M window for both models, with no long-context premium.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eOpenAI and Gemini both \u003ca href=\"https://www.llm-prices.com/#sel=gemini-3-1-pro-preview-200k%2Cgpt-5.4-272k%2Cgemini-3-1-pro-preview%2Cgpt-5.4\"\u003echarge more\u003c/a\u003e for prompts where the token count goes above a certain point - 200,000 for Gemini 3.1 Pro and 272,000 for GPT-5.4.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/anthropic\"\u003eanthropic\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-pricing\"\u003ellm-pricing\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/long-context\"\u003elong-context\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-13T18:29:13Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "generative-ai",
+        "llms",
+        "anthropic",
+        "claude",
+        "llm-pricing",
+        "long-context"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "c14c8636a23239ea",
+      "url": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
+      "title": "Quoting Craig Mod",
+      "summary": "\u003cblockquote cite=\"https://craigmod.com/essays/software_bonkers/\"\u003e\u003cp\u003eSimply put: It’s a big mess, and no off-the-shelf accounting software does what I need. So after years of pain, I finally sat down last week and started to build my own. It took me about five days. I am now using the best piece of accounting software I’ve ever used. It’s blazing fast. Entirely local. Handles multiple currencies and pulls daily (historical) conversion rates. It’s able to ingest any CSV I throw at it and represent it in my dashboard as needed. It knows US and Japan tax requirements, and formats my expenses and medical bills appropriately for my accountants. I feed it past returns to learn from. I dump 1099s and K1s and PDFs from hospitals into it, and it categorizes and organizes and packages them all as needed. It reconciles international wire transfers, taking into account small variations in FX rates and time for the transfers to complete. It learns as I categorize expenses and categorizes automatically going forward. It’s easy to do spot checks on data. If I find an anomaly, I can talk directly to Claude and have us brainstorm a batched solution, often saving me from having to manually modify hundreds of entries. And often resulting in a new, small, feature tweak. The software feels organic and pliable in a form perfectly shaped to my hand, able to conform to any hunk of data I throw at it. It feels like bushwhacking with a lightsaber.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://craigmod.com/essays/software_bonkers/\"\u003eCraig Mod\u003c/a\u003e, Software Bonkers\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/vibe-coding\"\u003evibe-coding\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-13T17:14:29Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "vibe-coding",
+        "ai-assisted-programming",
+        "generative-ai",
+        "llms"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "2b8ccf0c955e0b93",
       "url": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
@@ -595,6 +635,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-13T12:53:02Z",
+  "_signal_generated": "2026-03-13T18:40:30Z",
   "_signal_period": "2026-03"
 }
