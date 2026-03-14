@@ -57,29 +57,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "ad4766db208861ed",
-      "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://minimaxir.com/2026/02/ai-agent-coding/\"\u003eAn AI agent coding skeptic tries AI agent coding, in excessive detail\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nAnother in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with simple YouTube metadata scrapers and eventually evolving to this:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIt would be arrogant to port Python's \u003ca href=\"https://scikit-learn.org/stable/\"\u003escikit-learn\u003c/a\u003e — the gold standard of data science and machine learning libraries — to Rust with all the features that implies.\u003c/p\u003e\n\u003cp\u003eBut that's unironically a good idea so I decided to try and do it anyways. With the use of agents, I am now developing \u003ccode\u003erustlearn\u003c/code\u003e (extreme placeholder name), a Rust crate that implements not only the fast implementations of the standard machine learning algorithms such as \u003ca href=\"https://en.wikipedia.org/wiki/Logistic_regression\"\u003elogistic regression\u003c/a\u003e and \u003ca href=\"https://en.wikipedia.org/wiki/K-means_clustering\"\u003ek-means clustering\u003c/a\u003e, but also includes the fast implementations of the algorithms above: the same three step pipeline I describe above still works even with the more simple algorithms to beat scikit-learn's implementations.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eMax also captures the frustration of trying to explain how good the models have got to an existing skeptical audience:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe real annoying thing about Opus 4.6/Codex 5.3 is that it’s impossible to publicly say “Opus 4.5 (and the models that came after it) are an order of magnitude better than coding LLMs released just months before it” without sounding like an AI hype booster clickbaiting, but it’s the counterintuitive truth to my personal frustration. I have been trying to break this damn model by giving it complex tasks that would take me months to do by myself despite my coding pedigree but Opus and Codex keep doing them correctly.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eA throwaway remark in this post inspired me to \u003ca href=\"https://github.com/simonw/research/tree/main/rust-wordcloud#readme\"\u003eask Claude Code to build a Rust word cloud CLI tool\u003c/a\u003e, which it happily did.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/rust\"\u003erust\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/max-woolf\"\u003emax-woolf\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/november-2025-inflection\"\u003enovember-2025-inflection\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-02-27T20:43:41Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "rust",
-        "max-woolf",
-        "generative-ai",
-        "llms",
-        "ai-assisted-programming",
-        "coding-agents",
-        "agentic-engineering",
-        "november-2025-inflection"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "da402219d66be9e3",
       "url": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
       "title": "The Future of AI",
@@ -140,7 +117,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "fc44166e3e729564",
@@ -461,6 +438,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-14T12:43:39Z",
+  "_signal_generated": "2026-03-14T18:34:31Z",
   "_signal_period": "2026-02"
 }
