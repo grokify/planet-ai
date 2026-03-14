@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "76a6cc11b6f536cf",
+      "url": "https://siddhantkhare.com/writing/agent-observability-gap",
+      "title": "The agent observability gap",
+      "summary": "We have better observability for a Node.js microservice than for an agent that just rewrote half a codebase. Here is what is missing.",
+      "date_published": "2026-03-14T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "dee16bfc58f5cc08",
       "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
       "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
@@ -3069,19 +3083,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
-      "id": "f4302db723133dcc",
-      "url": "https://siddhantkhare2694.medium.com/story-of-my-college-life-f7a5f4f5c4cf?source=rss-d33fc21fba5d------2",
-      "title": "Story of my college life",
-      "date_published": "2023-12-29T20:07:27Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "90cb33132a9e409d",
       "url": "https://reorx.com/blog/debounce-and-throttle/",
       "title": "Debounce and Throttle",
@@ -3218,5 +3219,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-14T06:41:52Z"
+  "_signal_generated": "2026-03-14T12:43:39Z"
 }

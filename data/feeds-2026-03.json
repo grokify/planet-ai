@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "76a6cc11b6f536cf",
+      "url": "https://siddhantkhare.com/writing/agent-observability-gap",
+      "title": "The agent observability gap",
+      "summary": "We have better observability for a Node.js microservice than for an agent that just rewrote half a codebase. Here is what is missing.",
+      "date_published": "2026-03-14T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "dee16bfc58f5cc08",
       "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
       "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
@@ -635,6 +649,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-03-14T06:41:52Z",
+  "_signal_generated": "2026-03-14T12:43:39Z",
   "_signal_period": "2026-03"
 }

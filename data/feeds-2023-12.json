@@ -27,19 +27,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
-      "id": "f4302db723133dcc",
-      "url": "https://siddhantkhare2694.medium.com/story-of-my-college-life-f7a5f4f5c4cf?source=rss-d33fc21fba5d------2",
-      "title": "Story of my college life",
-      "date_published": "2023-12-29T20:07:27Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "90cb33132a9e409d",
       "url": "https://reorx.com/blog/debounce-and-throttle/",
       "title": "Debounce and Throttle",
@@ -76,6 +63,6 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-14T06:41:52Z",
+  "_signal_generated": "2026-03-14T12:43:39Z",
   "_signal_period": "2023-12"
 }
