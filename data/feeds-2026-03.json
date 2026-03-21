@@ -3,6 +3,46 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "74395bd478d80d4b",
+      "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "title": "Turbo Pascal 3.02A, deconstructed",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://tools.simonwillison.net/turbo-pascal-deconstructed\"\u003eTurbo Pascal 3.02A, deconstructed\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nIn \u003ca href=\"https://prog21.dadgum.com/116.html\"\u003eThings That Turbo Pascal is Smaller Than\u003c/a\u003e James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler.\u003c/p\u003e\n\u003cp\u003eThis inspired me to track down a copy of that executable (available as freeware since 2000) and see if Claude could interpret the binary and decompile it for me.\u003c/p\u003e\n\u003cp\u003eIt did a great job, so I had it create \u003ca href=\"https://tools.simonwillison.net/turbo-pascal-deconstructed\"\u003ethis interactive artifact\u003c/a\u003e illustrating the result. Here's the \u003ca href=\"https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e\"\u003esequence of prompts\u003c/a\u003e I used (in regular \u003ca href=\"https://claude.ai/\"\u003eclaude.ai\u003c/a\u003e chat, not Claude Code):\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eRead this https://prog21.dadgum.com/116.html\u003c/p\u003e\n\u003cp\u003eNow find a copy of that binary online\u003c/p\u003e\n\u003cp\u003eExplore this (\u003cem\u003eI attached the zip file\u003c/em\u003e)\u003c/p\u003e\n\u003cp\u003eBuild an artifact - no react - that embeds the full turbo.com binary and displays it in a way that helps understand it - broke into labeled segments for different parts of the application, decompiled to visible source code (I guess assembly?) and with that assembly then reconstructed into readable code with extensive annotations\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg alt=\"Infographic titled \u0026quot;TURBO.COM\u0026quot; with subtitle \u0026quot;Borland Turbo Pascal 3.02A — September 17, 1986 — Deconstructed\u0026quot; on a dark background. Four statistics are displayed: 39,731 TOTAL BYTES, 17 SEGMENTS MAPPED, 1 INT 21H INSTRUCTION, 100+ BUILT-IN IDENTIFIERS. Below is a \u0026quot;BINARY MEMORY MAP — 0X0100 TO 0X9C33\u0026quot; shown as a horizontal color-coded bar chart with a legend listing 17 segments: COM Header \u0026amp; Copyright, Display Configuration Table, Screen I/O \u0026amp; Video BIOS Routines, Keyboard Input Handler, String Output \u0026amp; Number Formatting, DOS System Call Dispatcher, Runtime Library Core, Error Handler \u0026amp; Runtime Errors, File I/O System, Software Floating-Point Engine, x86 Code Generator, Startup Banner \u0026amp; Main Menu Loop, File Manager \u0026amp; Directory Browser, Compiler Driver \u0026amp; Status, Full-Screen Text Editor, Pascal Parser \u0026amp; Lexer, and Symbol Table \u0026amp; Built-in Identifiers.\" src=\"https://static.simonwillison.net/static/2026/turbo-pascal.jpg\" /\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/computer-history\"\u003ecomputer-history\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/tools\"\u003etools\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-20T23:59:14Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "computer-history",
+        "tools",
+        "generative-ai",
+        "llms",
+        "claude"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "d6403526d7c4f0d8",
+      "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+      "title": "Quoting Kimi.ai @Kimi_Moonshot",
+      "summary": "\u003cblockquote cite=\"https://twitter.com/Kimi_Moonshot/status/2035074972943831491\"\u003e\u003cp\u003eCongrats to the \u003ca href=\"https://x.com/cursor_ai\"\u003e@cursor_ai\u003c/a\u003e team on the launch of Composer 2!\u003c/p\u003e\n\u003cp\u003eWe are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining \u0026amp; high-compute RL training is the open model ecosystem we love to support.\u003c/p\u003e\n\u003cp\u003eNote: Cursor accesses Kimi-k2.5 via \u003ca href=\"https://x.com/FireworksAI_HQ\"\u003e@FireworksAI_HQ\u003c/a\u003e hosted RL and inference platform as part of an authorized commercial partnership.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/Kimi_Moonshot/status/2035074972943831491\"\u003eKimi.ai @Kimi_Moonshot\u003c/a\u003e, responding to reports that Composer 2 was built on top of Kimi K2.5\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/kimi\"\u003ekimi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/cursor\"\u003ecursor\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-in-china\"\u003eai-in-china\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-20T20:29:23Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "kimi",
+        "generative-ai",
+        "cursor",
+        "llms",
+        "ai-in-china"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "c8124a53b519cbce",
       "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
       "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
@@ -601,44 +641,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "3982a35b6b9f5a02",
-      "url": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
-      "title": "Codex for Open Source",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://developers.openai.com/codex/community/codex-for-oss\"\u003eCodex for Open Source\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nAnthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downloads) \u003ca href=\"https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/\"\u003eon 27th February\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eNow OpenAI have launched their comparable offer: six months of ChatGPT Pro (same $200/month price as Claude Max) with Codex and \"conditional access to Codex Security\" for core maintainers.\u003c/p\u003e\n\u003cp\u003eUnlike Anthropic they don't hint at the exact metrics they care about, but the \u003ca href=\"https://openai.com/form/codex-for-oss/\"\u003eapplication form\u003c/a\u003e does ask for \"information such as GitHub stars, monthly downloads, or why the project is important to the ecosystem.\"\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://twitter.com/openaidevs/status/2029998191043911955\"\u003e@openaidevs\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/openai\"\u003eopenai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/codex-cli\"\u003ecodex-cli\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-07T18:13:39Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "open-source",
-        "openai",
-        "generative-ai",
-        "llms",
-        "codex-cli"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "37807b12ab36c5f1",
-      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
-      "title": "Quoting Ally Piechowski",
-      "summary": "\u003cblockquote cite=\"https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/\"\u003e\u003cp\u003e\u003cstrong\u003eQuestions for developers:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e“What’s the one area you’re afraid to touch?”\u003c/li\u003e\n\u003cli\u003e“When’s the last time you deployed on a Friday?”\u003c/li\u003e\n\u003cli\u003e“What broke in production in the last 90 days that wasn’t caught by tests?”\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eQuestions for the CTO/EM:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e“What feature has been blocked for over a year?”\u003c/li\u003e\n\u003cli\u003e“Do you have real-time error visibility right now?”\u003c/li\u003e\n\u003cli\u003e“What was the last feature that took significantly longer than estimated?”\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eQuestions for business stakeholders:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e“Are there features that got quietly turned off and never came back?”\u003c/li\u003e\n\u003cli\u003e“Are there things you’ve stopped promising customers?”\u003c/li\u003e\n\u003c/ul\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/\"\u003eAlly Piechowski\u003c/a\u003e, How to Audit a Rails Codebase\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/technical-debt\"\u003etechnical-debt\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/software-engineering\"\u003esoftware-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/rails\"\u003erails\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-06T21:58:33Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "technical-debt",
-        "software-engineering",
-        "rails"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "787fb123f51e8654",
       "url": "https://lucumr.pocoo.org/2026/3/5/theseus/",
       "title": "AI And The Ship of Theseus",
@@ -706,6 +708,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     }
   ],
-  "_signal_generated": "2026-03-20T18:43:22Z",
+  "_signal_generated": "2026-03-21T01:46:57Z",
   "_signal_period": "2026-03"
 }
