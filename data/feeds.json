@@ -427,7 +427,7 @@
       "id": "2b32cd4e76887f27",
       "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
       "title": "Introducing Mistral Small 4",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://mistral.ai/news/mistral-small-4\"\u003eIntroducing Mistral Small 4\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nBig new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eMistral Small 4 is the first Mistral model to unify the capabilities of our flagship models, Magistral for reasoning, Pixtral for multimodal, and Devstral for agentic coding, into a single, versatile model.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eIt supports \u003ccode\u003ereasoning_effort=\"none\"\u003c/code\u003e or \u003ccode\u003ereasoning_effort=\"high\"\u003c/code\u003e, with the latter providing \"equivalent verbosity to previous Magistral models\". \u003c/p\u003e\n\u003cp\u003eThe new model is \u003ca href=\"https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/tree/main\"\u003e242GB on Hugging Face\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eI \u003ca href=\"https://gist.github.com/simonw/3dec228577559f15f26204a3cc550583\"\u003etried it out\u003c/a\u003e via the Mistral API using \u003ca href=\"https://github.com/simonw/llm-mistral\"\u003ellm-mistral\u003c/a\u003e:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ellm install llm-mistral\nllm mistral refresh\nllm -m mistral/mistral-small-2603 \"Generate an SVG of a pelican riding a bicycle\"\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cimg alt=\"The bicycle is upside down and mangled and the pelican is a series of grey curves with a triangular beak.\" src=\"https://static.simonwillison.net/static/2026/mistral-small-4.png\" /\u003e\u003c/p\u003e\n\u003cp\u003eI couldn't find a way to set the reasoning effort in their \u003ca href=\"https://docs.mistral.ai/api/endpoint/chat#operation-chat_completion_v1_chat_completions_post\"\u003eAPI documentation\u003c/a\u003e, so hopefully that's a feature which will land soon.\u003c/p\u003e\n\u003cp\u003eAlso from Mistral today and fitting their -stral naming convention is \u003ca href=\"https://mistral.ai/news/leanstral\"\u003eLeanstral\u003c/a\u003e, an open weight model that is specifically tuned to help output the \u003ca href=\"https://lean-lang.org/\"\u003eLean 4\u003c/a\u003e formally verifiable coding language. I haven't explored Lean at all so I have no way to credibly evaluate this, but it's interesting to see them target one specific language in this way.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/mistral\"\u003emistral\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"\u003epelican-riding-a-bicycle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-reasoning\"\u003ellm-reasoning\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-release\"\u003ellm-release\u003c/a\u003e\u003c/p\u003e",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://mistral.ai/news/mistral-small-4\"\u003eIntroducing Mistral Small 4\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nBig new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eMistral Small 4 is the first Mistral model to unify the capabilities of our flagship models, Magistral for reasoning, Pixtral for multimodal, and Devstral for agentic coding, into a single, versatile model.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eIt supports \u003ccode\u003ereasoning_effort=\"none\"\u003c/code\u003e or \u003ccode\u003ereasoning_effort=\"high\"\u003c/code\u003e, with the latter providing \"equivalent verbosity to previous Magistral models\". \u003c/p\u003e\n\u003cp\u003eThe new model is \u003ca href=\"https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/tree/main\"\u003e242GB on Hugging Face\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eI \u003ca href=\"https://gist.github.com/simonw/3dec228577559f15f26204a3cc550583\"\u003etried it out\u003c/a\u003e via the Mistral API using \u003ca href=\"https://github.com/simonw/llm-mistral\"\u003ellm-mistral\u003c/a\u003e:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ellm install llm-mistral\nllm mistral refresh\nllm -m mistral/mistral-small-2603 \"Generate an SVG of a pelican riding a bicycle\"\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cimg alt=\"The bicycle is upside down and mangled and the pelican is a series of grey curves with a triangular beak.\" src=\"https://static.simonwillison.net/static/2026/mistral-small-4.png\" /\u003e\u003c/p\u003e\n\u003cp\u003eI couldn't find a way to set the reasoning effort in their \u003ca href=\"https://docs.mistral.ai/api/endpoint/chat#operation-chat_completion_v1_chat_completions_post\"\u003eAPI documentation\u003c/a\u003e, so hopefully that's a feature which will land soon.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eUpdate 23rd March\u003c/strong\u003e: Here's new documentation for the \u003ca href=\"https://docs.mistral.ai/capabilities/reasoning/adjustable\"\u003ereasoning_effort parameter\u003c/a\u003e.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eAlso from Mistral today and fitting their -stral naming convention is \u003ca href=\"https://mistral.ai/news/leanstral\"\u003eLeanstral\u003c/a\u003e, an open weight model that is specifically tuned to help output the \u003ca href=\"https://lean-lang.org/\"\u003eLean 4\u003c/a\u003e formally verifiable coding language. I haven't explored Lean at all so I have no way to credibly evaluate this, but it's interesting to see them target one specific language in this way.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/mistral\"\u003emistral\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"\u003epelican-riding-a-bicycle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-reasoning\"\u003ellm-reasoning\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-release\"\u003ellm-release\u003c/a\u003e\u003c/p\u003e",
       "date_published": "2026-03-16T23:41:17Z",
       "tags": [
         "AI",
@@ -685,7 +685,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "050b28a736ef7a70",
@@ -762,7 +762,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "fc44166e3e729564",
@@ -1284,7 +1284,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "f48d59472a23e9e6",
@@ -2494,7 +2494,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "dad5eab4be56cef7",
@@ -2560,7 +2560,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -2602,7 +2602,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "baaf570528a52bec",
@@ -2935,7 +2935,7 @@
         "application security"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "fab5b3afe7317939",
@@ -2972,7 +2972,7 @@
         "s3"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "654af77ec18da5eb",
@@ -2997,7 +2997,7 @@
         "architecture"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "7a4961b7b69d5d02",
@@ -3036,7 +3036,7 @@
         "cloudwatch query generator"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "90cb33132a9e409d",
@@ -3175,5 +3175,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-23T13:00:45Z"
+  "_signal_generated": "2026-03-23T18:50:44Z"
 }
