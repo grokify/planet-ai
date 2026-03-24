@@ -3,6 +3,61 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "9516b861e1a7f217",
+      "url": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+      "title": "Quoting Neurotica",
+      "summary": "\u003cblockquote cite=\"https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v\"\u003e\u003cp\u003eslop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://bsky.app/profile/schwarzgerat.bsky.social/post/3mhqu5dogos2v\"\u003eNeurotica\u003c/a\u003e, @schwarzgerat.bsky.social\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/slop\"\u003eslop\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-23T23:31:45Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "ai-ethics",
+        "slop",
+        "generative-ai",
+        "llms"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "daceaf118c0fba95",
+      "url": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+      "title": "datasette-files 0.1a2",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-files/releases/tag/0.1a2\"\u003edatasette-files 0.1a2\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eThe most interesting alpha of \u003ca href=\"https://github.com/datasette/datasette-files\"\u003edatasette-files\u003c/a\u003e yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eColumns are now configured using the \u003ca href=\"https://docs.datasette.io/en/latest/changelog.html#new-column-types-system\"\u003enew column_types system\u003c/a\u003e from Datasette 1.0a26. \u003ca href=\"https://github.com/datasette/datasette-files/issues/8\"\u003e#8\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eNew \u003ccode\u003efile_actions\u003c/code\u003e plugin hook, plus ability to import an uploaded CSV/TSV file to a table. \u003ca href=\"https://github.com/datasette/datasette-files/issues/10\"\u003e#10\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eUI for uploading multiple files at once via the new documented JSON upload API. \u003ca href=\"https://github.com/datasette/datasette-files/issues/11\"\u003e#11\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eThumbnails are now generated for image files and stored in an internal \u003ccode\u003edatasette_files_thumbnails\u003c/code\u003e table. \u003ca href=\"https://github.com/datasette/datasette-files/issues/13\"\u003e#13\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/annotated-release-notes\"\u003eannotated-release-notes\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-23T23:06:38Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "annotated-release-notes",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "7a99f15bf364b028",
+      "url": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+      "title": "Quoting David Abram",
+      "summary": "\u003cblockquote cite=\"https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/\"\u003e\u003cp\u003eI have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save months of pain later.\u003c/p\u003e\n\u003cp\u003eNone of these problems can be solved LLMs. They can suggest code, help with boilerplate, sometimes can act as a sounding board. But they don't understand the system, they don't carry context in their \"minds\", and they certianly don't know why a decision is right or wrong.\u003c/p\u003e\n\u003cp\u003eAnd the most importantly, they don't choose. That part is still yours. The real work of software development, the part that makes someone valuable, is knowing what should exist in the first place, and why.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://www.davidabram.dev/musings/the-machine-didnt-take-your-craft/\"\u003eDavid Abram\u003c/a\u003e, The machine didn't take your craft. You gave it up.\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/careers\"\u003ecareers\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-23T18:56:18Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "careers",
+        "ai-assisted-programming",
+        "generative-ai",
+        "llms"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "bc5039d0351eca4a",
       "url": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
       "title": "Beats now have notes",
@@ -548,60 +603,6 @@
         "generative-ai",
         "agentic-engineering",
         "llms"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "abc08921c2b4b39e",
-      "url": "https://simonwillison.net/2026/Mar/15/john-m-mossman-lock-collection/#atom-everything",
-      "title": "John M. Mossman Lock Collection",
-      "summary": "\u003cp\u003e\u003cstrong\u003eMuseum:\u003c/strong\u003e \u003ca href=\"https://www.niche-museums.com/118\"\u003eJohn M. Mossman Lock Collection\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eThe General Society of Mechanics and Tradesmen of the City of New York is home to the John M. Mossman Lock Collection, likely the world's largest collection of antique bank locks.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/museums\"\u003emuseums\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-15T23:38:05Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "museums"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "14cf09e2e113151a",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
-      "title": "What is agentic engineering?",
-      "summary": "\u003cp\u003e\u003cem\u003e\u003ca href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\"\u003eAgentic Engineering Patterns\u003c/a\u003e \u0026gt;\u003c/em\u003e\u003c/p\u003e\n    \u003cp\u003eI use the term \u003cstrong\u003eagentic engineering\u003c/strong\u003e to describe the practice of developing software with the assistance of coding agents.\u003c/p\u003e\n\u003cp\u003eWhat are \u003cstrong\u003ecoding agents\u003c/strong\u003e? They're agents that can both write and execute code. Popular examples include \u003ca href=\"https://code.claude.com/\"\u003eClaude Code\u003c/a\u003e, \u003ca href=\"https://openai.com/codex/\"\u003eOpenAI Codex\u003c/a\u003e, and \u003ca href=\"https://geminicli.com/\"\u003eGemini CLI\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eWhat's an \u003cstrong\u003eagent\u003c/strong\u003e? Clearly defining that term is a challenge that has frustrated AI researchers since \u003ca href=\"https://simonwillison.net/2024/Oct/12/michael-wooldridge/\"\u003eat least the 1990s\u003c/a\u003e but the definition I've come to accept, at least in the field of Large Language Models (LLMs) like GPT-5 and Gemini and Claude, is this one:\u003c/p\u003e\n\u003cp\u003e\u003ccenter\u003e\u003cstrong\u003eAgents run tools in a loop to achieve a goal\u003c/strong\u003e\u003c/center\u003e\u003c/p\u003e\n\n\u003cp\u003eThe \"agent\" is software that calls an LLM with your prompt and passes it a set of tool definitions, then calls any tools that the LLM requests and feeds the results back into the LLM.\u003c/p\u003e\n\u003cp\u003eFor coding agents, those tools include one that can execute code.\u003c/p\u003e\n\u003cp\u003eYou prompt the coding agent to define a goal. The agent then generates and executes code in a loop until that goal has been met.\u003c/p\u003e\n\u003cp\u003eCode execution is the defining capability that makes agentic engineering possible. Without the ability to directly run the code, anything output by an LLM is of limited value. With code execution, these agents can start iterating towards software that demonstrably works.\u003c/p\u003e\n\u003ch2 id=\"agentic-engineering\"\u003eAgentic engineering\u003c/h2\u003e\n\u003cp\u003eNow that we have software that can write working code, what is there left for us humans to do?\u003c/p\u003e\n\u003cp\u003eThe answer is \u003cem\u003eso much stuff\u003c/em\u003e.\u003c/p\u003e\n\u003cp\u003eWriting code has never been the sole activity of a software engineer. The craft has always been figuring out \u003cem\u003ewhat\u003c/em\u003e code to write. Any given software problem has dozens of potential solutions, each with their own tradeoffs. Our job is to navigate those options and find the ones that are the best fit for our unique set of circumstances and requirements.\u003c/p\u003e\n\u003cp\u003eGetting great results out of coding agents is a deep subject in its own right, especially now as the field continues to evolve at a bewildering rate.\u003c/p\u003e\n\u003cp\u003eWe need to provide our coding agents with the tools they need to solve our problems, specify those problems in the right level of detail, and verify and iterate on the results until we are confident they address our problems in a robust and credible way.\u003c/p\u003e\n\u003cp\u003eLLMs don't learn from their past mistakes, but coding agents can, provided we deliberately update our instructions and tool harnesses to account for what we learn along the way.\u003c/p\u003e\n\u003cp\u003eUsed effectively, coding agents can help us be much more ambitious with the projects we take on. Agentic engineering should help us produce more, better quality code that solves more impactful problems.\u003c/p\u003e\n\u003ch2 id=\"isnt-this-just-vibe-coding\"\u003eIsn't this just vibe coding?\u003c/h2\u003e\n\u003cp\u003eThe term \"vibe coding\" was \u003ca href=\"https://twitter.com/karpathy/status/1886192184808149383\"\u003ecoined by Andrej Karpathy\u003c/a\u003e in February 2025 - coincidentally just three weeks prior to the original release of Claude Code - to describe prompting LLMs to write code while you \"forget that the code even exists\".\u003c/p\u003e\n\u003cp\u003eSome people extend that definition to cover any time an LLM is used to produce code at all, but I think that's a mistake. Vibe coding is more useful in its original definition - we need a term to describe unreviewed, prototype-quality LLM-generated code that distinguishes it from code that the author has brought up to a production ready standard.\u003c/p\u003e\n\u003ch2 id=\"about-this-guide\"\u003eAbout this guide\u003c/h2\u003e\n\u003cp\u003eJust like the field it attempts to cover, \u003cem\u003eAgentic Engineering Patterns\u003c/em\u003e is very much a work in progress. My goal is to identify and describe patterns for working with these tools that demonstrably get results, and that are unlikely to become outdated as the tools advance.\u003c/p\u003e\n\u003cp\u003eI'll continue adding more chapters as new techniques emerge. No chapter should be considered finished. I'll be updating existing chapters as our understanding of these patterns evolves.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agent-definitions\"\u003eagent-definitions\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-15T22:41:57Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "coding-agents",
-        "agent-definitions",
-        "generative-ai",
-        "agentic-engineering",
-        "llms"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "42adcd7b8ac2898e",
-      "url": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
-      "title": "Quoting Jannis Leidel",
-      "summary": "\u003cblockquote cite=\"https://jazzband.co/news/2026/03/14/sunsetting-jazzband\"\u003e\u003cp\u003eGitHub’s \u003ca href=\"https://www.theregister.com/2026/02/18/godot_maintainers_struggle_with_draining/\"\u003eslopocalypse\u003c/a\u003e – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable.\u003c/p\u003e\n\u003cp\u003eJazzband was designed for a world where the worst case was someone accidentally merging the wrong PR. In a world where \u003ca href=\"https://www.devclass.com/ai-ml/2026/02/19/github-itself-to-blame-for-ai-slop-prs-say-devs/4091420\"\u003eonly 1 in 10 AI-generated PRs meets project standards\u003c/a\u003e, where curl had to \u003ca href=\"https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/\"\u003eshut down its bug bounty\u003c/a\u003e because confirmation rates dropped below 5%, and where GitHub’s own response was a \u003ca href=\"https://www.theregister.com/2026/02/03/github_kill_switch_pull_requests_ai\"\u003ekill switch to disable pull requests entirely\u003c/a\u003e – an organization that gives push access to everyone who joins simply can’t operate safely anymore.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://jazzband.co/news/2026/03/14/sunsetting-jazzband\"\u003eJannis Leidel\u003c/a\u003e, Sunsetting Jazzband\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/github\"\u003egithub\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-14T18:41:25Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "ai-ethics",
-        "open-source",
-        "github"
       ],
       "_signal_feed_title": "Simon Willison's Weblog",
       "_signal_feed_url": "http://simonwillison.net/"
@@ -3175,5 +3176,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-23T18:50:44Z"
+  "_signal_generated": "2026-03-24T01:51:17Z"
 }
