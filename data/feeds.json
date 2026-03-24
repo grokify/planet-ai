@@ -3,6 +3,24 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "1c7661731f0e598c",
+      "url": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
+      "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://github.com/BerriAI/litellm/issues/24512\"\u003eMalicious litellm_init.pth in litellm 1.82.8 — credential stealer\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nThe LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a \u003ccode\u003elitellm_init.pth\u003c/code\u003e file, which means installing the package is enough to trigger it even without running \u003ccode\u003eimport litellm\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003e(1.82.7 had the exploit as well but it was in the \u003ccode\u003eproxy/proxy_server.py\u003c/code\u003e file so the package had to be imported for it to take effect.)\u003c/p\u003e\n\u003cp\u003eThis issue has a very detailed description of what the credential stealer does. There's more information about the timeline of the exploit \u003ca href=\"https://github.com/BerriAI/litellm/issues/24518\"\u003eover here\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003ePyPI has already \u003ca href=\"https://pypi.org/help/#project_in_quarantine\"\u003equarantined\u003c/a\u003e the \u003ca href=\"https://pypi.org/project/litellm/\"\u003elitellm package\u003c/a\u003e so the window for compromise was just a few hours, but if you DID install the package it would have hoovered up a bewildering array of secrets, including \u003ccode\u003e~/.ssh/\u003c/code\u003e, \u003ccode\u003e~/.gitconfig\u003c/code\u003e, \u003ccode\u003e~/.git-credentials\u003c/code\u003e, \u003ccode\u003e~/.aws/\u003c/code\u003e, \u003ccode\u003e~/.kube/\u003c/code\u003e, \u003ccode\u003e~/.config/\u003c/code\u003e, \u003ccode\u003e~/.azure/\u003c/code\u003e, \u003ccode\u003e~/.docker/\u003c/code\u003e, \u003ccode\u003e~/.npmrc\u003c/code\u003e, \u003ccode\u003e~/.vault-token\u003c/code\u003e, \u003ccode\u003e~/.netrc\u003c/code\u003e, \u003ccode\u003e~/.lftprc\u003c/code\u003e, \u003ccode\u003e~/.msmtprc\u003c/code\u003e, \u003ccode\u003e~/.my.cnf\u003c/code\u003e, \u003ccode\u003e~/.pgpass\u003c/code\u003e, \u003ccode\u003e~/.mongorc.js\u003c/code\u003e, \u003ccode\u003e~/.bash_history\u003c/code\u003e, \u003ccode\u003e~/.zsh_history\u003c/code\u003e, \u003ccode\u003e~/.sh_history\u003c/code\u003e, \u003ccode\u003e~/.mysql_history\u003c/code\u003e, \u003ccode\u003e~/.psql_history\u003c/code\u003e, \u003ccode\u003e~/.rediscli_history\u003c/code\u003e, \u003ccode\u003e~/.bitcoin/\u003c/code\u003e, \u003ccode\u003e~/.litecoin/\u003c/code\u003e, \u003ccode\u003e~/.dogecoin/\u003c/code\u003e, \u003ccode\u003e~/.zcash/\u003c/code\u003e, \u003ccode\u003e~/.dashcore/\u003c/code\u003e, \u003ccode\u003e~/.ripple/\u003c/code\u003e, \u003ccode\u003e~/.bitmonero/\u003c/code\u003e, \u003ccode\u003e~/.ethereum/\u003c/code\u003e, \u003ccode\u003e~/.cardano/\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eIt looks like this supply chain attack started with the \u003ca href=\"https://www.crowdstrike.com/en-us/blog/from-scanner-to-stealer-inside-the-trivy-action-supply-chain-compromise/\"\u003erecent exploit\u003c/a\u003e against \u003ca href=\"https://trivy.dev/\"\u003eTrivy\u003c/a\u003e, ironically a security scanner tool that was used in CI \u003ca href=\"https://github.com/BerriAI/litellm/blob/9343aeefca37aa49a6ea54397d7615adae5c72c9/ci_cd/security_scans.sh#L16\"\u003eby LiteLLM\u003c/a\u003e. The Trivy exploit likely resulted in stolen PyPI credentials which were then used to directly publish the vulnerable packages.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pypi\"\u003epypi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-24T15:07:31Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "open-source",
+        "pypi",
+        "supply-chain"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "e0fc001be34b353c",
       "url": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
       "title": "Streaming experts",
@@ -270,7 +288,7 @@
       "id": "74395bd478d80d4b",
       "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
       "title": "Turbo Pascal 3.02A, deconstructed",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://tools.simonwillison.net/turbo-pascal-deconstructed\"\u003eTurbo Pascal 3.02A, deconstructed\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nIn \u003ca href=\"https://prog21.dadgum.com/116.html\"\u003eThings That Turbo Pascal is Smaller Than\u003c/a\u003e James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler.\u003c/p\u003e\n\u003cp\u003eThis inspired me to track down a copy of that executable (available as freeware since 2000) and see if Claude could interpret the binary and decompile it for me.\u003c/p\u003e\n\u003cp\u003eIt did a great job, so I had it create \u003ca href=\"https://tools.simonwillison.net/turbo-pascal-deconstructed\"\u003ethis interactive artifact\u003c/a\u003e illustrating the result. Here's the \u003ca href=\"https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e\"\u003esequence of prompts\u003c/a\u003e I used (in regular \u003ca href=\"https://claude.ai/\"\u003eclaude.ai\u003c/a\u003e chat, not Claude Code):\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eRead this https://prog21.dadgum.com/116.html\u003c/p\u003e\n\u003cp\u003eNow find a copy of that binary online\u003c/p\u003e\n\u003cp\u003eExplore this (\u003cem\u003eI attached the zip file\u003c/em\u003e)\u003c/p\u003e\n\u003cp\u003eBuild an artifact - no react - that embeds the full turbo.com binary and displays it in a way that helps understand it - broke into labeled segments for different parts of the application, decompiled to visible source code (I guess assembly?) and with that assembly then reconstructed into readable code with extensive annotations\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg alt=\"Infographic titled \u0026quot;TURBO.COM\u0026quot; with subtitle \u0026quot;Borland Turbo Pascal 3.02A — September 17, 1986 — Deconstructed\u0026quot; on a dark background. Four statistics are displayed: 39,731 TOTAL BYTES, 17 SEGMENTS MAPPED, 1 INT 21H INSTRUCTION, 100+ BUILT-IN IDENTIFIERS. Below is a \u0026quot;BINARY MEMORY MAP — 0X0100 TO 0X9C33\u0026quot; shown as a horizontal color-coded bar chart with a legend listing 17 segments: COM Header \u0026amp; Copyright, Display Configuration Table, Screen I/O \u0026amp; Video BIOS Routines, Keyboard Input Handler, String Output \u0026amp; Number Formatting, DOS System Call Dispatcher, Runtime Library Core, Error Handler \u0026amp; Runtime Errors, File I/O System, Software Floating-Point Engine, x86 Code Generator, Startup Banner \u0026amp; Main Menu Loop, File Manager \u0026amp; Directory Browser, Compiler Driver \u0026amp; Status, Full-Screen Text Editor, Pascal Parser \u0026amp; Lexer, and Symbol Table \u0026amp; Built-in Identifiers.\" src=\"https://static.simonwillison.net/static/2026/turbo-pascal.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e: Annoyingly the \u003ca href=\"https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e\"\u003eClaude share link\u003c/a\u003e doesn't show the actual code that Claude executed, but here's \u003ca href=\"https://static.simonwillison.net/static/2026/turbo-pascal-analysis.zip\"\u003ethe zip file\u003c/a\u003e it gave me when I asked to download all of the intermediate files.\u003c/p\u003e\n\u003cp\u003eI ran Codex CLI with GPT-5.4 xhigh against that zip file to see if it would spot any obvious hallucinations, and it did not. This project is low-enough stakes that this gave me enough confidence to publish the result!\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/computer-history\"\u003ecomputer-history\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/tools\"\u003etools\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e\u003c/p\u003e",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://tools.simonwillison.net/turbo-pascal-deconstructed\"\u003eTurbo Pascal 3.02A, deconstructed\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nIn \u003ca href=\"https://prog21.dadgum.com/116.html\"\u003eThings That Turbo Pascal is Smaller Than\u003c/a\u003e James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler.\u003c/p\u003e\n\u003cp\u003eThis inspired me to track down a copy of that executable (available as freeware since 2000) and see if Claude could interpret the binary and decompile it for me.\u003c/p\u003e\n\u003cp\u003eIt did a great job, so I had it create \u003ca href=\"https://tools.simonwillison.net/turbo-pascal-deconstructed\"\u003ethis interactive artifact\u003c/a\u003e illustrating the result. Here's the \u003ca href=\"https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e\"\u003esequence of prompts\u003c/a\u003e I used (in regular \u003ca href=\"https://claude.ai/\"\u003eclaude.ai\u003c/a\u003e chat, not Claude Code):\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eRead this https://prog21.dadgum.com/116.html\u003c/p\u003e\n\u003cp\u003eNow find a copy of that binary online\u003c/p\u003e\n\u003cp\u003eExplore this (\u003cem\u003eI attached the zip file\u003c/em\u003e)\u003c/p\u003e\n\u003cp\u003eBuild an artifact - no react - that embeds the full turbo.com binary and displays it in a way that helps understand it - broke into labeled segments for different parts of the application, decompiled to visible source code (I guess assembly?) and with that assembly then reconstructed into readable code with extensive annotations\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg alt=\"Infographic titled \u0026quot;TURBO.COM\u0026quot; with subtitle \u0026quot;Borland Turbo Pascal 3.02A — September 17, 1986 — Deconstructed\u0026quot; on a dark background. Four statistics are displayed: 39,731 TOTAL BYTES, 17 SEGMENTS MAPPED, 1 INT 21H INSTRUCTION, 100+ BUILT-IN IDENTIFIERS. Below is a \u0026quot;BINARY MEMORY MAP — 0X0100 TO 0X9C33\u0026quot; shown as a horizontal color-coded bar chart with a legend listing 17 segments: COM Header \u0026amp; Copyright, Display Configuration Table, Screen I/O \u0026amp; Video BIOS Routines, Keyboard Input Handler, String Output \u0026amp; Number Formatting, DOS System Call Dispatcher, Runtime Library Core, Error Handler \u0026amp; Runtime Errors, File I/O System, Software Floating-Point Engine, x86 Code Generator, Startup Banner \u0026amp; Main Menu Loop, File Manager \u0026amp; Directory Browser, Compiler Driver \u0026amp; Status, Full-Screen Text Editor, Pascal Parser \u0026amp; Lexer, and Symbol Table \u0026amp; Built-in Identifiers.\" src=\"https://static.simonwillison.net/static/2026/turbo-pascal.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e: Annoyingly the \u003ca href=\"https://claude.ai/share/260d2eed-8d4a-4b9f-8a75-727c3ec4274e\"\u003eClaude share link\u003c/a\u003e doesn't show the actual code that Claude executed, but here's \u003ca href=\"https://static.simonwillison.net/static/2026/turbo-pascal-analysis.zip\"\u003ethe zip file\u003c/a\u003e it gave me when I asked to download all of the intermediate files.\u003c/p\u003e\n\u003cp\u003eI ran Codex CLI with GPT-5.4 xhigh against that zip file to see if it would spot any obvious hallucinations, and it did not. This project is low-enough stakes that this gave me enough confidence to publish the result!\u003c/p\u003e\n\u003ch4 id=\"hallucinated-slop\"\u003eTurns out it's hallucinated slop\u003c/h4\u003e\n\n\u003cp\u003e\u003cstrong\u003eUpdate 2\u003c/strong\u003e, 24th March 2026: rep_lodsb on Hacker News is someone who actually understands assembler, and they reviewed the annotations and \u003ca href=\"https://news.ycombinator.com/item?id=47471647#47501692\"\u003efound them to be hallucinated slop\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[...] Obviously, there has to be a lot more to even a simple-minded x86 code generator than just a generic \"emit opcode byte\" and \"emit call\" routine. In general, what A\"I\" produced here is not a full disassembly but a collection of short snippets, potentially not even including the really interesting ones. But is it even correct?\u003c/p\u003e\n\u003cp\u003eEmitByte here is unnecessarily pushing/popping AX, which isn't modified by the few instructions in between at all. No competent assembly language programmer would do this. So maybe against all expectations, Turbo Pascal is just really badly coded? No, it's of course a hallucination: those instructions don't appear in the binary at all! [...]\u003c/p\u003e\n\u003cp\u003eBut searching for e.g. the hex opcode B0 E8 ('mov al,0xe8') is enough to confirm that this code snippet isn't to be found \u003cem\u003eanywhere\u003c/em\u003e.\u003c/p\u003e\n\u003cp\u003eThere is a lot more suspicious code, including some that couldn't possibly work (like the \"ret 1\" in the system call dispatcher, which would misalign the stack).\u003c/p\u003e\n\u003cp\u003eConclusion: it's slop\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eBecause it's amusing to loop this kind of criticism through a model, I \u003ca href=\"https://claude.ai/share/a64c94eb-c623-4fd4-b101-e3e7d66c77ca\"\u003epasted their feedback into Claude\u003c/a\u003e along with instructions to re-review their the code and it agreed with their assessment:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe commenter's core charge — that the annotated disassembly is \"slop\" — is substantiated. The artifact presents a mix of genuine analysis (real hex dumps, some correctly disassembled sections) and wholesale fabrication (invented assembly with plausible-sounding labels and comments for roughly half the binary). The fabricated sections look convincing to a casual reader but don't survive byte-level comparison with the actual binary.\u003c/p\u003e\n\u003c/blockquote\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/computer-history\"\u003ecomputer-history\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/tools\"\u003etools\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e\u003c/p\u003e",
       "date_published": "2026-03-20T23:59:14Z",
       "tags": [
         "AI",
@@ -598,34 +616,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "b007edbb94f111cd",
-      "url": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
-      "title": "Coding agents for data analysis",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/\"\u003eCoding agents for data analysis\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nHere's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aimed at data journalists demonstrating ways that tools like Claude Code and OpenAI Codex can be used to explore, analyze and clean data.\u003c/p\u003e\n\u003cp\u003eHere's the table of contents:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/coding-agents.html\"\u003eCoding agents\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/warmup.html\"\u003eWarmup: ChatGPT and Claude\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/setup.html\"\u003eSetup Claude Code and Codex\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/asking-questions.html\"\u003eAsking questions against a database\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/exploring-data.html\"\u003eExploring data with agents\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/cleaning-trees.html\"\u003eCleaning data: decoding neighborhood codes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/visualizations.html\"\u003eCreating visualizations with agents\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/scraping.html\"\u003eScraping data with agents\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI ran the workshop using GitHub Codespaces and OpenAI Codex, since it was easy (and inexpensive) to distribute a budget-restricted API key for Codex that attendees could use during the class. Participants ended up burning $23 of Codex tokens.\u003c/p\u003e\n\u003cp\u003eThe exercises all used Python and SQLite and some of them used Datasette.\u003c/p\u003e\n\u003cp\u003eOne highlight of the workshop was when we started \u003ca href=\"https://simonw.github.io/nicar-2026-coding-agents/visualizations.html#javascript-visualizations\"\u003erunning Datasette\u003c/a\u003e such that it served static content from a \u003ccode\u003eviz/\u003c/code\u003e folder, then had Claude Code start vibe coding new interactive visualizations directly in that folder. Here's a heat map it created for my trees database using Leaflet and \u003ca href=\"https://github.com/Leaflet/Leaflet.heat\"\u003eLeaflet.heat\u003c/a\u003e, \u003ca href=\"https://gist.github.com/simonw/985ae2a6a3cd3df3fd375eb58dabea0f\"\u003esource code here\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Screenshot of a \u0026quot;Trees SQL Map\u0026quot; web application with the heading \u0026quot;Trees SQL Map\u0026quot; and subheading \u0026quot;Run a query and render all returned points as a heat map. The default query targets roughly 200,000 trees.\u0026quot; Below is an input field containing \u0026quot;/trees/-/query.json\u0026quot;, a \u0026quot;Run Query\u0026quot; button, and a SQL query editor with the text \u0026quot;SELECT cast(Latitude AS float) AS latitude, cast(Longitude AS float) AS longitude, CASE WHEN DBH IS NULL OR DBH = '' THEN 0.3 WHEN cast(DBH AS float) \u0026lt;= 0 THEN 0.3 WHEN cast(DBH AS float) \u0026gt;= 80 THEN 1.0\u0026quot; (query is truncated). A status message reads \u0026quot;Loaded 1,000 rows and plotted 1,000 points as heat map.\u0026quot; Below is a Leaflet/OpenStreetMap interactive map of San Francisco showing a heat map overlay of tree locations, with blue/green clusters concentrated in areas like the Richmond District, Sunset District, and other neighborhoods. Map includes zoom controls and a \u0026quot;Leaflet | © OpenStreetMap contributors\u0026quot; attribution.\" src=\"https://static.simonwillison.net/static/2026/tree-sql-map.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003eI designed the handout to also be useful for people who weren't able to attend the session in person. As is usually the case, material aimed at data journalists is equally applicable to anyone else with data to explore.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/data-journalism\"\u003edata-journalism\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/geospatial\"\u003egeospatial\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/speaking\"\u003espeaking\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sqlite\"\u003esqlite\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/github-codespaces\"\u003egithub-codespaces\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/nicar\"\u003enicar\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude-code\"\u003eclaude-code\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/codex-cli\"\u003ecodex-cli\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/leaflet\"\u003eleaflet\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-16T20:12:32Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "data-journalism",
-        "geospatial",
-        "speaking",
-        "sqlite",
-        "datasette",
-        "generative-ai",
-        "llms",
-        "github-codespaces",
-        "nicar",
-        "coding-agents",
-        "claude-code",
-        "codex-cli",
-        "leaflet"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "76a6cc11b6f536cf",
       "url": "https://siddhantkhare.com/writing/agent-observability-gap",
       "title": "The agent observability gap",
@@ -704,7 +694,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "050b28a736ef7a70",
@@ -781,7 +771,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "fc44166e3e729564",
@@ -1303,7 +1293,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "f48d59472a23e9e6",
@@ -2513,7 +2503,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "dad5eab4be56cef7",
@@ -2579,7 +2569,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -2621,7 +2611,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "baaf570528a52bec",
@@ -2954,7 +2944,7 @@
         "application security"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "e8be81810adc63d0",
@@ -2978,7 +2968,7 @@
         "s3"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "654af77ec18da5eb",
@@ -3003,7 +2993,7 @@
         "architecture"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "7a4961b7b69d5d02",
@@ -3042,7 +3032,7 @@
         "cloudwatch query generator"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "90cb33132a9e409d",
@@ -3181,5 +3171,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-24T13:05:21Z"
+  "_signal_generated": "2026-03-24T18:59:11Z"
 }
