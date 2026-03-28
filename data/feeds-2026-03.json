@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "11e3bcaafbd74a77",
+      "url": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
+      "title": "Quoting Matt Webb",
+      "summary": "\u003cblockquote cite=\"https://interconnected.org/home/2026/03/28/architecture\"\u003e\u003cp\u003eThe thing about agentic coding is that agents grind problems into dust. Give an agent a problem and a while loop and - long term - it’ll solve that problem even if it means burning a trillion tokens and re-writing down to the silicon. [...]\u003c/p\u003e\n\u003cp\u003eBut we want AI agents to solve coding problems quickly and in a way that is maintainable and adaptive and composable (benefiting from improvements elsewhere), and where every addition makes the whole stack better.\u003c/p\u003e\n\u003cp\u003eSo at the bottom is really great libraries that encapsulate hard problems, with great interfaces that make the “right” way the easy way for developers building apps with them. Architecture!\u003c/p\u003e\n\u003cp\u003eWhile I’m vibing (I call it vibing now, not coding and not vibe coding) while I’m vibing, I am looking at lines of code less than ever before, and thinking about architecture more than ever before.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://interconnected.org/home/2026/03/28/architecture\"\u003eMatt Webb\u003c/a\u003e, An appreciation for (technical) architecture\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/matt-webb\"\u003ematt-webb\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/vibe-coding\"\u003evibe-coding\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/definitions\"\u003edefinitions\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-03-28T12:04:26Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "matt-webb",
+        "llms",
+        "vibe-coding",
+        "coding-agents",
+        "ai-assisted-programming",
+        "generative-ai",
+        "agentic-engineering",
+        "definitions"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "e361ecb6d14a38da",
       "url": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
       "title": "datasette-showboat 0.1a2",
@@ -581,23 +604,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "14945838756ad3a4",
-      "url": "https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything",
-      "title": "SQLite Tags Benchmark: Comparing 5 Tagging Strategies",
-      "summary": "\u003cp\u003e\u003cstrong\u003eResearch:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/research/tree/main/sqlite-tags-benchmark#readme\"\u003eSQLite Tags Benchmark: Comparing 5 Tagging Strategies\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eI had Claude Code run a micro-benchmark comparing different approaches to implementing tagging in SQLite. Traditional many-to-many tables won, but FTS5 came a close second. Full table scans with LIKE queries performed better than I expected, but full table scans with JSON arrays and \u003ccode\u003ejson_each()\u003c/code\u003e were much slower.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/json\"\u003ejson\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sqlite\"\u003esqlite\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-20T02:57:00Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "json",
-        "sqlite"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "6a5b9d68b45a6326",
       "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
       "title": "Some Things Just Take Time",
@@ -699,6 +705,6 @@
       "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     }
   ],
-  "_signal_generated": "2026-03-28T06:55:30Z",
+  "_signal_generated": "2026-03-28T12:48:33Z",
   "_signal_period": "2026-03"
 }
