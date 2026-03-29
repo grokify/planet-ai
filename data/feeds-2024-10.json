@@ -63,22 +63,8 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "260f24ec2c5cf4d4",
-      "url": "https://dev.to/siddhantkcode/cost-effective-netlify-deployments-for-large-teams-using-github-actions-2l1c",
-      "title": "Cost-effective Netlify deployments for large teams using GitHub Actions",
-      "summary": "Netlify is a powerful platform for deploying web applications, offering seamless integration with Git...",
-      "date_published": "2024-10-05T16:24:10Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-29T06:59:52Z",
+  "_signal_generated": "2026-03-29T12:49:37Z",
   "_signal_period": "2024-10"
 }

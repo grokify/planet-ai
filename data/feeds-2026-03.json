@@ -26,6 +26,20 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
+      "id": "1eb959e62af260cc",
+      "url": "https://dev.to/siddhantkcode/ai-agent-stack-you-need-context-auth-and-cognitive-debt-3l03",
+      "title": "AI Agent stack you need Context, Auth, and Cognitive Debt",
+      "summary": "Most AI content teaches you how to write prompts.  This is not that.  I've spent three years at Ona...",
+      "date_published": "2026-03-28T05:27:53Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "e361ecb6d14a38da",
       "url": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
       "title": "datasette-showboat 0.1a2",
@@ -705,6 +719,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     }
   ],
-  "_signal_generated": "2026-03-29T06:59:52Z",
+  "_signal_generated": "2026-03-29T12:49:37Z",
   "_signal_period": "2026-03"
 }
