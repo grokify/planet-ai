@@ -58,28 +58,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "ad2cae34c397891e",
-      "url": "https://beabetterdev.com/2026/02/21/i-was-wrong-about-ai/?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=i-was-wrong-about-ai",
-      "title": "I Was Wrong About AI",
-      "content_html": "\n\u003cp\u003eI’m going to start with something a bit controversial, and honestly, it’s probably something a lot of you don’t want to hear. But here is the reality of the industry right now: if you aren\u0026#8217;t using AI extensively in your workflow, you are essentially trying to build a career with one hand tied behind your back.\u003c/p\u003e\n\n\n\n\u003cp\u003eI know that’s a heavy statement. I know it because, for a long time, I was right there in the trenches of resistance with you.\u003c/p\u003e\n\n\n\n\u003ch4 id=\"the-purists-wall\" class=\"wp-block-heading\"\u003eThe Purist’s Wall\u003c/h4\u003e\n\n\n\n\u003cp\u003eIf you’ve followed me for a while, you know I’ve always been a bit of a purist. I got into software engineering because I love the craft. There is a specific kind of reward in writing your own code, seeing a complex system come to life, and knowing that every semicolon was placed there by your own hand.\u003c/p\u003e\n\n\n\n\u003cp\u003eWhen the first wave of tools like GitHub Copilot or Amazon Q (now Kiro) came out a couple of years ago, I wasn\u0026#8217;t just unimpressed; I was annoyed. To me, they felt like glorified autocomplete that got in my way more than they helped. They were clunky, they produced slop, and I eventually just disabled them so I could get back to real work.\u003c/p\u003e\n\n\n\n\u003cp\u003eIn all honesty, my skepticism was fueled by a fear that AI was an attack on my identity as a developer. If a machine can generate the logic, what am I actually here for?\u003c/p\u003e\n\n\n\n\u003ch4 id=\"the-shift-in-abstraction\" class=\"wp-block-heading\"\u003eThe Shift in Abstraction\u003c/h4\u003e\n\n\n\n\u003cp\u003eEverything changed about six to eight months ago when I stopped looking at AI as a code generator and started looking at it as an orchestrator.\u003c/p\u003e\n\n\n\n\u003cp\u003eI started small. I used it to rewrite Slack messages, summarize massive document threads, and handle the administrative overhead that usually eats up a developer\u0026#8217;s morning. But then I moved into brainstorming. I started throwing organizational and strategic problems at these models—problems I used to spend days agonizing over alone—and the feedback was startlingly sharp. It was revealing insights and angles I probably never would have found on my own.\u003c/p\u003e\n\n\n\n\u003cp\u003eThe real \u0026#8220;Aha!\u0026#8221; moment happened with a pet project at work. We had this persistent pain point: a system that was incredibly difficult to simulate, which meant leadership was constantly asking questions we couldn\u0026#8217;t easily answer. I decided to try out spec-driven development.\u003c/p\u003e\n\n\n\n\u003cp\u003eInstead of writing the code line-by-line, I fed the AI the requirements, the user stories, the infrastructure constraints, and the data models. By being prescriptive and setting strict guardrails, I was able to reconstruct a simulator prototype in record time. It blew me away. I wasn\u0026#8217;t just coding faster; I was solving a multi-year organizational problem that had previously felt too daunting to tackle.\u003c/p\u003e\n\n\n\n\u003ch4 id=\"the-boss-factor-and-the-corporate-meta-game\" class=\"wp-block-heading\"\u003eThe \u0026#8220;Boss Factor\u0026#8221; and the Corporate Meta-Game\u003c/h4\u003e\n\n\n\n\u003cp\u003eWhether we like it or not, the \u0026#8220;corporate game\u0026#8221; has changed. Companies are under massive pressure from shareholders to show productivity gains through AI. You see it in the layoffs and the shifting narratives from leadership.\u003c/p\u003e\n\n\n\n\u003cp\u003eThere is a Boss Factor here that you can’t ignore. Managers love it when you make them look good. If I have an employee who uses AI to solve a problem that was previously unfeasible, that’s a success story I can bubble up to my directors. It makes the employee look innovative, it makes me look like a forward-thinking leader, and it makes the entire organization look like it’s winning the AI race.\u003c/p\u003e\n\n\n\n\u003cp\u003eIf you’re ignoring these tools out of a sense of purity, you’re missing a massive opportunity to build career capital. You’re choosing to stay at the baseline while the baseline itself is shifting.\u003c/p\u003e\n\n\n\n\u003ch4 id=\"the-new-productivity-baseline\" class=\"wp-block-heading\"\u003eThe New Productivity Baseline\u003c/h4\u003e\n\n\n\n\u003cp\u003eThis isn\u0026#8217;t a prediction—it\u0026#8217;s already happening. New measures of success are being built around AI usage. It starts with rewarding the people who use it, but very soon, it will move toward performance-managing the people who don\u0026#8217;t.\u003c/p\u003e\n\n\n\n\u003cp\u003eYou don’t have to love every output the AI produces, and you definitely shouldn\u0026#8217;t trust it blindly. But you do have to get your hands dirty. Whether it’s using Claude Skills to aggregate project details so you don\u0026#8217;t have to bother people with \u0026#8220;status update\u0026#8221; emails, or using spec-driven development to prototype systems in hours instead of weeks, the goal is the same: efficiency.\u003c/p\u003e\n\n\n\n\u003cp\u003eThe ground is moving underneath us. We can either decide to stay at the forefront of this shift, or we can watch ourselves drift slowly into irrelevancy. It’s a fundamental change in how the software engineer operates, and while that’s scary, it’s also an incredible toolset if you’re willing to use it.\u003c/p\u003e\n\n\n\n\u003cp\u003eGet on board or get left behind. The choice is yours.\u003c/p\u003e\n\u003cp\u003eThe post \u003ca href=\"https://beabetterdev.com/2026/02/21/i-was-wrong-about-ai/\"\u003eI Was Wrong About AI\u003c/a\u003e appeared first on \u003ca href=\"https://beabetterdev.com\"\u003eBe a Better Dev\u003c/a\u003e.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eI’m going to start with something a bit controversial, and honestly, it’s probably something a lot of you…\u003c/p\u003e\n\u003cp\u003eThe post \u003ca href=\"https://beabetterdev.com/2026/02/21/i-was-wrong-about-ai/\"\u003eI Was Wrong About AI\u003c/a\u003e appeared first on \u003ca href=\"https://beabetterdev.com\"\u003eBe a Better Dev\u003c/a\u003e.\u003c/p\u003e\n",
-      "date_published": "2026-02-21T20:18:07Z",
-      "authors": [
-        {
-          "name": "Daniel"
-        }
-      ],
-      "tags": [
-        "AWS",
-        "Cloud",
-        "Development",
-        "Tutorials",
-        "Career"
-      ],
-      "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
-    },
-    {
       "id": "fc44166e3e729564",
       "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
       "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
@@ -398,6 +376,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-03-30T13:13:12Z",
+  "_signal_generated": "2026-03-30T18:56:31Z",
   "_signal_period": "2026-02"
 }
