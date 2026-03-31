@@ -28,6 +28,20 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     },
     {
+      "id": "c47dfe36916f1b0a",
+      "url": "https://siddhantkhare.com/writing/the-plumbing-behind-claude-code",
+      "title": "The plumbing behind Claude Code",
+      "summary": "I read Claude Code's leaked source. Not magic, just good engineering. 10 patterns that show what actually matters when building AI tools.",
+      "date_published": "2026-03-31T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "d66a5352decebfe3",
       "url": "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything",
       "title": "datasette-files 0.1a3",
@@ -2774,19 +2788,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "cfdc692547a26dd9",
-      "url": "https://siddhantkhare2694.medium.com/a-must-see-for-engineers-when-to-write-a-technical-article-and-tips-for-keeping-the-message-going-3b449d710f02?source=rss-d33fc21fba5d------2",
-      "title": "A Must-See for Engineers: When to Write a Technical Article and Tips for Keeping the Message Going",
-      "date_published": "2024-06-08T17:28:15Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "7a4961b7b69d5d02",
       "url": "https://reorx.com/blog/rabbit-r1-the-upgraded-replacement-for-smart-phones/",
       "title": "Rabbit R1 - The Upgraded Replacement for Smart Phones",
@@ -2973,5 +2974,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-03-31T13:11:55Z"
+  "_signal_generated": "2026-03-31T18:58:38Z"
 }
