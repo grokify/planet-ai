@@ -6,7 +6,7 @@
       "id": "31e6d99de8089376",
       "url": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
       "title": "datasette-extract 0.3a0",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-extract/releases/tag/0.3a0\"\u003edatasette-extract 0.3a0\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThis plugin now uses \u003ca href=\"https://github.com/datasette/datasette-llm\"\u003edatasette-llm\u003c/a\u003e to configure and manage models. This means it's possible to \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration\"\u003especify which models\u003c/a\u003e should be made available for enrichments, using the new \u003ccode\u003eenrichments\u003c/code\u003e purpose.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-extract/releases/tag/0.3a0\"\u003edatasette-extract 0.3a0\u003c/a\u003e\u003c/p\u003e\n    \u003cul\u003e\n\u003cli\u003eNow uses \u003ca href=\"https://github.com/datasette/datasette-llm\"\u003edatasette-llm\u003c/a\u003e to manage model configuration, which means you can control which models are available for extraction tasks using the \u003ccode\u003eextract\u003c/code\u003e purpose and \u003ca href=\"https://github.com/datasette/datasette-llm/blob/main/README.md#configuration\"\u003eLLM model configuration\u003c/a\u003e. \u003ca href=\"https://github.com/datasette/datasette-extract/issues/38\"\u003e#38\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
       "date_published": "2026-04-01T03:32:16Z",
       "tags": [
         "AI",
@@ -87,6 +87,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-01T07:16:24Z",
+  "_signal_generated": "2026-04-01T13:14:59Z",
   "_signal_period": "2026-04"
 }
