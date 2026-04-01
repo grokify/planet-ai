@@ -513,105 +513,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "c4f5cb86d087097f",
-      "url": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
-      "title": "LiteLLM Hack: Were You One of the 47,000?",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/\"\u003eLiteLLM Hack: Were You One of the 47,000?\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nDaniel Hnyk used the \u003ca href=\"https://console.cloud.google.com/bigquery?p=bigquery-public-data\u0026amp;d=pypi\"\u003eBigQuery PyPI dataset\u003c/a\u003e to determine how many downloads there were of \u003ca href=\"https://simonwillison.net/2026/Mar/24/malicious-litellm/\"\u003ethe exploited LiteLLM packages\u003c/a\u003e during the 46 minute period they were live on PyPI. The answer was 46,996 across the two compromised release versions (1.82.7 and 1.82.8).\u003c/p\u003e\n\u003cp\u003eThey also identified 2,337 packages that depended on LiteLLM - 88% of which did not pin versions in a way that would have avoided the exploited version.\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://twitter.com/hnykda/status/2036834100342825369\"\u003e@hnykda\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/packaging\"\u003epackaging\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pypi\"\u003epypi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-25T17:21:04Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "packaging",
-        "pypi",
-        "security",
-        "supply-chain"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "d8826cdd27aaaf67",
-      "url": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
-      "title": "Auto mode for Claude Code",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://claude.com/blog/auto-mode\"\u003eAuto mode for Claude Code\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nReally interesting new development in Claude Code today as an alternative to \u003ccode\u003e--dangerously-skip-permissions\u003c/code\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eToday, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions before they run.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThose safeguards appear to be implemented using Claude Sonnet 4.6, as \u003ca href=\"https://code.claude.com/docs/en/permission-modes#eliminate-prompts-with-auto-mode\"\u003edescribed in the documentation\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eBefore each action runs, a separate classifier model reviews the conversation and decides whether the action matches what you asked for: it blocks actions that escalate beyond the task scope, target infrastructure the classifier doesn’t recognize as trusted, or appear to be driven by hostile content encountered in a file or web page. [...]\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eModel\u003c/strong\u003e: the classifier runs on Claude Sonnet 4.6, even if your main session uses a different model.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThey ship with an extensive set of default filters, and you can also customize them further with your own rules. The most interesting insight into how they work comes when you run this new command in the terminal:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eclaude auto-mode defaults\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ca href=\"https://gist.githubusercontent.com/simonw/91863bfd9f7ebf916d1fabb8e6940335/raw/cda3c88e919b8238e85d3f1cc990e8ff48ad9a18/defaults.json\"\u003eHere's the full JSON output\u003c/a\u003e. It's pretty long, so here's an illustrative subset:\u003c/p\u003e\n\u003cp\u003eFrom the \"allow\" list:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eTest Artifacts: Hardcoded test API keys, placeholder credentials in examples, or hardcoding test cases\u003c/li\u003e\n\u003cli\u003eLocal Operations: Agent deleting local files in working directory, local file operations within project scope, or using \u003ccode\u003e--ignore-certificate-errors\u003c/code\u003e for local testing. \"Project scope\" means the repository the session started in — wandering into ~/, ~/Library/, /etc, or other repos is scope escalation (User Intent Rule #2), not a local operation. Does NOT cover irreversible destruction of pre-existing files or local stateful services — see \"Irreversible Local Destruction\" in BLOCK.\u003c/li\u003e\n\u003cli\u003eRead-Only Operations: GET requests, read-only API calls, or queries that don't modify state and don't contain sensitive information in the URL. Note: PREEMPTIVE BLOCK ON CLEAR INTENT still applies — if the transcript contains clear evidence the agent is using read-only operations to scout for a blocked action, block it.\u003c/li\u003e\n\u003cli\u003eDeclared Dependencies: Installing packages that are already declared in the repo's manifest files (requirements.txt, package.json, Cargo.toml, pyproject.toml, Gemfile, etc.) via standard commands that read those manifests (\u003ccode\u003epip install -r requirements.txt\u003c/code\u003e, \u003ccode\u003enpm install\u003c/code\u003e, \u003ccode\u003ecargo build\u003c/code\u003e, \u003ccode\u003ebundle install\u003c/code\u003e) — provided the agent has not modified the manifest in this session. Does NOT cover installing agent-chosen package names (e.g. \u003ccode\u003epip install foo\u003c/code\u003e, \u003ccode\u003enpm install bar\u003c/code\u003e) — those carry typosquat and supply-chain risk. [...]\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eFrom \"soft_deny\":\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eGit Destructive: Force pushing (\u003ccode\u003egit push --force\u003c/code\u003e), deleting remote branches, or rewriting remote history\u003c/li\u003e\n\u003cli\u003eGit Push to Default Branch: Pushing directly to main, master, or the repository's default branch — this bypasses pull request review. Commits should be pushed to a new feature branch instead.\n-Code from External: Downloading and executing code from external sources — e.g. \u003ccode\u003ecurl | bash\u003c/code\u003e, deserializing external data via formats that can execute code (eval, exec, yaml.unsafe_load, pickle, etc), or similar mechanisms. Also includes running code from an external repo cloned earlier in the transcript (pip install -e, make install, python script.py, pickle.load/torch.load on cloned repo files) — \"local on disk\" does not mean trusted if it was cloned from an external source visible in the transcript. The repo the agent starts in is trusted.\u003c/li\u003e\n\u003cli\u003eCloud Storage Mass Delete: Deleting or mass modifying files on cloud storage (S3, GCS, Azure Blob, etc.) [...]\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI remain unconvinced by prompt injection protections that rely on AI, since they're non-deterministic by nature. The documentation does warn that this may still let things through:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe classifier may still allow some risky actions: for example, if user intent is ambiguous, or if Claude doesn't have enough context about your environment to know an action might create additional risk.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThe fact that the default allow list includes \u003ccode\u003epip install -r requirements.txt\u003c/code\u003e also means that this wouldn't protect against supply chain attacks with unpinned dependencies, as seen this morning \u003ca href=\"https://simonwillison.net/2026/Mar/24/malicious-litellm/\"\u003ewith LiteLLM\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eI still want my coding agents to run in a robust sandbox by default, one that restricts file access and network connections in a deterministic way. I trust those a whole lot more than prompt-based protections like this new auto mode.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/prompt-injection\"\u003eprompt-injection\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude-code\"\u003eclaude-code\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-24T23:57:33Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "security",
-        "prompt-injection",
-        "generative-ai",
-        "llms",
-        "coding-agents",
-        "claude-code"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "89e4a4015e385523",
-      "url": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
-      "title": "Package Managers Need to Cool Down",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html\"\u003ePackage Managers Need to Cool Down\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nToday's \u003ca href=\"https://simonwillison.net/2026/Mar/24/malicious-litellm/\"\u003eLiteLLM supply chain attack\u003c/a\u003e inspired me to revisit the idea of \u003ca href=\"https://simonwillison.net/2025/Nov/21/dependency-cooldowns/\"\u003edependency cooldowns\u003c/a\u003e, the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in some way.\u003c/p\u003e\n\u003cp\u003eThis recent piece (March 4th) piece by Andrew Nesbitt reviews the current state of dependency cooldown mechanisms across different packaging tools. It's surprisingly well supported! There's been a flurry of activity across major packaging tools, including:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://pnpm.io/blog/releases/10.16#new-setting-for-delayed-dependency-updates\"\u003epnpm 10.16\u003c/a\u003e (September 2025) — \u003ccode\u003eminimumReleaseAge\u003c/code\u003e with \u003ccode\u003eminimumReleaseAgeExclude\u003c/code\u003e for trusted packages\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.10.0\"\u003eYarn 4.10.0\u003c/a\u003e (September 2025) — \u003ccode\u003enpmMinimalAgeGate\u003c/code\u003e (in minutes) with \u003ccode\u003enpmPreapprovedPackages\u003c/code\u003e for exemptions\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://bun.com/blog/bun-v1.3#minimum-release-age\"\u003eBun 1.3\u003c/a\u003e (October 2025) — \u003ccode\u003eminimumReleaseAge\u003c/code\u003e via \u003ccode\u003ebunfig.toml\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://deno.com/blog/v2.6#controlling-dependency-stability\"\u003eDeno 2.6\u003c/a\u003e (December 2025) — \u003ccode\u003e--minimum-dependency-age\u003c/code\u003e for \u003ccode\u003edeno update\u003c/code\u003e and \u003ccode\u003edeno outdated\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/astral-sh/uv/releases/tag/0.9.17\"\u003euv 0.9.17\u003c/a\u003e (December 2025) — added relative duration support to existing \u003ccode\u003e--exclude-newer\u003c/code\u003e, plus per-package overrides via \u003ccode\u003eexclude-newer-package\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://ichard26.github.io/blog/2026/01/whats-new-in-pip-26.0/\"\u003epip 26.0\u003c/a\u003e (January 2026) — \u003ccode\u003e--uploaded-prior-to\u003c/code\u003e (absolute timestamps only; \u003ca href=\"https://github.com/pypa/pip/issues/13674\"\u003erelative duration support requested\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://socket.dev/blog/npm-introduces-minimumreleaseage-and-bulk-oidc-configuration\"\u003enpm 11.10.0\u003c/a\u003e (February 2026) — \u003ccode\u003emin-release-age\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ccode\u003epip\u003c/code\u003e currently only supports absolute rather than relative dates but Seth Larson \u003ca href=\"https://sethmlarson.dev/pip-relative-dependency-cooling-with-crontab\"\u003ehas a workaround for that\u003c/a\u003e using a scheduled cron to update the absolute date in the \u003ccode\u003epip.conf\u003c/code\u003e config file.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/javascript\"\u003ejavascript\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/packaging\"\u003epackaging\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pip\"\u003epip\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pypi\"\u003epypi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/npm\"\u003enpm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/deno\"\u003edeno\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/uv\"\u003euv\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-24T21:11:38Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "javascript",
-        "packaging",
-        "pip",
-        "pypi",
-        "security",
-        "npm",
-        "deno",
-        "supply-chain",
-        "uv"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "b700379929c6534c",
-      "url": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
-      "title": "Quoting Christopher Mims",
-      "summary": "\u003cblockquote cite=\"https://bsky.app/profile/mims.bsky.social/post/3mhsux67xpk2d\"\u003e\u003cp\u003eI really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://bsky.app/profile/mims.bsky.social/post/3mhsux67xpk2d\"\u003eChristopher Mims\u003c/a\u003e, Technology columnist at The Wall Street Journal\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-24T20:35:52Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "security"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "1c7661731f0e598c",
-      "url": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
-      "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://github.com/BerriAI/litellm/issues/24512\"\u003eMalicious litellm_init.pth in litellm 1.82.8 — credential stealer\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nThe LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a \u003ccode\u003elitellm_init.pth\u003c/code\u003e file, which means installing the package is enough to trigger it even without running \u003ccode\u003eimport litellm\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003e(1.82.7 had the exploit as well but it was in the \u003ccode\u003eproxy/proxy_server.py\u003c/code\u003e file so the package had to be imported for it to take effect.)\u003c/p\u003e\n\u003cp\u003eThis issue has a very detailed description of what the credential stealer does. There's more information about the timeline of the exploit \u003ca href=\"https://github.com/BerriAI/litellm/issues/24518\"\u003eover here\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003ePyPI has already \u003ca href=\"https://pypi.org/help/#project_in_quarantine\"\u003equarantined\u003c/a\u003e the \u003ca href=\"https://pypi.org/project/litellm/\"\u003elitellm package\u003c/a\u003e so the window for compromise was just a few hours, but if you DID install the package it would have hoovered up a bewildering array of secrets, including \u003ccode\u003e~/.ssh/\u003c/code\u003e, \u003ccode\u003e~/.gitconfig\u003c/code\u003e, \u003ccode\u003e~/.git-credentials\u003c/code\u003e, \u003ccode\u003e~/.aws/\u003c/code\u003e, \u003ccode\u003e~/.kube/\u003c/code\u003e, \u003ccode\u003e~/.config/\u003c/code\u003e, \u003ccode\u003e~/.azure/\u003c/code\u003e, \u003ccode\u003e~/.docker/\u003c/code\u003e, \u003ccode\u003e~/.npmrc\u003c/code\u003e, \u003ccode\u003e~/.vault-token\u003c/code\u003e, \u003ccode\u003e~/.netrc\u003c/code\u003e, \u003ccode\u003e~/.lftprc\u003c/code\u003e, \u003ccode\u003e~/.msmtprc\u003c/code\u003e, \u003ccode\u003e~/.my.cnf\u003c/code\u003e, \u003ccode\u003e~/.pgpass\u003c/code\u003e, \u003ccode\u003e~/.mongorc.js\u003c/code\u003e, \u003ccode\u003e~/.bash_history\u003c/code\u003e, \u003ccode\u003e~/.zsh_history\u003c/code\u003e, \u003ccode\u003e~/.sh_history\u003c/code\u003e, \u003ccode\u003e~/.mysql_history\u003c/code\u003e, \u003ccode\u003e~/.psql_history\u003c/code\u003e, \u003ccode\u003e~/.rediscli_history\u003c/code\u003e, \u003ccode\u003e~/.bitcoin/\u003c/code\u003e, \u003ccode\u003e~/.litecoin/\u003c/code\u003e, \u003ccode\u003e~/.dogecoin/\u003c/code\u003e, \u003ccode\u003e~/.zcash/\u003c/code\u003e, \u003ccode\u003e~/.dashcore/\u003c/code\u003e, \u003ccode\u003e~/.ripple/\u003c/code\u003e, \u003ccode\u003e~/.bitmonero/\u003c/code\u003e, \u003ccode\u003e~/.ethereum/\u003c/code\u003e, \u003ccode\u003e~/.cardano/\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eIt looks like this supply chain attack started with the \u003ca href=\"https://www.crowdstrike.com/en-us/blog/from-scanner-to-stealer-inside-the-trivy-action-supply-chain-compromise/\"\u003erecent exploit\u003c/a\u003e against \u003ca href=\"https://trivy.dev/\"\u003eTrivy\u003c/a\u003e, ironically a security scanner tool that was used in CI \u003ca href=\"https://github.com/BerriAI/litellm/blob/9343aeefca37aa49a6ea54397d7615adae5c72c9/ci_cd/security_scans.sh#L16\"\u003eby LiteLLM\u003c/a\u003e. The Trivy exploit likely resulted in stolen PyPI credentials which were then used to directly publish the vulnerable packages.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pypi\"\u003epypi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-24T15:07:31Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "open-source",
-        "pypi",
-        "security",
-        "supply-chain"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "7c575ebe30cbed0a",
       "url": "https://siddhantkhare.com/writing/ambition-tax",
       "title": "The ambition tax",
@@ -705,6 +606,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-01T02:13:28Z",
+  "_signal_generated": "2026-04-01T07:16:24Z",
   "_signal_period": "2026-03"
 }

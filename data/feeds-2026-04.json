@@ -1,0 +1,92 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "31e6d99de8089376",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
+      "title": "datasette-extract 0.3a0",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-extract/releases/tag/0.3a0\"\u003edatasette-extract 0.3a0\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThis plugin now uses \u003ca href=\"https://github.com/datasette/datasette-llm\"\u003edatasette-llm\u003c/a\u003e to configure and manage models. This means it's possible to \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration\"\u003especify which models\u003c/a\u003e should be made available for enrichments, using the new \u003ccode\u003eenrichments\u003c/code\u003e purpose.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T03:32:16Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "38c0100bab28d400",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything",
+      "title": "datasette-enrichments-llm 0.2a0",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a0\"\u003edatasette-enrichments-llm 0.2a0\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThis plugin now uses \u003ca href=\"https://github.com/datasette/datasette-llm\"\u003edatasette-llm\u003c/a\u003e to configure and manage models. This means it's possible to \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration\"\u003especify which models\u003c/a\u003e should be made available for enrichments, using the new \u003ccode\u003eenrichments\u003c/code\u003e purpose.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T03:28:44Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "c461deda494f771e",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
+      "title": "datasette-llm-usage 0.2a0",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm-usage/releases/tag/0.2a0\"\u003edatasette-llm-usage 0.2a0\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eRemoved features relating to allowances and estimated pricing. These are now the domain of \u003ca href=\"https://github.com/datasette/datasette-llm-accountant\"\u003edatasette-llm-accountant\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003eNow depends on \u003ca href=\"https://github.com/datasette/datasette-llm\"\u003edatasette-llm\u003c/a\u003e for model configuration. \u003ca href=\"https://github.com/datasette/datasette-llm-usage/pull/3\"\u003e#3\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eFull prompts and responses and tool calls can now be logged to the\u003ccode\u003ellm_usage_prompt_log\u003c/code\u003e table in the internal database if you set the new \u003ccode\u003edatasette-llm-usage.log_prompts\u003c/code\u003e plugin configuration setting.\u003c/li\u003e\n\u003cli\u003eRedesigned the \u003ccode\u003e/-/llm-usage-simple-prompt\u003c/code\u003e page, which now requires the \u003ccode\u003ellm-usage-simple-prompt\u003c/code\u003e permission.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T03:24:03Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "8520b3106db78425",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything",
+      "title": "datasette-llm 0.1a5",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a5\"\u003edatasette-llm 0.1a5\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThe \u003ccode\u003ellm_prompt_context()\u003c/code\u003e plugin hook wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track tool call loops. \u003ca href=\"https://github.com/datasette/datasette-llm\"\u003e#5\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T03:11:01Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "4826781622af5fa0",
+      "url": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
+      "title": "Quoting Soohoon Choi",
+      "summary": "\u003cblockquote cite=\"https://www.greptile.com/blog/ai-slopware-future\"\u003e\u003cp\u003eI want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers ship reliable features fastest, which requires simple, maintainable code. Good code will prevail, not only because we want it to (though we do!), but because economic forces demand it. Markets will not reward slop in coding, in the long-term.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://www.greptile.com/blog/ai-slopware-future\"\u003eSoohoon Choi\u003c/a\u003e, Slop Is Not Necessarily The Future\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/slop\"\u003eslop\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T02:07:16Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "slop",
+        "ai-assisted-programming",
+        "generative-ai",
+        "agentic-engineering",
+        "llms"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    }
+  ],
+  "_signal_generated": "2026-04-01T07:16:24Z",
+  "_signal_period": "2026-04"
+}
