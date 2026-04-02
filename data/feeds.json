@@ -3,6 +3,39 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "8449a4cf4338c811",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
+      "title": "datasette-llm 0.1a6",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a6\"\u003edatasette-llm 0.1a6\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThe same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed models list. \u003ca href=\"https://github.com/datasette/datasette-llm/issues/6\"\u003e#6\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eImproved documentation for \u003ca href=\"https://github.com/datasette/datasette-llm/blob/0.1a6/README.md#usage\"\u003ePython API usage\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T23:01:37Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "e1d9e45b6e3710b1",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything",
+      "title": "datasette-enrichments-llm 0.2a1",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a1\"\u003edatasette-enrichments-llm 0.2a1\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThe \u003ccode\u003eactor\u003c/code\u003e who triggers an enrichment is now passed to the \u003ccode\u003ellm.mode(... actor=actor)\u003c/code\u003e method. \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/issues/3\"\u003e#3\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/enrichments\"\u003eenrichments\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T22:00:34Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "enrichments",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "31e6d99de8089376",
       "url": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
       "title": "datasette-extract 0.3a0",
@@ -554,44 +587,6 @@
         "Open Source",
         "s3",
         "datasette"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "f2f45cf4e895555a",
-      "url": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
-      "title": "Thoughts on slowing the fuck down",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://news.ycombinator.com/item?id=47517539\"\u003eThoughts on slowing the fuck down\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nMario Zechner created the \u003ca href=\"https://github.com/badlogic/pi-mono\"\u003ePi agent framework\u003c/a\u003e used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not impressed:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWe have basically given up all discipline and agency for a sort of addiction, where your highest goal is to produce the largest amount of code in the shortest amount of time. Consequences be damned.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eAgents and humans both make mistakes, but agent mistakes accumulate much faster:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eA human is a bottleneck. A human cannot shit out 20,000 lines of code in a few hours. Even if the human creates such booboos at high frequency, there's only so many booboos the human can introduce in a codebase per day. [...]\u003c/p\u003e\n\u003cp\u003eWith an orchestrated army of agents, there is no bottleneck, no human pain. These tiny little harmless booboos suddenly compound at a rate that's unsustainable. You have removed yourself from the loop, so you don't even know that all the innocent booboos have formed a monster of a codebase. You only feel the pain when it's too late. [...]\u003c/p\u003e\n\u003cp\u003eYou have zero fucking idea what's going on because you delegated all your agency to your agents. You let them run free, and they are merchants of complexity.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI think Mario is exactly right about this. Agents let us move \u003cem\u003eso much faster\u003c/em\u003e, but this speed also means that changes which we would normally have considered over the course of weeks are landing in a matter of hours.\u003c/p\u003e\n\u003cp\u003eIt's so easy to let the codebase evolve outside of our abilities to reason clearly about it. \u003ca href=\"https://simonwillison.net/tags/cognitive-debt/\"\u003eCognitive debt\u003c/a\u003e is real.\u003c/p\u003e\n\u003cp\u003eMario recommends slowing down:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eGive yourself time to think about what you're actually building and why. Give yourself an opportunity to say, fuck no, we don't need this. Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code.\u003c/p\u003e\n\u003cp\u003eAnything that defines the gestalt of your system, that is architecture, API, and so on, write it by hand. [...]\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI'm not convinced writing by hand is the best way to address this, but it's absolutely the case that we need the discipline to find a new balance of speed v.s. mental thoroughness now that typing out the code is no longer anywhere close to being the bottleneck on writing software.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/cognitive-debt\"\u003ecognitive-debt\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-25T21:47:17Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "generative-ai",
-        "llms",
-        "coding-agents",
-        "cognitive-debt",
-        "agentic-engineering"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "7d2e6e38a2902d26",
-      "url": "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything",
-      "title": "datasette-llm 0.1a1",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a1\"\u003edatasette-llm 0.1a1\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eNew release of the base plugin that makes models from \u003ca href=\"https://llm.datasette.io/\"\u003eLLM\u003c/a\u003e available for use by other Datasette plugins such as \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm\"\u003edatasette-enrichments-llm\u003c/a\u003e.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eNew \u003ca href=\"https://github.com/datasette/datasette-llm/blob/main/README.md#register_llm_purposes\"\u003e\u003ccode\u003eregister_llm_purposes()\u003c/code\u003e plugin hook\u003c/a\u003e and \u003ccode\u003eget_purposes()\u003c/code\u003e function for retrieving registered purpose strings. \u003ca href=\"https://github.com/datasette/datasette-llm/issues/1\"\u003e#1\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eOne of the responsibilities of this plugin is to configure which models are used for which purposes, so you can say in one place \"data enrichment uses GPT-5.4-nano but SQL query assistance happens using Sonnet 4.6\", for example.\u003c/p\u003e\n\u003cp\u003ePlugins that depend on this can use \u003ccode\u003emodel = await llm.model(purpose=\"enrichment\")\u003c/code\u003e to indicate the purpose of the prompts they wish to execute against the model. Those plugins can now also use the new \u003ccode\u003eregister_llm_purposes()\u003c/code\u003e hook to register those purpose strings, which means future plugins can list those purposes in one place to power things like an admin UI for assigning models to purposes.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/annotated-release-notes\"\u003eannotated-release-notes\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/plugins\"\u003eplugins\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-25T21:24:31Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "annotated-release-notes",
-        "datasette",
-        "plugins"
       ],
       "_signal_feed_title": "Simon Willison's Weblog",
       "_signal_feed_url": "http://simonwillison.net/"
@@ -2899,5 +2894,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-04-01T18:57:43Z"
+  "_signal_generated": "2026-04-02T02:01:09Z"
 }

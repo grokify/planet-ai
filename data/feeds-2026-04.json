@@ -3,6 +3,39 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "8449a4cf4338c811",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
+      "title": "datasette-llm 0.1a6",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a6\"\u003edatasette-llm 0.1a6\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThe same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed models list. \u003ca href=\"https://github.com/datasette/datasette-llm/issues/6\"\u003e#6\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eImproved documentation for \u003ca href=\"https://github.com/datasette/datasette-llm/blob/0.1a6/README.md#usage\"\u003ePython API usage\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T23:01:37Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "e1d9e45b6e3710b1",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything",
+      "title": "datasette-enrichments-llm 0.2a1",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a1\"\u003edatasette-enrichments-llm 0.2a1\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThe \u003ccode\u003eactor\u003c/code\u003e who triggers an enrichment is now passed to the \u003ccode\u003ellm.mode(... actor=actor)\u003c/code\u003e method. \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm/issues/3\"\u003e#3\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/enrichments\"\u003eenrichments\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-01T22:00:34Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "enrichments",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "31e6d99de8089376",
       "url": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
       "title": "datasette-extract 0.3a0",
@@ -87,6 +120,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-01T18:57:43Z",
+  "_signal_generated": "2026-04-02T02:01:09Z",
   "_signal_period": "2026-04"
 }
