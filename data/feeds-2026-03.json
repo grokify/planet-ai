@@ -458,23 +458,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "1a7f8d7b8a9c17dc",
-      "url": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
-      "title": "datasette-files-s3 0.1a1",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-files-s3/releases/tag/0.1a1\"\u003edatasette-files-s3 0.1a1\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eA backend for \u003ca href=\"https://github.com/datasette/datasette-files\"\u003edatasette-files\u003c/a\u003e that adds the ability to store and retrieve files using an S3 bucket. This release added \u003ca href=\"https://github.com/datasette/datasette-files-s3/blob/main/README.md#credentials-broker-response\"\u003ea mechanism\u003c/a\u003e for fetching S3 configuration periodically from a URL, which means we can use time limited IAM credentials that are restricted to a prefix within a bucket.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/s3\"\u003es3\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-25T21:57:05Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "s3",
-        "datasette"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "7c575ebe30cbed0a",
       "url": "https://siddhantkhare.com/writing/ambition-tax",
       "title": "The ambition tax",
@@ -568,6 +551,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-02T02:01:09Z",
+  "_signal_generated": "2026-04-02T07:07:51Z",
   "_signal_period": "2026-03"
 }

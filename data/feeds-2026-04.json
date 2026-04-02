@@ -3,6 +3,22 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "0a06569a97a6f250",
+      "url": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
+      "title": "March 2026 sponsors-only newsletter",
+      "summary": "\u003cp\u003eI just sent the March edition of my \u003ca href=\"https://github.com/sponsors/simonw/\"\u003esponsors-only monthly newsletter\u003c/a\u003e. If you are a sponsor (or if you start a sponsorship now) you can \u003ca href=\"https://github.com/simonw-private/monthly/blob/main/2026-03-march.md\"\u003eaccess it here\u003c/a\u003e. In this month's newsletter:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMore agentic engineering patterns\u003c/li\u003e\n\u003cli\u003eStreaming experts with MoE models on a Mac\u003c/li\u003e\n\u003cli\u003eModel releases in March\u003c/li\u003e\n\u003cli\u003eVibe porting\u003c/li\u003e\n\u003cli\u003eSupply chain attacks against PyPI and NPM\u003c/li\u003e\n\u003cli\u003eStuff I shipped\u003c/li\u003e\n\u003cli\u003eWhat I'm using, March 2026 edition\u003c/li\u003e\n\u003cli\u003eAnd a couple of museums\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eHere's \u003ca href=\"https://gist.github.com/simonw/8b5fa061937842659dbcd5bd676ce0e8\"\u003ea copy of the February newsletter\u003c/a\u003e as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/newsletter\"\u003enewsletter\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-02T05:15:04Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "newsletter"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "8449a4cf4338c811",
       "url": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
       "title": "datasette-llm 0.1a6",
@@ -120,6 +136,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-02T02:01:09Z",
+  "_signal_generated": "2026-04-02T07:07:51Z",
   "_signal_period": "2026-04"
 }
