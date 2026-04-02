@@ -421,43 +421,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "cd170230eeac4771",
-      "url": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
-      "title": "Quantization from the ground up",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://ngrok.com/blog/quantization\"\u003eQuantization from the ground up\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nSam Rose continues \u003ca href=\"https://simonwillison.net/tags/sam-rose/\"\u003ehis streak\u003c/a\u003e of publishing spectacularly informative interactive essays, this time explaining how quantization of Large Language Models works (which he says might be \"\u003ca href=\"https://twitter.com/samwhoo/status/2036845101561835968\"\u003ethe best post I've ever made\u003c/a\u003e\".)\u003c/p\u003e\n\u003cp\u003eAlso included is the best visual explanation I've ever seen of how floating point numbers are represented using binary digits.\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Screenshot of an interactive float32 binary representation tool showing the value -48.92364502, with color-coded bit fields labeled S (sign), EXPONENT (blue), and SIGNIFICAND (pink), displaying the 32-bit pattern 11000010010000111101100001110100000, and a slider control at the bottom along with minus, plus, and reset buttons.\" src=\"https://static.simonwillison.net/static/2026/float.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003eI hadn't heard about \u003cstrong\u003eoutlier values\u003c/strong\u003e in quantization - rare float values that exist outside of the normal tiny-value distribution - but apparently they're very important:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWhy do these outliers exist? [...] tl;dr: no one conclusively knows, but a small fraction of these outliers are \u003cem\u003every\u003c/em\u003e important to model quality. Removing even a \u003cem\u003esingle\u003c/em\u003e \"super weight,\" as Apple calls them, can cause the model to output complete gibberish.\u003c/p\u003e\n\u003cp\u003eGiven their importance, real-world quantization schemes sometimes do extra work to preserve these outliers. They might do this by not quantizing them at all, or by saving their location and value into a separate table, then removing them so that their block isn't destroyed.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003ePlus there's a section on \u003ca href=\"https://ngrok.com/blog/quantization#how-much-does-quantization-affect-model-accuracy\"\u003eHow much does quantization affect model accuracy?\u003c/a\u003e. Sam explains the concepts of \u003cstrong\u003eperplexity\u003c/strong\u003e and ** KL divergence ** and then uses the \u003ca href=\"https://github.com/ggml-org/llama.cpp/tree/master/tools/perplexity\"\u003ellama.cpp perplexity tool\u003c/a\u003e and a run of the GPQA benchmark to show how different quantization levels affect Qwen 3.5 9B.\u003c/p\u003e\n\u003cp\u003eHis conclusion:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIt looks like 16-bit to 8-bit carries almost no quality penalty. 16-bit to 4-bit is more noticeable, but it's certainly not a quarter as good as the original. Closer to 90%, depending on how you want to measure it.\u003c/p\u003e\n\u003c/blockquote\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/computer-science\"\u003ecomputer-science\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/explorables\"\u003eexplorables\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sam-rose\"\u003esam-rose\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/qwen\"\u003eqwen\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-26T16:21:09Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "computer-science",
-        "explorables",
-        "generative-ai",
-        "llms",
-        "sam-rose",
-        "qwen"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "5d38ecd84eadc3d7",
-      "url": "https://simonwillison.net/2026/Mar/26/datasette-llm/#atom-everything",
-      "title": "datasette-llm 0.1a2",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a2\"\u003edatasette-llm 0.1a2\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003eactor\u003c/code\u003e is now available to the \u003ccode\u003ellm_prompt_context\u003c/code\u003e plugin hook. \u003ca href=\"https://github.com/datasette/datasette-llm/pull/2\"\u003e#2\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-26T15:52:32Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "datasette"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "7c575ebe30cbed0a",
       "url": "https://siddhantkhare.com/writing/ambition-tax",
       "title": "The ambition tax",
@@ -551,6 +514,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-02T13:06:14Z",
+  "_signal_generated": "2026-04-02T18:53:27Z",
   "_signal_period": "2026-03"
 }

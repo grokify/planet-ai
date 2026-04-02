@@ -3,6 +3,48 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "8bbde6787c15011e",
+      "url": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/\"\u003eGemma 4: Byte for byte, the most capable open models\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nFour new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts.\u003c/p\u003e\n\u003cp\u003eGoogle emphasize \"unprecedented level of intelligence-per-parameter\", providing yet more evidence that creating small useful models is one of the hottest areas of research right now.\u003c/p\u003e\n\u003cp\u003eThey actually label the two smaller models as E2B and E4B for \"Effective\" parameter size. The system card explains:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe smaller models incorporate Per-Layer Embeddings (PLE) to maximize parameter efficiency in on-device deployments. Rather than adding more layers or parameters to the model, PLE gives each decoder layer its own small embedding for every token. These embedding tables are large but are only used for quick lookups, which is why the effective parameter count is much smaller than the total.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI don't entirely understand that, but apparently that's what the \"E\" in E2B means!\u003c/p\u003e\n\u003cp\u003eI tried them out using the GGUFs for \u003ca href=\"https://lmstudio.ai/models/gemma-4\"\u003eLM Studio\u003c/a\u003e. The 2B (4.41GB), 4B (6.33GB) and 26B-A4B (17.99GB) models all worked perfectly, but the 31B (19.89GB) model was broken and spat out \u003ccode\u003e\"---\\n\"\u003c/code\u003e in a loop for every prompt I tried.\u003c/p\u003e\n\u003cp\u003eThe succession of \u003ca href=\"https://gist.github.com/simonw/12ae4711288637a722fd6bd4b4b56bdb\"\u003epelican quality\u003c/a\u003e from 2B to 4B to 26B-A4B is notable:\u003c/p\u003e\n\u003cp\u003eE2B:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Two blue circles on a brown rectangle and a weird mess of orange blob and yellow triangle for the pelican\" src=\"https://static.simonwillison.net/static/2026/gemma-4-2b-pelican.png\" /\u003e\u003c/p\u003e\n\u003cp\u003eE4B:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Two black wheels joined by a sort of grey surfboard, the pelican is semicircles and a blue blob floating above it\" src=\"https://static.simonwillison.net/static/2026/gemma-4-4b-pelican.png\" /\u003e\u003c/p\u003e\n\u003cp\u003e26B-A4B:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Bicycle has the right pieces although the frame is wonky. Pelican is genuinely good, has a big triangle beak and a nice curved neck and is clearly a bird that is sitting on the bicycle\" src=\"https://static.simonwillison.net/static/2026/gemma-4-26b-pelican.png\" /\u003e\u003c/p\u003e\n\u003cp\u003e(This one actually had an SVG error - \"error on line 18 at column 88: Attribute x1 redefined\" - but after \u003ca href=\"https://gist.github.com/simonw/12ae4711288637a722fd6bd4b4b56bdb?permalink_comment_id=6074105#gistcomment-6074105\"\u003efixing that\u003c/a\u003e I got probably the best pelican I've seen yet from a model that runs on my laptop.)\u003c/p\u003e\n\u003cp\u003eGoogle are providing API access to the two larger Gemma models via their \u003ca href=\"https://aistudio.google.com/prompts/new_chat?model=gemma-4-31b-it\"\u003eAI Studio\u003c/a\u003e. I added support to \u003ca href=\"https://github.com/simonw/llm-gemini\"\u003ellm-gemini\u003c/a\u003e and then \u003ca href=\"https://gist.github.com/simonw/f9f9e9c34c7cc0ef5325a2876413e51e\"\u003eran a pelican\u003c/a\u003e through the 31B model using that:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ellm -m gemini/gemma-4-31b-it 'Generate an SVG of a pelican riding a bicycle'\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003ePretty good, though it is missing the front part of the bicycle frame:\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Motion blur lines, a mostly great bicycle albeit missing the front part of the frame. Pelican is decent. \" src=\"https://static.simonwillison.net/static/2026/gemma-4-31b-pelican.png\" /\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/google\"\u003egoogle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/local-llms\"\u003elocal-llms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/vision-llms\"\u003evision-llms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"\u003epelican-riding-a-bicycle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-reasoning\"\u003ellm-reasoning\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/gemma\"\u003egemma\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-release\"\u003ellm-release\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/lm-studio\"\u003elm-studio\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-02T18:28:54Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "google",
+        "generative-ai",
+        "local-llms",
+        "llms",
+        "vision-llms",
+        "pelican-riding-a-bicycle",
+        "llm-reasoning",
+        "gemma",
+        "llm-release",
+        "lm-studio"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "df82a8b4404519da",
+      "url": "https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything",
+      "title": "llm-gemini 0.30",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/llm-gemini/releases/tag/0.30\"\u003ellm-gemini 0.30\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eNew models \u003ccode\u003egemini-3.1-flash-lite-preview\u003c/code\u003e, \u003ccode\u003egemma-4-26b-a4b-it\u003c/code\u003e and \u003ccode\u003egemma-4-31b-it\u003c/code\u003e. See \u003ca href=\"https://simonwillison.net/2026/Apr/2/gemma-4/\"\u003emy notes on Gemma 4\u003c/a\u003e.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/gemini\"\u003egemini\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/gemma\"\u003egemma\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-02T18:25:08Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "gemini",
+        "gemma"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "0a06569a97a6f250",
       "url": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
       "title": "March 2026 sponsors-only newsletter",
@@ -549,43 +591,6 @@
         "llms",
         "claude",
         "supply-chain"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "cd170230eeac4771",
-      "url": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
-      "title": "Quantization from the ground up",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://ngrok.com/blog/quantization\"\u003eQuantization from the ground up\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nSam Rose continues \u003ca href=\"https://simonwillison.net/tags/sam-rose/\"\u003ehis streak\u003c/a\u003e of publishing spectacularly informative interactive essays, this time explaining how quantization of Large Language Models works (which he says might be \"\u003ca href=\"https://twitter.com/samwhoo/status/2036845101561835968\"\u003ethe best post I've ever made\u003c/a\u003e\".)\u003c/p\u003e\n\u003cp\u003eAlso included is the best visual explanation I've ever seen of how floating point numbers are represented using binary digits.\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Screenshot of an interactive float32 binary representation tool showing the value -48.92364502, with color-coded bit fields labeled S (sign), EXPONENT (blue), and SIGNIFICAND (pink), displaying the 32-bit pattern 11000010010000111101100001110100000, and a slider control at the bottom along with minus, plus, and reset buttons.\" src=\"https://static.simonwillison.net/static/2026/float.jpg\" /\u003e\u003c/p\u003e\n\u003cp\u003eI hadn't heard about \u003cstrong\u003eoutlier values\u003c/strong\u003e in quantization - rare float values that exist outside of the normal tiny-value distribution - but apparently they're very important:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWhy do these outliers exist? [...] tl;dr: no one conclusively knows, but a small fraction of these outliers are \u003cem\u003every\u003c/em\u003e important to model quality. Removing even a \u003cem\u003esingle\u003c/em\u003e \"super weight,\" as Apple calls them, can cause the model to output complete gibberish.\u003c/p\u003e\n\u003cp\u003eGiven their importance, real-world quantization schemes sometimes do extra work to preserve these outliers. They might do this by not quantizing them at all, or by saving their location and value into a separate table, then removing them so that their block isn't destroyed.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003ePlus there's a section on \u003ca href=\"https://ngrok.com/blog/quantization#how-much-does-quantization-affect-model-accuracy\"\u003eHow much does quantization affect model accuracy?\u003c/a\u003e. Sam explains the concepts of \u003cstrong\u003eperplexity\u003c/strong\u003e and ** KL divergence ** and then uses the \u003ca href=\"https://github.com/ggml-org/llama.cpp/tree/master/tools/perplexity\"\u003ellama.cpp perplexity tool\u003c/a\u003e and a run of the GPQA benchmark to show how different quantization levels affect Qwen 3.5 9B.\u003c/p\u003e\n\u003cp\u003eHis conclusion:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIt looks like 16-bit to 8-bit carries almost no quality penalty. 16-bit to 4-bit is more noticeable, but it's certainly not a quarter as good as the original. Closer to 90%, depending on how you want to measure it.\u003c/p\u003e\n\u003c/blockquote\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/computer-science\"\u003ecomputer-science\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/explorables\"\u003eexplorables\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sam-rose\"\u003esam-rose\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/qwen\"\u003eqwen\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-26T16:21:09Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "computer-science",
-        "explorables",
-        "generative-ai",
-        "llms",
-        "sam-rose",
-        "qwen"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "5d38ecd84eadc3d7",
-      "url": "https://simonwillison.net/2026/Mar/26/datasette-llm/#atom-everything",
-      "title": "datasette-llm 0.1a2",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a2\"\u003edatasette-llm 0.1a2\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003eactor\u003c/code\u003e is now available to the \u003ccode\u003ellm_prompt_context\u003c/code\u003e plugin hook. \u003ca href=\"https://github.com/datasette/datasette-llm/pull/2\"\u003e#2\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-26T15:52:32Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "datasette"
       ],
       "_signal_feed_title": "Simon Willison's Weblog",
       "_signal_feed_url": "http://simonwillison.net/"
@@ -2893,5 +2898,5 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-04-02T13:06:14Z"
+  "_signal_generated": "2026-04-02T18:53:27Z"
 }
