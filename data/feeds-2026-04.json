@@ -3,6 +3,46 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "f4c73d3bd1853cd3",
+      "url": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+      "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
+      "summary": "\u003cp\u003e\u003cstrong\u003eResearch:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/research/tree/main/test-csp-iframe-escape#readme\"\u003eCan JavaScript Escape a CSP Meta Tag Inside an Iframe?\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eIn trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed iframes without using a separate domain to host the files. Turns out you can inject \u003ccode\u003e\u0026lt;meta http-equiv=\"Content-Security-Policy\"...\u0026gt;\u003c/code\u003e tags at the top of the iframe content and they'll be obeyed even if subsequent untrusted JavaScript tries to manipulate them.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/iframes\"\u003eiframes\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/javascript\"\u003ejavascript\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/content-security-policy\"\u003econtent-security-policy\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/sandboxing\"\u003esandboxing\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T16:05:00Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "iframes",
+        "security",
+        "javascript",
+        "content-security-policy",
+        "sandboxing"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "21e855c5ef555f79",
+      "url": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "summary": "\u003cp\u003eThe Axios team have published a \u003ca href=\"https://github.com/axios/axios/issues/10636\"\u003efull postmortem\u003c/a\u003e on the supply chain attack which resulted in a malware dependency going out \u003ca href=\"https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/\"\u003ein a release the other day\u003c/a\u003e, and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of \u003ca href=\"https://github.com/axios/axios/issues/10636#issuecomment-4180237789\"\u003ehow that worked\u003c/a\u003e:\u003c/p\u003e\r\n\u003cblockquote\u003e\r\n\u003cp\u003eso the attack vector mimics what google has documented here: \u003ca href=\"https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering\"\u003ehttps://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering\u003c/a\u003e\u003c/p\u003e\r\n\u003cp\u003ethey tailored this process specifically to me by doing the following:\u003c/p\u003e\r\n\u003cul\u003e\r\n\u003cli\u003ethey reached out masquerading as the founder of a company they had cloned the companys founders likeness as well as the company itself.\u003c/li\u003e\r\n\u003cli\u003ethey then invited me to a real slack workspace. this workspace was branded to the companies ci and named in a plausible manner. the slack was thought out very well, they had channels where they were sharing linked-in posts, the linked in posts i presume just went to the real companys account but it was super convincing etc. they even had what i presume were fake profiles of the team of the company but also number of other oss maintainers.\u003c/li\u003e\r\n\u003cli\u003ethey scheduled a meeting with me to connect. the meeting was on ms teams. the meeting had what seemed to be a group of people that were involved.\u003c/li\u003e\r\n\u003cli\u003ethe meeting said something on my system was out of date. i installed the missing item as i presumed it was something to do with teams, and this was the RAT.\u003c/li\u003e\r\n\u003cli\u003eeverything was extremely well co-ordinated looked legit and was done in a professional manner.\u003c/li\u003e\r\n\u003c/ul\u003e\r\n\u003c/blockquote\u003e\r\n\u003cp\u003eA RAT is a Remote Access Trojan - this was the software which stole the developer's credentials which could then be used to publish the malicious package.\u003c/p\u003e\r\n\u003cp\u003eThat's a \u003cem\u003every effective\u003c/em\u003e scam. I join a lot of meetings where I find myself needing to install Webex or Microsoft Teams or similar at the last moment and the time constraint means I always click \"yes\" to things as quickly as possible to make sure I don't join late.\u003c/p\u003e\r\n\u003cp\u003eEvery maintainer of open source software used by enough people to be worth taking in this way needs to be familiar with this attack strategy.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/open-source\"\u003eopen-source\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/packaging\"\u003epackaging\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/social-engineering\"\u003esocial-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T13:54:53Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "open-source",
+        "packaging",
+        "security",
+        "social-engineering",
+        "supply-chain"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "068253b9db3bc029",
       "url": "https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec?source=rss-c1ec701babb7------2",
       "title": "Gas Town: from Clown Show to v1.0",
@@ -223,6 +263,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-03T12:57:46Z",
+  "_signal_generated": "2026-04-03T18:42:32Z",
   "_signal_period": "2026-04"
 }
