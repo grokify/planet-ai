@@ -230,27 +230,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "a2ed69e2c1c43103",
-      "url": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
-      "title": "Pretext",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://github.com/chenglou/pretext\"\u003ePretext\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nExciting new browser library from Cheng Lou, previously a React core developer and the original creator of the \u003ca href=\"https://github.com/chenglou/react-motion\"\u003ereact-motion\u003c/a\u003e animation library.\u003c/p\u003e\n\u003cp\u003ePretext solves the problem of calculating the height of a paragraph of line-wrapped text \u003cem\u003ewithout touching the DOM\u003c/em\u003e. The usual way of doing this is to render the text and measure its dimensions, but this is extremely expensive. Pretext uses an array of clever tricks to make this much, much faster, which enables all sorts of new text rendering effects in browser applications.\u003c/p\u003e\n\u003cp\u003eHere's \u003ca href=\"https://chenglou.me/pretext/dynamic-layout/\"\u003eone demo\u003c/a\u003e that shows the kind of things this makes possible:\u003c/p\u003e\n\u003cvideo autoplay loop muted playsinline\n  poster=\"https://static.simonwillison.net/static/2026/pretex.jpg\"\u003e\n  \u003csource src=\"https://static.simonwillison.net/static/2026/pretex.mp4\" type=\"video/mp4\"\u003e\n\u003c/video\u003e\n\n\u003cp\u003eThe key to how this works is the way it separates calculations into a call to a \u003ccode\u003eprepare()\u003c/code\u003e function followed by multiple calls to \u003ccode\u003elayout()\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eThe \u003ccode\u003eprepare()\u003c/code\u003e function splits the input text into segments (effectively words, but it can take things like soft hyphens and non-latin character sequences and emoji into account as well) and measures those using an off-screen canvas, then caches the results. This is comparatively expensive but only runs once.\u003c/p\u003e\n\u003cp\u003eThe \u003ccode\u003elayout()\u003c/code\u003e function can then emulate the word-wrapping logic in browsers to figure out how many wrapped lines the text will occupy at a specified width and measure the overall height.\u003c/p\u003e\n\u003cp\u003eI \u003ca href=\"https://claude.ai/share/7859cbe1-1350-4341-bb40-6aa241d6a1fe\"\u003ehad Claude\u003c/a\u003e build me \u003ca href=\"https://tools.simonwillison.net/pretext-explainer\"\u003ethis interactive artifact\u003c/a\u003e to help me visually understand what's going on, based on a simplified version of Pretext itself.\u003c/p\u003e\n\u003cp\u003eThe way this is tested is particularly impressive. The earlier tests \u003ca href=\"https://github.com/chenglou/pretext/commit/d07dd7a5008726f99a15cebe0abd9031022e28ef#diff-835c37ed3b9234ed4d90c7703addb8e47f4fee6d9a28481314afd15ac472f8d2\"\u003erendered a full copy of the Great Gatsby\u003c/a\u003e in multiple browsers to confirm that the estimated measurements were correct against a large volume of text. This was later joined by \u003ca href=\"https://github.com/chenglou/pretext/tree/main/corpora\"\u003ethe corpora/ folder\u003c/a\u003e using the same technique against lengthy public domain documents in Thai, Chinese, Korean, Japanese, Arabic, and more.\u003c/p\u003e\n\u003cp\u003eCheng Lou \u003ca href=\"https://twitter.com/_chenglou/status/2037715226838343871\"\u003esays\u003c/a\u003e:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe engine’s tiny (few kbs), aware of browser quirks, supports all the languages you’ll need, including Korean mixed with RTL Arabic and platform-specific emojis\u003c/p\u003e\n\u003cp\u003eThis was achieved through showing Claude Code and Codex the browsers ground truth, and have them measure \u0026amp; iterate against those at every significant container width, running over weeks\u003c/p\u003e\n\u003c/blockquote\u003e\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://twitter.com/_chenglou/status/2037713766205608234\"\u003e@_chenglou\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/browsers\"\u003ebrowsers\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/css\"\u003ecss\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/javascript\"\u003ejavascript\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/testing\"\u003etesting\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/react\"\u003ereact\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/typescript\"\u003etypescript\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-29T20:08:45Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "browsers",
-        "css",
-        "javascript",
-        "testing",
-        "react",
-        "typescript"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "1eb959e62af260cc",
       "url": "https://dev.to/siddhantkcode/ai-agent-stack-you-need-context-auth-and-cognitive-debt-3l03",
       "title": "AI Agent stack you need Context, Auth, and Cognitive Debt",
@@ -358,6 +337,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-04T01:55:08Z",
+  "_signal_generated": "2026-04-04T06:57:07Z",
   "_signal_period": "2026-03"
 }

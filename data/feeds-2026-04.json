@@ -3,6 +3,37 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "1c70fa058872cacb",
+      "url": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "title": "Quoting Kyle Daigle",
+      "summary": "\u003cblockquote cite=\"https://twitter.com/kdaigle/status/2040164759836778878\"\u003e\u003cp\u003e[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.)\u003c/p\u003e\n\u003cp\u003eGitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/kdaigle/status/2040164759836778878\"\u003eKyle Daigle\u003c/a\u003e, COO, GitHub\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/github\"\u003egithub\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/github-actions\"\u003egithub-actions\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-04T02:20:17Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "github",
+        "github-actions"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "4ad3f4d3aedcec38",
       "url": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
       "title": "Vulnerability Research Is Cooked",
@@ -369,6 +400,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-04T01:55:08Z",
+  "_signal_generated": "2026-04-04T06:57:07Z",
   "_signal_period": "2026-04"
 }
