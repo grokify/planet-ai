@@ -3,6 +3,112 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "4ad3f4d3aedcec38",
+      "url": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+      "title": "Vulnerability Research Is Cooked",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/\"\u003eVulnerability Research Is Cooked\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nThomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWithin the next few months, coding agents will drastically alter both the practice and the economics of exploit development. Frontier model improvement won’t be a slow burn, but rather a step function. Substantial amounts of high-impact vulnerability research (maybe even most of it) will happen simply by pointing an agent at a source tree and typing “find me zero days”.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eWhy are agents so good at this? A combination of baked-in knowledge, pattern matching ability and brute force:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eYou can't design a better problem for an LLM agent than exploitation research.\u003c/p\u003e\n\u003cp\u003eBefore you feed it a single token of context, a frontier LLM already encodes supernatural amounts of correlation across vast bodies of source code. Is the Linux KVM hypervisor connected to the \u003ccode\u003ehrtimer\u003c/code\u003e subsystem, \u003ccode\u003eworkqueue\u003c/code\u003e, or \u003ccode\u003eperf_event\u003c/code\u003e? The model knows.\u003c/p\u003e\n\u003cp\u003eAlso baked into those model weights: the complete library of documented \"bug classes\" on which all exploit development builds: stale pointers, integer mishandling, type confusion, allocator grooming, and all the known ways of promoting a wild write to a controlled 64-bit read/write in Firefox.\u003c/p\u003e\n\u003cp\u003eVulnerabilities are found by pattern-matching bug classes and constraint-solving for reachability and exploitability. Precisely the implicit search problems that LLMs are most gifted at solving. Exploit outcomes are straightforwardly testable success/failure trials. An agent never gets bored and will search forever if you tell it to.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThe article was partly inspired by \u003ca href=\"https://securitycryptographywhatever.com/2026/03/25/ai-bug-finding/\"\u003ethis episode of the Security Cryptography Whatever podcast\u003c/a\u003e, where David Adrian, Deirdre Connolly, and Thomas interviewed Anthropic's Nicholas Carlini for 1 hour 16 minutes.\u003c/p\u003e\n\u003cp\u003eI just started a new tag here for \u003ca href=\"https://simonwillison.net/tags/ai-security-research/\"\u003eai-security-research\u003c/a\u003e - it's up to 11 posts already.\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/thomas-ptacek\"\u003ethomas-ptacek\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/careers\"\u003ecareers\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/nicholas-carlini\"\u003enicholas-carlini\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-security-research\"\u003eai-security-research\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T23:59:08Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "security",
+        "thomas-ptacek",
+        "careers",
+        "generative-ai",
+        "llms",
+        "nicholas-carlini",
+        "ai-ethics",
+        "ai-security-research"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "eaff3c2d23b3a235",
+      "url": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
+      "title": "The cognitive impact of coding agents",
+      "summary": "\u003cp\u003eA fun thing about \u003ca href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\"\u003erecording a podcast\u003c/a\u003e with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's \u003ca href=\"https://x.com/lennysan/status/2039845666680176703\"\u003eone he shared on Twitter today\u003c/a\u003e which ended up attracting over 1.1m views!\u003c/p\u003e\n\u003cp\u003e\u003cvideo\n  src=\"https://static.simonwillison.net/static/2026/cognitive-cost.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026/cognitive-cost-poster.jpg\"\n  controls\n  preload=\"none\"\n  playsinline\n  style=\"display:block; max-width:400px; width:100%; height:auto; margin:0 auto\"\n\u003e\u003ctrack src=\"https://static.simonwillison.net/static/2026/cognitive-cost.vtt\" kind=\"captions\" srclang=\"en\" label=\"English\"\u003e\u003c/video\u003e\n\u003c/p\u003e\n\u003cp\u003eThat was 48 seconds. Our \u003ca href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\"\u003efull conversation\u003c/a\u003e lasted 1 hour 40 minutes.\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/podcast-appearances\"\u003epodcast-appearances\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/cognitive-debt\"\u003ecognitive-debt\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T23:57:04Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "ai-ethics",
+        "coding-agents",
+        "agentic-engineering",
+        "generative-ai",
+        "podcast-appearances",
+        "llms",
+        "cognitive-debt"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "6b7bae3c95c5aeab",
+      "url": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
+      "title": "Quoting Willy Tarreau",
+      "summary": "\u003cblockquote cite=\"https://lwn.net/Articles/1065620/\"\u003e\u003cp\u003eOn the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days (fridays and tuesdays seem the worst). Now most of these reports are correct, to the point that we had to bring in more maintainers to help us.\u003c/p\u003e\n\u003cp\u003eAnd we're now seeing on a daily basis something that never happened before: duplicate reports, or the same bug found by two different people using (possibly slightly) different tools.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://lwn.net/Articles/1065620/\"\u003eWilly Tarreau\u003c/a\u003e, Lead Software Developer. HAPROXY\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/linux\"\u003elinux\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-security-research\"\u003eai-security-research\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T21:48:22Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "security",
+        "linux",
+        "generative-ai",
+        "llms",
+        "ai-security-research"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "3531713cc6c5e357",
+      "url": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
+      "title": "Quoting Daniel Stenberg",
+      "summary": "\u003cblockquote cite=\"https://mastodon.social/@bagder/116336957584445742\"\u003e\u003cp\u003eThe challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good.\u003c/p\u003e\n\u003cp\u003eI'm spending hours per day on this now. It's intense.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://mastodon.social/@bagder/116336957584445742\"\u003eDaniel Stenberg\u003c/a\u003e, lead developer of cURL\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/daniel-stenberg\"\u003edaniel-stenberg\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/curl\"\u003ecurl\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-security-research\"\u003eai-security-research\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T21:46:07Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "daniel-stenberg",
+        "security",
+        "curl",
+        "generative-ai",
+        "llms",
+        "ai-security-research"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "4870e574744035d0",
+      "url": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
+      "title": "Quoting Greg Kroah-Hartman",
+      "summary": "\u003cblockquote cite=\"https://www.theregister.com/2026/03/26/greg_kroahhartman_ai_kernel/\"\u003e\u003cp\u003eMonths ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us.\u003c/p\u003e\n\u003cp\u003eSomething happened a month ago, and the world switched. Now we have real reports. All open source projects have real reports that are made with AI, but they're good, and they're real.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://www.theregister.com/2026/03/26/greg_kroahhartman_ai_kernel/\"\u003eGreg Kroah-Hartman\u003c/a\u003e, Linux kernel maintainer (\u003ca href=\"https://en.wikipedia.org/wiki/Greg_Kroah-Hartman\"\u003ebio\u003c/a\u003e), in conversation with Steven J. Vaughan-Nichols\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/linux\"\u003elinux\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-security-research\"\u003eai-security-research\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-03T21:44:41Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "security",
+        "linux",
+        "generative-ai",
+        "llms",
+        "ai-security-research"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "f4c73d3bd1853cd3",
       "url": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
       "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
@@ -263,6 +369,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-03T18:42:32Z",
+  "_signal_generated": "2026-04-04T01:55:08Z",
   "_signal_period": "2026-04"
 }
