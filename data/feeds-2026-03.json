@@ -154,67 +154,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     },
     {
-      "id": "b3d49bc5c5ccad8c",
-      "url": "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything",
-      "title": "Quoting Georgi Gerganov",
-      "summary": "\u003cblockquote cite=\"https://twitter.com/ggerganov/status/2038674698809102599\"\u003e\u003cp\u003eNote that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model chat templates and prompt construction. Sometimes there are even pure inference bugs. From typing the task in the client to the actual result, there is a long chain of components that atm are not only fragile - are also developed by different parties. So it's difficult to consolidate the entire stack and you have to keep in mind that what you are currently observing is with very high probability still broken in some subtle way along that chain.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://twitter.com/ggerganov/status/2038674698809102599\"\u003eGeorgi Gerganov\u003c/a\u003e, explaining why it's hard to find local models that work well with coding agents\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/local-llms\"\u003elocal-llms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/georgi-gerganov\"\u003egeorgi-gerganov\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-30T21:31:02Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "coding-agents",
-        "generative-ai",
-        "local-llms",
-        "llms",
-        "georgi-gerganov"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "b3eebf4717bedcea",
-      "url": "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything",
-      "title": "datasette-llm 0.1a3",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a3\"\u003edatasette-llm 0.1a3\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eAdds the ability to configure \u003ca href=\"https://github.com/datasette/datasette-llm/tree/0.1a3#purpose-specific-configuration\"\u003ewhich LLMs are available for which purpose\u003c/a\u003e, which means you can restrict the list of models that can be used with a specific plugin. \u003ca href=\"https://github.com/datasette/datasette-llm/issues/3\"\u003e#3\u003c/a\u003e\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-30T19:48:43Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "datasette"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "56a5478017f09571",
-      "url": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything",
-      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
-      "summary": "\u003cp\u003eTrip Venturella released \u003ca href=\"https://www.estragon.news/mr-chatterbox-or-the-modern-prometheus/\"\u003eMr. Chatterbox\u003c/a\u003e, a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in \u003ca href=\"https://huggingface.co/tventurella/mr_chatterbox_model\"\u003ethe model card\u003c/a\u003e:\u003c/p\u003e\r\n\u003cblockquote\u003e\r\n\u003cp\u003eMr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts published between 1837 and 1899, drawn from a dataset made available \u003ca href=\"https://huggingface.co/datasets/TheBritishLibrary/blbooks\"\u003eby the British Library\u003c/a\u003e. The model has absolutely no training inputs from after 1899 — the vocabulary and ideas are formed exclusively from nineteenth-century literature.\u003c/p\u003e\r\n\u003cp\u003eMr. Chatterbox's training corpus was 28,035 books, with an estimated 2.93 billion input tokens after filtering. The model has roughly 340 million paramaters, roughly the same size as GPT-2-Medium. The difference is, of course, that unlike GPT-2, Mr. Chatterbox is trained entirely on historical data.\u003c/p\u003e\r\n\u003c/blockquote\u003e\r\n\u003cp\u003eGiven how hard it is to train a useful LLM without using vast amounts of scraped, unlicensed data I've been dreaming of a model like this for a couple of years now. What would a model trained on out-of-copyright text be like to chat with?\u003c/p\u003e\r\n\u003cp\u003eThanks to Trip we can now find out for ourselves!\u003c/p\u003e\r\n\u003cp\u003eThe model itself is tiny, at least by Large Language Model standards - just \u003ca href=\"https://huggingface.co/tventurella/mr_chatterbox_model/tree/main\"\u003e2.05GB\u003c/a\u003e on disk. You can try it out using Trip's \u003ca href=\"https://huggingface.co/spaces/tventurella/mr_chatterbox\"\u003eHuggingFace Spaces demo\u003c/a\u003e:\u003c/p\u003e\r\n\u003cp style=\"text-align: center\"\u003e\u003cimg src=\"https://static.simonwillison.net/static/2026/chatterbox.jpg\" alt=\"Screenshot of a Victorian-themed chatbot interface titled \u0026quot;🎩 Mr. Chatterbox (Beta)\u0026quot; with subtitle \u0026quot;The Victorian Gentleman Chatbot\u0026quot;. The conversation shows a user asking \u0026quot;How should I behave at dinner?\u0026quot; with the bot replying \u0026quot;My good fellow, one might presume that such trivialities could not engage your attention during an evening's discourse!\u0026quot; The user then asks \u0026quot;What are good topics?\u0026quot; and the bot responds \u0026quot;The most pressing subjects of our society— Indeed, a gentleman must endeavor to engage the conversation with grace and vivacity. Such pursuits serve as vital antidotes against ennui when engaged in agreeable company.\u0026quot; A text input field at the bottom reads \u0026quot;Say hello...\u0026quot; with a send button. The interface uses a dark maroon and cream color scheme.\" style=\"max-width: 80%;\" /\u003e\u003c/p\u003e\r\n\u003cp\u003eHonestly, it's pretty terrible. Talking with it feels more like chatting with a Markov chain than an LLM - the responses may have a delightfully Victorian flavor to them but it's hard to get a response that usefully answers a question.\u003c/p\u003e\r\n\u003cp\u003eThe \u003ca href=\"https://arxiv.org/abs/2203.15556\"\u003e2022 Chinchilla paper\u003c/a\u003e suggests a ratio of 20x the parameter count to training tokens. For a 340m model that would suggest around 7 billion tokens, more than twice the British Library corpus used here. The smallest Qwen 3.5 model is 600m parameters and that model family starts to get interesting at 2b - so my hunch is we would need 4x or more the training data to get something that starts to feel like a useful conversational partner.\u003c/p\u003e\r\n\u003cp\u003eBut what a fun project!\u003c/p\u003e\r\n\u003ch4 id=\"running-it-locally-with-llm\"\u003eRunning it locally with LLM\u003c/h4\u003e\r\n\u003cp\u003eI decided to see if I could run the model on my own machine using my \u003ca href=\"https://llm.datasette.io/\"\u003eLLM\u003c/a\u003e framework.\u003c/p\u003e\r\n\u003cp\u003eI got Claude Code to do most of the work - \u003ca href=\"https://gisthost.github.io/?7d0f00e152dd80d617b5e501e4ff025b/index.html\"\u003ehere's the transcript\u003c/a\u003e.\u003c/p\u003e\r\n\u003cp\u003eTrip trained the model using Andrej Karpathy's \u003ca href=\"https://github.com/karpathy/nanochat\"\u003enanochat\u003c/a\u003e, so I cloned that project, pulled the model weights and told Claude to build a Python script to run the model. Once we had that working (which ended up needing some extra details from the \u003ca href=\"https://huggingface.co/spaces/tventurella/mr_chatterbox/tree/main\"\u003eSpace demo source code\u003c/a\u003e) I had Claude \u003ca href=\"https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html\"\u003eread the LLM plugin tutorial\u003c/a\u003e and build the rest of the plugin.\u003c/p\u003e\r\n\u003cp\u003e\u003ca href=\"https://github.com/simonw/llm-mrchatterbox\"\u003ellm-mrchatterbox\u003c/a\u003e is the result. Install the plugin like this:\u003c/p\u003e\r\n\u003cpre\u003e\u003ccode\u003ellm install llm-mrchatterbox\r\n\u003c/code\u003e\u003c/pre\u003e\r\n\u003cp\u003eThe first time you run a prompt it will fetch the 2.05GB model file from Hugging Face. Try that like this:\u003c/p\u003e\r\n\u003cpre\u003e\u003ccode\u003ellm -m mrchatterbox \"Good day, sir\"\r\n\u003c/code\u003e\u003c/pre\u003e\r\n\u003cp\u003eOr start an ongoing chat session like this:\u003c/p\u003e\r\n\u003cpre\u003e\u003ccode\u003ellm chat -m mrchatterbox\r\n\u003c/code\u003e\u003c/pre\u003e\r\n\u003cp\u003eIf you don't have LLM installed you can still get a chat session started from scratch using uvx like this:\u003c/p\u003e\r\n\u003cpre\u003e\u003ccode\u003euvx --with llm-mrchatterbox llm chat -m mrchatterbox\r\n\u003c/code\u003e\u003c/pre\u003e\r\n\u003cp\u003eWhen you are finished with the model you can delete the cached file using:\u003c/p\u003e\r\n\u003cpre\u003e\u003ccode\u003ellm mrchatterbox delete-model\r\n\u003c/code\u003e\u003c/pre\u003e\r\n\u003cp\u003eThis is the first time I've had Claude Code build a full LLM model plugin from scratch and it worked really well. I expect I'll be using this method again in the future.\u003c/p\u003e\r\n\u003cp\u003eI continue to hope we can get a useful model from entirely public domain data. The fact that Trip was able to get this far using nanochat and 2.93 billion training tokens is a promising start.\u003c/p\u003e\r\n\r\n\u003cp id=\"update-31st\"\u003e\u003cstrong\u003eUpdate 31st March 2026\u003c/strong\u003e: I had missed this when I first published this piece but Trip has his own \u003ca href=\"https://www.estragon.news/mr-chatterbox-or-the-modern-prometheus/\"\u003edetailed writeup of the project\u003c/a\u003e which goes into much more detail about how he trained the model. Here's how the books were filtered for pre-training:\u003c/p\u003e\r\n\u003cblockquote\u003e\r\n\u003cp\u003eFirst, I downloaded the British Library dataset split of all 19th-century books. I filtered those down to books contemporaneous with the reign of Queen Victoria—which, unfortunately, cut out the novels of Jane Austen—and further filtered those down to a set of books with a optical character recognition (OCR) confidence of .65 or above, as listed in the metadata. This left me with 28,035 books, or roughly 2.93 billion tokes for pretraining data.\u003c/p\u003e\r\n\u003c/blockquote\u003e\r\n\u003cp\u003eGetting it to behave like a conversational model was a lot harder. Trip started by trying to train on plays by Oscar Wilde and George Bernard Shaw, but found they didn't provide enough pairs. Then he tried extracting dialogue pairs from the books themselves with poor results. The approach that worked was to have Claude Haiku and GPT-4o-mini generate synthetic conversation pairs for the supervised fine tuning, which solved the problem but sadly I think dilutes the \"no training inputs from after 1899\" claim from the original model card.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/andrej-karpathy\"\u003eandrej-karpathy\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/local-llms\"\u003elocal-llms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/hugging-face\"\u003ehugging-face\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/training-data\"\u003etraining-data\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/uv\"\u003euv\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-ethics\"\u003eai-ethics\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude-code\"\u003eclaude-code\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-30T14:28:34Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "andrej-karpathy",
-        "generative-ai",
-        "local-llms",
-        "llms",
-        "ai-assisted-programming",
-        "hugging-face",
-        "training-data",
-        "uv",
-        "ai-ethics",
-        "claude-code"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "1eb959e62af260cc",
       "url": "https://dev.to/siddhantkcode/ai-agent-stack-you-need-context-auth-and-cognitive-debt-3l03",
       "title": "AI Agent stack you need Context, Auth, and Cognitive Debt",
@@ -322,6 +261,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-05T02:08:54Z",
+  "_signal_generated": "2026-04-05T07:02:01Z",
   "_signal_period": "2026-03"
 }

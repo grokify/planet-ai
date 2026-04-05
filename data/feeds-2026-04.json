@@ -3,6 +3,57 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "a29aa968f08cb2c3",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "title": "scan-for-secrets 0.2",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.2\"\u003escan-for-secrets 0.2\u003c/a\u003e\u003c/p\u003e\n    \u003cul\u003e\n\u003cli\u003eCLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e-d/--directory\u003c/code\u003e option can now be used multiple times to scan multiple directories.\u003c/li\u003e\n\u003cli\u003eNew \u003ccode\u003e-f/--file\u003c/code\u003e option for specifying one or more individual files to scan.\u003c/li\u003e\n\u003cli\u003eNew \u003ccode\u003escan_directory_iter()\u003c/code\u003e, \u003ccode\u003escan_file()\u003c/code\u003e and \u003ccode\u003escan_file_iter()\u003c/code\u003e Python API functions.\u003c/li\u003e\n\u003cli\u003eNew \u003ccode\u003e-v/--verbose\u003c/code\u003e option which shows each directory that is being scanned.\u003c/li\u003e\n\u003c/ul\u003e",
+      "date_published": "2026-04-05T04:07:13Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "e7130544b08a9ca2",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+      "title": "scan-for-secrets 0.1.1",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.1.1\"\u003escan-for-secrets 0.1.1\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eAdded documentation of the escaping schemes that are also scanned.\u003c/li\u003e\n\u003cli\u003eRemoved unnecessary \u003ccode\u003erepr\u003c/code\u003e escaping scheme, which was already covered by \u003ccode\u003ejson\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e",
+      "date_published": "2026-04-05T03:39:33Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "5277a45a7d3d7bf5",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+      "title": "scan-for-secrets 0.1",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.1\"\u003escan-for-secrets 0.1\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eI like publishing transcripts of local Claude Code sessions using my \u003ca href=\"https://github.com/simonw/claude-code-transcripts\"\u003eclaude-code-transcripts\u003c/a\u003e tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files.\u003c/p\u003e\n\u003cp\u003eI built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003euvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eIf you leave off the \u003ccode\u003e-d\u003c/code\u003e it defaults to the current directory.\u003c/p\u003e\n\u003cp\u003eIt doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, \u003ca href=\"https://github.com/simonw/scan-for-secrets/blob/main/README.md#escaping-schemes\"\u003eas described in the README\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eIf you have a set of secrets you always want to protect you can list commands to echo them in a \u003ccode\u003e~/.scan-for-secrets.conf.sh\u003c/code\u003e file. Mine looks like this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ellm keys get openai\nllm keys get anthropic\nllm keys get gemini\nllm keys get mistral\nawk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eI built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then \u003ca href=\"https://gisthost.github.io/?d4b1a398bf3b6b14aade923dea69a1ac/index.html\"\u003edumped it into Claude Code\u003c/a\u003e and told it to build the actual tool (using \u003ca href=\"https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/\"\u003ered/green TDD\u003c/a\u003e, naturally.)\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/projects\"\u003eprojects\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/coding-agents\"\u003ecoding-agents\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude-code\"\u003eclaude-code\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-05T03:27:13Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "projects",
+        "security",
+        "agentic-engineering",
+        "coding-agents",
+        "ai-assisted-programming",
+        "claude-code"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "d0fd81463d223704",
       "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
       "title": "research-llm-apis 2026-04-04",
@@ -438,6 +489,6 @@
       "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-05T02:08:54Z",
+  "_signal_generated": "2026-04-05T07:02:01Z",
   "_signal_period": "2026-04"
 }
