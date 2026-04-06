@@ -73,15 +73,6 @@
           "categories": ["Writing", "Productivity", "Personal Development"]
         },
         {
-          "text": "Simon Willison",
-          "title": "Simon Willison",
-          "type": "rss",
-          "xmlUrl": "https://simonwillison.net/atom/everything/",
-          "htmlUrl": "https://simonwillison.net",
-          "description": "AI, LLMs, Python, and open source development",
-          "categories": ["AI", "LLM", "Python", "Open Source"]
-        },
-        {
           "text": "Be a Better Dev",
           "title": "Be a Better Dev",
           "type": "rss",
@@ -98,6 +89,60 @@
           "htmlUrl": "https://lucijagregov.com",
           "description": "Tech career insights and development",
           "categories": ["Career", "Development", "Tech"]
+        },
+        {
+          "text": "Neil Kakkar",
+          "title": "Neil Kakkar",
+          "type": "rss",
+          "xmlUrl": "https://neilkakkar.com/feed.xml",
+          "htmlUrl": "https://neilkakkar.com",
+          "description": "Software engineering, productivity, and AI coding workflows",
+          "categories": ["AI", "Productivity", "Software Engineering"]
+        },
+        {
+          "text": "d11r",
+          "title": "d11r",
+          "type": "rss",
+          "xmlUrl": "https://blog.d11r.eu/index.xml",
+          "htmlUrl": "https://blog.d11r.eu",
+          "description": "Programming, software craftsmanship, and theory building",
+          "categories": ["Programming", "Software Engineering", "Craftsmanship"]
+        },
+        {
+          "text": "Answer.AI",
+          "title": "Answer.AI",
+          "type": "rss",
+          "xmlUrl": "https://www.answer.ai/index.xml",
+          "htmlUrl": "https://www.answer.ai",
+          "description": "Practical AI research and applications from Jeremy Howard's lab",
+          "categories": ["AI", "Machine Learning", "Research"]
+        },
+        {
+          "text": "Mario Zechner",
+          "title": "Mario Zechner",
+          "type": "rss",
+          "xmlUrl": "https://mariozechner.at/rss.xml",
+          "htmlUrl": "https://mariozechner.at",
+          "description": "Game development, programming, and thoughts on AI coding",
+          "categories": ["Programming", "Game Development", "AI"]
+        },
+        {
+          "text": "Lalit Maganti",
+          "title": "Lalit Maganti",
+          "type": "rss",
+          "xmlUrl": "https://lalitm.com/index.xml",
+          "htmlUrl": "https://lalitm.com",
+          "description": "Systems programming, databases, and AI-assisted development",
+          "categories": ["Programming", "Databases", "AI"]
+        },
+        {
+          "text": "Ergosphere",
+          "title": "Ergosphere",
+          "type": "atom",
+          "xmlUrl": "https://ergosphere.blog/atom.xml",
+          "htmlUrl": "https://ergosphere.blog",
+          "description": "Thoughts on AI, academia, and intellectual development",
+          "categories": ["AI", "Academia", "Learning"]
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "title": "Curated Articles",
   "description": "Hand-picked priority content about AI coding agents",
-  "updated": "2026-02-20T00:00:00Z",
+  "updated": "2026-04-06T00:00:00Z",
   "links": [
     {
       "title": "Minions: Stripe's one-shot, end-to-end coding agents",
@@ -103,6 +103,158 @@
         "author": "dsuydam",
         "postId": "7421211948899508224"
       }
+    },
+    {
+      "title": "How I'm Productive with Claude Code",
+      "url": "https://neilkakkar.com/productive-with-claude-code.html",
+      "author": "Neil Kakkar",
+      "date": "2026-03-23T00:00:00Z",
+      "tags": ["AI", "Claude", "Productivity", "Developer Workflow"],
+      "summary": "After months of experimentation, the author shares a workflow that maximizes Claude Code's effectiveness: treat it as a highly capable junior developer who needs clear requirements, frequent check-ins, and careful review.",
+      "rank": 7,
+      "feedTitle": "Neil Kakkar",
+      "feedUrl": "https://neilkakkar.com",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47494890",
+          "id": "47494890",
+          "score": 567
+        }
+      ]
+    },
+    {
+      "title": "Vibecoders Can't Build for Longevity",
+      "url": "https://blog.d11r.eu/theory-building/",
+      "author": "d11r",
+      "date": "2026-03-23T00:00:00Z",
+      "tags": ["AI", "Vibe Coding", "Software Engineering", "Technical Debt"],
+      "summary": "The trend of 'vibe coding' - quickly prototyping with AI and shipping without deep understanding - creates software that works initially but becomes unmaintainable within months.",
+      "rank": 8,
+      "feedTitle": "d11r",
+      "feedUrl": "https://blog.d11r.eu",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47494098",
+          "id": "47494098",
+          "score": 783
+        }
+      ]
+    },
+    {
+      "title": "I tried to prove I'm not AI. My aunt wasn't convinced",
+      "url": "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake",
+      "author": "BBC Future",
+      "date": "2026-03-24T00:00:00Z",
+      "tags": ["AI", "Identity", "Deepfakes", "Authentication"],
+      "summary": "The author attempted various methods to prove human authenticity to an AI detector service and found the entire concept fundamentally broken.",
+      "rank": 9,
+      "feedTitle": "BBC Future",
+      "feedUrl": "https://www.bbc.com/future",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47515502",
+          "id": "47515502",
+          "score": 876
+        }
+      ]
+    },
+    {
+      "title": "So where are all the AI apps?",
+      "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
+      "author": "Answer.AI",
+      "date": "2026-03-24T00:00:00Z",
+      "tags": ["AI", "Product Development", "Consumer Tech", "Startups"],
+      "summary": "Despite massive investment in AI infrastructure, we're seeing remarkably few transformative consumer AI applications emerge. The gap between AI capability and useful products suggests fundamental challenges in productizing AI.",
+      "rank": 10,
+      "feedTitle": "Answer.AI",
+      "feedUrl": "https://www.answer.ai",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47503006",
+          "id": "47503006",
+          "score": 1247
+        }
+      ]
+    },
+    {
+      "title": "90% of Claude-linked output going to GitHub repos with <2 stars",
+      "url": "https://www.claudescode.dev/?window=since_launch",
+      "author": "claudescode.dev",
+      "date": "2026-03-25T00:00:00Z",
+      "tags": ["AI", "Claude", "GitHub", "Code Quality", "Metrics"],
+      "summary": "Analysis of GitHub data suggests that the overwhelming majority of AI-generated code ends up in repositories with minimal community validation, raising questions about the quality and utility of AI coding assistance at scale.",
+      "rank": 11,
+      "feedTitle": "Claude's Code",
+      "feedUrl": "https://www.claudescode.dev",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47521157",
+          "id": "47521157",
+          "score": 654
+        }
+      ]
+    },
+    {
+      "title": "Thoughts on slowing the fuck down",
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+      "author": "Mario Zechner",
+      "date": "2026-03-25T00:00:00Z",
+      "tags": ["AI", "Craftsmanship", "Code Quality", "Developer Productivity"],
+      "summary": "AI coding agents encourage developers to move fast without understanding, producing mountains of AI-generated code that obscures rather than illuminates. True craftsmanship requires slowing down and maintaining ownership of every line.",
+      "rank": 12,
+      "feedTitle": "Mario Zechner",
+      "feedUrl": "https://mariozechner.at",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47517539",
+          "id": "47517539",
+          "score": 892
+        }
+      ]
+    },
+    {
+      "title": "Eight years of wanting, three months of building with AI",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "author": "Lalit Maganti",
+      "date": "2026-04-04T00:00:00Z",
+      "tags": ["AI", "Architecture", "Vibe Coding", "Developer Productivity"],
+      "summary": "AI coding agents can unlock long-deferred projects by overcoming psychological barriers, but their effectiveness depends critically on task type—excelling at implementation while proving dangerous for architectural design decisions.",
+      "rank": 13,
+      "feedTitle": "Lalit Maganti",
+      "feedUrl": "https://lalitm.com",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47648828",
+          "id": "47648828",
+          "score": 762
+        }
+      ]
+    },
+    {
+      "title": "The threat is comfortable drift toward not understanding what you're doing",
+      "url": "https://ergosphere.blog/posts/the-machines-are-fine/",
+      "author": "Ergosphere",
+      "date": "2026-04-04T00:00:00Z",
+      "tags": ["AI", "Academia", "Learning", "Intellectual Development"],
+      "summary": "AI tools in academic research pose a subtle but profound danger - they enable students to bypass intellectual development and produce publishable work without building the foundational understanding necessary for independent scientific thinking.",
+      "rank": 14,
+      "feedTitle": "Ergosphere",
+      "feedUrl": "https://ergosphere.blog",
+      "discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47647788",
+          "id": "47647788",
+          "score": 865
+        }
+      ]
     }
   ]
 }
