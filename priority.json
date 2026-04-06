@@ -120,6 +120,10 @@
           "url": "https://news.ycombinator.com/item?id=47494890",
           "id": "47494890",
           "score": 567
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-how-im-productive-with-claude-code.html"
         }
       ]
     },
@@ -139,6 +143,10 @@
           "url": "https://news.ycombinator.com/item?id=47494098",
           "id": "47494098",
           "score": 783
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
     },
@@ -158,6 +166,10 @@
           "url": "https://news.ycombinator.com/item?id=47515502",
           "id": "47515502",
           "score": 876
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-i-tried-to-prove-im-not-ai-my-aunt-wasnt-convinced.html"
         }
       ]
     },
@@ -177,6 +189,10 @@
           "url": "https://news.ycombinator.com/item?id=47503006",
           "id": "47503006",
           "score": 1247
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-so-where-are-all-the-ai-apps.html"
         }
       ]
     },
@@ -196,6 +212,10 @@
           "url": "https://news.ycombinator.com/item?id=47521157",
           "id": "47521157",
           "score": 654
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-90%-of-claude-linked-output-going-to-github-repos.html"
         }
       ]
     },
@@ -215,6 +235,10 @@
           "url": "https://news.ycombinator.com/item?id=47517539",
           "id": "47517539",
           "score": 892
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-thoughts-on-slowing-the-fuck-down.html"
         }
       ]
     },
@@ -234,6 +258,10 @@
           "url": "https://news.ycombinator.com/item?id=47648828",
           "id": "47648828",
           "score": 762
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-04-04-eight-years-of-wanting-three-months-of-building-wi.html"
         }
       ]
     },
@@ -253,6 +281,10 @@
           "url": "https://news.ycombinator.com/item?id=47647788",
           "id": "47647788",
           "score": 865
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-04-04-the-threat-is-comfortable-drift-toward-not-underst.html"
         }
       ]
     }
