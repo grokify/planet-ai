@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "fb023d523c8274a4",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent",
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "summary": "Lessons I learned while building my own coding agent from scratch.",
+      "date_published": "2025-11-30T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "11b9b91de496a09e",
       "url": "https://dev.to/siddhantkcode/securing-agentic-ai-authorization-patterns-for-autonomous-systems-3ajo",
       "title": "Securing Agentic AI: authorization patterns for autonomous systems",
@@ -17,6 +31,34 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "cbb7b4651e7a634f",
+      "url": "https://lalitm.com/fixits-are-good-for-the-soul/",
+      "title": "We stopped roadmap work for a week and fixed 189 bugs",
+      "summary": "\u003cp\u003e\u003cem\u003eDiscussed on \u003ca href=\"https://news.ycombinator.com/item?id=46024541\"\u003eHacker News\u003c/a\u003e, \u003ca href=\"https://lobste.rs/s/gae4dh/we_stopped_roadmap_work_for_week_fixed_189\"\u003elobste.rs\u003c/a\u003e and \u003ca href=\"https://www.reddit.com/r/programming/comments/1p56fl3/xpost_from_hn_we_stopped_roadmap_work_for_a_week/\"\u003er/programming\u003c/a\u003e\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s Friday at 4pm. I\u0026rsquo;ve just closed my 12th bug of the week. My brain is completely fried. And I\u0026rsquo;m staring at the bug leaderboard, genuinely sad that Monday means going back to regular work. Which is weird because I \u003cstrong\u003elove\u003c/strong\u003e regular work. But fixit weeks have a special place in my heart.\u003c/p\u003e\n\u003ch2 id=\"whats-a-fixit-you-ask\"\u003eWhat’s a fixit, you ask?\u003c/h2\u003e\n\u003cp\u003eOnce a quarter or so, my org with ~45 software engineers stops all regular work for a week. That means no roadmap work, no design work, no meetings or standups.\u003c/p\u003e\n\u003cp\u003eInstead, we fix the small things that have been annoying us and our users:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ean error message that\u0026rsquo;s been unclear for two years\u003c/li\u003e\n\u003cli\u003ea weird glitch when the user scrolls and zooms at the same time\u003c/li\u003e\n\u003cli\u003ea test which runs slower than it should, slowing down CI for everyone\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe rules are simple: 1) no bug should take over 2 days and 2) all work should focus on either small end-user bugs/features or developer productivity.\u003c/p\u003e",
+      "date_published": "2025-11-22T18:20:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "70227584f1c78959",
+      "url": "https://mariozechner.at/posts/2025-11-22-armin-is-wrong",
+      "title": "Armin is wrong and here's why",
+      "summary": "A rambling rebuttal to Armin's claim that LLM APIs are a state synchronization problem.",
+      "date_published": "2025-11-22T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "c6af6eb3b88f99e8",
       "url": "https://dev.to/siddhantkcode/context-engineering-the-critical-infrastructure-challenge-in-production-llm-systems-4id0",
       "title": "Context Engineering: The critical Infrastructure challenge in production LLM systems",
@@ -29,6 +71,34 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "855e43fd412e6388",
+      "url": "https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/",
+      "title": "TIL: Number in man page titles (e.g. sleep(3))",
+      "summary": "\u003cp\u003eIf you do Linux systems programming, you will have likely pored over \u003ccode\u003eman\u003c/code\u003e pages, either on the command line or, my personal preference, using the excellent \u003ca href=\"https://man7.org\"\u003eman7.org\u003c/a\u003e or \u003ca href=\"https://linux.die.net/man/\"\u003elinux.die.net\u003c/a\u003e.\nI\u0026rsquo;ve always seen the numbers in \u003ca href=\"https://man7.org/linux/man-pages/man3/sleep.3.html\"\u003e\u003ccode\u003esleep(3)\u003c/code\u003e\u003c/a\u003e and \u003ca href=\"https://man7.org/linux/man-pages/man2/read.2.html\"\u003e\u003ccode\u003eread(2)\u003c/code\u003e\u003c/a\u003e and idly wondered what they meant, but never actually bothered to look them up.\u003c/p\u003e\n\u003cp\u003eThat is, until a review comment on a pull request:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ccode\u003e// Behaves like man 2 basename\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003ereviewer: nit: it\u0026rsquo;s not a syscall, so \u0026ldquo;man 2\u0026rdquo; is incorrect\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eSo I looked it up. The answer was in the \u003ca href=\"https://man7.org/linux/man-pages/man1/man.1.html\"\u003e\u003ccode\u003eman(1)\u003c/code\u003e\u003c/a\u003e page (also accessible via the delightful \u003ccode\u003eman man\u003c/code\u003e command):\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe table below shows the section numbers of the manual followed by the types of pages they contain.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e 1 Executable programs or shell commands\n 2 System calls (functions provided by the kernel)\n 3 Library calls (functions within program libraries)\n (... less common section numbers)\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eSo my colleague was right and the code should have read \u003ccode\u003e// behaves like man 3 basename\u003c/code\u003e as \u003ca href=\"https://man7.org/linux/man-pages/man3/basename.3.html\"\u003e\u003ccode\u003ebasename(3)\u003c/code\u003e\u003c/a\u003e is a libc library call.\u003c/p\u003e",
+      "date_published": "2025-11-17T13:10:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "9554d129f9b71951",
+      "url": "https://lalitm.com/on-why-i-write-this-blog/",
+      "title": "When Good Technical Writing Isn't Enough",
+      "summary": "\u003cp\u003eLast week, I came across \u003ca href=\"https://www.humaninvariant.com/blog/audience\"\u003eDon\u0026rsquo;t Build an Audience\u003c/a\u003e. It\u0026rsquo;s a fascinating post and has been occupying a lot of my \u0026ldquo;free thinking\u0026rdquo; time. I strongly suggest reading it as it\u0026rsquo;s well written and excellently argued.\u003c/p\u003e\n\u003cp\u003eTo summarise what it tries to say:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe market for written content on the web (blog posts, articles etc) is \u0026ldquo;efficient\u0026rdquo;: in other words, great work will find its audience without you needing to build a \u0026ldquo;following\u0026rdquo; first.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Liquidity providers\u0026rdquo; (influencers, curators, algorithms) are incentivized to share good content because it benefits them. They maintain credibility and engagement by surfacing quality work. Specifically called out are Substack, Alexey Guzey and Tyler Cowen.\u003c/li\u003e\n\u003cli\u003eYou can speed up \u0026ldquo;distribution\u0026rdquo; of what you write with minimal effort. Just 30 minutes to email a few key people and posts on the \u0026ldquo;right\u0026rdquo; platforms.\u003c/li\u003e\n\u003cli\u003eTherefore, focus on creating excellent work rather than \u0026ldquo;building an audience\u0026rdquo;. If it\u0026rsquo;s truly good, the market will ensure it reaches \u0026ldquo;everyone who matters\u0026rdquo;.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eI\u0026rsquo;m a very strong believer in the core message of \u0026ldquo;make cool things rather than chase followers\u0026rdquo;. It\u0026rsquo;s something I\u0026rsquo;ve done throughout my life and I have zero interest in changing that going forward.\u003c/p\u003e\n\u003cp\u003eBut I don\u0026rsquo;t agree with the argument that the market is efficient for \u003cstrong\u003eall\u003c/strong\u003e types of written content. I think the author is over-indexing on what they write about: topics accessible for a wide audience and do not require background knowledge (e.g. philosophical musings, economic theory, social dynamics).\u003c/p\u003e\n\u003cp\u003eI write about \u003ca href=\"https://lalitm.com/cast-x-as-string-casts-to-integer-in-sqlite/\"\u003etechnical\u003c/a\u003e \u003ca href=\"https://lalitm.com/perfetto-swiss-army-knife/\"\u003etopics\u003c/a\u003e. Sometimes this can be so deeply \u003ca href=\"https://lalitm.com/til-will-change-and-isolation-css-properties/\"\u003ein the weeds\u003c/a\u003e that at most a few thousand people in the world would care about it. But it \u003cem\u003emight\u003c/em\u003e totally change how these people work: it might teach about how to debug performance in their code, let them know about a new approach to analysing data or even inspires them build an entirely new program.\u003c/p\u003e",
+      "date_published": "2025-11-12T20:14:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "24f5cc30fc544ffe",
@@ -63,8 +133,77 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "b5fe591087edd49d",
+      "url": "https://lalitm.com/page/about/",
+      "title": "About",
+      "summary": "\u003cp\u003eI\u0026rsquo;m a Senior Staff Software Engineer at Google working on\n\u003ca href=\"https://docs.perfetto.dev\"\u003ePerfetto\u003c/a\u003e, an open source suite of tools for\nperformance tracing and analysis. I joined Perfetto as a founding engineer in\n2017 and have been part of the project ever since.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m passionate about performance, open-source and especially the intersection of\nthose two domains. I\u0026rsquo;m also generally interested in AI/LLMs and how they are\nchanging the software engineering industry.\u003c/p\u003e\n\u003cp\u003eIf you\u0026rsquo;re interested in learning more, my public resume is\n\u003ca href=\"https://lalitm.com/Website_CV.pdf\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003ch2 id=\"contact\"\u003eContact\u003c/h2\u003e\n\u003cp\u003eHearing from readers is one of the best parts of writing, so please reach out if\nsomething resonates with you or you want to discuss any of the topics I write\nabout.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eEmail:\u003c/strong\u003e \u003ca href=\"mailto:lalitmaganti@gmail.com\"\u003elalitmaganti@gmail.com\u003c/a\u003e - I try to\nrespond to everything.\u003c/p\u003e\n\u003cp\u003eYou can also find me on:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eGitHub:\u003c/strong\u003e \u003ca href=\"https://github.com/LalitMaganti\"\u003eLalitMaganti\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eLinkedIn:\u003c/strong\u003e\n\u003ca href=\"https://www.linkedin.com/in/lalit-maganti-18b73a9a\"\u003elalit-maganti\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eMastodon:\u003c/strong\u003e \u003ca href=\"https://fedi.lalitm.com/@lalitm\"\u003e@lalitm@fedi.lalitm.com\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBluesky:\u003c/strong\u003e \u003ca href=\"https://bsky.app/profile/lalitm.com\"\u003elalitm.com\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"feeds\"\u003eFeeds\u003c/h2\u003e\n\u003cp\u003eYou can subscribe to updates via:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAtom:\u003c/strong\u003e \u003ca href=\"https://lalitm.com/atom.xml\"\u003e/atom.xml\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRSS:\u003c/strong\u003e \u003ca href=\"https://lalitm.com/index.xml\"\u003e/index.xml\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTag-specific feeds are also available. For example,\n\u003ca href=\"https://lalitm.com/tags/software-engineering/atom.xml\"\u003e#software-engineering\u003c/a\u003e or\n\u003ca href=\"https://lalitm.com/tags/perfetto/atom.xml\"\u003e#perfetto\u003c/a\u003e. Just add \u003ccode\u003e/atom.xml\u003c/code\u003e or \u003ccode\u003e/index.xml\u003c/code\u003e to\nany tag page URL.\u003c/p\u003e",
+      "date_published": "2025-11-04T13:16:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "cf6c2125d7d5f407",
+      "url": "https://lalitm.com/cast-x-as-string-casts-to-integer-in-sqlite/",
+      "title": "CAST(x AS STRING) casts to integer in SQLite",
+      "summary": "\u003cp\u003e\u003cem\u003eDiscussed on \u003ca href=\"https://lobste.rs/s/tqwmbn/cast_x_as_string_casts_integer_sqlite\"\u003elobste.rs\u003c/a\u003e.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eAs an \u0026ldquo;SQLite consultant\u0026rdquo; for my local area of Google, I often have people come to me having written SQL like:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-fallback\" data-lang=\"fallback\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003eSELECT CAST(bar AS STRING) AS baz\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003eFROM foo\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp\u003eand ask me \u0026ldquo;Why is baz always an integer?! Have I hit an SQLite bug?\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eI have to again reach for my list of \u0026ldquo;odd quirks that SQLite has that people don\u0026rsquo;t know about\u0026rdquo;. Because this is \u003cem\u003enot\u003c/em\u003e a bug, at least according to the SQLite manual.\u003c/p\u003e\n\u003cp\u003eInstead, the correct way to write the above query is:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-fallback\" data-lang=\"fallback\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003eSELECT CAST(bar AS TEXT) AS baz\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003eFROM foo\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp\u003eThe reason for this? Quoting from \u003ca href=\"https://www.sqlite.org/datatype3.html#affname\"\u003e\u0026ldquo;Determination of Column Affinity\u0026rdquo;\u003c/a\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eFor tables not declared as STRICT, the affinity of a column is determined by the declared type of the column, according to the following rules in the order shown:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eIf the declared type contains the string \u0026ldquo;INT\u0026rdquo; then it is assigned INTEGER affinity.\u003c/li\u003e\n\u003cli\u003eIf the declared type of the column contains any of the strings \u0026ldquo;CHAR\u0026rdquo;, \u0026ldquo;CLOB\u0026rdquo;, or \u0026ldquo;TEXT\u0026rdquo; then that column has TEXT affinity. Notice that the type VARCHAR contains the string \u0026ldquo;CHAR\u0026rdquo; and is thus assigned TEXT affinity.\u003c/li\u003e\n\u003cli\u003eIf the declared type for a column contains the string \u0026ldquo;BLOB\u0026rdquo; or if no type is specified then the column has affinity BLOB.\u003c/li\u003e\n\u003cli\u003eIf the declared type for a column contains any of the strings \u0026ldquo;REAL\u0026rdquo;, \u0026ldquo;FLOA\u0026rdquo;, or \u0026ldquo;DOUB\u0026rdquo; then the column has REAL affinity.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eOtherwise, the affinity is NUMERIC.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003ccode\u003eSTRING\u003c/code\u003e does not match any of the numbered rules and so fallback to \u003ccode\u003eNUMERIC\u003c/code\u003e affinity which, in the general case, means integer.\u003c/p\u003e\n\u003cp\u003eDue to SQLite\u0026rsquo;s staunch stance of being \u0026ldquo;backwards compatible\u0026rdquo; there\u0026rsquo;s very little chance of this paper-cut ever going away. But at least next time someone comes to me with this issue, I\u0026rsquo;ll be able to link to this post instead of writing the same thing for the nth time :)\u003c/p\u003e",
+      "date_published": "2025-11-03T13:15:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "d4820c331557424e",
+      "url": "https://lalitm.com/til-diataxis-systematic-technical-documentation/",
+      "title": "TIL: Diátaxis: Systematic technical documentation",
+      "summary": "\u003cp\u003eA few weeks ago, I \u003ca href=\"https://lalitm.com/til-the-documentation-system-divio/\"\u003ewrote\u003c/a\u003e about \u0026ldquo;The Documentation System\u0026rdquo; and how valuable I found it. As I dug deeper into researching how best to apply the principles outlined there, I came across \u003ca href=\"https://diataxis.fr/\"\u003eDiátaxis\u003c/a\u003e. Written by the same author after they left \u003ca href=\"https://www.divio.com/\"\u003eDivio\u003c/a\u003e, Diátaxis is a distillation of all the principles with much more guidance in how to apply the framework (e.g. giving more examples), diving more into the philosophy and in general being a more comprehensive view into how to write great technical docs.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m blown away by how well the framework (and Diátaxis \u003ca href=\"https://diataxis.fr/how-to-use-diataxis/#use-diataxis-as-a-guide-not-a-plan\"\u003emakes clear\u003c/a\u003e it is a framework \u003cstrong\u003enot\u003c/strong\u003e a rigid set of rules) is explained. It\u0026rsquo;s patently obvious that the author really understands technical documentation and they truly have given a gift to the industry by writing it up.\u003c/p\u003e\n\u003cp\u003eFinding Diátaxis has only made me more motivated to deeply absorb its principles and see how to best apply it to all technical documentation I refactor and/or write going forward.\u003c/p\u003e",
+      "date_published": "2025-11-02T23:44:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "9ae61ff0836268f6",
+      "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
+      "title": "What if you don't need MCP at all?",
+      "summary": "Got Bash and some code interpreter? Skip MCP.",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-04-06T07:25:39Z",
+  "_signal_generated": "2026-04-06T09:23:49Z",
   "_signal_period": "2025-11"
 }

@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "a0edff7086688535",
+      "url": "https://lalitm.com/hw-encoding-raspi/",
+      "title": "V4L2 and Hardware Encoding on the Raspberry Pi",
+      "summary": "\u003cp\u003e\u003cstrong\u003eTLDR\u003c/strong\u003e: Explain how the V4L2 M2M API works through the use-case of\nimplementing hardware video encoding on the Raspberry Pi. This knowledge is\ngenerally useful as V4L2 is the de-facto generic API for hardware decoding and\nencoding on Linux.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eBackground\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eMy journey started at\n\u003ca href=\"https://www.youtube.com/watch?v=CyEpshm16HY\u0026amp;t=139s\"\u003ethis video\u003c/a\u003e on the\nexcellent\n\u003ca href=\"https://www.youtube.com/channel/UCp3yVOm6A55nx65STpm3tXQ\"\u003eCraft Computing\u003c/a\u003e\nYouTube channel which showed how to setup TinyPilot, a Python app for KVM over\nIP which runs on a Raspberry Pi. Behind the scenes, TinyPilot uses\n\u003ca href=\"https://github.com/pikvm/ustreamer\"\u003eustreamer\u003c/a\u003e to read frames from a HDMI\ncapture card and either exposes it over HTTP or writes it to shared memory.\nAlong with the MJPEG output, support was recently added for encoding video using\nH264.\u003c/p\u003e\n\u003cp\u003eEven after messing with the source code, I could not get the H264 encoding\nworking on my Pi running 64-bit Ubuntu with an error message of\n\u003ccode\u003eCan't create MMAL wrapper\u003c/code\u003e. Digging further, I ran into some insurmountable\nroadblocks with the approach taken by ustreamer and discovered the complex state\nof hardware encoding on the Pi.\u003c/p\u003e",
+      "date_published": "2021-02-01T23:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    }
+  ],
+  "_signal_generated": "2026-04-06T09:23:49Z",
+  "_signal_period": "2021-02"
+}

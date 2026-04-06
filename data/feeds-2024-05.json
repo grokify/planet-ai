@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "5330d6c350bcbdd1",
+      "url": "https://blog.d11r.eu/taste/",
+      "title": "On taste",
+      "summary": "\u003cp\u003eTaste is an excellent proxy for quality. If someone has good taste, their decisions are of higher quality. This applies to all domains, both artistic and non-artistic. In fact, you could argue that they apply more to domains outside of art because art decision making \u003cem\u003eis\u003c/em\u003e taste, so it\u0026rsquo;s redundant to even mention it.\u003c/p\u003e\n\u003cp\u003eWithin domains such as engineering or finance, taste applies a lot. If you create a software monstrosity (on an architectural level), you should respond to it with a measure of disgust. If the thing really is a monstrosity, you should feel as if it were in bad taste.\u003c/p\u003e\n\u003cp\u003eFor example, the same way you might look at a really ugly building, and say that it doesn\u0026rsquo;t have any taste, or look at a poorly dressed man, and say that he has no taste - that same way of thinking extends (and should extend) into your professional domain.\u003c/p\u003e\n\u003cp\u003eI am not proposing that every engineering decision be made according to the \u0026ldquo;taste\u0026rdquo; of the engineer, but I am saying that this is a neglected component, and one you should be on the lookout for when collaborating with other people.\u003c/p\u003e\n\u003cp\u003eThe reason is simple: if you have good taste, it is very difficult to co-create a living space with someone that doesn\u0026rsquo;t have good taste. By that same token, it is very difficult to architect a software solution or create a financial plan or draft a document with someone who lacks taste.\u003c/p\u003e\n\u003cp\u003eTaste is industry-dependent. Some thing that are in good taste in one industry may be in poor taste in another. Take for example marketing text. Most tasteful marketing is very distasteful technical writing. This applies both to content and the presentation.\u003c/p\u003e\n\u003cp\u003eHow to know if you have taste? I don\u0026rsquo;t know. I guess you \u0026ldquo;just know\u0026rdquo;. Maybe some things just look ugly to you and you struggle to find arguments. Or - you can find arguments, but it just seems absurd that you should - because look at how ugly the thing is!\u003c/p\u003e",
+      "date_published": "2024-05-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    }
+  ],
+  "_signal_generated": "2026-04-06T09:23:49Z",
+  "_signal_period": "2024-05"
+}

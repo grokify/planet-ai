@@ -80,6 +80,20 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     },
     {
+      "id": "d1c5a62271e735c3",
+      "url": "https://blog.d11r.eu/self-esteem-or-skill-issue/",
+      "title": "Self-esteem or skill issue?",
+      "summary": "\u003cp\u003eI\u0026rsquo;ve been thinking about whether or not I have low self-esteem. Sometimes I feel like a complete failure and am very, very unsatisfied with myself.\u003c/p\u003e\n\u003cp\u003eInitially, you would think this is obviously a self-esteem issue. In my view, a self-esteem issue persists despite concrete accomplishments. In other words, whatever you do, you still keep thinking poorly of yourself.\u003c/p\u003e\n\u003cp\u003eThat implies that there\u0026rsquo;s a competing hypothesis as well: maybe you don\u0026rsquo;t have a self-esteem issue, but you just haven\u0026rsquo;t accomplished things up to your standard.\u003c/p\u003e\n\u003cp\u003eI think this makes much more sense. You have certain standards that you haven\u0026rsquo;t reached, which makes you feel unsatisfied. If you reach these standards, you\u0026rsquo;ll change your mind about yourself (or maybe you\u0026rsquo;ll create new standards at some later time).\u003c/p\u003e\n\u003cp\u003eSo you ask yourself: are there things that I am proud of, where I don\u0026rsquo;t feel like a failure? For me, there are many such things, which leads me to believe that maybe I do not have self-esteem issues.\u003c/p\u003e\n\u003cp\u003eI took the \u003ca href=\"https://wwnorton.com/college/psych/psychsci/media/rosenberg.htm\"\u003eRosenberg self-esteem questionnaire\u003c/a\u003e which aims to take a total, global score of your self-esteem.\u003c/p\u003e\n\u003cp\u003eTaking it, I got the score of \u003cstrong\u003e18\u003c/strong\u003e.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe scale ranges from 0-30. Scores between 15 and 25 are within normal range; scores below 15 suggest low self-esteem.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThis is another nail in the coffin of the self-esteem issue hypothesis. I don\u0026rsquo;t have a poor self-esteem issue. \u003cstrong\u003eIt just seems I have a skill issue.\u003c/strong\u003e\u003c/p\u003e",
+      "date_published": "2024-11-04T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "ccf73b4fcfa3d6f8",
       "url": "https://dev.to/siddhantkcode/solving-aws-ecs-connect-timeouts-configure-default-settings-easily-41n2",
       "title": "Solving AWS ECS connect timeouts: configure default settings easily",
@@ -94,6 +108,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-04-06T07:25:39Z",
+  "_signal_generated": "2026-04-06T09:23:49Z",
   "_signal_period": "2024-11"
 }

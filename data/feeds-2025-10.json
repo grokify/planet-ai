@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "5aa636aeaa43d614",
+      "url": "https://lalitm.com/perfetto-swiss-army-knife/",
+      "title": "Perfetto: Swiss Army Knife for Linux Client Tracing",
+      "summary": "\u003cp\u003e\u003cem\u003eDiscussed on \u003ca href=\"https://lobste.rs/s/6c86lq/perfetto_swiss_army_knife_for_linux\"\u003elobste.rs\u003c/a\u003e and \u003ca href=\"https://news.ycombinator.com/item?id=45771019\"\u003eHacker News\u003c/a\u003e.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eI gave a talk at the \u003ca href=\"https://tracingsummit.org/\"\u003e2025 Tracing Summit\u003c/a\u003e last month titled \u0026ldquo;\u003ca href=\"https://cfp.tracingsummit.org/ts2025/talk/TKVU8W/\"\u003ePerfetto: The Swiss Army Knife of Linux Client/Embedded Tracing\u003c/a\u003e\u0026rdquo;. My goal in this talk was to show how Linux kernel, systems and embedded developers can use \u003ca href=\"https://docs.perfetto.dev\"\u003ePerfetto\u003c/a\u003e when debugging and root-causing performance issues in their respective domains. Even though the Perfetto UI is primarily built for viewing \u003ca href=\"https://perfetto.dev/docs/#why-would-you-use-perfetto-\"\u003eAndroid or Chrome traces\u003c/a\u003e, it is a flexible tool and can be used in many other ways!\u003c/p\u003e\n\u003cp\u003eThe talk was recorded and is available on \u003ca href=\"https://www.youtube.com/watch?v=VzTwul2Qb3g\"\u003eYouTube\u003c/a\u003e. Taking inspiration from \u003ca href=\"https://simonwillison.net/\"\u003eSimon Willison\u003c/a\u003e, this post is an \u003ca href=\"https://simonwillison.net/2023/Aug/6/annotated-presentations/\"\u003eannotated presentation\u003c/a\u003e containing my slides and detailed notes on them. The talk also has a lot of UI demos: for these, I\u0026rsquo;ll have a screenshot but also a link to the relevant part of the video (videos are unbeatable for UI!).\u003c/p\u003e\n\u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\"\u003e\n \u003ciframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" src=\"https://www.youtube.com/embed/VzTwul2Qb3g\" title=\"TS2025 - Perfetto: The Swiss Army Knife of Linux Client/Embedded Tracing\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\u003chr\u003e\n\u003cp\u003eFirst, what is Perfetto? Perfetto is fundamentally a suite of tools: it\u0026rsquo;s not just one thing but a bunch of different tools working together to help you debug and root-cause problems. This diagram shows how everything fits together, with the core parts of the Perfetto project in the center.\u003c/p\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/perfetto-swiss-army-03.jpg\" alt=\"diagram of all the pieces of Perfetto, Recording tools, protobuf format, trace processor, Perfetto UI, Python API, Format converters. Chrome JSON, Other profiling formats\"\u003e\u003c/p\u003e\n\u003c/center\u003e\n\u003cp\u003eThe recording tools for Perfetto consist of 1) an \u003ca href=\"https://perfetto.dev/docs/getting-started/in-app-tracing\"\u003eSDK for C++ apps\u003c/a\u003e 2) a \u003ca href=\"https://perfetto.dev/docs/getting-started/system-tracing\"\u003edaemon\u003c/a\u003e that can collect data from ftrace, /proc, /sys, and various kernel interfaces 3) another \u003ca href=\"https://perfetto.dev/docs/concepts/service-model\"\u003edaemon\u003c/a\u003e that amalgamates trace data from multiple processes into a single trace file. These tools all speak the Perfetto \u003ca href=\"https://perfetto.dev/docs/getting-started/converting\"\u003eprotobuf format\u003c/a\u003e, a high-performance trace format designed to be very efficient to write but not to analyze or consume directly.\u003c/p\u003e\n\u003cp\u003eThat\u0026rsquo;s where the \u003ca href=\"https://perfetto.dev/docs/analysis/trace-processor\"\u003etrace processor\u003c/a\u003e comes in. It\u0026rsquo;s a C++ library that parses the protobuf format, but also a bunch of other widely used trace formats. It exposes this data via an SQL query interface to any embedding program including \u003ca href=\"https://perfetto.dev/docs/visualization/perfetto-ui\"\u003ePerfetto UI\u003c/a\u003e (which is what most of this talk is about) and also to the \u003ca href=\"https://perfetto.dev/docs/analysis/trace-processor-python\"\u003ePython API\u003c/a\u003e if you want to do ad-hoc scripting or analysis in Python.\u003c/p\u003e\n\u003cp\u003eThere are also very common tracing/profiling formats used by the Linux community: perf.data, ftrace text format, Firefox profiler format, and many others. Perfetto \u003ca href=\"https://perfetto.dev/docs/getting-started/other-formats\"\u003esupports\u003c/a\u003e quite a few of those directly. There\u0026rsquo;s also the Chrome JSON format (AKA the \u003ca href=\"https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview?tab=t.0\"\u003eTrace Event Format\u003c/a\u003e) which is a simpler interchange format. It\u0026rsquo;s not the most efficient to read or write, but it does the job for a lot of use cases.\u003c/p\u003e\n\u003cp\u003eOften people write \u003ca href=\"https://perfetto.dev/docs/getting-started/converting\"\u003econverters\u003c/a\u003e. They have their own tracing format, maybe proprietary, maybe open source but something we don\u0026rsquo;t know about, and it\u0026rsquo;s very common that people convert to one of the formats we understand, most commonly our protobuf or Chrome JSON formats.\u003c/p\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/perfetto-swiss-army-04.jpg\" alt=\"Slide showing Perfetto UI architecture with web-based trace visualizer features\"\u003e\u003c/p\u003e\n\u003c/center\u003e\n\u003cp\u003eThe \u003ca href=\"https://perfetto.dev/docs/visualization/perfetto-ui\"\u003ePerfetto UI\u003c/a\u003e is fundamentally a web-based trace visualizer, combining timeline visualization, user-driven selection/aggregation, and SQL queries all in one interface. Because it has the trace processor as a backend, it works with a bunch of different trace formats.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s very important to note that even though the Perfetto UI is web-based, everything happens inside your browser and trace data never leaves your system. You can even \u003ca href=\"https://perfetto.dev/docs/contributing/ui-getting-started\"\u003ebuild it\u003c/a\u003e and host it yourself on any static server: we\u0026rsquo;ve made it extremely easy to do so!\u003c/p\u003e\n\u003cp\u003eAt the start of 2025, we actually moved our whole development to GitHub. In the past, we used to develop on Android and GitHub was just a mirror. That\u0026rsquo;s no longer the case, GitHub is actually where we develop and take pull requests.\u003c/p\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/perfetto-swiss-army-05.jpg\" alt=\"Slide introducing the fractal renderer demo program with Vulkan and multi-threading\"\u003e\u003c/p\u003e\n\u003c/center\u003e\n\u003cp\u003eMost of this talk, I\u0026rsquo;m going to spend actually showing you how you can use the Perfetto UI to debug performance issues on Linux. I don\u0026rsquo;t want to show you an Android trace which needs a lot of context about how the Android system works and so you think, \u0026ldquo;oh, that was cool, but I didn\u0026rsquo;t really understand what was happening.\u0026rdquo;\u003c/p\u003e\n\u003cp\u003eSo to make this talk more approachable, I wrote a \u003ca href=\"https://github.com/LalitMaganti/fractal-renderer-vk\"\u003estraightforward demo program\u003c/a\u003e you can look at yourself! So it\u0026rsquo;s obviously not a production system but I\u0026rsquo;ve tried to make it as representative of the sort of issues we use Perfetto for every day.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s a Rust program which generates a Julia set and visualizes it over time. The technologies I used: \u003ca href=\"https://vulkano.rs/\"\u003eVulkan\u003c/a\u003e, GPU rendering and also multi-threaded CPU computation. So how it works is that computation of various parameters is happening on background threads, and then that\u0026rsquo;s being passed to the main thread for rendering.\u003c/p\u003e\n\u003cp\u003eAnd then, for demonstration purposes, there is a performance bug; rendering should run at 60 FPS, but every so often, the frame rate drops dramatically. Here\u0026rsquo;s what that looks like:\u003c/p\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/test.avif\" alt=\"Animated visualization of Julia set fractal renderer showing frame rate drops\"\u003e\u003c/p\u003e\n\u003c/center\u003e\n\u003cp\u003eThe code is on \u003ca href=\"https://github.com/LalitMaganti/fractal-renderer-vk\"\u003eGitHub\u003c/a\u003e and if you\u0026rsquo;re interested in following along. The traces are there as well - you don\u0026rsquo;t have to collect the traces yourself, but you can if you want. All the instructions and information is in the README.\u003c/p\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/perfetto-swiss-army-06.jpg\" alt=\"Slide titled \u0026ldquo;Suspicion #1: Maybe it\u0026rsquo;s a CPU problem?\u0026rdquo; with perf command examples\"\u003e\u003c/p\u003e\n\u003c/center\u003e\n\u003cp\u003eSo the first suspicion we may have is that maybe it\u0026rsquo;s some CPU problem. A lot of engineers I know would reach for perf immediately whenever they see a problem like this. The main reason is that if perf can capture the problem, they can go straight to the line of code without needing to spend time debugging using more complex approaches.\u003c/p\u003e",
+      "date_published": "2025-10-31T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "504ea704eaad91b9",
       "url": "https://www.fast.ai/posts/2025-10-30-build-to-last.html",
       "title": "Build to Last",
@@ -22,6 +36,34 @@
       ],
       "_signal_feed_title": "fast.ai",
       "_signal_feed_url": "https://www.fast.ai/index.html"
+    },
+    {
+      "id": "af1f8ef366654590",
+      "url": "https://lalitm.com/til-public-file-hosting-with-0x0-st/",
+      "title": "TIL: Public File Hosting with 0x0.st",
+      "summary": "\u003cp\u003eSometimes you run into a truly inspirational piece of software that it\u0026rsquo;s a wonder even exists. I found \u003ca href=\"https://0x0.st/\"\u003e0x0.st\u003c/a\u003e recently and it very much falls into this bucket.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s essentially a simple, no-account, temporary file hosting site where you can just upload a file using a simple HTTP POST and the site will host it for you for between 30 days and 1 year depending on the size of the file. Uploading a file is as simple as:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-fallback\" data-lang=\"fallback\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003ecurl -F \u0026#39;file=@yourfile.ext\u0026#39; https://0x0.st\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp\u003eand you\u0026rsquo;ll get back a URL that you can share or use in the future.\u003c/p\u003e\n\u003cp\u003eI thought all the services like this had long since disappeared especially in the age of increasing scrutiny by government of content that websites host. It turns out though that from this discussion on \u003ca href=\"https://news.ycombinator.com/item?id=35491520\"\u003eHN\u003c/a\u003e, there are actually a bunch of similar services (transfer.sh, bashupload.com, chunk.io) but 0x0.st was the only one which I was able to access without an error.\u003c/p\u003e",
+      "date_published": "2025-10-25T14:13:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "b690a6d04f7a4dca",
+      "url": "https://lalitm.com/til-will-change-and-isolation-css-properties/",
+      "title": "TIL: `will-change` and `isolation` CSS properties",
+      "summary": "\u003cp\u003eThe Perfetto UI is a fascinating project to work on because it often faces performance problems which you wouldn\u0026rsquo;t see in more \u0026ldquo;normal\u0026rdquo; webapps. I learn about all sorts of weird web features by reviewing PRs for the UI.\u003c/p\u003e\n\u003cp\u003eTwo such features I just learned about:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/will-change\"\u003ewill-change\u003c/a\u003e (\u003ca href=\"https://github.com/google/perfetto/pull/3350/files#diff-c57fa71e0c282ce81f65b10226043f6d89c4105afd3f5ec5813b8d9d5e034101R128\"\u003ePR\u003c/a\u003e): a hint, to be used sparingly, to tell the browser that a certain property of a DOM element will change in the near future.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/isolation\"\u003eisolation\u003c/a\u003e (\u003cem\u003e\u003ca href=\"https://github.com/google/perfetto/pull/3381/files#diff-c57fa71e0c282ce81f65b10226043f6d89c4105afd3f5ec5813b8d9d5e034101R119\"\u003ePR\u003c/a\u003e\u003c/em\u003e):\nI feel MDN didn\u0026rsquo;t do a great job of explaining so I asked Claude which gave a much more useful answer:\n\u003cblockquote\u003e\n\u003cp\u003eisolation is a CSS property that creates a new stacking context for an element. Think of a stacking context as a self-contained z-index universe. Elements within one stacking context can layer on top of each other, but their z-index values only matter relative to siblings within that same context.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
+      "date_published": "2025-10-23T23:20:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "8e5c4218a02beb3f",
@@ -50,6 +92,34 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "57db38d1824558ee",
+      "url": "https://lalitm.com/til-the-documentation-system-divio/",
+      "title": "TIL: The Documentation System (Divio)",
+      "summary": "\u003cp\u003eThe Perfetto team spent a lot of time earlier this year rewriting our documentation to be more useful for the average developer. We struggled a lot to figure out \u0026ldquo;what is the best way to structure our documentation\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eWhen reading \u003ca href=\"https://rakhim.exotext.com/examples-are-the-best-documentation\"\u003eExamples are the best documentation\u003c/a\u003e today, I came across \u003ca href=\"https://docs.divio.com/documentation-system/\"\u003eThe Documentation System\u003c/a\u003e, an approach to structuring developer documentation. Reading through it, I couldn\u0026rsquo;t help but marvel at how clear and concisely it laid out the ideas we were struggling to come up with from first principles.\u003c/p\u003e\n\u003cp\u003eSpecifically, I really like how it breaks down documentation into four quadrants:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003ca href=\"https://docs.divio.com/documentation-system/tutorials/\"\u003e\u003cstrong\u003eTutorials\u003c/strong\u003e\u003c/a\u003e: take your user through a series of steps to complete some task with your project.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://docs.divio.com/documentation-system/how-to-guides/\"\u003e\u003cstrong\u003eHow-to guides\u003c/strong\u003e\u003c/a\u003e: solve a real world problem with your project.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://docs.divio.com/documentation-system/reference/\"\u003e\u003cstrong\u003eReference guides\u003c/strong\u003e\u003c/a\u003e: give technical explanations of how things work.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://docs.divio.com/documentation-system/explanation/\"\u003e\u003cstrong\u003eExplanations\u003c/strong\u003e\u003c/a\u003e: clarify a particular topic or area and how the project fits into the bigger tech landscape.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eI think we got \u003cem\u003emost\u003c/em\u003e of this right in our documentation rewrite but we definitely muddled some of these areas together, making our pages less clear than they could be. I plan on spending some time later this year correcting our docs to match this system closer.\u003c/p\u003e",
+      "date_published": "2025-10-19T18:38:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "3748cc66ff46dd3f",
+      "url": "https://lalitm.com/perfetto-oss-company-prio/",
+      "title": "On Perfetto, Open Source, and Company Priorities",
+      "summary": "\u003cp\u003e\u003cem\u003eDiscussed on \u003ca href=\"https://lobste.rs/s/chaivl/on_perfetto_open_source_company\"\u003elobste.rs\u003c/a\u003e.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eI recently stumbled across\n\u003ca href=\"https://lobste.rs/s/fl7ly9/traceboot_precise_lightweight_tracing\"\u003ethis post on lobste.rs\u003c/a\u003e\nabout a project called\n\u003ca href=\"https://codeberg.org/SpecialSnowflake/traceboot\"\u003etraceboot\u003c/a\u003e which allows\nvisualizing the Linux boot process using lightweight ftrace events and Perfetto.\nThe author had\n\u003ca href=\"https://codeberg.org/SpecialSnowflake/traceboot#woes-with-a-rant-and-ideas-last-paragraph-of-this-section\"\u003esome commentary\u003c/a\u003e\nabout their experience trying to order tracks in Perfetto:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eOrdering tracks with perfetto has been ridiculously complicated. It has taken\nthe majority of the time of this project! Upstream\u0026rsquo;s answers are basically\nthat the main user is Android (Perfetto is a Google project) so others come\nsecond if at all. While I get the reasons to do so, I read that as a caution\nagainst depending on it as a third-party. Google is notorious for (\u0026hellip;)\ncompletely killing projects\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eHonestly? All of these points are right:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIt is really unfortunate that doing something so simple took so much effort.\u003c/li\u003e\n\u003cli\u003eIt\u0026rsquo;s true that external users are supported at a lower priority than Android\nusers.\u003c/li\u003e\n\u003cli\u003eIt\u0026rsquo;s also the case that Google has historically wound down projects when\npriorities shift\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe good news is that we just\n\u003ca href=\"https://github.com/google/perfetto/pull/3273\"\u003elanded\u003c/a\u003e support for trace\nwriters to specify explicitly how traces should be ordered with the JSON format\nin Perfetto without any extreme workarounds! This feature is already available on\nthe \u0026ldquo;Canary\u0026rdquo; UI channel and on \u0026ldquo;Stable\u0026rdquo; within 3-4 weeks.\u003c/p\u003e",
+      "date_published": "2025-10-17T14:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "be3b2f81c40d6013",
@@ -105,8 +175,36 @@
       ],
       "_signal_feed_title": "Peter Steinberger",
       "_signal_feed_url": "https://steipete.me/"
+    },
+    {
+      "id": "2ae22c6298a19806",
+      "url": "https://lalitm.com/writing-tools-for-claude-code/",
+      "title": "What Makes a Good Tool for Claude Code",
+      "summary": "\u003cp\u003eI\u0026rsquo;ve been using Claude Code extensively for personal projects, and similar AI\ncoding tools at work. Recently I came across\n\u003ca href=\"https://www.alephic.com/writing/the-magic-of-claude-code\"\u003ethis excellent blog post\u003c/a\u003e\nthat resonated with a lot of my experience.\u003c/p\u003e\n\u003cp\u003eOne part stuck with me though: Noah emphasizes that tools fail with LLMs when\nthey\u0026rsquo;re \u0026ldquo;overly complex,\u0026rdquo; with the Unix philosophy being particularly\nwell-suited for tool calling. But then I thought about \u003ccode\u003egit\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eGit breaks the Unix philosophy completely. It\u0026rsquo;s sprawling, stateful, and\ncomplex. And yet Claude Code handles it effortlessly. It composes commands that,\neven after 10+ years of daily git usage, I wouldn\u0026rsquo;t think to use. It handles\nrebasing, cherry-picking, complex resets—stuff that trips up experienced\ndevelopers regularly.\u003c/p\u003e\n\u003cp\u003eSo if simplicity and the Unix philosophy aren\u0026rsquo;t the whole story, what else\nmatters?\u003c/p\u003e\n\u003cp\u003eI’ve come up with three “hallmarks” of a good tool for tool calling with LLMs.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1. It’s been around for a long time and/or is used by lots of people\u003c/strong\u003e\u003c/p\u003e",
+      "date_published": "2025-10-12T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
+      "id": "7b8d845f8ab602ac",
+      "url": "https://mariozechner.at/posts/2025-10-05-jailjs",
+      "title": "Infinite Footguns: Writing a JavaScript Interpreter in JavaScript",
+      "summary": "Building a JavaScript AST interpreter in JavaScript: scope isolation, ES5 implementation, and all the footguns along the way.",
+      "date_published": "2025-10-05T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-04-06T07:25:39Z",
+  "_signal_generated": "2026-04-06T09:23:49Z",
   "_signal_period": "2025-10"
 }

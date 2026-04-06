@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "6eb46b9e2e753766",
+      "url": "https://blog.d11r.eu/advice/",
+      "title": "Not wanting to give advice",
+      "summary": "\u003cp\u003eI feel like I stopped wanting to give people advice. And not in the fake way either: where you\u0026rsquo;re the \u0026ldquo;silent\u0026rdquo; type, but deep down you really want someone to get into a position where they ask for your advice or where your advice is expected. I\u0026rsquo;m just pretty indifferent to advice now. I don\u0026rsquo;t particularly like or dislike receiving advice, and I don\u0026rsquo;t particularly like or dislike giving it. I think it\u0026rsquo;s because I recognize now that most advice is bad or inapplicable. But not all - which is why I\u0026rsquo;m not anti-advice, just indifferent. The nuggets that are good are really good.\u003c/p\u003e\n\u003cp\u003eI also think this might be a \u003ca href=\"https://slatestarcodex.com/2015/11/03/what-developmental-milestones-are-you-missing/\"\u003edevelopmental milestone\u003c/a\u003e. In the sense that you have to \u0026ldquo;mature\u0026rdquo; to be able to do this. Advice-giving is a weird mixture of things, and I\u0026rsquo;ve often seen status exchanges in advice-giving. If I\u0026rsquo;m giving you advice, that means that I\u0026rsquo;m above you, better than you in some way. I\u0026rsquo;ve seen (and been) that guy, where you have some limited exposure to the world, and, with altogether too much confidence, you go around telling people what they should be doing.\u003c/p\u003e\n\u003cp\u003eI think that giving advice is better when you\u0026rsquo;re explicitly asked for it, and receiving advice is better when you explicitly ask for it. Also, the advice should probably within a very narrow or technical domain.\u003c/p\u003e\n\u003cp\u003eBut instead of advice, it\u0026rsquo;s better to \u003cem\u003eshow your work\u003c/em\u003e. Show what you do, show the results of what you do, and allow people to learn from you if they want to. I learn a lot from people by simply observing them and making my own conclusions. This way, the conclusions are mine, nobody prepackaged them and gave them to me. It was \u003cstrong\u003eI\u003c/strong\u003e who made the conclusions, and that makes me value them more.\u003c/p\u003e",
+      "date_published": "2022-07-19T07:05:19Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    }
+  ],
+  "_signal_generated": "2026-04-06T09:23:49Z",
+  "_signal_period": "2022-07"
+}

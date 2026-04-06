@@ -50,6 +50,20 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "54d1e200851df528",
+      "url": "https://blog.d11r.eu/who-is-leaving/",
+      "title": "Who's leaving the company?",
+      "summary": "\u003cp\u003eInspired by \u003ca href=\"https://rachelbythebay.com/w/2024/02/08/ldap/\"\u003ethis post\u003c/a\u003e, I wanted to see if I could do the same thing. LDAP is cool.\u003c/p\u003e\n\u003cp\u003eI started from zero knowledge, so here are the steps that will probably be obvious to experienced users.\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eFirst, type \u003ccode\u003erealm list\u003c/code\u003e to get general information about your domain.\u003c/p\u003e\n\u003cp\u003eThe output will contain your \u003ccode\u003erealm-name\u003c/code\u003e, which we\u0026rsquo;ll set as \u003ccode\u003eexample.lan\u003c/code\u003e for the purposes of this tutorial.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eNext:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003enslookup -type=SRV _ldap_tcp.example.lan\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eThis command will display full hostnames for your Domain Controllers (there will be several, as replicas).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eYou should now be able to run \u003ccode\u003eldapwhoami\u003c/code\u003e:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eldapwhoami -H ldap://\u0026lt;URL of the DC\u0026gt; -Y GSSAPI -v\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eGeneric search for users:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eldapsearch -H ldap://\u0026lt;URL of the DC\u0026gt; -Y GSSAPI -v -b \u0026#34;DC=example,DC=lan\u0026#34; \u0026#34;(\u0026amp;(objectClass=user)(!(objectClass=computer)))\u0026#34; sAMAccountName givenName sn mail\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDepending on how your administrator has set up the records, you may have people disappearing from the records when they quit / are fired, or they may get assigned a flag, or added to an organizational unit (maybe it\u0026rsquo;s called \u0026ldquo;terminated\u0026rdquo; or something similar).\u003c/p\u003e\n\u003cp\u003eSo you\u0026rsquo;ll have to filter according to the logic implemented at your place.\u003c/p\u003e\n\u003cp\u003eIn addition, maybe you\u0026rsquo;ll not have any use for some of these fields above (like givenName, or sn), but in that case, run it without filters:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eldapsearch -H ldap://\u0026lt;URL of the DC\u0026gt; -Y GSSAPI -v -b \u0026#34;DC=example,DC=lan\u0026#34; \u0026#34;(objectClass=user)\u0026#34;\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eImplementing an epitaph service is left as an exercise to the reader.\u003c/p\u003e",
+      "date_published": "2025-02-06T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "372ada0047133266",
       "url": "https://www.fast.ai/posts/2025-02-03-cpath-foundation/index.html",
       "title": "What AI can tell us about microscope slides",
@@ -85,6 +99,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-04-06T07:25:39Z",
+  "_signal_generated": "2026-04-06T09:23:49Z",
   "_signal_period": "2025-02"
 }

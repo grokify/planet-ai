@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "5cda02bb4a45aee9",
+      "url": "https://blog.d11r.eu/questions/",
+      "title": "My list of questions",
+      "summary": "\u003cp\u003eHere\u0026rsquo;s a live list of questions that I don\u0026rsquo;t yet know the answer to. I\u0026rsquo;ll update it as I find out the answer, or, more likely, as I just add more and more questions.\u003c/p\u003e\n\u003ch1 id=\"physics\"\u003ePhysics\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eHow do electromagnetic fields work?\u003c/li\u003e\n\u003cli\u003eWhere does magnetism come from?\u003c/li\u003e\n\u003cli\u003eWhy is nuclear fusion difficult to achieve?\u003c/li\u003e\n\u003cli\u003eHow do wires transmit electricity if electrons aren\u0026rsquo;t running along through them?\u003c/li\u003e\n\u003cli\u003eHow do we know that subatomic particles exist?\u003c/li\u003e\n\u003cli\u003eWhy is it impossible to surpass the speed of light?\u003c/li\u003e\n\u003cli\u003eWhy does time pass at different speeds depending on gravity?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"chemistry\"\u003eChemistry\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eHow do you make explosives out of household chemicals?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"mathematics\"\u003eMathematics\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eWhat is the P/NP problem and why is it important?\u003c/li\u003e\n\u003cli\u003eWhat is Gödel\u0026rsquo;s incompleteness theorem?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"biology\"\u003eBiology\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eWhat\u0026rsquo;s the mechanism of aging?\u003c/li\u003e\n\u003cli\u003eHow do we know how DNA works?\u003c/li\u003e\n\u003cli\u003eHow do genes function?\u003c/li\u003e\n\u003cli\u003eWhat are RNA precursor chemicals?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"cryptography\"\u003eCryptography\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eHow does the Diffie-Hellman key exchange work?\u003c/li\u003e\n\u003cli\u003eWhat are zkSNARKs?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"computer-science\"\u003eComputer science\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eHow exactly does Dijkstra\u0026rsquo;s pathfinding algorithm work?\u003c/li\u003e\n\u003cli\u003eWhat even is a Turing machine?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"philosophy\"\u003ePhilosophy\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eWhat is sentience?\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"engineering\"\u003eEngineering\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eHow do RFID readers work?\u003c/li\u003e\n\u003cli\u003eHow do semiconductors work and why are they important?\u003c/li\u003e\n\u003c/ul\u003e",
+      "date_published": "2021-11-24T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    }
+  ],
+  "_signal_generated": "2026-04-06T09:23:49Z",
+  "_signal_period": "2021-11"
+}

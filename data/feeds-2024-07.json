@@ -1,0 +1,92 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "50d1e984010b1c9d",
+      "url": "https://mariozechner.at/posts/2024-07-25-electronic-nights-1",
+      "title": "Electronic Nights I - Getting Started",
+      "summary": "The story of a programmer trying to electronics",
+      "date_published": "2024-07-26T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "88f17923cab80400",
+      "url": "https://mariozechner.at/posts/2024-07-20-macos-code-injection-fun",
+      "title": "macOS code injection for fun and no profit",
+      "summary": "Fun little vacation project for fun and zero profit.",
+      "date_published": "2024-07-20T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "135b3c7760be588e",
+      "url": "https://blog.d11r.eu/power/",
+      "title": "People respect power",
+      "summary": "\u003cp\u003ePeople frequently hate Meadow Soprano more than Tony Soprano, and Skyler White more than Walter White. Yet these two are by all metrics much better people than Tony or Walter. Whatever failings they have, these \u003cstrong\u003emust\u003c/strong\u003e be lesser than the character failings of Tony Soprano or Walter White. What\u0026rsquo;s worse, being a hypocrite or a murderer?\u003c/p\u003e\n\u003cp\u003eA popular explanation is societal misogyny, i.e. our common internalized hate towards women. This also includes women hating other women.\u003c/p\u003e\n\u003cp\u003eThere may be a gender component but I think it\u0026rsquo;s not that big of a part here. If everything else remained the same, and Meadow Soprano was Tony\u0026rsquo;s son, I think (s)he\u0026rsquo;d still get roughly the same amount of hate relative to Tony.\u003c/p\u003e\n\u003cp\u003eNo, the common thread joining Meadow Soprano, Skyler White and every single instance of a person screeching on the street on camera is \u003cstrong\u003epower\u003c/strong\u003e, or lack thereof.\u003c/p\u003e\n\u003cp\u003eIn today\u0026rsquo;s world it\u0026rsquo;s not popular to say this, but our ancestors wouldn\u0026rsquo;t find anything weird about it: people respect power.\u003c/p\u003e\n\u003cp\u003eIn other words, you can get away with many, many things if you are powerful. You can quite literally be the worst person in the room - you can kill, torture, be sadistic, be mentally unbalanced, you name it - any single negative thing is tolerated the more power you have. Sticking to the world of TV fiction, this explains why Claire Underwood in House of Cards is not \u0026ldquo;annoying\u0026rdquo; the same way Skyler White is. She\u0026rsquo;s ruthless, she\u0026rsquo;s powerful. Sure, her husband is even more so, but we don\u0026rsquo;t hate her more than her husband in the show. Or at least, I don\u0026rsquo;t feel like she gets the same disproportional level of hate.\u003c/p\u003e\n\u003cp\u003eSo it\u0026rsquo;s not that people hate female characters because they are female, they hate them because they are loud or obnoxious or hypocritical, but without power. Them being female has nothing (or very little) with it. And sometimes female characters aren\u0026rsquo;t even loud or obnoxious. Maybe they\u0026rsquo;re just vocal and adhere to a moral code. Those are obviously good things. Yet, even in that case, we will find ways to hate them if they have no power to accompany their voice and their moral code. This is pretty weird if you think about it - we respect power so much that we will literally ignore good traits (and even actively hate them) if they aren\u0026rsquo;t accompanied by power.\u003c/p\u003e",
+      "date_published": "2024-07-19T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "8d07cbef0a5ec80b",
+      "url": "https://blog.d11r.eu/cryo/",
+      "title": "I signed up for cryonics",
+      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "fb26376b39bda9a7",
+      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
+      "title": "Two years in review",
+      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "2c72e519f336fd5b",
+      "url": "https://mariozechner.at/posts/2024-07-14-dissecting-history",
+      "title": "Dissecting history",
+      "summary": "Thoughts on acquiring computational thinking skills based on my own experience.",
+      "date_published": "2024-07-14T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    }
+  ],
+  "_signal_generated": "2026-04-06T09:23:49Z",
+  "_signal_period": "2024-07"
+}
