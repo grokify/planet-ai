@@ -423,7 +423,8 @@ function App() {
                       {d.platform === 'hackernews' && 'HN'}
                       {d.platform === 'reddit' && 'Reddit'}
                       {d.platform === 'lobsters' && 'Lobsters'}
-                      {!['hackernews', 'reddit', 'lobsters'].includes(d.platform) && d.platform}
+                      {d.platform === 'frontierpulse' && '📊 Analysis'}
+                      {!['hackernews', 'reddit', 'lobsters', 'frontierpulse'].includes(d.platform) && d.platform}
                       {(d.score || d.comments) && (
                         <span className="discuss-meta">
                           {d.score ? `${d.score}↑` : ''}{d.score && d.comments ? ' ' : ''}{d.comments ? `${d.comments}💬` : ''}
@@ -500,7 +501,8 @@ function App() {
                       {d.platform === 'hackernews' && 'HN'}
                       {d.platform === 'reddit' && 'Reddit'}
                       {d.platform === 'lobsters' && 'Lobsters'}
-                      {!['hackernews', 'reddit', 'lobsters'].includes(d.platform) && d.platform}
+                      {d.platform === 'frontierpulse' && '📊 Analysis'}
+                      {!['hackernews', 'reddit', 'lobsters', 'frontierpulse'].includes(d.platform) && d.platform}
                       {(d.score || d.comments) && (
                         <span className="discuss-meta">
                           {d.score ? `${d.score}↑` : ''}{d.score && d.comments ? ' ' : ''}{d.comments ? `${d.comments}💬` : ''}
