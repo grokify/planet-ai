@@ -3,72 +3,6 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "7abc8525a14e1dc5",
-      "url": "https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything",
-      "title": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm",
-      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://socket.dev/blog/axios-npm-package-compromised\"\u003eSupply Chain Attack on Axios Pulls Malicious Dependency from npm\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nUseful writeup of today's supply chain attack against Axios, the HTTP client NPM package with \u003ca href=\"https://www.npmjs.com/package/axios\"\u003e101 million weekly downloads\u003c/a\u003e. Versions \u003ccode\u003e1.14.1\u003c/code\u003e and \u003ccode\u003e0.30.4\u003c/code\u003e both included a new dependency called \u003ccode\u003eplain-crypto-js\u003c/code\u003e which was freshly published malware, stealing credentials and installing a remote access trojan (RAT).\u003c/p\u003e\n\u003cp\u003eIt looks like the attack came from a leaked long-lived npm token. Axios have \u003ca href=\"https://github.com/axios/axios/issues/7055\"\u003ean open issue to adopt trusted publishing\u003c/a\u003e, which would ensure that only their GitHub Actions workflows are able to publish to npm. The malware packages were published without an accompanying GitHub release, which strikes me as a useful heuristic for spotting potentially malicious releases - the same pattern was present for LiteLLM \u003ca href=\"https://simonwillison.net/2026/Mar/24/malicious-litellm/\"\u003elast week\u003c/a\u003e as well.\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://lobste.rs/s/l57wuc/supply_chain_attack_on_axios\"\u003elobste.rs\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/javascript\"\u003ejavascript\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/security\"\u003esecurity\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/npm\"\u003enpm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/supply-chain\"\u003esupply-chain\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-31T23:28:40Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "javascript",
-        "security",
-        "npm",
-        "supply-chain"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "67a2fa01f42d9162",
-      "url": "https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything",
-      "title": "datasette-llm 0.1a4",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a4\"\u003edatasette-llm 0.1a4\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eAbility to \u003ca href=\"https://github.com/datasette/datasette-llm/blob/0.1a4/README.md#model-references-with-custom-api-keys\"\u003econfigure different API keys for models based on their purpose\u003c/a\u003e - for example, set it up so enrichments always use \u003ccode\u003egpt-5.4-mini\u003c/code\u003e with an API key dedicated to that purpose. \u003ca href=\"https://github.com/datasette/datasette-llm/pull/4\"\u003e#4\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eI released \u003ca href=\"https://github.com/simonw/llm-echo/releases/tag/0.3\"\u003ellm-echo 0.3\u003c/a\u003e to provide an API key testing utility I needed for the tests for this new feature.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-31T21:17:23Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "datasette"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "239e99c76150e179",
-      "url": "https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything",
-      "title": "llm-all-models-async 0.1",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/llm-all-models-async/releases/tag/0.1\"\u003ellm-all-models-async 0.1\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eLLM plugins can define new models in both \u003ca href=\"https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html\"\u003esync\u003c/a\u003e and \u003ca href=\"https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#async-models\"\u003easync\u003c/a\u003e varieties. The async variants are most common for API-backed models - sync variants tend to be things that run the model directly within the plugin.\u003c/p\u003e\n\u003cp\u003eMy \u003ca href=\"https://simonwillison.net/2026/Mar/30/mr-chatterbox/#running-it-locally-with-llm\"\u003ellm-mrchatterbox\u003c/a\u003e plugin is sync only. I wanted to try it out with various Datasette LLM features (specifically \u003ca href=\"https://github.com/datasette/datasette-enrichments-llm\"\u003edatasette-enrichments-llm\u003c/a\u003e) but Datasette can only use async models.\u003c/p\u003e\n\u003cp\u003eSo... I had Claude spin up this plugin that turns sync models into async models using a thread pool. This ended up needing an extra plugin hook mechanism in LLM itself, which I shipped just now in \u003ca href=\"https://llm.datasette.io/en/stable/changelog.html#v0-30\"\u003eLLM 0.30\u003c/a\u003e.\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/async\"\u003easync\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/python\"\u003epython\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-31T20:52:02Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "async"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "beb4f07fd8666bdc",
-      "url": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
-      "title": "llm 0.30",
-      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/llm/releases/tag/0.30\"\u003ellm 0.30\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eThe \u003ca href=\"http://llm.datasette.io/en/stable/plugins/plugin-hooks.html#plugin-hooks-register-models\"\u003eregister_models() plugin hook\u003c/a\u003e now takes an optional \u003ccode\u003emodel_aliases\u003c/code\u003e parameter listing all of the models, async models and aliases that have been registered so far by other plugins. A plugin with \u003ccode\u003e@hookimpl(trylast=True)\u003c/code\u003e can use this to take previously registered models into account. \u003ca href=\"https://github.com/simonw/llm/issues/1389\"\u003e#1389\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eAdded docstrings to public classes and methods and included those directly in the documentation.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/llm\"\u003ellm\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-03-31T20:35:51Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
       "id": "f2488c9b40346937",
       "url": "https://steve-yegge.medium.com/vibe-maintainer-a2273a841040?source=rss-c1ec701babb7------2",
       "title": "Vibe Maintainer",
@@ -215,6 +149,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-06T02:09:46Z",
+  "_signal_generated": "2026-04-06T07:25:39Z",
   "_signal_period": "2026-03"
 }

@@ -3,6 +3,93 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "f7c0a009e73cad26",
+      "url": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+      "title": "Google AI Edge Gallery",
+      "summary": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337\"\u003eGoogle AI Edge Gallery\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\nTerrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on your iPhone.\u003c/p\u003e\n\u003cp\u003eIt works \u003cem\u003ereally\u003c/em\u003e well. The E2B model is a 2.54GB download and is both fast and genuinely useful.\u003c/p\u003e\n\u003cp\u003eThe app also provides \"ask questions about images\" and audio transcription (up to 30s) with the two small Gemma 4 models, and has an interesting \"skills\" demo which demonstrates tool calling against eight different interactive widgets, each implemented as an HTML page (though sadly the source code is not visible): interactive-map, kitchen-adventure, calculate-hash, text-spinner, mood-tracker, mnemonic-password, query-wikipedia, and qr-code.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://static.simonwillison.net/static/2026/gemini-agent-skills.jpg\" alt=\"Screenshot of an \u0026quot;Agent Skills\u0026quot; chat interface using the Gemma-4-E2B-it model. The user prompt reads \u0026quot;Show me the Castro Theatre on a map.\u0026quot; The model response, labeled \u0026quot;Model on GPU,\u0026quot; shows it \u0026quot;Called JS skill \u0026#39;interactive-map/index.html\u0026#39;\u0026quot; and displays an embedded Google Map centered on a red pin at The Castro Theatre in San Francisco, with nearby landmarks visible including Starbelly, Cliff\u0026#39;s Variety, Blind Butcher, GLBT Historical Society Museum, and Fable. An \u0026quot;Open in Maps\u0026quot; link and \u0026quot;View in full screen\u0026quot; button are shown. Below the map, the model states \u0026quot;The interactive map view for the Castro Theatre has been shown.\u0026quot; with a response time of 2.4 s. A text input field with \u0026quot;Type prompt...\u0026quot; placeholder, a \u0026quot;+\u0026quot; button, and a \u0026quot;Skills\u0026quot; button appear at the bottom.\" style=\"max-width: min(400px, 100%); margin: 0 auto; display: block;\"\u003e\u003c/p\u003e\n\u003cp\u003e(That demo did freeze the app when I tried to add a follow-up prompt though.)\u003c/p\u003e\n\u003cp\u003eThis is the first time I've seen a local model vendor release an official app for trying out their models on in iPhone. Sadly it's missing permanent logs - conversations with this app are ephemeral.\n\n    \u003cp\u003e\u003csmall\u003e\u003c/small\u003eVia \u003ca href=\"https://news.ycombinator.com/item?id=47652561\"\u003eHacker News\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/google\"\u003egoogle\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/iphone\"\u003eiphone\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/local-llms\"\u003elocal-llms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/gemini\"\u003egemini\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llm-tool-use\"\u003ellm-tool-use\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-06T05:18:26Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "google",
+        "iphone",
+        "generative-ai",
+        "local-llms",
+        "llms",
+        "gemini",
+        "llm-tool-use"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "48425cfc831ab8db",
+      "url": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+      "title": "datasette-ports 0.2",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-ports/releases/tag/0.2\"\u003edatasette-ports 0.2\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eNo longer requires Datasette - running \u003ccode\u003euvx datasette-ports\u003c/code\u003e now works as well.\u003c/li\u003e\n\u003cli\u003eInstalling it as a Datasette plugin continues to provide the \u003ccode\u003edatasette ports\u003c/code\u003e command.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-06T03:25:43Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "a00ca273a1e932af",
+      "url": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+      "title": "scan-for-secrets 0.3",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.3\"\u003escan-for-secrets 0.3\u003c/a\u003e\u003c/p\u003e\n    \u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eNew \u003ccode\u003e-r/--redact\u003c/code\u003e option which shows the list of matches, asks for confirmation and then replaces every match with \u003ccode\u003eREDACTED\u003c/code\u003e, taking escaping rules into account.\u003c/li\u003e\n\u003cli\u003eNew Python function \u003ccode\u003eredact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -\u0026gt; int\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/projects\"\u003eprojects\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-06T02:59:28Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "projects"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "dda544bc6749e36a",
+      "url": "https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything",
+      "title": "Cleanup Claude Code Paste",
+      "summary": "\u003cp\u003e\u003cstrong\u003eTool:\u003c/strong\u003e \u003ca href=\"https://tools.simonwillison.net/cleanup-claude-code-paste\"\u003eCleanup Claude Code Paste\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eSuper-niche tool this. I sometimes copy prompts out of the Claude Code terminal app and they come out with a bunch of weird additional whitespace. This tool cleans that up.\u003c/p\u003e\n\u003cp\u003e\u003cimg alt=\"Screenshot of a web tool titled \u0026quot;Cleanup Claude Code Paste\u0026quot; with the subtitle \u0026quot;Paste terminal output to remove the ❯ prompt, fix wrapped-line whitespace, and join lines into clean text.\u0026quot; An input textarea contains pasted terminal output starting with \u0026quot;❯ Add a -r/--redact option which asks for user approval (after telling it how many replacements will happen and in which files and which lines – standard output basically) and then rewrites the files in that folder to replace all matched secrets with REDACTED. Run tests with 'uv run pytest' and use red/green TDD\u0026quot;. Below is a \u0026quot;Cleaned output:\u0026quot; section showing the same text with the ❯ prompt removed and whitespace cleaned up. A blue \u0026quot;Copy to clipboard\u0026quot; button appears at the bottom.\" src=\"https://static.simonwillison.net/static/2026/claude-code-cleanup.jpg\" /\u003e\u003c/p\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/tools\"\u003etools\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/claude-code\"\u003eclaude-code\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-06T02:55:23Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "tools",
+        "claude-code"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
+      "id": "dcb00dbef2f90b6a",
+      "url": "https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything",
+      "title": "datasette-ports 0.1",
+      "summary": "\u003cp\u003e\u003cstrong\u003eRelease:\u003c/strong\u003e \u003ca href=\"https://github.com/datasette/datasette-ports/releases/tag/0.1\"\u003edatasette-ports 0.1\u003c/a\u003e\u003c/p\u003e\n    \u003cp\u003eAnother \u003ca href=\"https://gisthost.github.io/?f92d8a6bdadee1c77972b5e51954144e\"\u003eexample\u003c/a\u003e of README-driven development, this time solving a problem that might be unique to me.\u003c/p\u003e\n\u003cp\u003eI often find myself running a bunch of different \u003ca href=\"https://datasette.io\"\u003eDatasette\u003c/a\u003e instances with different databases and different in-development plugins, spreads across dozens of different terminal windows - enough that I frequently lose them!\u003c/p\u003e\n\u003cp\u003eNow I can run this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edatasette install datasette-ports\ndatasette ports\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAnd get a list of every running instance that looks something like this:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ehttp://127.0.0.1:8333/ - v1.0a26\n  Databases: data\n  Plugins: datasette-enrichments, datasette-enrichments-llm, datasette-llm, datasette-secrets\nhttp://127.0.0.1:8001/ - v1.0a26\n  Databases: creatures\n  Plugins: datasette-extract, datasette-llm, datasette-secrets\nhttp://127.0.0.1:8900/ - v0.65.2\n  Databases: logs\n\u003c/code\u003e\u003c/pre\u003e\n    \n        \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/datasette\"\u003edatasette\u003c/a\u003e\u003c/p\u003e",
+      "date_published": "2026-04-06T00:23:55Z",
+      "tags": [
+        "AI",
+        "LLM",
+        "Python",
+        "Open Source",
+        "datasette"
+      ],
+      "_signal_feed_title": "Simon Willison's Weblog",
+      "_signal_feed_url": "http://simonwillison.net/"
+    },
+    {
       "id": "ae8b15506b63a896",
       "url": "https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything",
       "title": "Eight years of wanting, three months of building with AI",
@@ -528,28 +615,8 @@
       ],
       "_signal_feed_title": "Simon Willison's Weblog",
       "_signal_feed_url": "http://simonwillison.net/"
-    },
-    {
-      "id": "4826781622af5fa0",
-      "url": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
-      "title": "Quoting Soohoon Choi",
-      "summary": "\u003cblockquote cite=\"https://www.greptile.com/blog/ai-slopware-future\"\u003e\u003cp\u003eI want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers ship reliable features fastest, which requires simple, maintainable code. Good code will prevail, not only because we want it to (though we do!), but because economic forces demand it. Markets will not reward slop in coding, in the long-term.\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp class=\"cite\"\u003e\u0026mdash; \u003ca href=\"https://www.greptile.com/blog/ai-slopware-future\"\u003eSoohoon Choi\u003c/a\u003e, Slop Is Not Necessarily The Future\u003c/p\u003e\n\n    \u003cp\u003eTags: \u003ca href=\"https://simonwillison.net/tags/slop\"\u003eslop\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai-assisted-programming\"\u003eai-assisted-programming\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/generative-ai\"\u003egenerative-ai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/agentic-engineering\"\u003eagentic-engineering\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/ai\"\u003eai\u003c/a\u003e, \u003ca href=\"https://simonwillison.net/tags/llms\"\u003ellms\u003c/a\u003e\u003c/p\u003e",
-      "date_published": "2026-04-01T02:07:16Z",
-      "tags": [
-        "AI",
-        "LLM",
-        "Python",
-        "Open Source",
-        "slop",
-        "ai-assisted-programming",
-        "generative-ai",
-        "agentic-engineering",
-        "llms"
-      ],
-      "_signal_feed_title": "Simon Willison's Weblog",
-      "_signal_feed_url": "http://simonwillison.net/"
     }
   ],
-  "_signal_generated": "2026-04-06T02:09:46Z",
+  "_signal_generated": "2026-04-06T07:25:39Z",
   "_signal_period": "2026-04"
 }
