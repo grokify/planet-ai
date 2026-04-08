@@ -45,20 +45,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "fb26376b39bda9a7",
-      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
-      "title": "Two years in review",
-      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "8d07cbef0a5ec80b",
       "url": "https://blog.d11r.eu/cryo/",
       "title": "I signed up for cryonics",
@@ -71,6 +57,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "fb26376b39bda9a7",
+      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
+      "title": "Two years in review",
+      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -87,6 +87,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-04-08T07:13:55Z",
+  "_signal_generated": "2026-04-08T13:14:48Z",
   "_signal_period": "2024-07"
 }
