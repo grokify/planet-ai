@@ -93,20 +93,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "2f94f34d611e2b19",
-      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
-      "title": "Tracing what agents do, not what they say",
-      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "db39221616f75d2d",
       "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
       "title": "Absurd In Production",
@@ -125,6 +111,20 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
+    },
+    {
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "068253b9db3bc029",
@@ -369,6 +369,20 @@
       ]
     },
     {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -395,20 +409,6 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
-    },
-    {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -3342,20 +3342,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "fb26376b39bda9a7",
-      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
-      "title": "Two years in review",
-      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "8d07cbef0a5ec80b",
       "url": "https://blog.d11r.eu/cryo/",
       "title": "I signed up for cryonics",
@@ -3368,6 +3354,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "fb26376b39bda9a7",
+      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
+      "title": "Two years in review",
+      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -3426,5 +3426,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-08T19:12:20Z"
+  "_signal_generated": "2026-04-09T01:58:54Z"
 }
