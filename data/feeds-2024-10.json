@@ -63,22 +63,8 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
-      "id": "c190b1ccdbb5fae9",
-      "url": "https://dev.to/siddhantkcode/exploring-parallelism-in-large-language-models-llms-5991",
-      "title": "Exploring parallelism in Large Language Models (LLMs)",
-      "summary": "Introduction   Large Language Models (LLMs) have revolutionized natural language processing...",
-      "date_published": "2024-10-17T05:12:46Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-04-11T06:57:54Z",
+  "_signal_generated": "2026-04-11T12:51:59Z",
   "_signal_period": "2024-10"
 }

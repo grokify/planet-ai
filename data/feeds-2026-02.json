@@ -78,6 +78,34 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "44285a565700fb09",
+      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
+      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
+      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
+      "date_published": "2026-02-19T00:00:00Z",
+      "authors": [
+        {
+          "name": "Ben Gregory"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Engineering",
+        "Product Development"
+      ],
+      "_signal_feed_title": "Kasava Blog",
+      "_signal_feed_url": "https://www.kasava.dev/blog",
+      "_signal_priority": true,
+      "_signal_rank": 3,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47078324",
+          "id": "47078324"
+        }
+      ]
+    },
+    {
       "id": "fc44166e3e729564",
       "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
       "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
@@ -103,34 +131,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=47086557",
           "id": "47086557"
-        }
-      ]
-    },
-    {
-      "id": "44285a565700fb09",
-      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
-      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
-      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
-      "date_published": "2026-02-19T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ben Gregory"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Engineering",
-        "Product Development"
-      ],
-      "_signal_feed_title": "Kasava Blog",
-      "_signal_feed_url": "https://www.kasava.dev/blog",
-      "_signal_priority": true,
-      "_signal_rank": 3,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47078324",
-          "id": "47078324"
         }
       ]
     },
@@ -335,6 +335,20 @@
       "_signal_feed_url": "https://reorx.com/"
     },
     {
+      "id": "79caba98118d8639",
+      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
+      "title": "AI fatigue is real and nobody talks about it",
+      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
+      "date_published": "2026-02-08T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "e509decbf9709dda",
       "url": "https://www.linkedin.com/posts/hernanwyler_aimanagement-airiskmanagement-agenticai-activity-7426369346152747008-m0qt",
       "title": "AI Risk Management Framework",
@@ -362,20 +376,6 @@
         "author": "hernanwyler",
         "postId": "7426369346152747008"
       }
-    },
-    {
-      "id": "79caba98118d8639",
-      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
-      "title": "AI fatigue is real and nobody talks about it",
-      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
-      "date_published": "2026-02-08T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "92dc9c0bdbcacd7f",
@@ -444,6 +444,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-11T06:57:54Z",
+  "_signal_generated": "2026-04-11T12:51:59Z",
   "_signal_period": "2026-02"
 }
