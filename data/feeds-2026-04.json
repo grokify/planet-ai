@@ -17,6 +17,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "6a4d9596033e0efa",
       "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "title": "The Center Has a Bias",
@@ -35,20 +49,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
-      "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -141,20 +141,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "2f94f34d611e2b19",
-      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
-      "title": "Tracing what agents do, not what they say",
-      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "db39221616f75d2d",
       "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
       "title": "Absurd In Production",
@@ -173,6 +159,20 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
+    },
+    {
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "068253b9db3bc029",
@@ -199,6 +199,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-14T02:12:20Z",
+  "_signal_generated": "2026-04-14T07:26:30Z",
   "_signal_period": "2026-04"
 }
