@@ -3,18 +3,18 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
-      "date_published": "2026-04-11T00:00:00Z",
+      "id": "c784a9c16f608280",
+      "url": "https://blog.d11r.eu/obs/",
+      "title": "This post is published by just typing into Obsidian",
+      "summary": "\u003cp\u003eAs the title says!\u003c/p\u003e\n\u003cp\u003eI used to run a WordPress blog. Then I switched to using a static site generator (Hugo). This blog is deployed from a Git repo which runs on Hugo.\u003c/p\u003e\n\u003cp\u003eAnd it\u0026rsquo;s fine! For the last however many posts you can see underneath this one on the homepage, I\u0026rsquo;d just go to the repo, \u003ccode\u003ecd\u003c/code\u003e to \u003ccode\u003econtent/posts\u003c/code\u003e, \u003ccode\u003envim name-of-new-post.md\u003c/code\u003e, and start writing there.\u003c/p\u003e\n\u003cp\u003eWith time, I started remembering with some nostalgia the time when there was even less friction, when I would just log in somewhere, write my words, and hit \u0026ldquo;Publish\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eAnd also, I like keeping everything in one place. So I asked myself: \u0026ldquo;How hard would it be to build some system where I can just write to Obsidian, and automatically deploy my Hugo site?\u0026rdquo;\u003c/p\u003e\n\u003cp\u003eSo I built my own little publishing pipeline, which is essentially just a single \u003ccode\u003epost-commit\u003c/code\u003e hook in the Git repo where I keep my Obsidian vault.\u003c/p\u003e\n\u003cp\u003eHere\u0026rsquo;s the hook, just 30ish lines of bash:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"\u003e\u003ccode class=\"language-bash\" data-lang=\"bash\"\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#75715e\"\u003e#!/bin/bash\n\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003eexport PATH\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;/usr/local/bin:/opt/homebrew/bin:\u003c/span\u003e$PATH\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003eset -e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003eextract_image_name\u003cspan style=\"color:#f92672\"\u003e()\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e{\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e stripped_prefix\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e${\u003c/span\u003e1##*\u003cspan style=\"color:#ae81ff\"\u003e\\[\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e stripped_suffix\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e${\u003c/span\u003estripped_prefix%%]]*\u003cspan style=\"color:#e6db74\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e echo $stripped_suffix\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#f92672\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003eHUGO_BLOG\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$HOME\u003cspan style=\"color:#e6db74\"\u003e/repos/sunday-stopwatch\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003eCHANGED_FILES\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003egit diff-tree --no-commit-id -r --name-only HEAD\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003ewhile\u003c/span\u003e IFS\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e read -r file; \u003cspan style=\"color:#66d9ef\"\u003edo\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003eif\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e[[\u003c/span\u003e \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$file\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e==\u003c/span\u003e blog/* \u003cspan style=\"color:#f92672\"\u003e]]\u003c/span\u003e; \u003cspan style=\"color:#66d9ef\"\u003ethen\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e cp $file $HUGO_BLOG/content/posts/\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003eif\u003c/span\u003e grep -q \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\\!\\[\\[\u0026#34;\u003c/span\u003e $file; \u003cspan style=\"color:#66d9ef\"\u003ethen\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e IMAGE_LINES\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003egrep \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\\!\\[\\[\u0026#34;\u003c/span\u003e $file\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003ewhile\u003c/span\u003e IFS\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e read -r image_line; \u003cspan style=\"color:#66d9ef\"\u003edo\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e image_name\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003eextract_image_name \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$image_line\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e encoded_name\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003eecho \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$image_name\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e | sed \u003cspan style=\"color:#e6db74\"\u003e\u0026#39;s/ /-/g\u0026#39;\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e cp blog/\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$image_name\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e $HUGO_BLOG/static/\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$encoded_name\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e perl -i -pe \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;s/!\\\\[\\\\[\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e${\u003c/span\u003eimage_name\u003cspan style=\"color:#e6db74\"\u003e}\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e\\\\]\\\\]/![](\\/\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e${\u003c/span\u003eencoded_name\u003cspan style=\"color:#e6db74\"\u003e}\u003c/span\u003e\u003cspan style=\"color:#e6db74\"\u003e)/g\u0026#34;\u003c/span\u003e $HUGO_BLOG/content/posts/\u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003ebasename \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$file\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003edone\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e\u0026lt;\u0026lt;\u0026lt;\u003c/span\u003e \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$IMAGE_LINES\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003efi\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003eif\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e[[\u003c/span\u003e \u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003eyq --front-matter\u003cspan style=\"color:#f92672\"\u003e=\u003c/span\u003eextract .draft $file\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e==\u003c/span\u003e \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;false\u0026#34;\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e]]\u003c/span\u003e; \u003cspan style=\"color:#66d9ef\"\u003ethen\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e git -C $HUGO_BLOG add content/ static/\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e git -C $HUGO_BLOG commit -m \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;Autopublish from vault\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e git -C $HUGO_BLOG push\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003efi\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e \u003cspan style=\"color:#66d9ef\"\u003efi\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edone\u003c/span\u003e \u003cspan style=\"color:#f92672\"\u003e\u0026lt;\u0026lt;\u0026lt;\u003c/span\u003e \u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e$CHANGED_FILES\u003cspan style=\"color:#e6db74\"\u003e\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp\u003eTo translate:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eWhenever there is a commit in the Obsidian vault (and there is always one relatively often because I use the \u003ca href=\"https://github.com/Vinzent03/obsidian-git\"\u003eObsidian Git\u003c/a\u003e plugin), this script is run.\u003c/li\u003e\n\u003cli\u003eIt checks all the files that have been changed.\u003c/li\u003e\n\u003cli\u003eIf any of the files start with \u0026ldquo;blog/\u0026rdquo;, that means that a file in the blog directory has changed, which means that there is a new post (or a changed post).\u003c/li\u003e\n\u003cli\u003eThis means that it\u0026rsquo;s copied to the Hugo repo.\u003c/li\u003e\n\u003cli\u003eIf there are any embedded image wikilinks, they are translated into embedded Markdown images, and copied into the static directory in the Hugo repo.\u003c/li\u003e\n\u003cli\u003eFinally, if the frontmatter of the file has \u003ccode\u003edraft\u003c/code\u003e set to \u003ccode\u003efalse\u003c/code\u003e, this also triggers the publishing action in the Hugo repo.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eReally simple, really silly, but works fine.\u003c/p\u003e\n\u003cp\u003eAlso, proof that screenshots work:\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/Pasted-image-20260414202728.png\" alt=\"\"\u003e\nThis is just a screenshot directly pasted into the Obsidian file.\u003c/p\u003e\n\u003cp\u003eAnyway, not the slickest, not the cleanest, not the most engineered approach, but it works nicely for me and that\u0026rsquo;s all I need.\u003c/p\u003e\n\u003cp\u003eOh, and, of course, the CI/CD on the origin for the Hugo blog actually then builds and deploys the site.\u003c/p\u003e",
+      "date_published": "2026-04-14T00:00:00Z",
       "tags": [
-        "Tech",
-        "Development",
-        "AI"
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
       ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "d108ad12756728fb",
@@ -51,6 +51,34 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "fd99cda5b61a0d3a",
+      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out",
+      "title": "I've sold out",
+      "summary": "I've sold out",
+      "date_published": "2026-04-08T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "0558262df33a167a",
       "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
       "title": "Mario and Earendil",
@@ -69,20 +97,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "fd99cda5b61a0d3a",
-      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out",
-      "title": "I've sold out",
-      "summary": "I've sold out",
-      "date_published": "2026-04-08T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2b81f57c03a5159c",
@@ -199,6 +213,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-14T13:19:22Z",
+  "_signal_generated": "2026-04-14T19:09:51Z",
   "_signal_period": "2026-04"
 }
