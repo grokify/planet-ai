@@ -17,20 +17,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
-      "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "6a4d9596033e0efa",
       "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "title": "The Center Has a Bias",
@@ -49,6 +35,20 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
+    },
+    {
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "d108ad12756728fb",
@@ -213,6 +213,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-04-16T07:27:55Z",
+  "_signal_generated": "2026-04-16T13:23:59Z",
   "_signal_period": "2026-04"
 }
