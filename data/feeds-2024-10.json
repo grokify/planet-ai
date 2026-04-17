@@ -37,20 +37,6 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     },
     {
-      "id": "4d535f4a55ca913f",
-      "url": "https://dev.to/siddhantkcode/optimizing-database-performance-by-migrating-images-to-gcs-25em",
-      "title": "Optimizing database performance by migrating Images to GCS",
-      "summary": "tl;dr;   Migrating image data from Cloud SQL to GCS significantly improved database...",
-      "date_published": "2024-10-20T18:19:56Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "74a7122d921743a8",
       "url": "https://blog.d11r.eu/pibu1/",
       "title": "Political ideology from the bottom up, part 1",
@@ -65,6 +51,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-17T02:13:00Z",
+  "_signal_generated": "2026-04-17T07:28:32Z",
   "_signal_period": "2024-10"
 }
