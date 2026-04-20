@@ -17,6 +17,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "6a4d9596033e0efa",
       "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "title": "The Center Has a Bias",
@@ -49,20 +63,6 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
-      "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -127,6 +127,20 @@
       ]
     },
     {
+      "id": "f34ce9dbb5544e2e",
+      "url": "https://blog.d11r.eu/mac/",
+      "title": "Everything I hate about the Mac",
+      "summary": "\u003cp\u003eThe premise of the Mac is that everything \u0026ldquo;just works ™️ \u0026ldquo;.\nIt doesn\u0026rsquo;t.\u003c/p\u003e\n\u003cp\u003eIn my experience, a Dell XPS 13 with Fedora GNOME is closer to \u0026ldquo;just working\u0026rdquo; than my Mac (M3 Air).\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eWorkspaces have an animation that you can\u0026rsquo;t turn off.\nI \u003cstrong\u003ehave\u003c/strong\u003e to watch the \u0026ldquo;sliding\u0026rdquo; animation, and there\u0026rsquo;s no way for me to speed it up, or remove entirely.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Restart\u0026rdquo; doesn\u0026rsquo;t work.\nI press restart, some apps close, or prompt for closing.\nThen nothing happens.\nThen I press restart again.\nThen the computer restarts.\u003c/li\u003e\n\u003cli\u003eDark/light mode doesn\u0026rsquo;t work.\nIf I set it manually, many websites just don\u0026rsquo;t register it, and I have to set dark/light per website as well.\u003c/li\u003e\n\u003cli\u003eDark/light mode automatic setting also doesn\u0026rsquo;t work.\nIt\u0026rsquo;s now 19:32.\nIt\u0026rsquo;s getting dark.\nI have \u0026ldquo;automatic\u0026rdquo; set for light/dark theme, system-wide.\nIt is still at light mode, and I can\u0026rsquo;t set a schedule.\u003c/li\u003e\n\u003cli\u003eMission control doesn\u0026rsquo;t allow me to start an app.\nIn GNOME, I can go to the equivalent of \u0026ldquo;mission control\u0026rdquo;, start typing the name of an app, and it\u0026rsquo;s right there.\nIn Mac, mission control and spotlight search are different entities.\u003c/li\u003e\n\u003cli\u003eI can\u0026rsquo;t close a workspace because there is no X for the first 2 seconds.\nI create a workspace.\nI go to mission control, put my cursor on the workspace I want to close.\nNothing.\nA couple of seconds pass, and only then can I close the workspace.\u003c/li\u003e\n\u003cli\u003eCreating a workspace takes 1-2 seconds.\nWhy not instant?\nWhy do I have to wait?\u003c/li\u003e\n\u003cli\u003eI can\u0026rsquo;t click on the clock and get a calendar immediately.\nInstead, I have to add widgets.\nIf I just want a small calendar widget, it\u0026rsquo;s not fully right aligned in that notification center thing that opens when you click the clock.\nIt\u0026rsquo;s stuck outside, towards the left.\nThere\u0026rsquo;s no way to align it.\u003c/li\u003e\n\u003cli\u003eNotifications don\u0026rsquo;t work.\nI have to manually allow/disallow notifications.\nI\u0026rsquo;ve missed more than one meeting because I assumed that I would get a notification, from any of the installed apps.\nThere was no prompt like \u0026ldquo;allow notifications?\u0026rdquo;\u003c/li\u003e\n\u003cli\u003eThe function key doesn\u0026rsquo;t exist on any external keyboard.\nTherefore, I must have different keyboard workflows for when I want to use the laptop, and when I\u0026rsquo;m connected to an external keyboard.\u003c/li\u003e\n\u003cli\u003eI cannot have two external monitors plus the built-in monitor at the same time.\nCapped at two monitors total.\u003c/li\u003e\n\u003cli\u003eEvery system upgrade forces me to get Siri Intelligence and I always have to refuse it.\nI cannot refuse it and be done with it.\nAlso, I always get that stupid \u0026ldquo;Welcome\u0026rdquo; animation.\nThis isn\u0026rsquo;t the first time I\u0026rsquo;m using this computer, why are you welcoming me?\nJust install the god damned updates and get out of my way.\u003c/li\u003e\n\u003cli\u003eKeyboard shortcuts are insufficiently customizable.\u003c/li\u003e\n\u003cli\u003eI cannot freely manipulate windows with the keyboard, move them left, right, up, down, tile them, float them, move them to another workspace.\nI must use the trackpad for most manipulation.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003cli\u003eThe dock, when hidden, takes several seconds to appear when I slide the cursor down.\u003c/li\u003e\n\u003cli\u003eThe dock switches screens by default.\nI leave it at screen 1, but if I randomly go with my cursor down on screen 2, now it\u0026rsquo;s on screen 2.\nThis of course moves my windows.\u003c/li\u003e\n\u003cli\u003eWhat is the dock even?\nIt has my open apps, and also apps that I closed, and also apps that I minimized?\nIt makes no sense to me.\u003c/li\u003e\n\u003cli\u003eWhat\u0026rsquo;s the difference between closing and minimizing?\nI expect that, when I close an app, that it\u0026rsquo;ll get closed, and disappear.\nBut it just gets minimized.\nSo I have to go to the dock, right click, and \u0026ldquo;Quit\u0026rdquo; it for real.\nExcept for \u003cem\u003esome\u003c/em\u003e apps which actually do close!\nWhat!\u003c/li\u003e\n\u003cli\u003eFinder doesn\u0026rsquo;t show recent files.\nIt just doesn\u0026rsquo;t.\u003c/li\u003e\n\u003cli\u003eI wanna take a screenshot of a section of my screen.\nI have to press the most un-ergonomic combination of keys known to man.\u003c/li\u003e\n\u003cli\u003eI wanna take a screenshot of a section of my screen.\nThe \u0026ldquo;screenshot\u0026rdquo; app behaves completely differently from the behavior I get when taking a screenshot using the shortcut.\u003c/li\u003e\n\u003cli\u003eWhere\u0026rsquo;s \u0026ldquo;forward delete\u0026rdquo; (the Del key)?\nDoes it even exist?\nThe behavior exists when an external keyboard is connected.\u003c/li\u003e\n\u003cli\u003eBluetooth mouse and keyboard lag very very much.\u003c/li\u003e\n\u003cli\u003eWhy do I have to set different settings for my keyboard based on which keyboard is connected?\u003c/li\u003e\n\u003cli\u003eWhen I turn on that thing where you can only have one app in focus, and the rest goes to the sidebar on the left, I can Cmd+Tab through apps that don\u0026rsquo;t even appear in focus.\nThe app is closed?\nBut I can go through it with Cmd+Tab.\nAnd it\u0026rsquo;s in focus in the sense that the top bar changes the name.\nBut nothing opens!\nVisually I\u0026rsquo;m still on the app I was just at right before!\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Reduce motion\u0026rdquo; in accessibility reduces only \u003cem\u003esome\u003c/em\u003e motion, but other motion remains exactly the same, for example dock animations.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003c/ol\u003e",
+      "date_published": "2026-04-05T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "6f835f4f27367e92",
       "url": "https://blog.d11r.eu/practical-ethics/",
       "title": "Thoughts on Practical Ethics",
@@ -141,18 +155,18 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "f34ce9dbb5544e2e",
-      "url": "https://blog.d11r.eu/mac/",
-      "title": "Everything I hate about the Mac",
-      "summary": "\u003cp\u003eThe premise of the Mac is that everything \u0026ldquo;just works ™️ \u0026ldquo;.\nIt doesn\u0026rsquo;t.\u003c/p\u003e\n\u003cp\u003eIn my experience, a Dell XPS 13 with Fedora GNOME is closer to \u0026ldquo;just working\u0026rdquo; than my Mac (M3 Air).\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eWorkspaces have an animation that you can\u0026rsquo;t turn off.\nI \u003cstrong\u003ehave\u003c/strong\u003e to watch the \u0026ldquo;sliding\u0026rdquo; animation, and there\u0026rsquo;s no way for me to speed it up, or remove entirely.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Restart\u0026rdquo; doesn\u0026rsquo;t work.\nI press restart, some apps close, or prompt for closing.\nThen nothing happens.\nThen I press restart again.\nThen the computer restarts.\u003c/li\u003e\n\u003cli\u003eDark/light mode doesn\u0026rsquo;t work.\nIf I set it manually, many websites just don\u0026rsquo;t register it, and I have to set dark/light per website as well.\u003c/li\u003e\n\u003cli\u003eDark/light mode automatic setting also doesn\u0026rsquo;t work.\nIt\u0026rsquo;s now 19:32.\nIt\u0026rsquo;s getting dark.\nI have \u0026ldquo;automatic\u0026rdquo; set for light/dark theme, system-wide.\nIt is still at light mode, and I can\u0026rsquo;t set a schedule.\u003c/li\u003e\n\u003cli\u003eMission control doesn\u0026rsquo;t allow me to start an app.\nIn GNOME, I can go to the equivalent of \u0026ldquo;mission control\u0026rdquo;, start typing the name of an app, and it\u0026rsquo;s right there.\nIn Mac, mission control and spotlight search are different entities.\u003c/li\u003e\n\u003cli\u003eI can\u0026rsquo;t close a workspace because there is no X for the first 2 seconds.\nI create a workspace.\nI go to mission control, put my cursor on the workspace I want to close.\nNothing.\nA couple of seconds pass, and only then can I close the workspace.\u003c/li\u003e\n\u003cli\u003eCreating a workspace takes 1-2 seconds.\nWhy not instant?\nWhy do I have to wait?\u003c/li\u003e\n\u003cli\u003eI can\u0026rsquo;t click on the clock and get a calendar immediately.\nInstead, I have to add widgets.\nIf I just want a small calendar widget, it\u0026rsquo;s not fully right aligned in that notification center thing that opens when you click the clock.\nIt\u0026rsquo;s stuck outside, towards the left.\nThere\u0026rsquo;s no way to align it.\u003c/li\u003e\n\u003cli\u003eNotifications don\u0026rsquo;t work.\nI have to manually allow/disallow notifications.\nI\u0026rsquo;ve missed more than one meeting because I assumed that I would get a notification, from any of the installed apps.\nThere was no prompt like \u0026ldquo;allow notifications?\u0026rdquo;\u003c/li\u003e\n\u003cli\u003eThe function key doesn\u0026rsquo;t exist on any external keyboard.\nTherefore, I must have different keyboard workflows for when I want to use the laptop, and when I\u0026rsquo;m connected to an external keyboard.\u003c/li\u003e\n\u003cli\u003eI cannot have two external monitors plus the built-in monitor at the same time.\nCapped at two monitors total.\u003c/li\u003e\n\u003cli\u003eEvery system upgrade forces me to get Siri Intelligence and I always have to refuse it.\nI cannot refuse it and be done with it.\nAlso, I always get that stupid \u0026ldquo;Welcome\u0026rdquo; animation.\nThis isn\u0026rsquo;t the first time I\u0026rsquo;m using this computer, why are you welcoming me?\nJust install the god damned updates and get out of my way.\u003c/li\u003e\n\u003cli\u003eKeyboard shortcuts are insufficiently customizable.\u003c/li\u003e\n\u003cli\u003eI cannot freely manipulate windows with the keyboard, move them left, right, up, down, tile them, float them, move them to another workspace.\nI must use the trackpad for most manipulation.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003cli\u003eThe dock, when hidden, takes several seconds to appear when I slide the cursor down.\u003c/li\u003e\n\u003cli\u003eThe dock switches screens by default.\nI leave it at screen 1, but if I randomly go with my cursor down on screen 2, now it\u0026rsquo;s on screen 2.\nThis of course moves my windows.\u003c/li\u003e\n\u003cli\u003eWhat is the dock even?\nIt has my open apps, and also apps that I closed, and also apps that I minimized?\nIt makes no sense to me.\u003c/li\u003e\n\u003cli\u003eWhat\u0026rsquo;s the difference between closing and minimizing?\nI expect that, when I close an app, that it\u0026rsquo;ll get closed, and disappear.\nBut it just gets minimized.\nSo I have to go to the dock, right click, and \u0026ldquo;Quit\u0026rdquo; it for real.\nExcept for \u003cem\u003esome\u003c/em\u003e apps which actually do close!\nWhat!\u003c/li\u003e\n\u003cli\u003eFinder doesn\u0026rsquo;t show recent files.\nIt just doesn\u0026rsquo;t.\u003c/li\u003e\n\u003cli\u003eI wanna take a screenshot of a section of my screen.\nI have to press the most un-ergonomic combination of keys known to man.\u003c/li\u003e\n\u003cli\u003eI wanna take a screenshot of a section of my screen.\nThe \u0026ldquo;screenshot\u0026rdquo; app behaves completely differently from the behavior I get when taking a screenshot using the shortcut.\u003c/li\u003e\n\u003cli\u003eWhere\u0026rsquo;s \u0026ldquo;forward delete\u0026rdquo; (the Del key)?\nDoes it even exist?\nThe behavior exists when an external keyboard is connected.\u003c/li\u003e\n\u003cli\u003eBluetooth mouse and keyboard lag very very much.\u003c/li\u003e\n\u003cli\u003eWhy do I have to set different settings for my keyboard based on which keyboard is connected?\u003c/li\u003e\n\u003cli\u003eWhen I turn on that thing where you can only have one app in focus, and the rest goes to the sidebar on the left, I can Cmd+Tab through apps that don\u0026rsquo;t even appear in focus.\nThe app is closed?\nBut I can go through it with Cmd+Tab.\nAnd it\u0026rsquo;s in focus in the sense that the top bar changes the name.\nBut nothing opens!\nVisually I\u0026rsquo;m still on the app I was just at right before!\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Reduce motion\u0026rdquo; in accessibility reduces only \u003cem\u003esome\u003c/em\u003e motion, but other motion remains exactly the same, for example dock animations.\u003c/li\u003e\n\u003cli\u003eLiquid glass.\u003c/li\u003e\n\u003c/ol\u003e",
-      "date_published": "2026-04-05T00:00:00Z",
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
       "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
+        "Tech",
+        "Development",
+        "AI"
       ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "db39221616f75d2d",
@@ -173,20 +187,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "2f94f34d611e2b19",
-      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
-      "title": "Tracing what agents do, not what they say",
-      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "068253b9db3bc029",
@@ -431,6 +431,20 @@
       ]
     },
     {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -457,20 +471,6 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
-    },
-    {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -3454,5 +3454,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-20T08:01:39Z"
+  "_signal_generated": "2026-04-20T13:23:20Z"
 }
