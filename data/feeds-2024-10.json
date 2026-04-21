@@ -3,20 +3,6 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "5c72c252c2954f53",
-      "url": "https://dev.to/siddhantkcode/when-k6-eats-up-your-ram-slashing-memory-usage-in-load-tests-5148",
-      "title": "When k6 eats up your RAM: Slashing memory usage in load tests",
-      "summary": "tl;dr;   High memory consumption during k6 load tests is often a result of high cardinality...",
-      "date_published": "2024-10-31T08:36:26Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "3234828509421f5e",
       "url": "https://www.fast.ai/posts/2024-10-29-screen-time/index.html",
       "title": "In defense of screen time",
@@ -51,6 +37,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-21T07:44:38Z",
+  "_signal_generated": "2026-04-21T13:19:20Z",
   "_signal_period": "2024-10"
 }
