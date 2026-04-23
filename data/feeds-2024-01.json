@@ -3,6 +3,31 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "654af77ec18da5eb",
+      "url": "https://beabetterdev.com/2024/01/13/choosing-the-technology-without-first-understanding-the-need/?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=choosing-the-technology-without-first-understanding-the-need",
+      "title": "Choosing the Technology Without First Understanding the Need",
+      "content_html": "\n\u003cp\u003eI recently sat in on a demo for a new tool being developed by some engineer colleagues and noticed a troubling trend in how we choose infrastructure technologies. To set the stage, these engineers were hard at work for months developing a system that trained science models and presented the results to a UI in table form. Like any data exploration tool, an important need is to query by different fields, sort them by value, and other common methods to manipulate data.\u003c/p\u003e\n\n\n\n\u003cp\u003e\u0026#8220;The UI looks great\u0026#8221;, the customer said. \u0026#8220;But how do we sort the records by X field, or Y field, or Z field?\u0026#8221;. The engineer giving the demo was visually taken aback by such a simple question. Having chosen \u003ca href=\"https://www.beabetterdev.com/2022/12/09/dynamodb-overview/\"\u003eDynamoDB\u003c/a\u003e as database, querying a new data field involves a non-trivial set of work such as creating a new Global Secondary Index (GSI), changing your query pattern, and updating your pagination code. Not to mention the cost implications that come out of creating each additional \u003ca href=\"https://www.beabetterdev.com/2021/12/01/how-to-create-a-dynamodb-global-secondary-index-gsi/\"\u003eGSI\u003c/a\u003e. \u0026#8220;We can add that functionality\u0026#8221;, he replied. \u0026#8220;But it\u0026#8217;s going to take 3 weeks of effort\u0026#8221;. The customer let off an audible sigh.\u003c/p\u003e\n\n\n\n\u003cp\u003eIn the aftermath of the demo, my team and I discussed our options. Given that our customers expected the ability to query, sort, filter, and more generally, explore any field in the output table, we concluded that a database like Postgres or MySQL would be a better choice. But getting there would prove to be a multi-month undertaking and compromise our deadlines—an unfortunate update that our customers would not be happy about. \u003c/p\u003e\n\n\n\n\u003cp\u003eWhile on the commute home (yes no more work from home for me!), I contemplated how this could have happened. I concluded the engineers must have chosen the technology without understanding the needs of their customer—a major anti pattern for a production application that is expected to scale. \u003c/p\u003e\n\n\n\n\u003cp\u003eThe next day, I inquired with the lead engineer to confirm my suspicions but discovered something unexpected. It wasn\u0026#8217;t \u003cem\u003ejust\u003c/em\u003e that we didn\u0026#8217;t consider the needs of our customers, it\u0026#8217;s that we \u003cem\u003edefaulted\u003c/em\u003e to DynamoDB just because it was the norm. \u0026#8220;That\u0026#8217;s what everyone here uses\u0026#8221;, he said. He\u0026#8217;s certainly correct that in our domain we typically build applications that require fast key/value lookup stores, but this was \u003cem\u003enot\u003c/em\u003e the need in this case. The key insight that I gleaned from the conversation was that we chose the technology for our application without first understanding the needs from our customers.\u003c/p\u003e\n\n\n\n\u003cp\u003ePicking the technology before understanding the needs is an all too common occurrence for newer software developers—so much so that a simple google search for \u0026#8220;picking the right type of database\u0026#8221; generates millions of hits. If you\u0026#8217;re curious, \u003ca href=\"https://aws.amazon.com/getting-started/decision-guides/databases-on-aws-how-to-choose/\"\u003ethis one\u003c/a\u003e in particular focuses on AWS and does a pretty good job of describing the key considerations you need to keep in mind.\u003c/p\u003e\n\n\n\n\u003cp\u003eBut this isn\u0026#8217;t all about databases. Considering your needs before picking the tech is a mental exercise that extends to many other areas of software development, from choosing \u003ca href=\"https://www.beabetterdev.com/2022/10/02/an-introduction-to-aws-lambda/\"\u003eLambda\u003c/a\u003e over ECS to Redis over Memcached, you need to do the legwork to understand what your customers are trying to do and how they expect to use your application. From there, you can explore a set of tech options and evaluate their pro\u0026#8217;s and con\u0026#8217;s. Not doing so can put you in an awkward circumstance where you either need to work around your choices through inefficient application code, or go through the a painful and lengthy migration process. Both aren\u0026#8217;t ideal and can be avoided from the get go. Just ask my team\u0026#8217;s engineer about his experience. \u003c/p\u003e\n\u003cp\u003eThe post \u003ca href=\"https://beabetterdev.com/2024/01/13/choosing-the-technology-without-first-understanding-the-need/\"\u003eChoosing the Technology Without First Understanding the Need\u003c/a\u003e appeared first on \u003ca href=\"https://beabetterdev.com\"\u003eBe a Better Dev\u003c/a\u003e.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eI recently sat in on a demo for a new tool being developed by some engineer colleagues and…\u003c/p\u003e\n\u003cp\u003eThe post \u003ca href=\"https://beabetterdev.com/2024/01/13/choosing-the-technology-without-first-understanding-the-need/\"\u003eChoosing the Technology Without First Understanding the Need\u003c/a\u003e appeared first on \u003ca href=\"https://beabetterdev.com\"\u003eBe a Better Dev\u003c/a\u003e.\u003c/p\u003e\n",
+      "date_published": "2024-01-13T18:25:03Z",
+      "authors": [
+        {
+          "name": "Daniel"
+        }
+      ],
+      "tags": [
+        "AWS",
+        "Cloud",
+        "Development",
+        "Tutorials",
+        "Best Practices",
+        "Software Design",
+        "Tips",
+        "architecture"
+      ],
+      "_signal_feed_title": "Be a Better Dev",
+      "_signal_feed_url": "https://beabetterdev.com/"
+    },
+    {
       "id": "7a4961b7b69d5d02",
       "url": "https://reorx.com/blog/rabbit-r1-the-upgraded-replacement-for-smart-phones/",
       "title": "Rabbit R1 - The Upgraded Replacement for Smart Phones",
@@ -18,6 +43,6 @@
       "_signal_feed_url": "https://reorx.com/"
     }
   ],
-  "_signal_generated": "2026-04-23T13:21:45Z",
+  "_signal_generated": "2026-04-23T19:03:37Z",
   "_signal_period": "2024-01"
 }
