@@ -23,7 +23,7 @@
         "application security"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "e8be81810adc63d0",
@@ -47,7 +47,7 @@
         "s3"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "5330d6c350bcbdd1",
@@ -64,6 +64,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-24T13:17:21Z",
+  "_signal_generated": "2026-04-24T18:44:23Z",
   "_signal_period": "2024-05"
 }
