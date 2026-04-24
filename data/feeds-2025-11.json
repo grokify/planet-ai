@@ -177,6 +177,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -189,21 +202,8 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-04-23T19:03:37Z",
+  "_signal_generated": "2026-04-24T02:24:22Z",
   "_signal_period": "2025-11"
 }

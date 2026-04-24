@@ -100,34 +100,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
-      "id": "44285a565700fb09",
-      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
-      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
-      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
-      "date_published": "2026-02-19T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ben Gregory"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Engineering",
-        "Product Development"
-      ],
-      "_signal_feed_title": "Kasava Blog",
-      "_signal_feed_url": "https://www.kasava.dev/blog",
-      "_signal_priority": true,
-      "_signal_rank": 3,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47078324",
-          "id": "47078324"
-        }
-      ]
-    },
-    {
       "id": "fc44166e3e729564",
       "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
       "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
@@ -153,6 +125,34 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=47086557",
           "id": "47086557"
+        }
+      ]
+    },
+    {
+      "id": "44285a565700fb09",
+      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
+      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
+      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
+      "date_published": "2026-02-19T00:00:00Z",
+      "authors": [
+        {
+          "name": "Ben Gregory"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Engineering",
+        "Product Development"
+      ],
+      "_signal_feed_title": "Kasava Blog",
+      "_signal_feed_url": "https://www.kasava.dev/blog",
+      "_signal_priority": true,
+      "_signal_rank": 3,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47078324",
+          "id": "47078324"
         }
       ]
     },
@@ -235,26 +235,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "b1786bad6c04e8ed",
-      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
-      "title": "The Final Bottleneck",
-      "content_html": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I feel like something is very wrong here and it\u0026#8217;s time to\nreflect.\u003c/p\u003e\n\u003ch2\u003eYou Are Here\u003c/h2\u003e\n\u003cp\u003eSoftware engineers often believe that \u003ca href=\"/2020/1/1/async-pressure/\"\u003eif we make the bathtub\nbigger\u003c/a\u003e, overflow disappears.  It doesn\u0026#8217;t.\n\u003ca href=\"https://en.wikipedia.org/wiki/OpenClaw\"\u003eOpenClaw\u003c/a\u003e right now has north of 2,500\npull requests open.  That\u0026#8217;s a big bathtub.\u003c/p\u003e\n\u003cp\u003eAnyone who has worked with queues knows this: if input grows faster than\nthroughput, you have an accumulating failure.  At that point, backpressure and\nload shedding are the only things that retain a system that can still operate.\u003c/p\u003e\n\u003cp\u003eIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the\nfeeling.  The in-store experience breaks down.  You no longer know how many\norders are ahead of you.  There is no clear line, no reliable wait estimate, and\noften no real cancellation path unless you escalate and make noise.\u003c/p\u003e\n\u003cp\u003eThat is what many AI-adjacent open source projects feel like right now.  And\nincreasingly, that is what a lot of internal company projects feel like in\n\u0026#8220;AI-first\u0026#8221; engineering teams, and that\u0026#8217;s not sustainable.  You can\u0026#8217;t triage, you\ncan\u0026#8217;t review, and many of the PRs cannot be merged after a certain point because\nthey are too far out of date. And the creator might have lost the motivation to\nactually get it merged.\u003c/p\u003e\n\u003cp\u003eThere is huge excitement about newfound delivery speed, but in private\nconversations, I keep hearing the same second sentence: people are also confused\nabout how to keep up with the pace they themselves created.\u003c/p\u003e\n\u003ch2\u003eWe Have Been Here Before\u003c/h2\u003e\n\u003cp\u003eHumanity has been here before.  Many times over.  We already talk about the\nLuddites a lot in the context of AI, but it\u0026#8217;s interesting to see what led up to\nit.  Mark Cartwright wrote a great \u003ca href=\"https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/\"\u003earticle about the textile\nindustry\u003c/a\u003e\nin Britain during the industrial revolution.  At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too.  We saw the same thing in shipping that led\nto modern automated ports and containerization.\u003c/p\u003e\n\u003cp\u003eAs software engineers we have been here too.  Assembly did not scale to larger\nengineering teams, and we had to invent higher level languages.  A lot of what\nprogramming languages and software development frameworks did was allow us\nto write code faster and to scale to larger code bases.  What it did not do up\nto this point was take away the core skill of engineering.\u003c/p\u003e\n\u003cp\u003eWhile it\u0026#8217;s definitely easier to write C than assembly, many of the core problems\nare the same.  Memory latency still matters, physics are still our ultimate\nbottleneck, algorithmic complexity still makes or breaks software at scale.\u003c/p\u003e\n\u003ch2\u003eGiving Up?\u003c/h2\u003e\n\u003cp\u003eWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput.  \u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is a great example of this.  PRs are auto closed\nunless people are trusted.  It takes \u003ca href=\"https://x.com/badlogicgames/status/2021164603506368693\"\u003eOSS\nvacations\u003c/a\u003e.  That\u0026#8217;s one\noption: you just throttle the inflow.  You push against your newfound powers\nuntil you can handle them.\u003c/p\u003e\n\u003ch2\u003eOr Giving In\u003c/h2\u003e\n\u003cp\u003eBut what if the speed continues to increase?  What downstream of writing code do\nwe have to speed up?  Sure, the pull request review clearly turns into the\nbottleneck.  But it cannot really be automated.  If the machine writes the code,\nthe machine better review the code at the same time.  So what ultimately comes\nup for human review would already have passed the most critical possible review\nof the most capable machine.  What else is in the way?  If we continue with the\nfundamental belief that machines cannot be accountable, then humans need to be\nable to understand the output of the machine.  And the machine will ship\nrelentlessly.  Support tickets of customers will go straight to machines to\nimplement improvements and fixes, for other machines to review, for humans to\nrubber stamp in the morning.\u003c/p\u003e\n\u003cp\u003eA lot of this sounds both unappealing and reminiscent of the textile industry.\nThe individual weaver no longer carried responsibility for a bad piece of cloth.\nIf it was bad, it became the responsibility of the factory as a whole and it was\njust replaced outright.  As we\u0026#8217;re entering the phase of single-use plastic\nsoftware, we might be moving the whole layer of responsibility elsewhere.\u003c/p\u003e\n\u003ch2\u003eI Am The Bottleneck\u003c/h2\u003e\n\u003cp\u003eBut to me it still feels different.  Maybe that\u0026#8217;s because my lowly brain can\u0026#8217;t\ncomprehend the change we are going through, and future generations will just\nlaugh about our challenges.  It feels different to me, because what I see taking\nplace in some Open Source projects, in some companies and teams feels deeply\nwrong and unsustainable.  Even Steve Yegge himself now \u003ca href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\"\u003ecasts\ndoubts\u003c/a\u003e about the\nsustainability of the ever-increasing pace of code creation.\u003c/p\u003e\n\u003cp\u003eSo what if we need to give in?  What if we need to pave the way for this new\ntype of engineering to become the standard?  What affordances will we have to\ncreate to make it work?  I for one do not know.  I\u0026#8217;m looking at this with\nfascination and bewilderment and trying to make sense of it.\u003c/p\u003e\n\u003cp\u003eBecause it is not the final bottleneck.  We will find ways to take\nresponsibility for what we ship, because society will demand it.  Non-sentient\nmachines will never be able to carry responsibility, and it looks like we will\nneed to deal with this problem before machines achieve this status.\nRegardless of how \u003ca href=\"https://en.wikipedia.org/wiki/Moltbook\"\u003ebizarre they appear to\nact\u003c/a\u003e already.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://x.com/thorstenball/status/2022310010391302259\"\u003eI too am the bottleneck\nnow\u003c/a\u003e.  But you know what?\nTwo years ago, I too was the bottleneck.  I was the bottleneck all along.  The\nmachine did not really change that.  And for as long as I carry responsibilities\nand am accountable, this will remain true.  If we manage to push accountability\nupwards, it might change, but so far, how that would happen is not clear.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I...",
-      "date_published": "2026-02-13T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "36bd5906510b9d9e",
       "url": "https://www.linkedin.com/posts/andreashorn1_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%97%AF%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B9%F0%9D%98%86-activity-7428132691788652544-6Vv_",
       "title": "AI Coding Meme: This meme has been brilliantly updated",
@@ -281,6 +261,26 @@
         "author": "andreashorn1",
         "postId": "7428132691788652544"
       }
+    },
+    {
+      "id": "b1786bad6c04e8ed",
+      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
+      "title": "The Final Bottleneck",
+      "content_html": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I feel like something is very wrong here and it\u0026#8217;s time to\nreflect.\u003c/p\u003e\n\u003ch2\u003eYou Are Here\u003c/h2\u003e\n\u003cp\u003eSoftware engineers often believe that \u003ca href=\"/2020/1/1/async-pressure/\"\u003eif we make the bathtub\nbigger\u003c/a\u003e, overflow disappears.  It doesn\u0026#8217;t.\n\u003ca href=\"https://en.wikipedia.org/wiki/OpenClaw\"\u003eOpenClaw\u003c/a\u003e right now has north of 2,500\npull requests open.  That\u0026#8217;s a big bathtub.\u003c/p\u003e\n\u003cp\u003eAnyone who has worked with queues knows this: if input grows faster than\nthroughput, you have an accumulating failure.  At that point, backpressure and\nload shedding are the only things that retain a system that can still operate.\u003c/p\u003e\n\u003cp\u003eIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the\nfeeling.  The in-store experience breaks down.  You no longer know how many\norders are ahead of you.  There is no clear line, no reliable wait estimate, and\noften no real cancellation path unless you escalate and make noise.\u003c/p\u003e\n\u003cp\u003eThat is what many AI-adjacent open source projects feel like right now.  And\nincreasingly, that is what a lot of internal company projects feel like in\n\u0026#8220;AI-first\u0026#8221; engineering teams, and that\u0026#8217;s not sustainable.  You can\u0026#8217;t triage, you\ncan\u0026#8217;t review, and many of the PRs cannot be merged after a certain point because\nthey are too far out of date. And the creator might have lost the motivation to\nactually get it merged.\u003c/p\u003e\n\u003cp\u003eThere is huge excitement about newfound delivery speed, but in private\nconversations, I keep hearing the same second sentence: people are also confused\nabout how to keep up with the pace they themselves created.\u003c/p\u003e\n\u003ch2\u003eWe Have Been Here Before\u003c/h2\u003e\n\u003cp\u003eHumanity has been here before.  Many times over.  We already talk about the\nLuddites a lot in the context of AI, but it\u0026#8217;s interesting to see what led up to\nit.  Mark Cartwright wrote a great \u003ca href=\"https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/\"\u003earticle about the textile\nindustry\u003c/a\u003e\nin Britain during the industrial revolution.  At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too.  We saw the same thing in shipping that led\nto modern automated ports and containerization.\u003c/p\u003e\n\u003cp\u003eAs software engineers we have been here too.  Assembly did not scale to larger\nengineering teams, and we had to invent higher level languages.  A lot of what\nprogramming languages and software development frameworks did was allow us\nto write code faster and to scale to larger code bases.  What it did not do up\nto this point was take away the core skill of engineering.\u003c/p\u003e\n\u003cp\u003eWhile it\u0026#8217;s definitely easier to write C than assembly, many of the core problems\nare the same.  Memory latency still matters, physics are still our ultimate\nbottleneck, algorithmic complexity still makes or breaks software at scale.\u003c/p\u003e\n\u003ch2\u003eGiving Up?\u003c/h2\u003e\n\u003cp\u003eWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput.  \u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is a great example of this.  PRs are auto closed\nunless people are trusted.  It takes \u003ca href=\"https://x.com/badlogicgames/status/2021164603506368693\"\u003eOSS\nvacations\u003c/a\u003e.  That\u0026#8217;s one\noption: you just throttle the inflow.  You push against your newfound powers\nuntil you can handle them.\u003c/p\u003e\n\u003ch2\u003eOr Giving In\u003c/h2\u003e\n\u003cp\u003eBut what if the speed continues to increase?  What downstream of writing code do\nwe have to speed up?  Sure, the pull request review clearly turns into the\nbottleneck.  But it cannot really be automated.  If the machine writes the code,\nthe machine better review the code at the same time.  So what ultimately comes\nup for human review would already have passed the most critical possible review\nof the most capable machine.  What else is in the way?  If we continue with the\nfundamental belief that machines cannot be accountable, then humans need to be\nable to understand the output of the machine.  And the machine will ship\nrelentlessly.  Support tickets of customers will go straight to machines to\nimplement improvements and fixes, for other machines to review, for humans to\nrubber stamp in the morning.\u003c/p\u003e\n\u003cp\u003eA lot of this sounds both unappealing and reminiscent of the textile industry.\nThe individual weaver no longer carried responsibility for a bad piece of cloth.\nIf it was bad, it became the responsibility of the factory as a whole and it was\njust replaced outright.  As we\u0026#8217;re entering the phase of single-use plastic\nsoftware, we might be moving the whole layer of responsibility elsewhere.\u003c/p\u003e\n\u003ch2\u003eI Am The Bottleneck\u003c/h2\u003e\n\u003cp\u003eBut to me it still feels different.  Maybe that\u0026#8217;s because my lowly brain can\u0026#8217;t\ncomprehend the change we are going through, and future generations will just\nlaugh about our challenges.  It feels different to me, because what I see taking\nplace in some Open Source projects, in some companies and teams feels deeply\nwrong and unsustainable.  Even Steve Yegge himself now \u003ca href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\"\u003ecasts\ndoubts\u003c/a\u003e about the\nsustainability of the ever-increasing pace of code creation.\u003c/p\u003e\n\u003cp\u003eSo what if we need to give in?  What if we need to pave the way for this new\ntype of engineering to become the standard?  What affordances will we have to\ncreate to make it work?  I for one do not know.  I\u0026#8217;m looking at this with\nfascination and bewilderment and trying to make sense of it.\u003c/p\u003e\n\u003cp\u003eBecause it is not the final bottleneck.  We will find ways to take\nresponsibility for what we ship, because society will demand it.  Non-sentient\nmachines will never be able to carry responsibility, and it looks like we will\nneed to deal with this problem before machines achieve this status.\nRegardless of how \u003ca href=\"https://en.wikipedia.org/wiki/Moltbook\"\u003ebizarre they appear to\nact\u003c/a\u003e already.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://x.com/thorstenball/status/2022310010391302259\"\u003eI too am the bottleneck\nnow\u003c/a\u003e.  But you know what?\nTwo years ago, I too was the bottleneck.  I was the bottleneck all along.  The\nmachine did not really change that.  And for as long as I carry responsibilities\nand am accountable, this will remain true.  If we manage to push accountability\nupwards, it might change, but so far, how that would happen is not clear.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I...",
+      "date_published": "2026-02-13T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "651438487806513b",
@@ -466,6 +466,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-23T19:03:37Z",
+  "_signal_generated": "2026-04-24T02:24:22Z",
   "_signal_period": "2026-02"
 }
