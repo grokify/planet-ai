@@ -75,24 +75,18 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "6a4d9596033e0efa",
-      "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
-      "title": "The Center Has a Bias",
-      "content_html": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not necessarily wrong.  In fact, many\nof them cite studies, polls and all kinds of sources that themselves spent time\ninvestigating and surveying.  And quite legitimately they identified real\nissues: the output can be bad, the security implications are scary, the\neconomics are strange and potentially unsustainable, there is an environmental\nimpact, the social consequences are unclear, and the hype is exhausting.\u003c/p\u003e\n\u003cp\u003eBut there is something important missing from that criticism when it comes from\na position of non-use: it is too abstract.\u003c/p\u003e\n\u003cp\u003eThere is a difference between saying \u0026#8220;this looks flawed in principle\u0026#8221; and saying\n\u0026#8220;I used this enough to understand where it breaks, where it helps, and how it\nchanges my work.\u0026#8221;  The second type of criticism is expensive.  It costs time,\nfrustration, and a genuine willingness to engage.\u003c/p\u003e\n\u003cp\u003eThe enthusiast camp consists of true believers.  These are the people who\nhave adopted the technology despite its shortcomings, sometimes even because\nthey enjoy wrestling with them.  They have already decided that the tool is\nworth fitting into their lives, so they naturally end up forgiving a lot.  They\nmight not even recognize the flaws because for them the benefits or excitement\nhave already won.\u003c/p\u003e\n\u003cp\u003eBut what does the center look like?  I consider myself to be part of the center:\ncautiously excited, but also not without criticism.  By my observation though\nthat center is not neutral in the way people imagine it to be.  Its bias is not\ntowards endorsement so much as towards engagement, because the middle ground\nbetween rejecting a technology outright and embracing it fully is usually\noccupied by people willing to explore it seriously enough to judge it.\u003c/p\u003e\n\u003ch2\u003eBias on Both Sides\u003c/h2\u003e\n\u003cp\u003eThe compositions of the groups of people in the discussions about new technology\nare oddly shaped because one side has paid the cost of direct experience and the\nother has not, or not to the same degree.  That alone creates an asymmetry.\u003c/p\u003e\n\u003cp\u003eTake coding agents as an example.  If you do not use them, or at least not for\nproductive work, you can still criticize them on many grounds.  You can say they\ngenerate sloppy code, that they lower your skills, etc.  But if you have not\nactually spent serious time with them, then your view of their practical reality\nis going to be inherited from somewhere else.  You will know them through\nscreenshots, anecdotes, the most annoying users on Twitter, conference talks,\ncompany slogans, and whatever filtered back from the people who \u003cem\u003edid\u003c/em\u003e use them.\nThat is not nothing, but it is not the same as contact.\u003c/p\u003e\n\u003cp\u003eThe problem is not that such criticism is worthless.  The problem is that people\noften mistake non-use for neutrality.  It is not.  A serious opinion on a new\nlanguage, framework, device, or way of working usually has some minimum buy-in.\nYou have to cross a threshold of use before your criticism becomes grounded in\nthe thing itself rather than in its reputation.\u003c/p\u003e\n\u003cp\u003eThat threshold is inconvenient.  It asks you to spend time on something that may\nnot pay off, and to risk finding yourself at least partially won over.  It is a\nlot to ask of people.  But because that threshold exists, the measured middle is\nrarely populated by people who are perfectly indifferent to change.  It is\npopulated by people who were willing to move toward it enough in order to\nevaluate it properly.\u003c/p\u003e\n\u003cp\u003eSimultaneously, it\u0026#8217;s important to remember that usage does not automatically\ncreate wisdom.  The enthusiastic adopter might have their own distortions.  They\nmay enjoy the novelty, feel a need to justify the time they invested, or\novergeneralize from the niche where the technology works wonderfully.  They may\nsimply like progress and want to be associated with it.\u003c/p\u003e\n\u003cp\u003eThis is particularly visible with AI.  There are clearly people who have decided\nthat the future is here, all objections are temporary, and every workflow must\nnow be rebuilt around agents.  What makes AI weirder is that it\u0026#8217;s such a massive\nshift in capabilities that has triggered a tremendous injection of money, and a\nmeaningful number of adopters have bet their future on that technology.\u003c/p\u003e\n\u003cp\u003eSo if one pole is uninformed abstraction and the other is overcommitted\nenthusiasm, then surely the center must sit right in the middle between them?\u003c/p\u003e\n\u003ch2\u003eEngagement Is Not Endorsement\u003c/h2\u003e\n\u003cp\u003eThe center, I would argue, naturally needs to lean towards engagement.  The\nreason is simple: a genuinely measured opinion on a new technology requires real\nengagement with it.\u003c/p\u003e\n\u003cp\u003eYou do not get an informed view by trying something for 15 minutes, getting\nannoyed once, and returning to your previous tools.  You also do not get it by\nadmiring demos, listening to podcasts or discussing on social media.  You have\nto use it enough to get past both the first disappointment and the honeymoon\nphase.  Seemingly with AI tools, true understanding is not a matter of hours but\nweeks of investment.\u003c/p\u003e\n\u003cp\u003eThat means the people in the center are selected from a particular group: people\nwho were willing to give the thing a fair chance without yet assuming it\ndeserved a permanent place in their lives.\u003c/p\u003e\n\u003cp\u003eThat willingness is already a bias towards curiosity and experimentation which\nmakes the center look more like adopters in behavior, because exploration\nrequires use, but it does not make the center identical to enthusiasts in\njudgment.\u003c/p\u003e\n\u003cp\u003eThis matters because from the perspective of the outright rejecter, all of these\npeople can look the same.  If someone spent serious time with coding agents,\nfound them useful in some areas, harmful in others, and came away with a nuanced\nview, they may still be thrown into the same bucket as the person who thinks\nagents can do no wrong.\u003c/p\u003e\n\u003cp\u003eBut those are not the same position at all.  It\u0026#8217;s important to recognize that\nengagement with those tools does not automatically imply endorsement or at the\nvery least not blanket endorsement.\u003c/p\u003e\n\u003ch2\u003eThe Center Looks Suspicious\u003c/h2\u003e\n\u003cp\u003eThis is why discussions about new technology, and AI in particular feel so\npolarized.  The actual center is hard to see because it does not appear visually\ncentered.  From the outside, serious exploration can look a lot like adoption.\u003c/p\u003e\n\u003cp\u003eIf you map opinions onto a line, you might imagine the middle as the point\nequally distant from rejection and enthusiasm.  But in practice that is not how\nit works.  The middle is shifted toward the side of the people who have actually\ninteracted with the technology enough to say something concrete about it.  That\ndoes not mean the middle has accepted the adopter\u0026#8217;s conclusion.  It means the\nmiddle has adopted some of the adopter\u0026#8217;s behavior, because investigation\nrequires contact.\u003c/p\u003e\n\u003cp\u003eThat creates a strange effect because the people with the most grounded\ncriticism are often also adopters.  I would argue some of the best criticism of\ncoding agents right now comes from people who use them extensively.  Take\n\u003ca href=\"https://mariozechner.at/\"\u003eMario\u003c/a\u003e: he created a coding agent, yet is also one of\nthe most vocal voices of criticism in the space.  These folks can tell you in\ndetail how they fail and they can tell you where they waste time, where they\nregress code quality, where they need carefully designed tooling, where they\nonly work well in some ecosystems, and where the whole thing falls apart.\u003c/p\u003e\n\u003cp\u003eBut because those people kept using the tools long enough to learn those\nlessons, they can appear compromised to outsiders.  And worse: if they continue\nto use them, contribute thoughts and criticism back, they are increasingly\nthrown in with the same people who are devoid of any criticism.\u003c/p\u003e\n\u003ch2\u003eFailure Is Possible\u003c/h2\u003e\n\u003cp\u003eThis line of thinking could be seen as an inherent \u0026#8220;pro-innovation bias.\u0026#8221;  That\nwould be wrong, as plenty of technology deserves resistance.  Many people are\nright to resist, and sometimes the people who never gave a technology a chance\nsaw problems earlier than everyone else.  Crypto is a good reminder: plenty of\nprojects looked every bit as exciting as coding agents do now, and still\ncollapsed when the economics no longer worked.\u003c/p\u003e\n\u003cp\u003eWhat matters here is a narrower point.  The center is not biased towards novelty\nso much as towards contact with the thing that creates potential change.  The\nmiddle ground is not between use and non-use, but between refusal and commitment\nand the people in the center will often look more like adopters than skeptics,\nnot because they have already made up their minds, but because getting an\ninformed view requires exploration.\u003c/p\u003e\n\u003cp\u003eIf you want to criticize a new thing well, you first have to get close enough to\ndislike it for the right reasons.  And for some technologies, you also have to\nhang around long enough to understand what, exactly, deserves criticism.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not...",
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
       "date_published": "2026-04-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
       "tags": [
-        "AI",
-        "Programming",
-        "Python"
+        "Tech",
+        "Development",
+        "AI"
       ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "d108ad12756728fb",
@@ -109,26 +103,12 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "id": "6a4d9596033e0efa",
+      "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
+      "title": "The Center Has a Bias",
+      "content_html": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not necessarily wrong.  In fact, many\nof them cite studies, polls and all kinds of sources that themselves spent time\ninvestigating and surveying.  And quite legitimately they identified real\nissues: the output can be bad, the security implications are scary, the\neconomics are strange and potentially unsustainable, there is an environmental\nimpact, the social consequences are unclear, and the hype is exhausting.\u003c/p\u003e\n\u003cp\u003eBut there is something important missing from that criticism when it comes from\na position of non-use: it is too abstract.\u003c/p\u003e\n\u003cp\u003eThere is a difference between saying \u0026#8220;this looks flawed in principle\u0026#8221; and saying\n\u0026#8220;I used this enough to understand where it breaks, where it helps, and how it\nchanges my work.\u0026#8221;  The second type of criticism is expensive.  It costs time,\nfrustration, and a genuine willingness to engage.\u003c/p\u003e\n\u003cp\u003eThe enthusiast camp consists of true believers.  These are the people who\nhave adopted the technology despite its shortcomings, sometimes even because\nthey enjoy wrestling with them.  They have already decided that the tool is\nworth fitting into their lives, so they naturally end up forgiving a lot.  They\nmight not even recognize the flaws because for them the benefits or excitement\nhave already won.\u003c/p\u003e\n\u003cp\u003eBut what does the center look like?  I consider myself to be part of the center:\ncautiously excited, but also not without criticism.  By my observation though\nthat center is not neutral in the way people imagine it to be.  Its bias is not\ntowards endorsement so much as towards engagement, because the middle ground\nbetween rejecting a technology outright and embracing it fully is usually\noccupied by people willing to explore it seriously enough to judge it.\u003c/p\u003e\n\u003ch2\u003eBias on Both Sides\u003c/h2\u003e\n\u003cp\u003eThe compositions of the groups of people in the discussions about new technology\nare oddly shaped because one side has paid the cost of direct experience and the\nother has not, or not to the same degree.  That alone creates an asymmetry.\u003c/p\u003e\n\u003cp\u003eTake coding agents as an example.  If you do not use them, or at least not for\nproductive work, you can still criticize them on many grounds.  You can say they\ngenerate sloppy code, that they lower your skills, etc.  But if you have not\nactually spent serious time with them, then your view of their practical reality\nis going to be inherited from somewhere else.  You will know them through\nscreenshots, anecdotes, the most annoying users on Twitter, conference talks,\ncompany slogans, and whatever filtered back from the people who \u003cem\u003edid\u003c/em\u003e use them.\nThat is not nothing, but it is not the same as contact.\u003c/p\u003e\n\u003cp\u003eThe problem is not that such criticism is worthless.  The problem is that people\noften mistake non-use for neutrality.  It is not.  A serious opinion on a new\nlanguage, framework, device, or way of working usually has some minimum buy-in.\nYou have to cross a threshold of use before your criticism becomes grounded in\nthe thing itself rather than in its reputation.\u003c/p\u003e\n\u003cp\u003eThat threshold is inconvenient.  It asks you to spend time on something that may\nnot pay off, and to risk finding yourself at least partially won over.  It is a\nlot to ask of people.  But because that threshold exists, the measured middle is\nrarely populated by people who are perfectly indifferent to change.  It is\npopulated by people who were willing to move toward it enough in order to\nevaluate it properly.\u003c/p\u003e\n\u003cp\u003eSimultaneously, it\u0026#8217;s important to remember that usage does not automatically\ncreate wisdom.  The enthusiastic adopter might have their own distortions.  They\nmay enjoy the novelty, feel a need to justify the time they invested, or\novergeneralize from the niche where the technology works wonderfully.  They may\nsimply like progress and want to be associated with it.\u003c/p\u003e\n\u003cp\u003eThis is particularly visible with AI.  There are clearly people who have decided\nthat the future is here, all objections are temporary, and every workflow must\nnow be rebuilt around agents.  What makes AI weirder is that it\u0026#8217;s such a massive\nshift in capabilities that has triggered a tremendous injection of money, and a\nmeaningful number of adopters have bet their future on that technology.\u003c/p\u003e\n\u003cp\u003eSo if one pole is uninformed abstraction and the other is overcommitted\nenthusiasm, then surely the center must sit right in the middle between them?\u003c/p\u003e\n\u003ch2\u003eEngagement Is Not Endorsement\u003c/h2\u003e\n\u003cp\u003eThe center, I would argue, naturally needs to lean towards engagement.  The\nreason is simple: a genuinely measured opinion on a new technology requires real\nengagement with it.\u003c/p\u003e\n\u003cp\u003eYou do not get an informed view by trying something for 15 minutes, getting\nannoyed once, and returning to your previous tools.  You also do not get it by\nadmiring demos, listening to podcasts or discussing on social media.  You have\nto use it enough to get past both the first disappointment and the honeymoon\nphase.  Seemingly with AI tools, true understanding is not a matter of hours but\nweeks of investment.\u003c/p\u003e\n\u003cp\u003eThat means the people in the center are selected from a particular group: people\nwho were willing to give the thing a fair chance without yet assuming it\ndeserved a permanent place in their lives.\u003c/p\u003e\n\u003cp\u003eThat willingness is already a bias towards curiosity and experimentation which\nmakes the center look more like adopters in behavior, because exploration\nrequires use, but it does not make the center identical to enthusiasts in\njudgment.\u003c/p\u003e\n\u003cp\u003eThis matters because from the perspective of the outright rejecter, all of these\npeople can look the same.  If someone spent serious time with coding agents,\nfound them useful in some areas, harmful in others, and came away with a nuanced\nview, they may still be thrown into the same bucket as the person who thinks\nagents can do no wrong.\u003c/p\u003e\n\u003cp\u003eBut those are not the same position at all.  It\u0026#8217;s important to recognize that\nengagement with those tools does not automatically imply endorsement or at the\nvery least not blanket endorsement.\u003c/p\u003e\n\u003ch2\u003eThe Center Looks Suspicious\u003c/h2\u003e\n\u003cp\u003eThis is why discussions about new technology, and AI in particular feel so\npolarized.  The actual center is hard to see because it does not appear visually\ncentered.  From the outside, serious exploration can look a lot like adoption.\u003c/p\u003e\n\u003cp\u003eIf you map opinions onto a line, you might imagine the middle as the point\nequally distant from rejection and enthusiasm.  But in practice that is not how\nit works.  The middle is shifted toward the side of the people who have actually\ninteracted with the technology enough to say something concrete about it.  That\ndoes not mean the middle has accepted the adopter\u0026#8217;s conclusion.  It means the\nmiddle has adopted some of the adopter\u0026#8217;s behavior, because investigation\nrequires contact.\u003c/p\u003e\n\u003cp\u003eThat creates a strange effect because the people with the most grounded\ncriticism are often also adopters.  I would argue some of the best criticism of\ncoding agents right now comes from people who use them extensively.  Take\n\u003ca href=\"https://mariozechner.at/\"\u003eMario\u003c/a\u003e: he created a coding agent, yet is also one of\nthe most vocal voices of criticism in the space.  These folks can tell you in\ndetail how they fail and they can tell you where they waste time, where they\nregress code quality, where they need carefully designed tooling, where they\nonly work well in some ecosystems, and where the whole thing falls apart.\u003c/p\u003e\n\u003cp\u003eBut because those people kept using the tools long enough to learn those\nlessons, they can appear compromised to outsiders.  And worse: if they continue\nto use them, contribute thoughts and criticism back, they are increasingly\nthrown in with the same people who are devoid of any criticism.\u003c/p\u003e\n\u003ch2\u003eFailure Is Possible\u003c/h2\u003e\n\u003cp\u003eThis line of thinking could be seen as an inherent \u0026#8220;pro-innovation bias.\u0026#8221;  That\nwould be wrong, as plenty of technology deserves resistance.  Many people are\nright to resist, and sometimes the people who never gave a technology a chance\nsaw problems earlier than everyone else.  Crypto is a good reminder: plenty of\nprojects looked every bit as exciting as coding agents do now, and still\ncollapsed when the economics no longer worked.\u003c/p\u003e\n\u003cp\u003eWhat matters here is a narrower point.  The center is not biased towards novelty\nso much as towards contact with the thing that creates potential change.  The\nmiddle ground is not between use and non-use, but between refusal and commitment\nand the people in the center will often look more like adopters than skeptics,\nnot because they have already made up their minds, but because getting an\ninformed view requires exploration.\u003c/p\u003e\n\u003cp\u003eIf you want to criticize a new thing well, you first have to get close enough to\ndislike it for the right reasons.  And for some technologies, you also have to\nhang around long enough to understand what, exactly, deserves criticism.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not...",
       "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "0558262df33a167a",
-      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
-      "title": "Mario and Earendil",
-      "content_html": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have him on\nboard.\u003c/p\u003e\n\u003cp\u003eLast year changed the way many of us thought about software.  It certainly\nchanged the way I did.  I spent much of 2025 building, probing, and questioning\nhow to build software, and in many more ways what I want to do.  If you are a\nregular reader of this blog you were along for the ride.  I wrote a lot,\nexperimented a lot, and tried to get a better sense for what these systems can\nactually do and what kinds of companies make sense to build around them.  There\nwas, and continues to be, a lot of excitement in the air, but also a lot of\nnoise.  It has become clear to me that it\u0026#8217;s not a question of whether AI systems\ncan be useful but what kind of software and human-machine interactions we want\nto bring into the world with them.\u003c/p\u003e\n\u003cp\u003eThat is one of the reasons I have been so drawn to Mario\u0026#8217;s work and approaches.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is, in my opinion, one of the most thoughtful\ncoding agents and agent infrastructure libraries in this space.  Not because it\nis trying to be the loudest or the fastest, but because it is clearly built by\nsomeone who cares deeply about software quality, taste, extensibility, and\ndesign.  In a moment where much of the industry is racing to ship ever more\nquickly, often at the cost of coherence and craft, Mario kept insisting on\nmaking something solid. That matters to me a great deal.\u003c/p\u003e\n\u003cp\u003eI have known Mario for a long time, and one of the things I admire most about\nhim is that he does not confuse velocity with progress.  He has a strong sense\nfor what good tools should feel like.  He cares about details. He cares about\nwhether something is well made.  And he cares about building in a way that can\nlast.  Mario has been running Pi in a rather unusual way. He exerts back-pressure\non the issue tracker and the pull requests through OSS vacations and other\nmeans.\u003c/p\u003e\n\u003cp\u003eThe last year has also made something else clearer to me: these systems are not\nonly exciting, they are also capable of producing a great deal of damage.\nSometimes that damage is obvious; sometimes it looks like low-grade degradation\neverywhere at once.  More slop, more noise, more disingenuous emails in my inbox.\nThere is a version of this future that makes people more distracted, more\nalienated, and less careful with one another.\u003c/p\u003e\n\u003cp\u003eThat is not a future I want to help build.\u003c/p\u003e\n\u003cp\u003eAt Earendil, Colin and I have been trying to think very carefully about what a\ndifferent path might look like.  That is a big part of what led us to \u003ca\nhref=\"https://lefos.com/\"\u003eLefos\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eLefos is our attempt to build a machine entity that is more thoughtful and more\ndeliberate by design.  Not an agent whose main purpose is to make everything a\nlittle more efficient so that we can produce even more forgettable output, but\none that can help people communicate with more care, more clarity, and joy.\u003c/p\u003e\n\u003cp\u003eGood software should not aim to optimize every minute of your life, but should\ncreate room for better and more joyful experiences, better relationships, and\nbetter ways of relating to one another.  Especially in communication and software\nengineering, I think we should be aiming for more thought rather than more\nthroughput.  We should want tools that help people be more considerate, more\npresent, and more human.  If all we do is use these systems to accelerate the\nproduction of slop, we will have missed the opportunity entirely.\u003c/p\u003e\n\u003cp\u003eThis is also why Mario joining Earendil feels so meaningful to me.  Pi and Lefos\ncome from different starting points.  There was a year of distance collaboration,\nbut they are animated by a similar instinct: that quality matters, that design\nmatters, and that trust is earned through care rather than captured through\nhype.\u003c/p\u003e\n\u003cp\u003eI am very happy that Pi is coming along for the ride.  Me and Colin care a lot\nabout it, and we want to be good stewards of it.  It has already played an\nimportant role in our own work over the last months, and I continue to believe\nit is one of the best foundations for building capable agents.  We will have more\nto say soon about how we think about Pi\u0026#8217;s future and its relationship to Lefos,\nbut the short version is simple: we want Pi to continue to exist as a\nhigh-quality, open, extensible piece of software, and we want to invest in\nmaking that future real.  As for our thoughts of Pi\u0026#8217;s license, \u003ca href=\"https://rfc.earendil.com/0015/\"\u003eread more\nhere\u003c/a\u003e and our \u003ca\nhref=\"https://earendil.com/posts/announcement-reflection/\"\u003ecompany post\nhere\u003c/a\u003e.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have...",
-      "date_published": "2026-04-08T00:00:00Z",
       "authors": [
         {
           "name": "Armin Ronacher"
@@ -155,6 +135,26 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "0558262df33a167a",
+      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
+      "title": "Mario and Earendil",
+      "content_html": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have him on\nboard.\u003c/p\u003e\n\u003cp\u003eLast year changed the way many of us thought about software.  It certainly\nchanged the way I did.  I spent much of 2025 building, probing, and questioning\nhow to build software, and in many more ways what I want to do.  If you are a\nregular reader of this blog you were along for the ride.  I wrote a lot,\nexperimented a lot, and tried to get a better sense for what these systems can\nactually do and what kinds of companies make sense to build around them.  There\nwas, and continues to be, a lot of excitement in the air, but also a lot of\nnoise.  It has become clear to me that it\u0026#8217;s not a question of whether AI systems\ncan be useful but what kind of software and human-machine interactions we want\nto bring into the world with them.\u003c/p\u003e\n\u003cp\u003eThat is one of the reasons I have been so drawn to Mario\u0026#8217;s work and approaches.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is, in my opinion, one of the most thoughtful\ncoding agents and agent infrastructure libraries in this space.  Not because it\nis trying to be the loudest or the fastest, but because it is clearly built by\nsomeone who cares deeply about software quality, taste, extensibility, and\ndesign.  In a moment where much of the industry is racing to ship ever more\nquickly, often at the cost of coherence and craft, Mario kept insisting on\nmaking something solid. That matters to me a great deal.\u003c/p\u003e\n\u003cp\u003eI have known Mario for a long time, and one of the things I admire most about\nhim is that he does not confuse velocity with progress.  He has a strong sense\nfor what good tools should feel like.  He cares about details. He cares about\nwhether something is well made.  And he cares about building in a way that can\nlast.  Mario has been running Pi in a rather unusual way. He exerts back-pressure\non the issue tracker and the pull requests through OSS vacations and other\nmeans.\u003c/p\u003e\n\u003cp\u003eThe last year has also made something else clearer to me: these systems are not\nonly exciting, they are also capable of producing a great deal of damage.\nSometimes that damage is obvious; sometimes it looks like low-grade degradation\neverywhere at once.  More slop, more noise, more disingenuous emails in my inbox.\nThere is a version of this future that makes people more distracted, more\nalienated, and less careful with one another.\u003c/p\u003e\n\u003cp\u003eThat is not a future I want to help build.\u003c/p\u003e\n\u003cp\u003eAt Earendil, Colin and I have been trying to think very carefully about what a\ndifferent path might look like.  That is a big part of what led us to \u003ca\nhref=\"https://lefos.com/\"\u003eLefos\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eLefos is our attempt to build a machine entity that is more thoughtful and more\ndeliberate by design.  Not an agent whose main purpose is to make everything a\nlittle more efficient so that we can produce even more forgettable output, but\none that can help people communicate with more care, more clarity, and joy.\u003c/p\u003e\n\u003cp\u003eGood software should not aim to optimize every minute of your life, but should\ncreate room for better and more joyful experiences, better relationships, and\nbetter ways of relating to one another.  Especially in communication and software\nengineering, I think we should be aiming for more thought rather than more\nthroughput.  We should want tools that help people be more considerate, more\npresent, and more human.  If all we do is use these systems to accelerate the\nproduction of slop, we will have missed the opportunity entirely.\u003c/p\u003e\n\u003cp\u003eThis is also why Mario joining Earendil feels so meaningful to me.  Pi and Lefos\ncome from different starting points.  There was a year of distance collaboration,\nbut they are animated by a similar instinct: that quality matters, that design\nmatters, and that trust is earned through care rather than captured through\nhype.\u003c/p\u003e\n\u003cp\u003eI am very happy that Pi is coming along for the ride.  Me and Colin care a lot\nabout it, and we want to be good stewards of it.  It has already played an\nimportant role in our own work over the last months, and I continue to believe\nit is one of the best foundations for building capable agents.  We will have more\nto say soon about how we think about Pi\u0026#8217;s future and its relationship to Lefos,\nbut the short version is simple: we want Pi to continue to exist as a\nhigh-quality, open, extensible piece of software, and we want to invest in\nmaking that future real.  As for our thoughts of Pi\u0026#8217;s license, \u003ca href=\"https://rfc.earendil.com/0015/\"\u003eread more\nhere\u003c/a\u003e and our \u003ca\nhref=\"https://earendil.com/posts/announcement-reflection/\"\u003ecompany post\nhere\u003c/a\u003e.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have...",
+      "date_published": "2026-04-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "2b81f57c03a5159c",
@@ -213,6 +213,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "db39221616f75d2d",
       "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
       "title": "Absurd In Production",
@@ -231,20 +245,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "2f94f34d611e2b19",
-      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
-      "title": "Tracing what agents do, not what they say",
-      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "068253b9db3bc029",
@@ -489,20 +489,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -529,6 +515,20 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -747,7 +747,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "050b28a736ef7a70",
@@ -844,7 +844,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "fc44166e3e729564",
@@ -1408,7 +1408,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "d1cdada0efe3c51d",
@@ -1853,19 +1853,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
-    },
-    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -1878,6 +1865,19 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "5aa636aeaa43d614",
@@ -2254,20 +2254,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "da2a377cc538381d",
-      "url": "https://blog.d11r.eu/energy-beginners-guide/",
-      "title": "Energy, a Beginner's Guide (notes)",
-      "summary": "\u003cp\u003eThis is a good book because it gives you \u003cstrong\u003enumbers\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s important to understand the quantities of things around you. I think that\nthere\u0026rsquo;s a sort of deep understanding that you can have when you know the exact\nfigures (or ranges) for many physical phenomena. This is something I hint at in\n\u003ca href=\"https://blog.d11r.eu/basics\"\u003ebeing good at the basics\u003c/a\u003e. Smil\u0026rsquo;s book is a good introduction to such\nthinking.\u003c/p\u003e\n\u003ch2 id=\"energy-in-the-biosphere\"\u003eEnergy in the biosphere\u003c/h2\u003e\n\u003cp\u003eOn celestial matters:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIf the Earth didn\u0026rsquo;t have a \u0026ldquo;buffering\u0026rdquo; mechanism for absorbing solar radiation, and\nit re-radiated all the solar radiation back immediately (\u003ca href=\"https://en.wikipedia.org/wiki/Black-body_radiation\"\u003eblack body\nradiator\u003c/a\u003e), the planet would\nstay at -18°C. So, all water would be permanently frozen. The mean surface\ntemperature is 15°C, which is all caused by greenhouse gases buffering the\nradiation. Buffers = life!\u003c/li\u003e\n\u003cli\u003eThe power of the sun is 3.9x10^26 W. So, each second that the sun shines, it sends\n13 orders of magnitude more energy than all fuels and all primary electricity on\nEarth in a given year.\u003c/li\u003e\n\u003cli\u003eSolar flow on topmost atmosphere is 1376W/m^2, or a little more than 1 kW per meter\nsquared. However, due to the Earth being round, in any given second, some parts\nhave more light, some fewer (towards the poles), and some none (nighttime); the\naverage is 342W/m^2. Then the light goes through a bunch of filtering mechanisms,\nsuch as the ozone layer, different cloud layers, and so on. So, roughly \u003cstrong\u003ehalf\u003c/strong\u003e of\nthe radiation that hit the uppermost atmosphere hits the surface; averaging it out\nover the entire surface of the earth, that\u0026rsquo;s around 170W/m^2.\n\u003cul\u003e\n\u003cli\u003eThis adds up to 2.7x10^24 J every year, around 5000 thousand times more than the\nworld spends each year.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAbout two thirds of global albedo is due to cloud tops.\u003c/li\u003e\n\u003cli\u003eMany equatorial places are poorly insolated due to large amounts of clouds\npreventing the sun from accessing the earth. So, \u0026ldquo;tropical\u0026rdquo; doesn\u0026rsquo;t necessarily\nmean \u0026ldquo;good for placement of pV systems\u0026rdquo;.\u003c/li\u003e\n\u003cli\u003eAll the inbound radiation is eventually re-radiated back to space, but taking into\naccount the \u0026ldquo;buffering\u0026rdquo; effects mentioned above. For example, 95% percent of\nsurface level re-radiation doesn\u0026rsquo;t end up in space directly, but rather gets\nbuffered by the atmosphere. The most dominant greenhouse gas is by far water vapor.\nThe Earth is essentially wrapped in a water cocoon, which protects it from getting\nhow too fast, and getting cold too fast.\u003c/li\u003e\n\u003cli\u003ePlanetary water cycles moves around 585,000 km^3 of water every year. Around 46 PW\nof power is required to vaporize this water; this is half of total insolation.\u003c/li\u003e\n\u003cli\u003eGeothermal power is comparatively small; about 44TW (~90mW/m^2 on average).\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOn plants:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eExternal biodiversity obscures the fact that there are \u003cstrong\u003every few\u003c/strong\u003e metabolic\npathways in organisms. That is, energy comes into the biome \u003cem\u003eonly\u003c/em\u003e through\n\u003cstrong\u003eautotrophs\u003c/strong\u003e: either phototrophs converting solar energy into mass, or\nchemotrophs converting inorganic compounds into mass. Literally everything else\nwhich is alive is downstream of these two producers.\u003c/li\u003e\n\u003cli\u003ePhotosynthesis reminder:\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e6CO2 + 6H2O = C6H12O6 + 6O2\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003cli\u003eEnergy efficiency of photosynthesis is quite low.\u003c/li\u003e\n\u003cli\u003eChlorophylls have narrow absorption bands: 420-450 nm and 630-690 nm. Meaning\nthat all the light outside of these bands is useless for photosynthesis. For\nreference, the human eye can see from 380 to 750 nm. So, around 370 nm worth of\nradiation. Plants can convert around 60 nm worth, so around 6 times less than\nwhat the human eye can see (and much much less if we count in the other radiation\nexcept visible light).\u003c/li\u003e\n\u003cli\u003eMaximum \u003cem\u003etheoretical\u003c/em\u003e efficiency is around 4% of insolation, but in practice, the\nglobal continental average is 0.33%; the average for the entire biosphere is\n0.2%. In other words, if 500 photons hit the surface, only one of those photons\ngets converted into plant mass.\u003c/li\u003e\n\u003cli\u003eDespite the inefficiency, continents produce around 120 billion tonnes of plant\nmass a year; oceans around 110 billion tonnes. Different forests produce\ndifferent amounts, but e.g. continental forests produce around 0.5 kg to 2.5 kg\nper m^2 every year. These rates are roughly equal for grown crops.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-human-history\"\u003eEnergy in human history\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eHuman caloric needs are roughly around 2-3 thousand kcal a day. There are\ndifferences across age, gender, size, as well as level of activity. The basal\nmetabolic rate: 50-80 W for females, 60-90 W for males (again, given average\nsizes).\u003c/li\u003e\n\u003cli\u003eEnergy in food: pure fat gives 39 MJ/kg, protein 23 MJ/kg, carbs 17 MJ/kg. However,\nthe body processes carbohydrates primarily, and the protein comes last (at least\nfor energy needs).\u003c/li\u003e\n\u003cli\u003eTotal amount of energy available at higher trophic levels is reduced. For example,\nall the prey in the world combined has less energy than all the plant food of that\nprey. This explains historical dominance of vegetarianism in foraging societies\n(besides, meat is difficult to get, in addition to not being as abundant as\nplants). The energy return for foraging (the amount of joules from foraged food vs.\nthe amount of joules expended for foraging) is around 10x. So for each joule of\nenergy expended foraging, you\u0026rsquo;d, historically, get around 10x more, sometimes 30x\nmore.\u003c/li\u003e\n\u003cli\u003eAgricultural efficiency in ancient Egypt was 1 person per hectare (the cultivation\nof one hectare of land would energetically meet the needs of one person). That\nnumber grew very slow; some areas reached up to 5 persons per hectare. Europe\n(pre-industrial) never went above 2 persons per hectare.\n\u003cul\u003e\n\u003cli\u003eThere are two reasons for this: growing non-improved crops (where the conversion\nof energy is inefficient, and relatively little is converted into usable food,\nand the rest is converted into inedible phytomass) and lack of nitrogen.\u003c/li\u003e\n\u003cli\u003eAnd an additional reason: it\u0026rsquo;s energetically very costly to perform agricultural\nmanual labor (tilling a hectare of land takes up much much more than foraging a\nhectare of forest).\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHumans can work at around 60-80W; draft animals yield 300-500W (and also don\u0026rsquo;t\nneed specialized feed, as they can eat grass).\u003c/li\u003e\n\u003cli\u003eDry wood has around 16 MJ/kg. That\u0026rsquo;s pretty low energy density. Compare:\n\u003cul\u003e\n\u003cli\u003eCoal: 24 MJ/kg\u003c/li\u003e\n\u003cli\u003eDiesel: 45 MJ/kg\u003c/li\u003e\n\u003cli\u003eGasoline: 46 MJ/kg\u003c/li\u003e\n\u003cli\u003eNatural gas: 55 MJ/kg\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe low energy density of wood is not a problem if the source is dense (and you can\nharvest a lot from a small acreage), but that\u0026rsquo;s not the case: there\u0026rsquo;s usually no\nmore than 200t per hectare (20 kg/m^2), the yield is 300 MJ/m^2. Since it takes\n50-100 years to return to pre-harvest state, you need to divide the harvested\nenergy by the time to regenerate. For example, dividing by 50 years, you get 0.2\nW/m^2 (of sustainable wood energy).\u003c/li\u003e\n\u003cli\u003eTraditional charcoaling gives 0.04 W/m^2 (again, by taking sustainable harvesting\nfigures). Pretty wasteful.\u003c/li\u003e\n\u003cli\u003eEnergy needs in pre-industrial cities: 10-30 watts per m2 (that\u0026rsquo;s for heating,\ncooking, metallurgy, and so on). This means that if they relied solely on wood,\ncities would need forests 50-150 times their size nearby (for sustainable\nharvesting).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-the-modern-world\"\u003eEnergy in the modern world\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEvery civilization is fundamentally solar: fossil fuels are essentially batteries\nfor solar energy. The difference between pre-industrial and industrial\ncivilizations is whether they\u0026rsquo;re locally solar (recent phytomass) or remotely solar\n(old phytomass=fossil fuels).\u003c/li\u003e\n\u003cli\u003eCoals are basically just plants in swamps, subjected to high temperatures and\npressures for up to 350 million years. Many of these plants are still around, in\nsmaller form. For example, mosses up to 30 meters in height vs. today\u0026rsquo;s moss.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Peak oil\u0026rdquo; is unjustifiably pessimistic; there is little chance of hitting a\nsupermassive oil field like Saudi Arabia\u0026rsquo;s Ghawar field, but the total oil reserves\nare still pretty large.\u003c/li\u003e\n\u003cli\u003eA third of the world\u0026rsquo;s electricity is \u003cem\u003enot\u003c/em\u003e generated by the combustion of fossil\nfuels.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-everyday-life\"\u003eEnergy in everyday life\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eThe Mediterranean diet has switched to much more meat, fish, butter, and cheese;\noriginally it was much more heavy on bread, fruit, potatoes, and olive oil. The\ntrue (original) Mediterranean diet now survives only among the rural elderly\npopulation.\u003c/li\u003e\n\u003cli\u003eAmerican walls (wood frame, drywall, insulation) provide around 4x more insulation\nthan sturdier European brick walls.\u003c/li\u003e\n\u003cli\u003eDark roofs get up to 50°C hotter than the air temperature in summer; white or light\nroofs are just 10°C hotter.\u003c/li\u003e\n\u003cli\u003eOne lumen of US electric light is three orders of magnitude more affordable in 2015\nthan in 1900.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Phantom loads\u0026rdquo; (vampire power; use of electricity even when everything is turned\noff) is around 50 W per household in the US; combined, that\u0026rsquo;s more electricity than\nSingapore\u0026rsquo;s use in a year.\u003c/li\u003e\n\u003cli\u003eEnergy costs of various items, in GJ/t (for reference, one tonne of crude oil is 42\nGJ/t):\n\u003cul\u003e\n\u003cli\u003eexcavating sand: 0.1 GJ/t\u003c/li\u003e\n\u003cli\u003equarrying stone: 1 GJ/t\u003c/li\u003e\n\u003cli\u003eextracting construction wood: 1.5-3 GJ/t\u003c/li\u003e\n\u003cli\u003ecement: 3.5 GJ/t\u003c/li\u003e\n\u003cli\u003eadding steel to concrete makes it 3x more expensive\u003c/li\u003e\n\u003cli\u003einsulation: 10 GJ/t\u003c/li\u003e\n\u003cli\u003ea three-bedroom house costs around 500 GJ (around 12 tonnes of crude oil)\u003c/li\u003e\n\u003cli\u003ewheat, corn, fruits: 4 GJ/t\u003c/li\u003e\n\u003cli\u003erice: 10 GJ/t\u003c/li\u003e\n\u003cli\u003epeppers, tomatoes, greenhouse veggies: 40 GJ/t\u003c/li\u003e\n\u003cli\u003ewheat contains four times as much energy as was used to produce it; greenhouse\ntomatoes can have up to 50x \u003cstrong\u003eless\u003c/strong\u003e energy than what was used to produce them\n\u003cul\u003e\n\u003cli\u003ehowever, food\u0026rsquo;s total energy cost is dominated by packaging \u0026amp; transport\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
-      "date_published": "2025-08-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "9f8a4ed77531e598",
       "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
       "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
@@ -2280,6 +2266,20 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "da2a377cc538381d",
+      "url": "https://blog.d11r.eu/energy-beginners-guide/",
+      "title": "Energy, a Beginner's Guide (notes)",
+      "summary": "\u003cp\u003eThis is a good book because it gives you \u003cstrong\u003enumbers\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s important to understand the quantities of things around you. I think that\nthere\u0026rsquo;s a sort of deep understanding that you can have when you know the exact\nfigures (or ranges) for many physical phenomena. This is something I hint at in\n\u003ca href=\"https://blog.d11r.eu/basics\"\u003ebeing good at the basics\u003c/a\u003e. Smil\u0026rsquo;s book is a good introduction to such\nthinking.\u003c/p\u003e\n\u003ch2 id=\"energy-in-the-biosphere\"\u003eEnergy in the biosphere\u003c/h2\u003e\n\u003cp\u003eOn celestial matters:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIf the Earth didn\u0026rsquo;t have a \u0026ldquo;buffering\u0026rdquo; mechanism for absorbing solar radiation, and\nit re-radiated all the solar radiation back immediately (\u003ca href=\"https://en.wikipedia.org/wiki/Black-body_radiation\"\u003eblack body\nradiator\u003c/a\u003e), the planet would\nstay at -18°C. So, all water would be permanently frozen. The mean surface\ntemperature is 15°C, which is all caused by greenhouse gases buffering the\nradiation. Buffers = life!\u003c/li\u003e\n\u003cli\u003eThe power of the sun is 3.9x10^26 W. So, each second that the sun shines, it sends\n13 orders of magnitude more energy than all fuels and all primary electricity on\nEarth in a given year.\u003c/li\u003e\n\u003cli\u003eSolar flow on topmost atmosphere is 1376W/m^2, or a little more than 1 kW per meter\nsquared. However, due to the Earth being round, in any given second, some parts\nhave more light, some fewer (towards the poles), and some none (nighttime); the\naverage is 342W/m^2. Then the light goes through a bunch of filtering mechanisms,\nsuch as the ozone layer, different cloud layers, and so on. So, roughly \u003cstrong\u003ehalf\u003c/strong\u003e of\nthe radiation that hit the uppermost atmosphere hits the surface; averaging it out\nover the entire surface of the earth, that\u0026rsquo;s around 170W/m^2.\n\u003cul\u003e\n\u003cli\u003eThis adds up to 2.7x10^24 J every year, around 5000 thousand times more than the\nworld spends each year.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAbout two thirds of global albedo is due to cloud tops.\u003c/li\u003e\n\u003cli\u003eMany equatorial places are poorly insolated due to large amounts of clouds\npreventing the sun from accessing the earth. So, \u0026ldquo;tropical\u0026rdquo; doesn\u0026rsquo;t necessarily\nmean \u0026ldquo;good for placement of pV systems\u0026rdquo;.\u003c/li\u003e\n\u003cli\u003eAll the inbound radiation is eventually re-radiated back to space, but taking into\naccount the \u0026ldquo;buffering\u0026rdquo; effects mentioned above. For example, 95% percent of\nsurface level re-radiation doesn\u0026rsquo;t end up in space directly, but rather gets\nbuffered by the atmosphere. The most dominant greenhouse gas is by far water vapor.\nThe Earth is essentially wrapped in a water cocoon, which protects it from getting\nhow too fast, and getting cold too fast.\u003c/li\u003e\n\u003cli\u003ePlanetary water cycles moves around 585,000 km^3 of water every year. Around 46 PW\nof power is required to vaporize this water; this is half of total insolation.\u003c/li\u003e\n\u003cli\u003eGeothermal power is comparatively small; about 44TW (~90mW/m^2 on average).\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOn plants:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eExternal biodiversity obscures the fact that there are \u003cstrong\u003every few\u003c/strong\u003e metabolic\npathways in organisms. That is, energy comes into the biome \u003cem\u003eonly\u003c/em\u003e through\n\u003cstrong\u003eautotrophs\u003c/strong\u003e: either phototrophs converting solar energy into mass, or\nchemotrophs converting inorganic compounds into mass. Literally everything else\nwhich is alive is downstream of these two producers.\u003c/li\u003e\n\u003cli\u003ePhotosynthesis reminder:\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e6CO2 + 6H2O = C6H12O6 + 6O2\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003cli\u003eEnergy efficiency of photosynthesis is quite low.\u003c/li\u003e\n\u003cli\u003eChlorophylls have narrow absorption bands: 420-450 nm and 630-690 nm. Meaning\nthat all the light outside of these bands is useless for photosynthesis. For\nreference, the human eye can see from 380 to 750 nm. So, around 370 nm worth of\nradiation. Plants can convert around 60 nm worth, so around 6 times less than\nwhat the human eye can see (and much much less if we count in the other radiation\nexcept visible light).\u003c/li\u003e\n\u003cli\u003eMaximum \u003cem\u003etheoretical\u003c/em\u003e efficiency is around 4% of insolation, but in practice, the\nglobal continental average is 0.33%; the average for the entire biosphere is\n0.2%. In other words, if 500 photons hit the surface, only one of those photons\ngets converted into plant mass.\u003c/li\u003e\n\u003cli\u003eDespite the inefficiency, continents produce around 120 billion tonnes of plant\nmass a year; oceans around 110 billion tonnes. Different forests produce\ndifferent amounts, but e.g. continental forests produce around 0.5 kg to 2.5 kg\nper m^2 every year. These rates are roughly equal for grown crops.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-human-history\"\u003eEnergy in human history\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eHuman caloric needs are roughly around 2-3 thousand kcal a day. There are\ndifferences across age, gender, size, as well as level of activity. The basal\nmetabolic rate: 50-80 W for females, 60-90 W for males (again, given average\nsizes).\u003c/li\u003e\n\u003cli\u003eEnergy in food: pure fat gives 39 MJ/kg, protein 23 MJ/kg, carbs 17 MJ/kg. However,\nthe body processes carbohydrates primarily, and the protein comes last (at least\nfor energy needs).\u003c/li\u003e\n\u003cli\u003eTotal amount of energy available at higher trophic levels is reduced. For example,\nall the prey in the world combined has less energy than all the plant food of that\nprey. This explains historical dominance of vegetarianism in foraging societies\n(besides, meat is difficult to get, in addition to not being as abundant as\nplants). The energy return for foraging (the amount of joules from foraged food vs.\nthe amount of joules expended for foraging) is around 10x. So for each joule of\nenergy expended foraging, you\u0026rsquo;d, historically, get around 10x more, sometimes 30x\nmore.\u003c/li\u003e\n\u003cli\u003eAgricultural efficiency in ancient Egypt was 1 person per hectare (the cultivation\nof one hectare of land would energetically meet the needs of one person). That\nnumber grew very slow; some areas reached up to 5 persons per hectare. Europe\n(pre-industrial) never went above 2 persons per hectare.\n\u003cul\u003e\n\u003cli\u003eThere are two reasons for this: growing non-improved crops (where the conversion\nof energy is inefficient, and relatively little is converted into usable food,\nand the rest is converted into inedible phytomass) and lack of nitrogen.\u003c/li\u003e\n\u003cli\u003eAnd an additional reason: it\u0026rsquo;s energetically very costly to perform agricultural\nmanual labor (tilling a hectare of land takes up much much more than foraging a\nhectare of forest).\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHumans can work at around 60-80W; draft animals yield 300-500W (and also don\u0026rsquo;t\nneed specialized feed, as they can eat grass).\u003c/li\u003e\n\u003cli\u003eDry wood has around 16 MJ/kg. That\u0026rsquo;s pretty low energy density. Compare:\n\u003cul\u003e\n\u003cli\u003eCoal: 24 MJ/kg\u003c/li\u003e\n\u003cli\u003eDiesel: 45 MJ/kg\u003c/li\u003e\n\u003cli\u003eGasoline: 46 MJ/kg\u003c/li\u003e\n\u003cli\u003eNatural gas: 55 MJ/kg\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe low energy density of wood is not a problem if the source is dense (and you can\nharvest a lot from a small acreage), but that\u0026rsquo;s not the case: there\u0026rsquo;s usually no\nmore than 200t per hectare (20 kg/m^2), the yield is 300 MJ/m^2. Since it takes\n50-100 years to return to pre-harvest state, you need to divide the harvested\nenergy by the time to regenerate. For example, dividing by 50 years, you get 0.2\nW/m^2 (of sustainable wood energy).\u003c/li\u003e\n\u003cli\u003eTraditional charcoaling gives 0.04 W/m^2 (again, by taking sustainable harvesting\nfigures). Pretty wasteful.\u003c/li\u003e\n\u003cli\u003eEnergy needs in pre-industrial cities: 10-30 watts per m2 (that\u0026rsquo;s for heating,\ncooking, metallurgy, and so on). This means that if they relied solely on wood,\ncities would need forests 50-150 times their size nearby (for sustainable\nharvesting).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-the-modern-world\"\u003eEnergy in the modern world\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEvery civilization is fundamentally solar: fossil fuels are essentially batteries\nfor solar energy. The difference between pre-industrial and industrial\ncivilizations is whether they\u0026rsquo;re locally solar (recent phytomass) or remotely solar\n(old phytomass=fossil fuels).\u003c/li\u003e\n\u003cli\u003eCoals are basically just plants in swamps, subjected to high temperatures and\npressures for up to 350 million years. Many of these plants are still around, in\nsmaller form. For example, mosses up to 30 meters in height vs. today\u0026rsquo;s moss.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Peak oil\u0026rdquo; is unjustifiably pessimistic; there is little chance of hitting a\nsupermassive oil field like Saudi Arabia\u0026rsquo;s Ghawar field, but the total oil reserves\nare still pretty large.\u003c/li\u003e\n\u003cli\u003eA third of the world\u0026rsquo;s electricity is \u003cem\u003enot\u003c/em\u003e generated by the combustion of fossil\nfuels.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-everyday-life\"\u003eEnergy in everyday life\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eThe Mediterranean diet has switched to much more meat, fish, butter, and cheese;\noriginally it was much more heavy on bread, fruit, potatoes, and olive oil. The\ntrue (original) Mediterranean diet now survives only among the rural elderly\npopulation.\u003c/li\u003e\n\u003cli\u003eAmerican walls (wood frame, drywall, insulation) provide around 4x more insulation\nthan sturdier European brick walls.\u003c/li\u003e\n\u003cli\u003eDark roofs get up to 50°C hotter than the air temperature in summer; white or light\nroofs are just 10°C hotter.\u003c/li\u003e\n\u003cli\u003eOne lumen of US electric light is three orders of magnitude more affordable in 2015\nthan in 1900.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Phantom loads\u0026rdquo; (vampire power; use of electricity even when everything is turned\noff) is around 50 W per household in the US; combined, that\u0026rsquo;s more electricity than\nSingapore\u0026rsquo;s use in a year.\u003c/li\u003e\n\u003cli\u003eEnergy costs of various items, in GJ/t (for reference, one tonne of crude oil is 42\nGJ/t):\n\u003cul\u003e\n\u003cli\u003eexcavating sand: 0.1 GJ/t\u003c/li\u003e\n\u003cli\u003equarrying stone: 1 GJ/t\u003c/li\u003e\n\u003cli\u003eextracting construction wood: 1.5-3 GJ/t\u003c/li\u003e\n\u003cli\u003ecement: 3.5 GJ/t\u003c/li\u003e\n\u003cli\u003eadding steel to concrete makes it 3x more expensive\u003c/li\u003e\n\u003cli\u003einsulation: 10 GJ/t\u003c/li\u003e\n\u003cli\u003ea three-bedroom house costs around 500 GJ (around 12 tonnes of crude oil)\u003c/li\u003e\n\u003cli\u003ewheat, corn, fruits: 4 GJ/t\u003c/li\u003e\n\u003cli\u003erice: 10 GJ/t\u003c/li\u003e\n\u003cli\u003epeppers, tomatoes, greenhouse veggies: 40 GJ/t\u003c/li\u003e\n\u003cli\u003ewheat contains four times as much energy as was used to produce it; greenhouse\ntomatoes can have up to 50x \u003cstrong\u003eless\u003c/strong\u003e energy than what was used to produce them\n\u003cul\u003e\n\u003cli\u003ehowever, food\u0026rsquo;s total energy cost is dominated by packaging \u0026amp; transport\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
+      "date_published": "2025-08-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "d06d7a99f1ad4dcc",
@@ -2412,20 +2412,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "817f1e01f48d2c81",
-      "url": "https://blog.d11r.eu/ai-md/",
-      "title": "Why is it so hard to export Markdown from Gemini?",
-      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
-      "date_published": "2025-07-23T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "407e10abdd7813b9",
       "url": "https://siddhantkhare.com/writing/ship-share-repeat",
       "title": "Ship. Share. Repeat.",
@@ -2438,6 +2424,20 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "817f1e01f48d2c81",
+      "url": "https://blog.d11r.eu/ai-md/",
+      "title": "Why is it so hard to export Markdown from Gemini?",
+      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
+      "date_published": "2025-07-23T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "a72763d4addf4d5c",
@@ -3001,7 +3001,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "dad5eab4be56cef7",
@@ -3067,7 +3067,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -3109,7 +3109,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "baaf570528a52bec",
@@ -3508,20 +3508,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "8d07cbef0a5ec80b",
-      "url": "https://blog.d11r.eu/cryo/",
-      "title": "I signed up for cryonics",
-      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "fb26376b39bda9a7",
       "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
       "title": "Two years in review",
@@ -3534,6 +3520,20 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "8d07cbef0a5ec80b",
+      "url": "https://blog.d11r.eu/cryo/",
+      "title": "I signed up for cryonics",
+      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -3584,7 +3584,7 @@
         "application security"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "e8be81810adc63d0",
@@ -3608,7 +3608,7 @@
         "s3"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "5330d6c350bcbdd1",
@@ -3639,5 +3639,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-27T13:45:49Z"
+  "_signal_generated": "2026-04-27T19:15:06Z"
 }
