@@ -81,26 +81,6 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     },
     {
-      "id": "e491bf97724d048d",
-      "url": "https://lucumr.pocoo.org/2026/1/27/earendil/",
-      "title": "Colin and Earendil",
-      "content_html": "\u003cp\u003eRegular readers of this blog will know that I started a new company.  We have\nput out just a \u003ca href=\"https://earendil.com/purpose/\"\u003etiny bit of information today\u003c/a\u003e,\nand some keen folks have discovered and reached out by email with many\nthoughtful responses.  It has been delightful.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://colin.day/\"\u003eColin\u003c/a\u003e and I met here, in Vienna.  We started sharing\ncoffees, ideas, and lunches, and soon found shared values despite coming from\ndifferent backgrounds and different parts of the world.  We are excited about\nthe future, but we\u0026#8217;re equally vigilant of it.  After traveling together a bit,\nwe decided to plunge into the cold water and start a company together.  We want\nto be successful, but we want to do it the right way and we want to be able to\ndemonstrate that to our kids.\u003c/p\u003e\n\u003cp\u003eVienna is a city of great history, two million inhabitants and a fascinating\nvibe that is nothing like San Francisco.  In fact, Vienna is in many ways the\npolar opposite to the Silicon Valley, both in mindset, in opportunity and\napproach to life.  Colin comes from San Francisco, and though I\u0026#8217;m Austrian, my\ncareer has been shaped by years working with California companies and people\nfrom there who used my Open Source software.  Vienna is now our shared home.\nDespite Austria being so far away from California, it is a place of tinkerers\nand troublemakers.  It\u0026#8217;s always good to remind oneself that society consists of\nmore than just your little bubble.  It also creates the necessary counter\nbalance to think in these times.\u003c/p\u003e\n\u003cp\u003eThe world that is emerging in front of our eyes is one of change.  We\nincorporated as a \u003ca href=\"https://en.wikipedia.org/wiki/Benefit_corporation\"\u003ePBC\u003c/a\u003e with\na founding charter to craft software and open protocols, strengthen human\nagency, bridge division and ignorance and to cultivate lasting joy and\nunderstanding.  Things we believe in deeply.\u003c/p\u003e\n\u003cp\u003eI have dedicated 20 years of my life in one way or another creating Open Source\nsoftware.  In the same way as artificial intelligence calls into question the\nvery nature of my profession and the way we build software, the present day\ncircumstances are testing society.  We\u0026#8217;re not immune to\nthese changes and we\u0026#8217;re navigating them like everyone else, with a mixture of\nexcitement and worry.  But we share a belief that right now is the time to stand\ntrue to one\u0026#8217;s values and principles.  We want to take an earnest shot at leaving\nthe world a better place than we found it.  Rather than reject the changes that\nare happening, we look to nudge them towards the right direction.\u003c/p\u003e\n\u003cp\u003eIf you want to follow along you can \u003ca href=\"https://earendil.com/posts/subscribe/\"\u003esubscribe to our\nnewsletter\u003c/a\u003e, written by humans not\nmachines.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eRegular readers of this blog will know that I started a new company.  We have\nput out just a \u003ca href=\"https://earendil.com/purpose/\"\u003etiny bit of information today\u003c/a\u003e,\nand some keen folks have discovered and reached out by email with many\nthoughtful responses.  It has been delightful.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://colin.day/\"\u003eColin\u003c/a\u003e and I met here, in Vienna.  We started sharing\ncoffees, ideas, and lunches, and soon found shared values despite coming from\ndifferent backgrounds and different...",
-      "date_published": "2026-01-27T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "de0d85e6d2ad9e32",
       "url": "https://www.linkedin.com/posts/dsuydam_leadership-digitalservices-ai-activity-7421211948899508224-TLoI",
       "title": "AI is going to break services firms long before it breaks the enterprise",
@@ -321,6 +301,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-04-28T19:28:28Z",
+  "_signal_generated": "2026-04-29T02:38:09Z",
   "_signal_period": "2026-01"
 }

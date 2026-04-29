@@ -153,40 +153,6 @@
       ]
     },
     {
-      "id": "1fca274ddfe6f6ca",
-      "url": "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake",
-      "title": "I tried to prove I'm not AI. My aunt wasn't convinced",
-      "summary": "The author attempted various methods to prove human authenticity to an AI detector service and found the entire concept fundamentally broken.",
-      "date_published": "2026-03-24T00:00:00Z",
-      "authors": [
-        {
-          "name": "BBC Future"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Identity",
-        "Deepfakes",
-        "Authentication"
-      ],
-      "_signal_feed_title": "BBC Future",
-      "_signal_feed_url": "https://www.bbc.com/future",
-      "_signal_priority": true,
-      "_signal_rank": 9,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47515502",
-          "id": "47515502",
-          "score": 876
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-i-tried-to-prove-im-not-ai-my-aunt-wasnt-convinced.html"
-        }
-      ]
-    },
-    {
       "id": "f983113f6ec0d2d6",
       "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
       "title": "So where are all the AI apps?",
@@ -217,6 +183,40 @@
         {
           "platform": "frontierpulse",
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-so-where-are-all-the-ai-apps.html"
+        }
+      ]
+    },
+    {
+      "id": "1fca274ddfe6f6ca",
+      "url": "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake",
+      "title": "I tried to prove I'm not AI. My aunt wasn't convinced",
+      "summary": "The author attempted various methods to prove human authenticity to an AI detector service and found the entire concept fundamentally broken.",
+      "date_published": "2026-03-24T00:00:00Z",
+      "authors": [
+        {
+          "name": "BBC Future"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Identity",
+        "Deepfakes",
+        "Authentication"
+      ],
+      "_signal_feed_title": "BBC Future",
+      "_signal_feed_url": "https://www.bbc.com/future",
+      "_signal_priority": true,
+      "_signal_rank": 9,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47515502",
+          "id": "47515502",
+          "score": 876
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-i-tried-to-prove-im-not-ai-my-aunt-wasnt-convinced.html"
         }
       ]
     },
@@ -482,6 +482,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     }
   ],
-  "_signal_generated": "2026-04-28T19:28:28Z",
+  "_signal_generated": "2026-04-29T02:38:09Z",
   "_signal_period": "2026-03"
 }

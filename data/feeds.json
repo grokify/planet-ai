@@ -3,6 +3,26 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "74a47b99dfa39275",
+      "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+      "title": "Before GitHub",
+      "content_html": "\u003cp\u003eGitHub was not the first home of my Open Source software.  \u003ca href=\"https://sourceforge.net/projects/pocoo/\"\u003eSourceForge\nwas\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eBefore GitHub, I had my own Trac installation.  I had Subversion repositories,\ntickets, tarballs, and documentation on infrastructure I controlled.  Later I\nmoved projects to Bitbucket, back when Bitbucket still felt like a serious\nalternative place for Open Source projects, especially for people who were not\nall-in on Git yet.\u003c/p\u003e\n\u003cp\u003eAnd then, eventually, GitHub became the place, and I moved all of it there.\u003c/p\u003e\n\u003cp\u003eIt is hard for me to overstate how important GitHub became in my life.  A large\npart of my Open Source identity formed there.  Projects I worked on found users\nthere.  People found me there, and I found other people there.  Many professional\nrelationships and many friendships started because some repository, issue, pull\nrequest, or comment thread made two people aware of each other.\u003c/p\u003e\n\u003cp\u003eThat is why I find what is happening to GitHub today so sad and so\ndisappointing.  I do not look at it as just the folks at Microsoft making\nproduct decisions I dislike.  GitHub was part of the social infrastructure of\nOpen Source for a very long time.  For many of us, it was not merely where the\ncode lived; it was where a large part of the community lived.\u003c/p\u003e\n\u003cp\u003eSo when I think about GitHub\u0026#8217;s decline, I also think about what came before it,\nand what might come after it.  I have written a few times over the years about\ndependencies, and in particular about the problem of \u003ca href=\"/2016/3/24/open-source-trust-scaling/\"\u003emicro\ndependencies\u003c/a\u003e.  In my mind, GitHub gave\nlife to that phenomenon.  It was something I definitely did not completely\nsupport, but it also made Open Source more inclusive.  GitHub changed how Open\nSource feels,\nand later npm and other systems changed how dependencies feel.  Put them\ntogether and you get a world in which publishing code is almost frictionless,\nconsuming code is almost frictionless, and the number of projects in the world\nexplodes.\u003c/p\u003e\n\u003cp\u003eThat has many upsides.  But it is worth remembering that Open Source did not\nalways work this way.\u003c/p\u003e\n\u003ch2\u003eA Smaller World\u003c/h2\u003e\n\u003cp\u003eBefore GitHub, Open Source was a much smaller world.  Not necessarily in the\nnumber of people who cared about it, but in the number of projects most of us\ncould realistically depend on.\u003c/p\u003e\n\u003cp\u003eThere were well-known projects, maintained over long periods of time by a\ncomparatively small number of people.  You \u003ca href=\"/2024/3/31/skin-in-the-game/\"\u003eknew the\nnames\u003c/a\u003e.  You knew the mailing lists.  You knew who\nhad been around for years and who had earned trust.  That trust was not perfect,\nand the old world had plenty of gatekeeping, but reputation mattered in a very\ndirect way.  We took pride (and got frustrated) when the Debian folks came and\ntold us our licensing stuff was murky or the copyright headers were not up to\nsnuff, because they packaged things up.\u003c/p\u003e\n\u003cp\u003eA dependency was not just a package name.  It was a project with a history, a\nwebsite, a maintainer, a release process, a lot of friction, and often a place in\na larger community.  You did not add dependencies casually, because the act of\ndepending on something usually meant you had to understand where it came from.\u003c/p\u003e\n\u003cp\u003eNot all of this was necessarily intentional, but because these projects were\ncomparatively large, they also needed to bring their own infrastructure.  Small\nprojects might run on a university server, and many of them were on SourceForge,\nbut the larger ones ran their own show.  They grouped together into larger\ncollectives to make it work.\u003c/p\u003e\n\u003ch2\u003eWe Ran Our Own Infrastructure\u003c/h2\u003e\n\u003cp\u003eMy first Open Source projects lived on infrastructure I ran myself.  There was a\nTrac installation, Subversion repositories, tarballs, documentation, and release\nfiles served from my own machines or from servers under my control.  That was\nnormal.  If you wanted to publish software, you often also became a small-time\nsystem administrator.  \u003ca href=\"https://github.com/birkenfeld\"\u003eGeorg\u003c/a\u003e and I ran our own\ncollective for our Open Source projects: \u003ca href=\"http://www.pocoo.org/\"\u003ePocoo\u003c/a\u003e.  We\nshared server costs and the burden of maintaining Subversion and Trac, mailing\nlists and more.\u003c/p\u003e\n\u003cp\u003eSubversion in particular made this \u0026#8220;running your own forge\u0026#8221; natural.  It was\ncentralized: you needed a server, and somebody had to operate it.\nThe project had a home, and that home was usually quite literal: a hostname, a\ndirectory, a Trac instance, a mailing list archive.\u003c/p\u003e\n\u003cp\u003eWhen Mercurial and Git arrived, they were philosophically the opposite.  Both\nwere distributed.  Everybody could have the full repository.  Everybody could\nhave their own copy, their own branches, their own history.  In principle, those\ndistributed version control systems should have reduced the need for a single\ncenter.  But despite all of this, GitHub became the center.\u003c/p\u003e\n\u003cp\u003eThat is one of the great ironies of modern Open Source.  The distributed version\ncontrol system won, and then the world standardized on one enormous centralized\nservice for hosting it.\u003c/p\u003e\n\u003ch2\u003eWhat GitHub Gave Us\u003c/h2\u003e\n\u003cp\u003eIt is easy now to talk only about GitHub\u0026#8217;s failures, of which there are currently\nmany, but that would be unfair: GitHub was, and continues to be, a tremendous\ngift to Open Source.\u003c/p\u003e\n\u003cp\u003eIt made creating a project easy and it made discovering projects easy.  It made\ncontributing understandable to people who had never subscribed to a development\nmailing list in their life.  It gave projects issue trackers, pull requests,\nrelease pages, wikis, organization pages, API access, webhooks, and later CI.\nIt normalized the idea that Open Source happens in the open, with visible\nhistory and visible collaboration.  And it was an excellent and reasonable\ndefault choice for a decade.\u003c/p\u003e\n\u003cp\u003eBut maybe the most underappreciated thing GitHub did was archival work: GitHub\nbecame a library.  It became an index of a huge part of the software commons\nbecause even abandoned projects remained findable.  You could find forks, and\nold issues and discussions all stayed online.  For all the complaints one can\nmake about centralization, that centralization also created discoverable memory.\nThe \u003ca href=\"https://github.blog/news-insights/policy-news-and-insights/advancing-developer-freedom-github-is-fully-available-in-iran/\"\u003eleaders there once\ncared\u003c/a\u003e\na lot about keeping GitHub available even in countries that were sanctioned by\nthe US.\u003c/p\u003e\n\u003cp\u003eI know what the alternative looks like, because I was living it.  Some of my\nearliest Open Source projects are \u003ca href=\"https://pypi.org/project/Colubrid/0.9/\"\u003etechnically still on\nPyPI\u003c/a\u003e, but the actual packages are gone.\nThe metadata points to my old server, and that server has long stopped serving\nthose files.\u003c/p\u003e\n\u003cp\u003eThat was normal before the large platforms.  A personal domain expired, a VPS\nwas shut down, a developer passed away, and with them went the services they\npaid for.  The web was once full of little software homes, and many of them are\ngone \u003csup class=\"footnote-ref\" id=\"fnref-1\"\u003e\u003ca href=\"#fn-1\"\u003e1\u003c/a\u003e\u003c/sup\u003e.\u003c/p\u003e\n\u003ch2\u003enpm and the Dependency Explosion\u003c/h2\u003e\n\u003cp\u003eThe micro-dependency problem was not just that people published very small\npackages.  The hosted infrastructure of GitHub and npm made it feel as if there\nwas no cost to create, publish, discover, install, and depend on them.\u003c/p\u003e\n\u003cp\u003eIn the pre-GitHub world, reputation and longevity were part of the dependency\nselection process almost by necessity, and it often required vendoring.  Plenty\nof our early dependencies were just vendored into our own Subversion trees by\ndefault, in part because we could not even rely on other services being up when\nwe needed them and because maintaining scripts that fetched them, in the pre-API\ndays, was painful.  The implied friction forced some reflection, and it resulted\nin different developer behavior.  With npm-style ecosystems, the package graph can\ngrow faster than anybody\u0026#8217;s ability to reason about it.\u003c/p\u003e\n\u003cp\u003eThe problem that this type of thinking created also meant that solutions had to\nbe found along the way.  GitHub helped compensate for the accountability problem\nand it helped with licensing.  At one point, the newfound influx of developers\nand merged pull requests left a lot of open questions about what the state of\nlicenses actually was.  GitHub even attempted to \u003ca href=\"https://github.blog/news-insights/new-github-terms-of-service/\"\u003erectify\nthis\u003c/a\u003e with their\nterms of service.\u003c/p\u003e\n\u003cp\u003eThe thinking for many years was that if I am going to depend on some tiny\npackage, I at least want to see its repository.  I want to see whether the\nmaintainer exists, whether there are issues, whether there were recent changes,\nwhether other projects use it, whether the code is what the package claims it\nis.  GitHub became part of the system that provides trust, and more recently it has\neven become one of the few systems that can publish packages to npm and other\nregistries with trusted publishing.\u003c/p\u003e\n\u003cp\u003eThat means when trust in GitHub erodes, the problem is not isolated to source\nhosting.  It affects the whole supply chain culture that formed around it.\u003c/p\u003e\n\u003ch2\u003eGitHub Is Slowly Dying\u003c/h2\u003e\n\u003cp\u003eGitHub is currently losing some of what made it feel inevitable.  Maybe that\u0026#8217;s\njust the life and death of large centralized platforms: they always disappoint\neventually.  Right now people are tired of the instability, the product churn,\nthe Copilot AI noise, the unclear leadership, and the feeling that the platform\nis no longer primarily designed for the community that made it valuable.\u003c/p\u003e\n\u003cp\u003eObviously, GitHub also finds itself in the midst of the agentic coding revolution\nand that causes enormous pressure on the folks over there.  But the site has no\nleadership!  It\u0026#8217;s a miracle that things are going as well as they are.\u003c/p\u003e\n\u003cp\u003eFor a while, leaving GitHub felt like a symbolic move mostly made by smaller\nprojects or by people with strong views about software freedom.  I definitely\ncringed when Zig moved to Codeberg!  But I now see people with real weight and\nsignal talking about leaving GitHub.  The most obvious one is Mitchell\nHashimoto, who \u003ca href=\"https://mitchellh.com/writing/ghostty-leaving-github\"\u003eannounced that Ghostty will\nmove\u003c/a\u003e.  Where it will\nmove is not clear, but it\u0026#8217;s a strong signal.  But there are others, too.\n\u003ca href=\"https://codeberg.org/uzu/strudel\"\u003eStrudel moved to Codeberg\u003c/a\u003e and so did\n\u003ca href=\"https://codeberg.org/tenacityteam/tenacity\"\u003eTenacity\u003c/a\u003e.  Will they cause enough\nof a shift?  Probably not, but I find myself on non-GitHub properties more\nfrequently again compared to just a year ago.\u003c/p\u003e\n\u003cp\u003eOne can argue that this is good: it is healthy for Open Source to stop\npretending that one company should be the default home of everything.  Git\nitself was designed for a world with many homes.\u003c/p\u003e\n\u003ch2\u003eDispersion Has a Cost\u003c/h2\u003e\n\u003cp\u003eGoing back to many forges, many servers, many small homes, and many independent\ncommunities will increase decentralization, and in many ways it will force\nsystems to adapt.  This can restore autonomy and make projects less\ndependent on the whims of Microsoft leadership.  It can also allow different\ncommunities to choose different workflows.  What\u0026#8217;s happening in\n\u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e\u0026#8216;s issue tracker currently is largely a result of GitHub\u0026#8217;s\nproduct choices not working in the present-day world of Open Source.  It was\nbuilt for engagement, not for maintainer sanity.\u003c/p\u003e\n\u003cp\u003eIt can also make the web forget again.  \u003ca href=\"/2024/10/30/make-it-ephemeral/\"\u003eI quite like software that\nforgets\u003c/a\u003e because it has a cleansing element.\nMaybe the real risk of loss will make us reflect more on actually taking\nadvantage of a distributed version control system.\u003c/p\u003e\n\u003cp\u003eBut if projects move to something more akin to self-hosted forges, to their own\nself-hosted Mercurial or cgit servers, we run the risk of losing things that we\ndon\u0026#8217;t want to lose.  The code might be distributed in theory, but the social\ncontext often is not.  Issues, reviews, design discussions, release notes,\nsecurity advisories, and old tarballs are fragile.  They disappear much more\neasily than we like to admit.  Mailing lists, which carried a lot of this in\nearlier years, have not kept up with the needs of today, and are largely a user\nexperience disaster.\u003c/p\u003e\n\u003ch2\u003eWe Need an Archive\u003c/h2\u003e\n\u003cp\u003eAs much as I like the idea of things fading out of existence, we absolutely need\nlibraries and archives.\u003c/p\u003e\n\u003cp\u003eRegardless of whether GitHub is here to stay or projects find new homes, what I\nwould like to see is some public, boring, well-funded archive for Open Source\nsoftware.  Something with the power of an endowment or public funding to keep it\nafloat.  Something whose job is not to win the developer productivity market but\njust to make sure that the most important things we create do not disappear.\u003c/p\u003e\n\u003cp\u003eThe bells and whistles can be someone else\u0026#8217;s problem, but source archives,\nrelease artifacts, metadata, and enough project context to understand what\nhappened should be preserved somewhere that is not tied to the business model or\nleadership mood of a single company.\u003c/p\u003e\n\u003cp\u003eGitHub accidentally became that archive because it became the center of Open\nSource activity.  Once that no longer holds, we should not assume some magic\narchival function will emerge or that GitHub will continue to function as such.\nWe have already seen what happens when project homes are just personal servers\nand good intentions, and we have seen what happened to Google Code and\nBitbucket.\u003c/p\u003e\n\u003cp\u003eI hope GitHub recovers, I really do, in part because a lot of history lives\nthere and because the people still working on it inherited something genuinely\nimportant.  But I no longer think it is responsible to let the continued memory\nof Open Source depend on GitHub remaining a healthy product.\u003c/p\u003e\n\u003cp\u003eThe world before GitHub had more autonomy and more loss, and in some ways, we\u0026#8217;re\nprobably going to move back there, at least for a while.  Whatever people want\nto start building next should try to keep the memory and lose the dependence.\nIt should be easier to move projects, easier to mirror their social context,\neasier to preserve releases, and harder for one company\u0026#8217;s drift to become a\ncultural crisis for everyone else.\u003c/p\u003e\n\u003cp\u003eI do not want to go back to the old web of broken tarball links and abandoned\nTrac instances.  I also do not want Open Source to pretend that the last twenty\nyears were normal or permanent.  GitHub wrote a remarkable chapter of Open\nSource, and if that chapter is ending, the next one should learn from it and also\nfrom what came before.\u003c/p\u003e\n\u003cdiv class=\"footnotes\"\u003e\n\u003col\u003e\n\u003cli id=\"fn-1\"\u003e\n\u003cp\u003eThis is also a good reminder that we rely so very much on the Internet\nArchive for many projects of the time.\u003ca href=\"#fnref-1\" class=\"footnote\"\u003e\u0026#8617;\u003c/a\u003e\u003c/p\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/div\u003e\n",
+      "summary": "\u003cp\u003eGitHub was not the first home of my Open Source software.  \u003ca href=\"https://sourceforge.net/projects/pocoo/\"\u003eSourceForge\nwas\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eBefore GitHub, I had my own Trac installation.  I had Subversion repositories,\ntickets, tarballs, and documentation on infrastructure I controlled.  Later I\nmoved projects to Bitbucket, back when Bitbucket still felt like a serious\nalternative place for Open Source projects, especially for people who were not\nall-in on Git yet.\u003c/p\u003e\n\u003cp\u003eAnd then, eventually,...",
+      "date_published": "2026-04-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
+    },
+    {
       "id": "ecc53c5bd45da096",
       "url": "https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607?source=rss-c1ec701babb7------2",
       "title": "Welcome to Gas City",
@@ -75,6 +95,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "d108ad12756728fb",
+      "url": "https://blog.d11r.eu/meetup-2026/",
+      "title": "Scott Alexander gentrified my meetup",
+      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "5d4d0c2061eba1f6",
       "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
       "title": "Why you stop caring mid-review",
@@ -107,20 +141,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "d108ad12756728fb",
-      "url": "https://blog.d11r.eu/meetup-2026/",
-      "title": "Scott Alexander gentrified my meetup",
-      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
-      "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -213,20 +233,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "2f94f34d611e2b19",
-      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
-      "title": "Tracing what agents do, not what they say",
-      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "db39221616f75d2d",
       "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
       "title": "Absurd In Production",
@@ -245,6 +251,20 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
+    },
+    {
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "068253b9db3bc029",
@@ -421,40 +441,6 @@
       ]
     },
     {
-      "id": "1fca274ddfe6f6ca",
-      "url": "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake",
-      "title": "I tried to prove I'm not AI. My aunt wasn't convinced",
-      "summary": "The author attempted various methods to prove human authenticity to an AI detector service and found the entire concept fundamentally broken.",
-      "date_published": "2026-03-24T00:00:00Z",
-      "authors": [
-        {
-          "name": "BBC Future"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Identity",
-        "Deepfakes",
-        "Authentication"
-      ],
-      "_signal_feed_title": "BBC Future",
-      "_signal_feed_url": "https://www.bbc.com/future",
-      "_signal_priority": true,
-      "_signal_rank": 9,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47515502",
-          "id": "47515502",
-          "score": 876
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-i-tried-to-prove-im-not-ai-my-aunt-wasnt-convinced.html"
-        }
-      ]
-    },
-    {
       "id": "f983113f6ec0d2d6",
       "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
       "title": "So where are all the AI apps?",
@@ -485,6 +471,40 @@
         {
           "platform": "frontierpulse",
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-so-where-are-all-the-ai-apps.html"
+        }
+      ]
+    },
+    {
+      "id": "1fca274ddfe6f6ca",
+      "url": "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake",
+      "title": "I tried to prove I'm not AI. My aunt wasn't convinced",
+      "summary": "The author attempted various methods to prove human authenticity to an AI detector service and found the entire concept fundamentally broken.",
+      "date_published": "2026-03-24T00:00:00Z",
+      "authors": [
+        {
+          "name": "BBC Future"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Identity",
+        "Deepfakes",
+        "Authentication"
+      ],
+      "_signal_feed_title": "BBC Future",
+      "_signal_feed_url": "https://www.bbc.com/future",
+      "_signal_priority": true,
+      "_signal_rank": 9,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47515502",
+          "id": "47515502",
+          "score": 876
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-i-tried-to-prove-im-not-ai-my-aunt-wasnt-convinced.html"
         }
       ]
     },
@@ -982,26 +1002,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "b1786bad6c04e8ed",
-      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
-      "title": "The Final Bottleneck",
-      "content_html": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I feel like something is very wrong here and it\u0026#8217;s time to\nreflect.\u003c/p\u003e\n\u003ch2\u003eYou Are Here\u003c/h2\u003e\n\u003cp\u003eSoftware engineers often believe that \u003ca href=\"/2020/1/1/async-pressure/\"\u003eif we make the bathtub\nbigger\u003c/a\u003e, overflow disappears.  It doesn\u0026#8217;t.\n\u003ca href=\"https://en.wikipedia.org/wiki/OpenClaw\"\u003eOpenClaw\u003c/a\u003e right now has north of 2,500\npull requests open.  That\u0026#8217;s a big bathtub.\u003c/p\u003e\n\u003cp\u003eAnyone who has worked with queues knows this: if input grows faster than\nthroughput, you have an accumulating failure.  At that point, backpressure and\nload shedding are the only things that retain a system that can still operate.\u003c/p\u003e\n\u003cp\u003eIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the\nfeeling.  The in-store experience breaks down.  You no longer know how many\norders are ahead of you.  There is no clear line, no reliable wait estimate, and\noften no real cancellation path unless you escalate and make noise.\u003c/p\u003e\n\u003cp\u003eThat is what many AI-adjacent open source projects feel like right now.  And\nincreasingly, that is what a lot of internal company projects feel like in\n\u0026#8220;AI-first\u0026#8221; engineering teams, and that\u0026#8217;s not sustainable.  You can\u0026#8217;t triage, you\ncan\u0026#8217;t review, and many of the PRs cannot be merged after a certain point because\nthey are too far out of date. And the creator might have lost the motivation to\nactually get it merged.\u003c/p\u003e\n\u003cp\u003eThere is huge excitement about newfound delivery speed, but in private\nconversations, I keep hearing the same second sentence: people are also confused\nabout how to keep up with the pace they themselves created.\u003c/p\u003e\n\u003ch2\u003eWe Have Been Here Before\u003c/h2\u003e\n\u003cp\u003eHumanity has been here before.  Many times over.  We already talk about the\nLuddites a lot in the context of AI, but it\u0026#8217;s interesting to see what led up to\nit.  Mark Cartwright wrote a great \u003ca href=\"https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/\"\u003earticle about the textile\nindustry\u003c/a\u003e\nin Britain during the industrial revolution.  At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too.  We saw the same thing in shipping that led\nto modern automated ports and containerization.\u003c/p\u003e\n\u003cp\u003eAs software engineers we have been here too.  Assembly did not scale to larger\nengineering teams, and we had to invent higher level languages.  A lot of what\nprogramming languages and software development frameworks did was allow us\nto write code faster and to scale to larger code bases.  What it did not do up\nto this point was take away the core skill of engineering.\u003c/p\u003e\n\u003cp\u003eWhile it\u0026#8217;s definitely easier to write C than assembly, many of the core problems\nare the same.  Memory latency still matters, physics are still our ultimate\nbottleneck, algorithmic complexity still makes or breaks software at scale.\u003c/p\u003e\n\u003ch2\u003eGiving Up?\u003c/h2\u003e\n\u003cp\u003eWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput.  \u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is a great example of this.  PRs are auto closed\nunless people are trusted.  It takes \u003ca href=\"https://x.com/badlogicgames/status/2021164603506368693\"\u003eOSS\nvacations\u003c/a\u003e.  That\u0026#8217;s one\noption: you just throttle the inflow.  You push against your newfound powers\nuntil you can handle them.\u003c/p\u003e\n\u003ch2\u003eOr Giving In\u003c/h2\u003e\n\u003cp\u003eBut what if the speed continues to increase?  What downstream of writing code do\nwe have to speed up?  Sure, the pull request review clearly turns into the\nbottleneck.  But it cannot really be automated.  If the machine writes the code,\nthe machine better review the code at the same time.  So what ultimately comes\nup for human review would already have passed the most critical possible review\nof the most capable machine.  What else is in the way?  If we continue with the\nfundamental belief that machines cannot be accountable, then humans need to be\nable to understand the output of the machine.  And the machine will ship\nrelentlessly.  Support tickets of customers will go straight to machines to\nimplement improvements and fixes, for other machines to review, for humans to\nrubber stamp in the morning.\u003c/p\u003e\n\u003cp\u003eA lot of this sounds both unappealing and reminiscent of the textile industry.\nThe individual weaver no longer carried responsibility for a bad piece of cloth.\nIf it was bad, it became the responsibility of the factory as a whole and it was\njust replaced outright.  As we\u0026#8217;re entering the phase of single-use plastic\nsoftware, we might be moving the whole layer of responsibility elsewhere.\u003c/p\u003e\n\u003ch2\u003eI Am The Bottleneck\u003c/h2\u003e\n\u003cp\u003eBut to me it still feels different.  Maybe that\u0026#8217;s because my lowly brain can\u0026#8217;t\ncomprehend the change we are going through, and future generations will just\nlaugh about our challenges.  It feels different to me, because what I see taking\nplace in some Open Source projects, in some companies and teams feels deeply\nwrong and unsustainable.  Even Steve Yegge himself now \u003ca href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\"\u003ecasts\ndoubts\u003c/a\u003e about the\nsustainability of the ever-increasing pace of code creation.\u003c/p\u003e\n\u003cp\u003eSo what if we need to give in?  What if we need to pave the way for this new\ntype of engineering to become the standard?  What affordances will we have to\ncreate to make it work?  I for one do not know.  I\u0026#8217;m looking at this with\nfascination and bewilderment and trying to make sense of it.\u003c/p\u003e\n\u003cp\u003eBecause it is not the final bottleneck.  We will find ways to take\nresponsibility for what we ship, because society will demand it.  Non-sentient\nmachines will never be able to carry responsibility, and it looks like we will\nneed to deal with this problem before machines achieve this status.\nRegardless of how \u003ca href=\"https://en.wikipedia.org/wiki/Moltbook\"\u003ebizarre they appear to\nact\u003c/a\u003e already.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://x.com/thorstenball/status/2022310010391302259\"\u003eI too am the bottleneck\nnow\u003c/a\u003e.  But you know what?\nTwo years ago, I too was the bottleneck.  I was the bottleneck all along.  The\nmachine did not really change that.  And for as long as I carry responsibilities\nand am accountable, this will remain true.  If we manage to push accountability\nupwards, it might change, but so far, how that would happen is not clear.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I...",
-      "date_published": "2026-02-13T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "36bd5906510b9d9e",
       "url": "https://www.linkedin.com/posts/andreashorn1_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%97%AF%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B9%F0%9D%98%86-activity-7428132691788652544-6Vv_",
       "title": "AI Coding Meme: This meme has been brilliantly updated",
@@ -1028,6 +1028,26 @@
         "author": "andreashorn1",
         "postId": "7428132691788652544"
       }
+    },
+    {
+      "id": "b1786bad6c04e8ed",
+      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
+      "title": "The Final Bottleneck",
+      "content_html": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I feel like something is very wrong here and it\u0026#8217;s time to\nreflect.\u003c/p\u003e\n\u003ch2\u003eYou Are Here\u003c/h2\u003e\n\u003cp\u003eSoftware engineers often believe that \u003ca href=\"/2020/1/1/async-pressure/\"\u003eif we make the bathtub\nbigger\u003c/a\u003e, overflow disappears.  It doesn\u0026#8217;t.\n\u003ca href=\"https://en.wikipedia.org/wiki/OpenClaw\"\u003eOpenClaw\u003c/a\u003e right now has north of 2,500\npull requests open.  That\u0026#8217;s a big bathtub.\u003c/p\u003e\n\u003cp\u003eAnyone who has worked with queues knows this: if input grows faster than\nthroughput, you have an accumulating failure.  At that point, backpressure and\nload shedding are the only things that retain a system that can still operate.\u003c/p\u003e\n\u003cp\u003eIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the\nfeeling.  The in-store experience breaks down.  You no longer know how many\norders are ahead of you.  There is no clear line, no reliable wait estimate, and\noften no real cancellation path unless you escalate and make noise.\u003c/p\u003e\n\u003cp\u003eThat is what many AI-adjacent open source projects feel like right now.  And\nincreasingly, that is what a lot of internal company projects feel like in\n\u0026#8220;AI-first\u0026#8221; engineering teams, and that\u0026#8217;s not sustainable.  You can\u0026#8217;t triage, you\ncan\u0026#8217;t review, and many of the PRs cannot be merged after a certain point because\nthey are too far out of date. And the creator might have lost the motivation to\nactually get it merged.\u003c/p\u003e\n\u003cp\u003eThere is huge excitement about newfound delivery speed, but in private\nconversations, I keep hearing the same second sentence: people are also confused\nabout how to keep up with the pace they themselves created.\u003c/p\u003e\n\u003ch2\u003eWe Have Been Here Before\u003c/h2\u003e\n\u003cp\u003eHumanity has been here before.  Many times over.  We already talk about the\nLuddites a lot in the context of AI, but it\u0026#8217;s interesting to see what led up to\nit.  Mark Cartwright wrote a great \u003ca href=\"https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/\"\u003earticle about the textile\nindustry\u003c/a\u003e\nin Britain during the industrial revolution.  At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too.  We saw the same thing in shipping that led\nto modern automated ports and containerization.\u003c/p\u003e\n\u003cp\u003eAs software engineers we have been here too.  Assembly did not scale to larger\nengineering teams, and we had to invent higher level languages.  A lot of what\nprogramming languages and software development frameworks did was allow us\nto write code faster and to scale to larger code bases.  What it did not do up\nto this point was take away the core skill of engineering.\u003c/p\u003e\n\u003cp\u003eWhile it\u0026#8217;s definitely easier to write C than assembly, many of the core problems\nare the same.  Memory latency still matters, physics are still our ultimate\nbottleneck, algorithmic complexity still makes or breaks software at scale.\u003c/p\u003e\n\u003ch2\u003eGiving Up?\u003c/h2\u003e\n\u003cp\u003eWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput.  \u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is a great example of this.  PRs are auto closed\nunless people are trusted.  It takes \u003ca href=\"https://x.com/badlogicgames/status/2021164603506368693\"\u003eOSS\nvacations\u003c/a\u003e.  That\u0026#8217;s one\noption: you just throttle the inflow.  You push against your newfound powers\nuntil you can handle them.\u003c/p\u003e\n\u003ch2\u003eOr Giving In\u003c/h2\u003e\n\u003cp\u003eBut what if the speed continues to increase?  What downstream of writing code do\nwe have to speed up?  Sure, the pull request review clearly turns into the\nbottleneck.  But it cannot really be automated.  If the machine writes the code,\nthe machine better review the code at the same time.  So what ultimately comes\nup for human review would already have passed the most critical possible review\nof the most capable machine.  What else is in the way?  If we continue with the\nfundamental belief that machines cannot be accountable, then humans need to be\nable to understand the output of the machine.  And the machine will ship\nrelentlessly.  Support tickets of customers will go straight to machines to\nimplement improvements and fixes, for other machines to review, for humans to\nrubber stamp in the morning.\u003c/p\u003e\n\u003cp\u003eA lot of this sounds both unappealing and reminiscent of the textile industry.\nThe individual weaver no longer carried responsibility for a bad piece of cloth.\nIf it was bad, it became the responsibility of the factory as a whole and it was\njust replaced outright.  As we\u0026#8217;re entering the phase of single-use plastic\nsoftware, we might be moving the whole layer of responsibility elsewhere.\u003c/p\u003e\n\u003ch2\u003eI Am The Bottleneck\u003c/h2\u003e\n\u003cp\u003eBut to me it still feels different.  Maybe that\u0026#8217;s because my lowly brain can\u0026#8217;t\ncomprehend the change we are going through, and future generations will just\nlaugh about our challenges.  It feels different to me, because what I see taking\nplace in some Open Source projects, in some companies and teams feels deeply\nwrong and unsustainable.  Even Steve Yegge himself now \u003ca href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\"\u003ecasts\ndoubts\u003c/a\u003e about the\nsustainability of the ever-increasing pace of code creation.\u003c/p\u003e\n\u003cp\u003eSo what if we need to give in?  What if we need to pave the way for this new\ntype of engineering to become the standard?  What affordances will we have to\ncreate to make it work?  I for one do not know.  I\u0026#8217;m looking at this with\nfascination and bewilderment and trying to make sense of it.\u003c/p\u003e\n\u003cp\u003eBecause it is not the final bottleneck.  We will find ways to take\nresponsibility for what we ship, because society will demand it.  Non-sentient\nmachines will never be able to carry responsibility, and it looks like we will\nneed to deal with this problem before machines achieve this status.\nRegardless of how \u003ca href=\"https://en.wikipedia.org/wiki/Moltbook\"\u003ebizarre they appear to\nact\u003c/a\u003e already.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://x.com/thorstenball/status/2022310010391302259\"\u003eI too am the bottleneck\nnow\u003c/a\u003e.  But you know what?\nTwo years ago, I too was the bottleneck.  I was the bottleneck all along.  The\nmachine did not really change that.  And for as long as I carry responsibilities\nand am accountable, this will remain true.  If we manage to push accountability\nupwards, it might change, but so far, how that would happen is not clear.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I...",
+      "date_published": "2026-02-13T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "651438487806513b",
@@ -1104,6 +1124,20 @@
       "_signal_feed_url": "https://reorx.com/"
     },
     {
+      "id": "79caba98118d8639",
+      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
+      "title": "AI fatigue is real and nobody talks about it",
+      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
+      "date_published": "2026-02-08T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "e509decbf9709dda",
       "url": "https://www.linkedin.com/posts/hernanwyler_aimanagement-airiskmanagement-agenticai-activity-7426369346152747008-m0qt",
       "title": "AI Risk Management Framework",
@@ -1131,20 +1165,6 @@
         "author": "hernanwyler",
         "postId": "7426369346152747008"
       }
-    },
-    {
-      "id": "79caba98118d8639",
-      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
-      "title": "AI fatigue is real and nobody talks about it",
-      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
-      "date_published": "2026-02-08T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "92dc9c0bdbcacd7f",
@@ -1289,26 +1309,6 @@
       ],
       "_signal_feed_title": "fast.ai",
       "_signal_feed_url": "https://www.fast.ai/index.html"
-    },
-    {
-      "id": "e491bf97724d048d",
-      "url": "https://lucumr.pocoo.org/2026/1/27/earendil/",
-      "title": "Colin and Earendil",
-      "content_html": "\u003cp\u003eRegular readers of this blog will know that I started a new company.  We have\nput out just a \u003ca href=\"https://earendil.com/purpose/\"\u003etiny bit of information today\u003c/a\u003e,\nand some keen folks have discovered and reached out by email with many\nthoughtful responses.  It has been delightful.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://colin.day/\"\u003eColin\u003c/a\u003e and I met here, in Vienna.  We started sharing\ncoffees, ideas, and lunches, and soon found shared values despite coming from\ndifferent backgrounds and different parts of the world.  We are excited about\nthe future, but we\u0026#8217;re equally vigilant of it.  After traveling together a bit,\nwe decided to plunge into the cold water and start a company together.  We want\nto be successful, but we want to do it the right way and we want to be able to\ndemonstrate that to our kids.\u003c/p\u003e\n\u003cp\u003eVienna is a city of great history, two million inhabitants and a fascinating\nvibe that is nothing like San Francisco.  In fact, Vienna is in many ways the\npolar opposite to the Silicon Valley, both in mindset, in opportunity and\napproach to life.  Colin comes from San Francisco, and though I\u0026#8217;m Austrian, my\ncareer has been shaped by years working with California companies and people\nfrom there who used my Open Source software.  Vienna is now our shared home.\nDespite Austria being so far away from California, it is a place of tinkerers\nand troublemakers.  It\u0026#8217;s always good to remind oneself that society consists of\nmore than just your little bubble.  It also creates the necessary counter\nbalance to think in these times.\u003c/p\u003e\n\u003cp\u003eThe world that is emerging in front of our eyes is one of change.  We\nincorporated as a \u003ca href=\"https://en.wikipedia.org/wiki/Benefit_corporation\"\u003ePBC\u003c/a\u003e with\na founding charter to craft software and open protocols, strengthen human\nagency, bridge division and ignorance and to cultivate lasting joy and\nunderstanding.  Things we believe in deeply.\u003c/p\u003e\n\u003cp\u003eI have dedicated 20 years of my life in one way or another creating Open Source\nsoftware.  In the same way as artificial intelligence calls into question the\nvery nature of my profession and the way we build software, the present day\ncircumstances are testing society.  We\u0026#8217;re not immune to\nthese changes and we\u0026#8217;re navigating them like everyone else, with a mixture of\nexcitement and worry.  But we share a belief that right now is the time to stand\ntrue to one\u0026#8217;s values and principles.  We want to take an earnest shot at leaving\nthe world a better place than we found it.  Rather than reject the changes that\nare happening, we look to nudge them towards the right direction.\u003c/p\u003e\n\u003cp\u003eIf you want to follow along you can \u003ca href=\"https://earendil.com/posts/subscribe/\"\u003esubscribe to our\nnewsletter\u003c/a\u003e, written by humans not\nmachines.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eRegular readers of this blog will know that I started a new company.  We have\nput out just a \u003ca href=\"https://earendil.com/purpose/\"\u003etiny bit of information today\u003c/a\u003e,\nand some keen folks have discovered and reached out by email with many\nthoughtful responses.  It has been delightful.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://colin.day/\"\u003eColin\u003c/a\u003e and I met here, in Vienna.  We started sharing\ncoffees, ideas, and lunches, and soon found shared values despite coming from\ndifferent backgrounds and different...",
-      "date_published": "2026-01-27T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "de0d85e6d2ad9e32",
@@ -2412,20 +2412,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "407e10abdd7813b9",
-      "url": "https://siddhantkhare.com/writing/ship-share-repeat",
-      "title": "Ship. Share. Repeat.",
-      "summary": "Most people think you build skills, then market them. It turns out this is backwards. The market is always watching, and the feedback loop is so long you don't notice.",
-      "date_published": "2025-07-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "817f1e01f48d2c81",
       "url": "https://blog.d11r.eu/ai-md/",
       "title": "Why is it so hard to export Markdown from Gemini?",
@@ -2438,6 +2424,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "407e10abdd7813b9",
+      "url": "https://siddhantkhare.com/writing/ship-share-repeat",
+      "title": "Ship. Share. Repeat.",
+      "summary": "Most people think you build skills, then market them. It turns out this is backwards. The market is always watching, and the feedback loop is so long you don't notice.",
+      "date_published": "2025-07-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "a72763d4addf4d5c",
@@ -3639,5 +3639,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-04-28T19:28:28Z"
+  "_signal_generated": "2026-04-29T02:38:09Z"
 }
