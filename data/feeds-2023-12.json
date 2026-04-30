@@ -24,7 +24,7 @@
         "cloudwatch query generator"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
       "id": "90cb33132a9e409d",
@@ -63,6 +63,6 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-04-30T13:47:34Z",
+  "_signal_generated": "2026-04-30T19:16:06Z",
   "_signal_period": "2023-12"
 }
