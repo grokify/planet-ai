@@ -45,20 +45,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "b898b0c8f000fdfb",
-      "url": "https://dev.to/siddhantkcode/critical-changes-coming-to-github-actions-ubuntu-24-migration-guide-oo8",
-      "title": "Critical changes coming to GitHub Actions: Ubuntu 24 migration guide",
-      "summary": "The looming change   On November 5, 2024, GitHub announced a significant change that will...",
-      "date_published": "2024-11-10T08:14:26Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "2bf600261b253dbc",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
@@ -92,22 +78,8 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
-      "id": "ccf73b4fcfa3d6f8",
-      "url": "https://dev.to/siddhantkcode/solving-aws-ecs-connect-timeouts-configure-default-settings-easily-41n2",
-      "title": "Solving AWS ECS connect timeouts: configure default settings easily",
-      "summary": "If you've ever scratched your head over unexpected timeouts in your AWS ECS Service Connect...",
-      "date_published": "2024-11-02T08:38:09Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-04-30T08:14:47Z",
+  "_signal_generated": "2026-04-30T13:47:34Z",
   "_signal_period": "2024-11"
 }

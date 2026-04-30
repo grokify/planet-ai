@@ -153,40 +153,6 @@
       ]
     },
     {
-      "id": "f983113f6ec0d2d6",
-      "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
-      "title": "So where are all the AI apps?",
-      "summary": "Despite massive investment in AI infrastructure, we're seeing remarkably few transformative consumer AI applications emerge. The gap between AI capability and useful products suggests fundamental challenges in productizing AI.",
-      "date_published": "2026-03-24T00:00:00Z",
-      "authors": [
-        {
-          "name": "Answer.AI"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Product Development",
-        "Consumer Tech",
-        "Startups"
-      ],
-      "_signal_feed_title": "Answer.AI",
-      "_signal_feed_url": "https://www.answer.ai",
-      "_signal_priority": true,
-      "_signal_rank": 10,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47503006",
-          "id": "47503006",
-          "score": 1247
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-so-where-are-all-the-ai-apps.html"
-        }
-      ]
-    },
-    {
       "id": "1fca274ddfe6f6ca",
       "url": "https://www.bbc.com/future/article/20260324-i-tried-to-prove-im-not-an-ai-deepfake",
       "title": "I tried to prove I'm not AI. My aunt wasn't convinced",
@@ -221,6 +187,54 @@
       ]
     },
     {
+      "id": "f983113f6ec0d2d6",
+      "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
+      "title": "So where are all the AI apps?",
+      "summary": "Despite massive investment in AI infrastructure, we're seeing remarkably few transformative consumer AI applications emerge. The gap between AI capability and useful products suggests fundamental challenges in productizing AI.",
+      "date_published": "2026-03-24T00:00:00Z",
+      "authors": [
+        {
+          "name": "Answer.AI"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Product Development",
+        "Consumer Tech",
+        "Startups"
+      ],
+      "_signal_feed_title": "Answer.AI",
+      "_signal_feed_url": "https://www.answer.ai",
+      "_signal_priority": true,
+      "_signal_rank": 10,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47503006",
+          "id": "47503006",
+          "score": 1247
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-24-so-where-are-all-the-ai-apps.html"
+        }
+      ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -247,20 +261,6 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
-    },
-    {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -482,6 +482,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     }
   ],
-  "_signal_generated": "2026-04-30T08:14:47Z",
+  "_signal_generated": "2026-04-30T13:47:34Z",
   "_signal_period": "2026-03"
 }
