@@ -46,20 +46,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "407e10abdd7813b9",
-      "url": "https://siddhantkhare.com/writing/ship-share-repeat",
-      "title": "Ship. Share. Repeat.",
-      "summary": "Most people think you build skills, then market them. It turns out this is backwards. The market is always watching, and the feedback loop is so long you don't notice.",
-      "date_published": "2025-07-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "817f1e01f48d2c81",
       "url": "https://blog.d11r.eu/ai-md/",
       "title": "Why is it so hard to export Markdown from Gemini?",
@@ -72,6 +58,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "407e10abdd7813b9",
+      "url": "https://siddhantkhare.com/writing/ship-share-repeat",
+      "title": "Ship. Share. Repeat.",
+      "summary": "Most people think you build skills, then market them. It turns out this is backwards. The market is always watching, and the feedback loop is so long you don't notice.",
+      "date_published": "2025-07-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "a72763d4addf4d5c",
@@ -219,6 +219,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-05-04T13:51:41Z",
+  "_signal_generated": "2026-05-04T19:24:47Z",
   "_signal_period": "2025-07"
 }
