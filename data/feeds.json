@@ -143,18 +143,24 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "id": "6a4d9596033e0efa",
+      "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
+      "title": "The Center Has a Bias",
+      "content_html": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not necessarily wrong.  In fact, many\nof them cite studies, polls and all kinds of sources that themselves spent time\ninvestigating and surveying.  And quite legitimately they identified real\nissues: the output can be bad, the security implications are scary, the\neconomics are strange and potentially unsustainable, there is an environmental\nimpact, the social consequences are unclear, and the hype is exhausting.\u003c/p\u003e\n\u003cp\u003eBut there is something important missing from that criticism when it comes from\na position of non-use: it is too abstract.\u003c/p\u003e\n\u003cp\u003eThere is a difference between saying \u0026#8220;this looks flawed in principle\u0026#8221; and saying\n\u0026#8220;I used this enough to understand where it breaks, where it helps, and how it\nchanges my work.\u0026#8221;  The second type of criticism is expensive.  It costs time,\nfrustration, and a genuine willingness to engage.\u003c/p\u003e\n\u003cp\u003eThe enthusiast camp consists of true believers.  These are the people who\nhave adopted the technology despite its shortcomings, sometimes even because\nthey enjoy wrestling with them.  They have already decided that the tool is\nworth fitting into their lives, so they naturally end up forgiving a lot.  They\nmight not even recognize the flaws because for them the benefits or excitement\nhave already won.\u003c/p\u003e\n\u003cp\u003eBut what does the center look like?  I consider myself to be part of the center:\ncautiously excited, but also not without criticism.  By my observation though\nthat center is not neutral in the way people imagine it to be.  Its bias is not\ntowards endorsement so much as towards engagement, because the middle ground\nbetween rejecting a technology outright and embracing it fully is usually\noccupied by people willing to explore it seriously enough to judge it.\u003c/p\u003e\n\u003ch2\u003eBias on Both Sides\u003c/h2\u003e\n\u003cp\u003eThe compositions of the groups of people in the discussions about new technology\nare oddly shaped because one side has paid the cost of direct experience and the\nother has not, or not to the same degree.  That alone creates an asymmetry.\u003c/p\u003e\n\u003cp\u003eTake coding agents as an example.  If you do not use them, or at least not for\nproductive work, you can still criticize them on many grounds.  You can say they\ngenerate sloppy code, that they lower your skills, etc.  But if you have not\nactually spent serious time with them, then your view of their practical reality\nis going to be inherited from somewhere else.  You will know them through\nscreenshots, anecdotes, the most annoying users on Twitter, conference talks,\ncompany slogans, and whatever filtered back from the people who \u003cem\u003edid\u003c/em\u003e use them.\nThat is not nothing, but it is not the same as contact.\u003c/p\u003e\n\u003cp\u003eThe problem is not that such criticism is worthless.  The problem is that people\noften mistake non-use for neutrality.  It is not.  A serious opinion on a new\nlanguage, framework, device, or way of working usually has some minimum buy-in.\nYou have to cross a threshold of use before your criticism becomes grounded in\nthe thing itself rather than in its reputation.\u003c/p\u003e\n\u003cp\u003eThat threshold is inconvenient.  It asks you to spend time on something that may\nnot pay off, and to risk finding yourself at least partially won over.  It is a\nlot to ask of people.  But because that threshold exists, the measured middle is\nrarely populated by people who are perfectly indifferent to change.  It is\npopulated by people who were willing to move toward it enough in order to\nevaluate it properly.\u003c/p\u003e\n\u003cp\u003eSimultaneously, it\u0026#8217;s important to remember that usage does not automatically\ncreate wisdom.  The enthusiastic adopter might have their own distortions.  They\nmay enjoy the novelty, feel a need to justify the time they invested, or\novergeneralize from the niche where the technology works wonderfully.  They may\nsimply like progress and want to be associated with it.\u003c/p\u003e\n\u003cp\u003eThis is particularly visible with AI.  There are clearly people who have decided\nthat the future is here, all objections are temporary, and every workflow must\nnow be rebuilt around agents.  What makes AI weirder is that it\u0026#8217;s such a massive\nshift in capabilities that has triggered a tremendous injection of money, and a\nmeaningful number of adopters have bet their future on that technology.\u003c/p\u003e\n\u003cp\u003eSo if one pole is uninformed abstraction and the other is overcommitted\nenthusiasm, then surely the center must sit right in the middle between them?\u003c/p\u003e\n\u003ch2\u003eEngagement Is Not Endorsement\u003c/h2\u003e\n\u003cp\u003eThe center, I would argue, naturally needs to lean towards engagement.  The\nreason is simple: a genuinely measured opinion on a new technology requires real\nengagement with it.\u003c/p\u003e\n\u003cp\u003eYou do not get an informed view by trying something for 15 minutes, getting\nannoyed once, and returning to your previous tools.  You also do not get it by\nadmiring demos, listening to podcasts or discussing on social media.  You have\nto use it enough to get past both the first disappointment and the honeymoon\nphase.  Seemingly with AI tools, true understanding is not a matter of hours but\nweeks of investment.\u003c/p\u003e\n\u003cp\u003eThat means the people in the center are selected from a particular group: people\nwho were willing to give the thing a fair chance without yet assuming it\ndeserved a permanent place in their lives.\u003c/p\u003e\n\u003cp\u003eThat willingness is already a bias towards curiosity and experimentation which\nmakes the center look more like adopters in behavior, because exploration\nrequires use, but it does not make the center identical to enthusiasts in\njudgment.\u003c/p\u003e\n\u003cp\u003eThis matters because from the perspective of the outright rejecter, all of these\npeople can look the same.  If someone spent serious time with coding agents,\nfound them useful in some areas, harmful in others, and came away with a nuanced\nview, they may still be thrown into the same bucket as the person who thinks\nagents can do no wrong.\u003c/p\u003e\n\u003cp\u003eBut those are not the same position at all.  It\u0026#8217;s important to recognize that\nengagement with those tools does not automatically imply endorsement or at the\nvery least not blanket endorsement.\u003c/p\u003e\n\u003ch2\u003eThe Center Looks Suspicious\u003c/h2\u003e\n\u003cp\u003eThis is why discussions about new technology, and AI in particular feel so\npolarized.  The actual center is hard to see because it does not appear visually\ncentered.  From the outside, serious exploration can look a lot like adoption.\u003c/p\u003e\n\u003cp\u003eIf you map opinions onto a line, you might imagine the middle as the point\nequally distant from rejection and enthusiasm.  But in practice that is not how\nit works.  The middle is shifted toward the side of the people who have actually\ninteracted with the technology enough to say something concrete about it.  That\ndoes not mean the middle has accepted the adopter\u0026#8217;s conclusion.  It means the\nmiddle has adopted some of the adopter\u0026#8217;s behavior, because investigation\nrequires contact.\u003c/p\u003e\n\u003cp\u003eThat creates a strange effect because the people with the most grounded\ncriticism are often also adopters.  I would argue some of the best criticism of\ncoding agents right now comes from people who use them extensively.  Take\n\u003ca href=\"https://mariozechner.at/\"\u003eMario\u003c/a\u003e: he created a coding agent, yet is also one of\nthe most vocal voices of criticism in the space.  These folks can tell you in\ndetail how they fail and they can tell you where they waste time, where they\nregress code quality, where they need carefully designed tooling, where they\nonly work well in some ecosystems, and where the whole thing falls apart.\u003c/p\u003e\n\u003cp\u003eBut because those people kept using the tools long enough to learn those\nlessons, they can appear compromised to outsiders.  And worse: if they continue\nto use them, contribute thoughts and criticism back, they are increasingly\nthrown in with the same people who are devoid of any criticism.\u003c/p\u003e\n\u003ch2\u003eFailure Is Possible\u003c/h2\u003e\n\u003cp\u003eThis line of thinking could be seen as an inherent \u0026#8220;pro-innovation bias.\u0026#8221;  That\nwould be wrong, as plenty of technology deserves resistance.  Many people are\nright to resist, and sometimes the people who never gave a technology a chance\nsaw problems earlier than everyone else.  Crypto is a good reminder: plenty of\nprojects looked every bit as exciting as coding agents do now, and still\ncollapsed when the economics no longer worked.\u003c/p\u003e\n\u003cp\u003eWhat matters here is a narrower point.  The center is not biased towards novelty\nso much as towards contact with the thing that creates potential change.  The\nmiddle ground is not between use and non-use, but between refusal and commitment\nand the people in the center will often look more like adopters than skeptics,\nnot because they have already made up their minds, but because getting an\ninformed view requires exploration.\u003c/p\u003e\n\u003cp\u003eIf you want to criticize a new thing well, you first have to get close enough to\ndislike it for the right reasons.  And for some technologies, you also have to\nhang around long enough to understand what, exactly, deserves criticism.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not...",
       "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
       ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "d108ad12756728fb",
@@ -171,12 +177,26 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "6a4d9596033e0efa",
-      "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
-      "title": "The Center Has a Bias",
-      "content_html": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not necessarily wrong.  In fact, many\nof them cite studies, polls and all kinds of sources that themselves spent time\ninvestigating and surveying.  And quite legitimately they identified real\nissues: the output can be bad, the security implications are scary, the\neconomics are strange and potentially unsustainable, there is an environmental\nimpact, the social consequences are unclear, and the hype is exhausting.\u003c/p\u003e\n\u003cp\u003eBut there is something important missing from that criticism when it comes from\na position of non-use: it is too abstract.\u003c/p\u003e\n\u003cp\u003eThere is a difference between saying \u0026#8220;this looks flawed in principle\u0026#8221; and saying\n\u0026#8220;I used this enough to understand where it breaks, where it helps, and how it\nchanges my work.\u0026#8221;  The second type of criticism is expensive.  It costs time,\nfrustration, and a genuine willingness to engage.\u003c/p\u003e\n\u003cp\u003eThe enthusiast camp consists of true believers.  These are the people who\nhave adopted the technology despite its shortcomings, sometimes even because\nthey enjoy wrestling with them.  They have already decided that the tool is\nworth fitting into their lives, so they naturally end up forgiving a lot.  They\nmight not even recognize the flaws because for them the benefits or excitement\nhave already won.\u003c/p\u003e\n\u003cp\u003eBut what does the center look like?  I consider myself to be part of the center:\ncautiously excited, but also not without criticism.  By my observation though\nthat center is not neutral in the way people imagine it to be.  Its bias is not\ntowards endorsement so much as towards engagement, because the middle ground\nbetween rejecting a technology outright and embracing it fully is usually\noccupied by people willing to explore it seriously enough to judge it.\u003c/p\u003e\n\u003ch2\u003eBias on Both Sides\u003c/h2\u003e\n\u003cp\u003eThe compositions of the groups of people in the discussions about new technology\nare oddly shaped because one side has paid the cost of direct experience and the\nother has not, or not to the same degree.  That alone creates an asymmetry.\u003c/p\u003e\n\u003cp\u003eTake coding agents as an example.  If you do not use them, or at least not for\nproductive work, you can still criticize them on many grounds.  You can say they\ngenerate sloppy code, that they lower your skills, etc.  But if you have not\nactually spent serious time with them, then your view of their practical reality\nis going to be inherited from somewhere else.  You will know them through\nscreenshots, anecdotes, the most annoying users on Twitter, conference talks,\ncompany slogans, and whatever filtered back from the people who \u003cem\u003edid\u003c/em\u003e use them.\nThat is not nothing, but it is not the same as contact.\u003c/p\u003e\n\u003cp\u003eThe problem is not that such criticism is worthless.  The problem is that people\noften mistake non-use for neutrality.  It is not.  A serious opinion on a new\nlanguage, framework, device, or way of working usually has some minimum buy-in.\nYou have to cross a threshold of use before your criticism becomes grounded in\nthe thing itself rather than in its reputation.\u003c/p\u003e\n\u003cp\u003eThat threshold is inconvenient.  It asks you to spend time on something that may\nnot pay off, and to risk finding yourself at least partially won over.  It is a\nlot to ask of people.  But because that threshold exists, the measured middle is\nrarely populated by people who are perfectly indifferent to change.  It is\npopulated by people who were willing to move toward it enough in order to\nevaluate it properly.\u003c/p\u003e\n\u003cp\u003eSimultaneously, it\u0026#8217;s important to remember that usage does not automatically\ncreate wisdom.  The enthusiastic adopter might have their own distortions.  They\nmay enjoy the novelty, feel a need to justify the time they invested, or\novergeneralize from the niche where the technology works wonderfully.  They may\nsimply like progress and want to be associated with it.\u003c/p\u003e\n\u003cp\u003eThis is particularly visible with AI.  There are clearly people who have decided\nthat the future is here, all objections are temporary, and every workflow must\nnow be rebuilt around agents.  What makes AI weirder is that it\u0026#8217;s such a massive\nshift in capabilities that has triggered a tremendous injection of money, and a\nmeaningful number of adopters have bet their future on that technology.\u003c/p\u003e\n\u003cp\u003eSo if one pole is uninformed abstraction and the other is overcommitted\nenthusiasm, then surely the center must sit right in the middle between them?\u003c/p\u003e\n\u003ch2\u003eEngagement Is Not Endorsement\u003c/h2\u003e\n\u003cp\u003eThe center, I would argue, naturally needs to lean towards engagement.  The\nreason is simple: a genuinely measured opinion on a new technology requires real\nengagement with it.\u003c/p\u003e\n\u003cp\u003eYou do not get an informed view by trying something for 15 minutes, getting\nannoyed once, and returning to your previous tools.  You also do not get it by\nadmiring demos, listening to podcasts or discussing on social media.  You have\nto use it enough to get past both the first disappointment and the honeymoon\nphase.  Seemingly with AI tools, true understanding is not a matter of hours but\nweeks of investment.\u003c/p\u003e\n\u003cp\u003eThat means the people in the center are selected from a particular group: people\nwho were willing to give the thing a fair chance without yet assuming it\ndeserved a permanent place in their lives.\u003c/p\u003e\n\u003cp\u003eThat willingness is already a bias towards curiosity and experimentation which\nmakes the center look more like adopters in behavior, because exploration\nrequires use, but it does not make the center identical to enthusiasts in\njudgment.\u003c/p\u003e\n\u003cp\u003eThis matters because from the perspective of the outright rejecter, all of these\npeople can look the same.  If someone spent serious time with coding agents,\nfound them useful in some areas, harmful in others, and came away with a nuanced\nview, they may still be thrown into the same bucket as the person who thinks\nagents can do no wrong.\u003c/p\u003e\n\u003cp\u003eBut those are not the same position at all.  It\u0026#8217;s important to recognize that\nengagement with those tools does not automatically imply endorsement or at the\nvery least not blanket endorsement.\u003c/p\u003e\n\u003ch2\u003eThe Center Looks Suspicious\u003c/h2\u003e\n\u003cp\u003eThis is why discussions about new technology, and AI in particular feel so\npolarized.  The actual center is hard to see because it does not appear visually\ncentered.  From the outside, serious exploration can look a lot like adoption.\u003c/p\u003e\n\u003cp\u003eIf you map opinions onto a line, you might imagine the middle as the point\nequally distant from rejection and enthusiasm.  But in practice that is not how\nit works.  The middle is shifted toward the side of the people who have actually\ninteracted with the technology enough to say something concrete about it.  That\ndoes not mean the middle has accepted the adopter\u0026#8217;s conclusion.  It means the\nmiddle has adopted some of the adopter\u0026#8217;s behavior, because investigation\nrequires contact.\u003c/p\u003e\n\u003cp\u003eThat creates a strange effect because the people with the most grounded\ncriticism are often also adopters.  I would argue some of the best criticism of\ncoding agents right now comes from people who use them extensively.  Take\n\u003ca href=\"https://mariozechner.at/\"\u003eMario\u003c/a\u003e: he created a coding agent, yet is also one of\nthe most vocal voices of criticism in the space.  These folks can tell you in\ndetail how they fail and they can tell you where they waste time, where they\nregress code quality, where they need carefully designed tooling, where they\nonly work well in some ecosystems, and where the whole thing falls apart.\u003c/p\u003e\n\u003cp\u003eBut because those people kept using the tools long enough to learn those\nlessons, they can appear compromised to outsiders.  And worse: if they continue\nto use them, contribute thoughts and criticism back, they are increasingly\nthrown in with the same people who are devoid of any criticism.\u003c/p\u003e\n\u003ch2\u003eFailure Is Possible\u003c/h2\u003e\n\u003cp\u003eThis line of thinking could be seen as an inherent \u0026#8220;pro-innovation bias.\u0026#8221;  That\nwould be wrong, as plenty of technology deserves resistance.  Many people are\nright to resist, and sometimes the people who never gave a technology a chance\nsaw problems earlier than everyone else.  Crypto is a good reminder: plenty of\nprojects looked every bit as exciting as coding agents do now, and still\ncollapsed when the economics no longer worked.\u003c/p\u003e\n\u003cp\u003eWhat matters here is a narrower point.  The center is not biased towards novelty\nso much as towards contact with the thing that creates potential change.  The\nmiddle ground is not between use and non-use, but between refusal and commitment\nand the people in the center will often look more like adopters than skeptics,\nnot because they have already made up their minds, but because getting an\ninformed view requires exploration.\u003c/p\u003e\n\u003cp\u003eIf you want to criticize a new thing well, you first have to get close enough to\ndislike it for the right reasons.  And for some technologies, you also have to\nhang around long enough to understand what, exactly, deserves criticism.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eWhenever a new technology shows up, the conversation quickly splits into camps.\nThere are the people who reject it outright, and there are the people who seem\nto adopt it with religious enthusiasm.  For more than a year now, no topic has\nbeen more polarising than AI coding agents.\u003c/p\u003e\n\u003cp\u003eWhat I keep noticing is that a lot of the criticism directed at these tools is\nperfectly legitimate, but it often comes from people without a meaningful amount\nof direct experience with them.  They are not...",
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
       "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "0558262df33a167a",
+      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
+      "title": "Mario and Earendil",
+      "content_html": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have him on\nboard.\u003c/p\u003e\n\u003cp\u003eLast year changed the way many of us thought about software.  It certainly\nchanged the way I did.  I spent much of 2025 building, probing, and questioning\nhow to build software, and in many more ways what I want to do.  If you are a\nregular reader of this blog you were along for the ride.  I wrote a lot,\nexperimented a lot, and tried to get a better sense for what these systems can\nactually do and what kinds of companies make sense to build around them.  There\nwas, and continues to be, a lot of excitement in the air, but also a lot of\nnoise.  It has become clear to me that it\u0026#8217;s not a question of whether AI systems\ncan be useful but what kind of software and human-machine interactions we want\nto bring into the world with them.\u003c/p\u003e\n\u003cp\u003eThat is one of the reasons I have been so drawn to Mario\u0026#8217;s work and approaches.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is, in my opinion, one of the most thoughtful\ncoding agents and agent infrastructure libraries in this space.  Not because it\nis trying to be the loudest or the fastest, but because it is clearly built by\nsomeone who cares deeply about software quality, taste, extensibility, and\ndesign.  In a moment where much of the industry is racing to ship ever more\nquickly, often at the cost of coherence and craft, Mario kept insisting on\nmaking something solid. That matters to me a great deal.\u003c/p\u003e\n\u003cp\u003eI have known Mario for a long time, and one of the things I admire most about\nhim is that he does not confuse velocity with progress.  He has a strong sense\nfor what good tools should feel like.  He cares about details. He cares about\nwhether something is well made.  And he cares about building in a way that can\nlast.  Mario has been running Pi in a rather unusual way. He exerts back-pressure\non the issue tracker and the pull requests through OSS vacations and other\nmeans.\u003c/p\u003e\n\u003cp\u003eThe last year has also made something else clearer to me: these systems are not\nonly exciting, they are also capable of producing a great deal of damage.\nSometimes that damage is obvious; sometimes it looks like low-grade degradation\neverywhere at once.  More slop, more noise, more disingenuous emails in my inbox.\nThere is a version of this future that makes people more distracted, more\nalienated, and less careful with one another.\u003c/p\u003e\n\u003cp\u003eThat is not a future I want to help build.\u003c/p\u003e\n\u003cp\u003eAt Earendil, Colin and I have been trying to think very carefully about what a\ndifferent path might look like.  That is a big part of what led us to \u003ca\nhref=\"https://lefos.com/\"\u003eLefos\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eLefos is our attempt to build a machine entity that is more thoughtful and more\ndeliberate by design.  Not an agent whose main purpose is to make everything a\nlittle more efficient so that we can produce even more forgettable output, but\none that can help people communicate with more care, more clarity, and joy.\u003c/p\u003e\n\u003cp\u003eGood software should not aim to optimize every minute of your life, but should\ncreate room for better and more joyful experiences, better relationships, and\nbetter ways of relating to one another.  Especially in communication and software\nengineering, I think we should be aiming for more thought rather than more\nthroughput.  We should want tools that help people be more considerate, more\npresent, and more human.  If all we do is use these systems to accelerate the\nproduction of slop, we will have missed the opportunity entirely.\u003c/p\u003e\n\u003cp\u003eThis is also why Mario joining Earendil feels so meaningful to me.  Pi and Lefos\ncome from different starting points.  There was a year of distance collaboration,\nbut they are animated by a similar instinct: that quality matters, that design\nmatters, and that trust is earned through care rather than captured through\nhype.\u003c/p\u003e\n\u003cp\u003eI am very happy that Pi is coming along for the ride.  Me and Colin care a lot\nabout it, and we want to be good stewards of it.  It has already played an\nimportant role in our own work over the last months, and I continue to believe\nit is one of the best foundations for building capable agents.  We will have more\nto say soon about how we think about Pi\u0026#8217;s future and its relationship to Lefos,\nbut the short version is simple: we want Pi to continue to exist as a\nhigh-quality, open, extensible piece of software, and we want to invest in\nmaking that future real.  As for our thoughts of Pi\u0026#8217;s license, \u003ca href=\"https://rfc.earendil.com/0015/\"\u003eread more\nhere\u003c/a\u003e and our \u003ca\nhref=\"https://earendil.com/posts/announcement-reflection/\"\u003ecompany post\nhere\u003c/a\u003e.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have...",
+      "date_published": "2026-04-08T00:00:00Z",
       "authors": [
         {
           "name": "Armin Ronacher"
@@ -203,26 +223,6 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "0558262df33a167a",
-      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
-      "title": "Mario and Earendil",
-      "content_html": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have him on\nboard.\u003c/p\u003e\n\u003cp\u003eLast year changed the way many of us thought about software.  It certainly\nchanged the way I did.  I spent much of 2025 building, probing, and questioning\nhow to build software, and in many more ways what I want to do.  If you are a\nregular reader of this blog you were along for the ride.  I wrote a lot,\nexperimented a lot, and tried to get a better sense for what these systems can\nactually do and what kinds of companies make sense to build around them.  There\nwas, and continues to be, a lot of excitement in the air, but also a lot of\nnoise.  It has become clear to me that it\u0026#8217;s not a question of whether AI systems\ncan be useful but what kind of software and human-machine interactions we want\nto bring into the world with them.\u003c/p\u003e\n\u003cp\u003eThat is one of the reasons I have been so drawn to Mario\u0026#8217;s work and approaches.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is, in my opinion, one of the most thoughtful\ncoding agents and agent infrastructure libraries in this space.  Not because it\nis trying to be the loudest or the fastest, but because it is clearly built by\nsomeone who cares deeply about software quality, taste, extensibility, and\ndesign.  In a moment where much of the industry is racing to ship ever more\nquickly, often at the cost of coherence and craft, Mario kept insisting on\nmaking something solid. That matters to me a great deal.\u003c/p\u003e\n\u003cp\u003eI have known Mario for a long time, and one of the things I admire most about\nhim is that he does not confuse velocity with progress.  He has a strong sense\nfor what good tools should feel like.  He cares about details. He cares about\nwhether something is well made.  And he cares about building in a way that can\nlast.  Mario has been running Pi in a rather unusual way. He exerts back-pressure\non the issue tracker and the pull requests through OSS vacations and other\nmeans.\u003c/p\u003e\n\u003cp\u003eThe last year has also made something else clearer to me: these systems are not\nonly exciting, they are also capable of producing a great deal of damage.\nSometimes that damage is obvious; sometimes it looks like low-grade degradation\neverywhere at once.  More slop, more noise, more disingenuous emails in my inbox.\nThere is a version of this future that makes people more distracted, more\nalienated, and less careful with one another.\u003c/p\u003e\n\u003cp\u003eThat is not a future I want to help build.\u003c/p\u003e\n\u003cp\u003eAt Earendil, Colin and I have been trying to think very carefully about what a\ndifferent path might look like.  That is a big part of what led us to \u003ca\nhref=\"https://lefos.com/\"\u003eLefos\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eLefos is our attempt to build a machine entity that is more thoughtful and more\ndeliberate by design.  Not an agent whose main purpose is to make everything a\nlittle more efficient so that we can produce even more forgettable output, but\none that can help people communicate with more care, more clarity, and joy.\u003c/p\u003e\n\u003cp\u003eGood software should not aim to optimize every minute of your life, but should\ncreate room for better and more joyful experiences, better relationships, and\nbetter ways of relating to one another.  Especially in communication and software\nengineering, I think we should be aiming for more thought rather than more\nthroughput.  We should want tools that help people be more considerate, more\npresent, and more human.  If all we do is use these systems to accelerate the\nproduction of slop, we will have missed the opportunity entirely.\u003c/p\u003e\n\u003cp\u003eThis is also why Mario joining Earendil feels so meaningful to me.  Pi and Lefos\ncome from different starting points.  There was a year of distance collaboration,\nbut they are animated by a similar instinct: that quality matters, that design\nmatters, and that trust is earned through care rather than captured through\nhype.\u003c/p\u003e\n\u003cp\u003eI am very happy that Pi is coming along for the ride.  Me and Colin care a lot\nabout it, and we want to be good stewards of it.  It has already played an\nimportant role in our own work over the last months, and I continue to believe\nit is one of the best foundations for building capable agents.  We will have more\nto say soon about how we think about Pi\u0026#8217;s future and its relationship to Lefos,\nbut the short version is simple: we want Pi to continue to exist as a\nhigh-quality, open, extensible piece of software, and we want to invest in\nmaking that future real.  As for our thoughts of Pi\u0026#8217;s license, \u003ca href=\"https://rfc.earendil.com/0015/\"\u003eread more\nhere\u003c/a\u003e and our \u003ca\nhref=\"https://earendil.com/posts/announcement-reflection/\"\u003ecompany post\nhere\u003c/a\u003e.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eToday I\u0026#8217;m very happy to share that Mario Zechner is joining \u003ca\nhref=\"https://earendil.com/\"\u003eEarendil\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eFirst things first: I think you should \u003ca href=\"https://mariozechner.at/posts/2026-04-08-ive-sold-out/\"\u003eread Mario\u0026#8217;s\npost\u003c/a\u003e.  This is his news\nmore than it is ours, and he tells his side of it better than I could.  What I\nwant to do here is add a more personal note about why this matters so much to\nme, how the last months led us here, and why I am so excited to have...",
-      "date_published": "2026-04-08T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "2b81f57c03a5159c",
@@ -1881,6 +1881,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -1893,19 +1906,6 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "5aa636aeaa43d614",
@@ -2282,20 +2282,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "9f8a4ed77531e598",
-      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
-      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
-      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
-      "date_published": "2025-08-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "da2a377cc538381d",
       "url": "https://blog.d11r.eu/energy-beginners-guide/",
       "title": "Energy, a Beginner's Guide (notes)",
@@ -2308,6 +2294,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "9f8a4ed77531e598",
+      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
+      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
+      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
+      "date_published": "2025-08-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "d06d7a99f1ad4dcc",
@@ -3508,20 +3508,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "8d07cbef0a5ec80b",
-      "url": "https://blog.d11r.eu/cryo/",
-      "title": "I signed up for cryonics",
-      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "fb26376b39bda9a7",
       "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
       "title": "Two years in review",
@@ -3534,6 +3520,20 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "8d07cbef0a5ec80b",
+      "url": "https://blog.d11r.eu/cryo/",
+      "title": "I signed up for cryonics",
+      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -3625,5 +3625,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-05T02:29:18Z"
+  "_signal_generated": "2026-05-05T08:04:24Z"
 }
