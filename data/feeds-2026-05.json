@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "ccd5abd866b0cc0c",
+      "url": "https://siddhantkhare.com/writing/bangalore-is-not-an-upgrade",
+      "title": "Bangalore is not an upgrade",
+      "summary": "I turned down two roles at global tech companies this year. Not because of the money. Because of relocation. The assumption global companies keep getting wrong about hiring in India.",
+      "date_published": "2026-05-14T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "bd84553b2b351ea3",
       "url": "https://lucumr.pocoo.org/2026/5/8/local-models/",
       "title": "Pushing Local Models With Focus And Polish",
@@ -43,6 +57,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-05-14T14:02:16Z",
+  "_signal_generated": "2026-05-14T19:41:57Z",
   "_signal_period": "2026-05"
 }

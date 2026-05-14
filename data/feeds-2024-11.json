@@ -31,20 +31,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "3887cde454de1800",
-      "url": "https://dev.to/siddhantkcode/building-smarter-docker-images-for-your-development-environments-with-pants-51al",
-      "title": "Building smarter Docker Images for your development environments with Pants 🚀",
-      "summary": "When you think about Docker, what comes to mind? Is it containerized apps for production? Maybe...",
-      "date_published": "2024-11-17T09:58:27Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "2bf600261b253dbc",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
@@ -80,6 +66,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-14T14:02:16Z",
+  "_signal_generated": "2026-05-14T19:41:57Z",
   "_signal_period": "2024-11"
 }
