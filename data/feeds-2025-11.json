@@ -138,7 +138,7 @@
       "id": "b5fe591087edd49d",
       "url": "https://lalitm.com/page/about/",
       "title": "About",
-      "summary": "\u003cp\u003eI\u0026rsquo;m a Senior Staff Software Engineer at Google working on\n\u003ca href=\"https://docs.perfetto.dev\"\u003ePerfetto\u003c/a\u003e, an open source suite of tools for\nperformance tracing and analysis. I joined Perfetto as a founding engineer in\n2017 and have been part of the project ever since.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m passionate about performance, open-source and especially the intersection of\nthose two domains. I\u0026rsquo;m also generally interested in AI/LLMs and how they are\nchanging the software engineering industry.\u003c/p\u003e\n\u003cp\u003eIf you\u0026rsquo;re interested in learning more, my public resume is\n\u003ca href=\"https://lalitm.com/Website_CV.pdf\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003ch2 id=\"contact\"\u003eContact\u003c/h2\u003e\n\u003cp\u003eHearing from readers is one of the best parts of writing, so please reach out if\nsomething resonates with you or you want to discuss any of the topics I write\nabout.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eEmail:\u003c/strong\u003e \u003ca href=\"mailto:lalitmaganti@gmail.com\"\u003elalitmaganti@gmail.com\u003c/a\u003e - I try to\nrespond to everything.\u003c/p\u003e\n\u003cp\u003eYou can also find me on:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eGitHub:\u003c/strong\u003e \u003ca href=\"https://github.com/LalitMaganti\"\u003eLalitMaganti\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eLinkedIn:\u003c/strong\u003e\n\u003ca href=\"https://www.linkedin.com/in/lalit-maganti-18b73a9a\"\u003elalit-maganti\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eMastodon:\u003c/strong\u003e \u003ca href=\"https://fedi.lalitm.com/@lalitm\"\u003e@lalitm@fedi.lalitm.com\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBluesky:\u003c/strong\u003e \u003ca href=\"https://bsky.app/profile/lalitm.com\"\u003elalitm.com\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"feeds\"\u003eFeeds\u003c/h2\u003e\n\u003cp\u003eYou can subscribe to updates via:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAtom:\u003c/strong\u003e \u003ca href=\"https://lalitm.com/atom.xml\"\u003e/atom.xml\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRSS:\u003c/strong\u003e \u003ca href=\"https://lalitm.com/index.xml\"\u003e/index.xml\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTag-specific feeds are also available. For example,\n\u003ca href=\"https://lalitm.com/tags/software-engineering/atom.xml\"\u003e#software-engineering\u003c/a\u003e or\n\u003ca href=\"https://lalitm.com/tags/perfetto/atom.xml\"\u003e#perfetto\u003c/a\u003e. Just add \u003ccode\u003e/atom.xml\u003c/code\u003e or \u003ccode\u003e/index.xml\u003c/code\u003e to\nany tag page URL.\u003c/p\u003e",
+      "summary": "\u003cp\u003eI\u0026rsquo;m a Senior Staff Software Engineer at Google working on\n\u003ca href=\"https://docs.perfetto.dev\"\u003ePerfetto\u003c/a\u003e, an open source suite of tools for\nperformance tracing and analysis. I joined Perfetto as a founding engineer in\n2017 and have been part of the project ever since.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m passionate about performance, open-source and especially the intersection of\nthose two domains. I\u0026rsquo;m also generally interested in AI/LLMs and how they are\nchanging the software engineering industry.\u003c/p\u003e\n\u003cp\u003eIf you\u0026rsquo;re interested in learning more, my public resume is\n\u003ca href=\"https://lalitm.com/Website_CV.pdf\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003ch2 id=\"contact\"\u003eContact\u003c/h2\u003e\n\u003cp\u003eHearing from readers is one of the best parts of writing, so please reach out if\nsomething resonates with you or you want to discuss any of the topics I write\nabout.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eEmail:\u003c/strong\u003e \u003ca href=\"mailto:lalitmaganti@gmail.com\"\u003elalitmaganti@gmail.com\u003c/a\u003e - I try to\nrespond to everything.\u003c/p\u003e\n\u003cp\u003eYou can also find me on:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eGitHub:\u003c/strong\u003e \u003ca href=\"https://github.com/LalitMaganti\"\u003eLalitMaganti\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eMastodon:\u003c/strong\u003e \u003ca href=\"https://fedi.lalitm.com/@lalitm\"\u003e@lalitm@fedi.lalitm.com\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBluesky:\u003c/strong\u003e \u003ca href=\"https://bsky.app/profile/lalitm.com\"\u003elalitm.com\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eX\u003c/strong\u003e: \u003ca href=\"https://x.com/LalitMaganti\"\u003eLalitMaganti\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eLinkedIn:\u003c/strong\u003e\n\u003ca href=\"https://www.linkedin.com/in/lalit-maganti-18b73a9a\"\u003elalit-maganti\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"feeds\"\u003eFeeds\u003c/h2\u003e\n\u003cp\u003eYou can subscribe to updates via:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAtom:\u003c/strong\u003e \u003ca href=\"https://lalitm.com/atom.xml\"\u003e/atom.xml\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRSS:\u003c/strong\u003e \u003ca href=\"https://lalitm.com/index.xml\"\u003e/index.xml\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTag-specific feeds are also available. For example,\n\u003ca href=\"https://lalitm.com/tags/software-engineering/atom.xml\"\u003e#software-engineering\u003c/a\u003e or\n\u003ca href=\"https://lalitm.com/tags/perfetto/atom.xml\"\u003e#perfetto\u003c/a\u003e. Just add \u003ccode\u003e/atom.xml\u003c/code\u003e or \u003ccode\u003e/index.xml\u003c/code\u003e to\nany tag page URL.\u003c/p\u003e",
       "date_published": "2025-11-04T13:16:00Z",
       "tags": [
         "Programming",
@@ -177,6 +177,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -189,21 +202,8 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-05-16T13:15:22Z",
+  "_signal_generated": "2026-05-16T19:00:26Z",
   "_signal_period": "2025-11"
 }

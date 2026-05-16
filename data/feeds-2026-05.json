@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "df9648dd8294b8eb",
+      "url": "https://lalitm.com/post/dont-answer-the-first-question/",
+      "title": "Don't answer the first question",
+      "summary": "\u003cp\u003eIn my work on Perfetto, a performance debugging tool, one question I get often\nis: “how do I split a Perfetto trace into multiple files?” Instead of answering\ndirectly, I say: “there isn’t an easy way to do that, but what’s leading you to\ncollect traces large enough to want to split?”\u003c/p\u003e\n\u003cp\u003eThis is one of my golden rules at work. When a user asks me something \u0026ldquo;weird\u0026rdquo;:\n\u003cem\u003edon\u0026rsquo;t answer the first version of the question\u003c/em\u003e.\u003c/p\u003e\n\u003cp\u003eOn the surface this might appear like I\u0026rsquo;m talking about the\n\u003ca href=\"https://en.wikipedia.org/wiki/XY_problem\"\u003eXY problem\u003c/a\u003e, but that stops one step\nshort. It treats the user\u0026rsquo;s stated question as a puzzle to decode: figure out\nwhat they really meant, answer that, move on. I think we can go much further.\u003c/p\u003e\n\u003cp\u003eInstead, the confusion that produced the wrong question is itself an opening,\nand the conversation it sparks is valuable to both sides. The user walks away\nwith a better mental model of the tool. I walk away with a clearer picture of\nwhere the product confuses people. And sometimes, between us, we figure out that\nthe product itself needs to change.\u003c/p\u003e",
+      "date_published": "2026-05-16T13:19:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "ccd5abd866b0cc0c",
       "url": "https://siddhantkhare.com/writing/bangalore-is-not-an-upgrade",
       "title": "Bangalore is not an upgrade",
@@ -57,6 +71,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-05-16T13:15:22Z",
+  "_signal_generated": "2026-05-16T19:00:26Z",
   "_signal_period": "2026-05"
 }
