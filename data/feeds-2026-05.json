@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "e2e2c9f4f36ecfc8",
+      "url": "https://lalitm.com/post/which-country-voted-best-at-eurovision/",
+      "title": "Which country voted the best at Eurovision?",
+      "summary": "\u003cp\u003eEurovision was on yesterday. I\u0026rsquo;ve never been interested much in the musical side\nbut the weird political dynamics of Eurovision voting have always fascinated me;\nI tune in each year just for them and somewhat snarky commentary of Graham\nNorton, the UK commentator.\u003c/p\u003e\n\u003cp\u003eAs I was watching the jury votes come in, a question popped into my head: Which\ncountry has \u003cem\u003evoted\u003c/em\u003e the best in Eurovision? That is, which country was best at\npicking the eventual top 10 and in the right order?\u003c/p\u003e\n\u003cp\u003eStrangely enough, while there\u0026rsquo;s\n\u003ca href=\"https://en.wikipedia.org/wiki/Voting_at_the_Eurovision_Song_Contest#Regional_bloc_voting\"\u003eplenty\u003c/a\u003e\n\u003ca href=\"https://arxiv.org/abs/physics/0505071\"\u003eof\u003c/a\u003e\n\u003ca href=\"https://www.jasss.org/9/2/1.html\"\u003ework\u003c/a\u003e on voting blocs and bilateral biases at\nEurovision, most of it asks \u003cem\u003ewho votes for whom\u003c/em\u003e; I wanted to ask \u003cem\u003ewho votes\naccurately\u003c/em\u003e. I couldn\u0026rsquo;t find anyone asking the question that way, so I decided\nto do some data analysis myself.\u003c/p\u003e\n\u003ch2 id=\"the-metric\"\u003eThe metric\u003c/h2\u003e\n\u003cp\u003eTo begin to answer this question, I first needed to formalize what \u0026ldquo;best\u0026rdquo; even\nmeans. That is, some mathematical notion of \u0026ldquo;good\u0026rdquo; and \u0026ldquo;bad\u0026rdquo;.\u003c/p\u003e",
+      "date_published": "2026-05-17T14:30:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "df9648dd8294b8eb",
       "url": "https://lalitm.com/post/dont-answer-the-first-question/",
       "title": "Don't answer the first question",
@@ -71,6 +85,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-05-17T13:13:39Z",
+  "_signal_generated": "2026-05-17T19:04:15Z",
   "_signal_period": "2026-05"
 }

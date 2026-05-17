@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "e2e2c9f4f36ecfc8",
+      "url": "https://lalitm.com/post/which-country-voted-best-at-eurovision/",
+      "title": "Which country voted the best at Eurovision?",
+      "summary": "\u003cp\u003eEurovision was on yesterday. I\u0026rsquo;ve never been interested much in the musical side\nbut the weird political dynamics of Eurovision voting have always fascinated me;\nI tune in each year just for them and somewhat snarky commentary of Graham\nNorton, the UK commentator.\u003c/p\u003e\n\u003cp\u003eAs I was watching the jury votes come in, a question popped into my head: Which\ncountry has \u003cem\u003evoted\u003c/em\u003e the best in Eurovision? That is, which country was best at\npicking the eventual top 10 and in the right order?\u003c/p\u003e\n\u003cp\u003eStrangely enough, while there\u0026rsquo;s\n\u003ca href=\"https://en.wikipedia.org/wiki/Voting_at_the_Eurovision_Song_Contest#Regional_bloc_voting\"\u003eplenty\u003c/a\u003e\n\u003ca href=\"https://arxiv.org/abs/physics/0505071\"\u003eof\u003c/a\u003e\n\u003ca href=\"https://www.jasss.org/9/2/1.html\"\u003ework\u003c/a\u003e on voting blocs and bilateral biases at\nEurovision, most of it asks \u003cem\u003ewho votes for whom\u003c/em\u003e; I wanted to ask \u003cem\u003ewho votes\naccurately\u003c/em\u003e. I couldn\u0026rsquo;t find anyone asking the question that way, so I decided\nto do some data analysis myself.\u003c/p\u003e\n\u003ch2 id=\"the-metric\"\u003eThe metric\u003c/h2\u003e\n\u003cp\u003eTo begin to answer this question, I first needed to formalize what \u0026ldquo;best\u0026rdquo; even\nmeans. That is, some mathematical notion of \u0026ldquo;good\u0026rdquo; and \u0026ldquo;bad\u0026rdquo;.\u003c/p\u003e",
+      "date_published": "2026-05-17T14:30:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "df9648dd8294b8eb",
       "url": "https://lalitm.com/post/dont-answer-the-first-question/",
       "title": "Don't answer the first question",
@@ -191,18 +205,18 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "d108ad12756728fb",
-      "url": "https://blog.d11r.eu/meetup-2026/",
-      "title": "Scott Alexander gentrified my meetup",
-      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
       "date_published": "2026-04-11T00:00:00Z",
       "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
+        "Tech",
+        "Development",
+        "AI"
       ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a4d9596033e0efa",
@@ -225,18 +239,18 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "id": "d108ad12756728fb",
+      "url": "https://blog.d11r.eu/meetup-2026/",
+      "title": "Scott Alexander gentrified my meetup",
+      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
       "date_published": "2026-04-11T00:00:00Z",
       "tags": [
-        "Tech",
-        "Development",
-        "AI"
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
       ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -329,6 +343,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "2f94f34d611e2b19",
+      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
+      "title": "Tracing what agents do, not what they say",
+      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "db39221616f75d2d",
       "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
       "title": "Absurd In Production",
@@ -347,20 +375,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "2f94f34d611e2b19",
-      "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
-      "title": "Tracing what agents do, not what they say",
-      "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "068253b9db3bc029",
@@ -605,20 +619,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -645,6 +645,20 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "tags": [
+        "Tech",
+        "Development",
+        "AI"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -963,34 +977,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
-      "id": "44285a565700fb09",
-      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
-      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
-      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
-      "date_published": "2026-02-19T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ben Gregory"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Engineering",
-        "Product Development"
-      ],
-      "_signal_feed_title": "Kasava Blog",
-      "_signal_feed_url": "https://www.kasava.dev/blog",
-      "_signal_priority": true,
-      "_signal_rank": 3,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47078324",
-          "id": "47078324"
-        }
-      ]
-    },
-    {
       "id": "fc44166e3e729564",
       "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
       "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
@@ -1016,6 +1002,34 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=47086557",
           "id": "47086557"
+        }
+      ]
+    },
+    {
+      "id": "44285a565700fb09",
+      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
+      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
+      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
+      "date_published": "2026-02-19T00:00:00Z",
+      "authors": [
+        {
+          "name": "Ben Gregory"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Engineering",
+        "Product Development"
+      ],
+      "_signal_feed_title": "Kasava Blog",
+      "_signal_feed_url": "https://www.kasava.dev/blog",
+      "_signal_priority": true,
+      "_signal_rank": 3,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47078324",
+          "id": "47078324"
         }
       ]
     },
@@ -1098,26 +1112,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "b1786bad6c04e8ed",
-      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
-      "title": "The Final Bottleneck",
-      "content_html": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I feel like something is very wrong here and it\u0026#8217;s time to\nreflect.\u003c/p\u003e\n\u003ch2\u003eYou Are Here\u003c/h2\u003e\n\u003cp\u003eSoftware engineers often believe that \u003ca href=\"/2020/1/1/async-pressure/\"\u003eif we make the bathtub\nbigger\u003c/a\u003e, overflow disappears.  It doesn\u0026#8217;t.\n\u003ca href=\"https://en.wikipedia.org/wiki/OpenClaw\"\u003eOpenClaw\u003c/a\u003e right now has north of 2,500\npull requests open.  That\u0026#8217;s a big bathtub.\u003c/p\u003e\n\u003cp\u003eAnyone who has worked with queues knows this: if input grows faster than\nthroughput, you have an accumulating failure.  At that point, backpressure and\nload shedding are the only things that retain a system that can still operate.\u003c/p\u003e\n\u003cp\u003eIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the\nfeeling.  The in-store experience breaks down.  You no longer know how many\norders are ahead of you.  There is no clear line, no reliable wait estimate, and\noften no real cancellation path unless you escalate and make noise.\u003c/p\u003e\n\u003cp\u003eThat is what many AI-adjacent open source projects feel like right now.  And\nincreasingly, that is what a lot of internal company projects feel like in\n\u0026#8220;AI-first\u0026#8221; engineering teams, and that\u0026#8217;s not sustainable.  You can\u0026#8217;t triage, you\ncan\u0026#8217;t review, and many of the PRs cannot be merged after a certain point because\nthey are too far out of date. And the creator might have lost the motivation to\nactually get it merged.\u003c/p\u003e\n\u003cp\u003eThere is huge excitement about newfound delivery speed, but in private\nconversations, I keep hearing the same second sentence: people are also confused\nabout how to keep up with the pace they themselves created.\u003c/p\u003e\n\u003ch2\u003eWe Have Been Here Before\u003c/h2\u003e\n\u003cp\u003eHumanity has been here before.  Many times over.  We already talk about the\nLuddites a lot in the context of AI, but it\u0026#8217;s interesting to see what led up to\nit.  Mark Cartwright wrote a great \u003ca href=\"https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/\"\u003earticle about the textile\nindustry\u003c/a\u003e\nin Britain during the industrial revolution.  At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too.  We saw the same thing in shipping that led\nto modern automated ports and containerization.\u003c/p\u003e\n\u003cp\u003eAs software engineers we have been here too.  Assembly did not scale to larger\nengineering teams, and we had to invent higher level languages.  A lot of what\nprogramming languages and software development frameworks did was allow us\nto write code faster and to scale to larger code bases.  What it did not do up\nto this point was take away the core skill of engineering.\u003c/p\u003e\n\u003cp\u003eWhile it\u0026#8217;s definitely easier to write C than assembly, many of the core problems\nare the same.  Memory latency still matters, physics are still our ultimate\nbottleneck, algorithmic complexity still makes or breaks software at scale.\u003c/p\u003e\n\u003ch2\u003eGiving Up?\u003c/h2\u003e\n\u003cp\u003eWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput.  \u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is a great example of this.  PRs are auto closed\nunless people are trusted.  It takes \u003ca href=\"https://x.com/badlogicgames/status/2021164603506368693\"\u003eOSS\nvacations\u003c/a\u003e.  That\u0026#8217;s one\noption: you just throttle the inflow.  You push against your newfound powers\nuntil you can handle them.\u003c/p\u003e\n\u003ch2\u003eOr Giving In\u003c/h2\u003e\n\u003cp\u003eBut what if the speed continues to increase?  What downstream of writing code do\nwe have to speed up?  Sure, the pull request review clearly turns into the\nbottleneck.  But it cannot really be automated.  If the machine writes the code,\nthe machine better review the code at the same time.  So what ultimately comes\nup for human review would already have passed the most critical possible review\nof the most capable machine.  What else is in the way?  If we continue with the\nfundamental belief that machines cannot be accountable, then humans need to be\nable to understand the output of the machine.  And the machine will ship\nrelentlessly.  Support tickets of customers will go straight to machines to\nimplement improvements and fixes, for other machines to review, for humans to\nrubber stamp in the morning.\u003c/p\u003e\n\u003cp\u003eA lot of this sounds both unappealing and reminiscent of the textile industry.\nThe individual weaver no longer carried responsibility for a bad piece of cloth.\nIf it was bad, it became the responsibility of the factory as a whole and it was\njust replaced outright.  As we\u0026#8217;re entering the phase of single-use plastic\nsoftware, we might be moving the whole layer of responsibility elsewhere.\u003c/p\u003e\n\u003ch2\u003eI Am The Bottleneck\u003c/h2\u003e\n\u003cp\u003eBut to me it still feels different.  Maybe that\u0026#8217;s because my lowly brain can\u0026#8217;t\ncomprehend the change we are going through, and future generations will just\nlaugh about our challenges.  It feels different to me, because what I see taking\nplace in some Open Source projects, in some companies and teams feels deeply\nwrong and unsustainable.  Even Steve Yegge himself now \u003ca href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\"\u003ecasts\ndoubts\u003c/a\u003e about the\nsustainability of the ever-increasing pace of code creation.\u003c/p\u003e\n\u003cp\u003eSo what if we need to give in?  What if we need to pave the way for this new\ntype of engineering to become the standard?  What affordances will we have to\ncreate to make it work?  I for one do not know.  I\u0026#8217;m looking at this with\nfascination and bewilderment and trying to make sense of it.\u003c/p\u003e\n\u003cp\u003eBecause it is not the final bottleneck.  We will find ways to take\nresponsibility for what we ship, because society will demand it.  Non-sentient\nmachines will never be able to carry responsibility, and it looks like we will\nneed to deal with this problem before machines achieve this status.\nRegardless of how \u003ca href=\"https://en.wikipedia.org/wiki/Moltbook\"\u003ebizarre they appear to\nact\u003c/a\u003e already.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://x.com/thorstenball/status/2022310010391302259\"\u003eI too am the bottleneck\nnow\u003c/a\u003e.  But you know what?\nTwo years ago, I too was the bottleneck.  I was the bottleneck all along.  The\nmachine did not really change that.  And for as long as I carry responsibilities\nand am accountable, this will remain true.  If we manage to push accountability\nupwards, it might change, but so far, how that would happen is not clear.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I...",
-      "date_published": "2026-02-13T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "36bd5906510b9d9e",
       "url": "https://www.linkedin.com/posts/andreashorn1_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%97%AF%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%B9%F0%9D%98%86-activity-7428132691788652544-6Vv_",
       "title": "AI Coding Meme: This meme has been brilliantly updated",
@@ -1144,6 +1138,26 @@
         "author": "andreashorn1",
         "postId": "7428132691788652544"
       }
+    },
+    {
+      "id": "b1786bad6c04e8ed",
+      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
+      "title": "The Final Bottleneck",
+      "content_html": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I feel like something is very wrong here and it\u0026#8217;s time to\nreflect.\u003c/p\u003e\n\u003ch2\u003eYou Are Here\u003c/h2\u003e\n\u003cp\u003eSoftware engineers often believe that \u003ca href=\"/2020/1/1/async-pressure/\"\u003eif we make the bathtub\nbigger\u003c/a\u003e, overflow disappears.  It doesn\u0026#8217;t.\n\u003ca href=\"https://en.wikipedia.org/wiki/OpenClaw\"\u003eOpenClaw\u003c/a\u003e right now has north of 2,500\npull requests open.  That\u0026#8217;s a big bathtub.\u003c/p\u003e\n\u003cp\u003eAnyone who has worked with queues knows this: if input grows faster than\nthroughput, you have an accumulating failure.  At that point, backpressure and\nload shedding are the only things that retain a system that can still operate.\u003c/p\u003e\n\u003cp\u003eIf you have ever been in a Starbucks overwhelmed by mobile orders, you know the\nfeeling.  The in-store experience breaks down.  You no longer know how many\norders are ahead of you.  There is no clear line, no reliable wait estimate, and\noften no real cancellation path unless you escalate and make noise.\u003c/p\u003e\n\u003cp\u003eThat is what many AI-adjacent open source projects feel like right now.  And\nincreasingly, that is what a lot of internal company projects feel like in\n\u0026#8220;AI-first\u0026#8221; engineering teams, and that\u0026#8217;s not sustainable.  You can\u0026#8217;t triage, you\ncan\u0026#8217;t review, and many of the PRs cannot be merged after a certain point because\nthey are too far out of date. And the creator might have lost the motivation to\nactually get it merged.\u003c/p\u003e\n\u003cp\u003eThere is huge excitement about newfound delivery speed, but in private\nconversations, I keep hearing the same second sentence: people are also confused\nabout how to keep up with the pace they themselves created.\u003c/p\u003e\n\u003ch2\u003eWe Have Been Here Before\u003c/h2\u003e\n\u003cp\u003eHumanity has been here before.  Many times over.  We already talk about the\nLuddites a lot in the context of AI, but it\u0026#8217;s interesting to see what led up to\nit.  Mark Cartwright wrote a great \u003ca href=\"https://www.worldhistory.org/article/2183/the-textile-industry-in-the-british-industrial-rev/\"\u003earticle about the textile\nindustry\u003c/a\u003e\nin Britain during the industrial revolution.  At its core was a simple idea:\nwhenever a bottleneck was removed, innovation happened downstream from that.\nWeaving sped up? Yarn became the constraint. Faster spinning? Fibre needed to be\nimproved to support the new speeds until finally the demand for cotton went up\nand that had to be automated too.  We saw the same thing in shipping that led\nto modern automated ports and containerization.\u003c/p\u003e\n\u003cp\u003eAs software engineers we have been here too.  Assembly did not scale to larger\nengineering teams, and we had to invent higher level languages.  A lot of what\nprogramming languages and software development frameworks did was allow us\nto write code faster and to scale to larger code bases.  What it did not do up\nto this point was take away the core skill of engineering.\u003c/p\u003e\n\u003cp\u003eWhile it\u0026#8217;s definitely easier to write C than assembly, many of the core problems\nare the same.  Memory latency still matters, physics are still our ultimate\nbottleneck, algorithmic complexity still makes or breaks software at scale.\u003c/p\u003e\n\u003ch2\u003eGiving Up?\u003c/h2\u003e\n\u003cp\u003eWhen one part of the pipeline becomes dramatically faster, you need to throttle\ninput.  \u003ca href=\"https://pi.dev/\"\u003ePi\u003c/a\u003e is a great example of this.  PRs are auto closed\nunless people are trusted.  It takes \u003ca href=\"https://x.com/badlogicgames/status/2021164603506368693\"\u003eOSS\nvacations\u003c/a\u003e.  That\u0026#8217;s one\noption: you just throttle the inflow.  You push against your newfound powers\nuntil you can handle them.\u003c/p\u003e\n\u003ch2\u003eOr Giving In\u003c/h2\u003e\n\u003cp\u003eBut what if the speed continues to increase?  What downstream of writing code do\nwe have to speed up?  Sure, the pull request review clearly turns into the\nbottleneck.  But it cannot really be automated.  If the machine writes the code,\nthe machine better review the code at the same time.  So what ultimately comes\nup for human review would already have passed the most critical possible review\nof the most capable machine.  What else is in the way?  If we continue with the\nfundamental belief that machines cannot be accountable, then humans need to be\nable to understand the output of the machine.  And the machine will ship\nrelentlessly.  Support tickets of customers will go straight to machines to\nimplement improvements and fixes, for other machines to review, for humans to\nrubber stamp in the morning.\u003c/p\u003e\n\u003cp\u003eA lot of this sounds both unappealing and reminiscent of the textile industry.\nThe individual weaver no longer carried responsibility for a bad piece of cloth.\nIf it was bad, it became the responsibility of the factory as a whole and it was\njust replaced outright.  As we\u0026#8217;re entering the phase of single-use plastic\nsoftware, we might be moving the whole layer of responsibility elsewhere.\u003c/p\u003e\n\u003ch2\u003eI Am The Bottleneck\u003c/h2\u003e\n\u003cp\u003eBut to me it still feels different.  Maybe that\u0026#8217;s because my lowly brain can\u0026#8217;t\ncomprehend the change we are going through, and future generations will just\nlaugh about our challenges.  It feels different to me, because what I see taking\nplace in some Open Source projects, in some companies and teams feels deeply\nwrong and unsustainable.  Even Steve Yegge himself now \u003ca href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\"\u003ecasts\ndoubts\u003c/a\u003e about the\nsustainability of the ever-increasing pace of code creation.\u003c/p\u003e\n\u003cp\u003eSo what if we need to give in?  What if we need to pave the way for this new\ntype of engineering to become the standard?  What affordances will we have to\ncreate to make it work?  I for one do not know.  I\u0026#8217;m looking at this with\nfascination and bewilderment and trying to make sense of it.\u003c/p\u003e\n\u003cp\u003eBecause it is not the final bottleneck.  We will find ways to take\nresponsibility for what we ship, because society will demand it.  Non-sentient\nmachines will never be able to carry responsibility, and it looks like we will\nneed to deal with this problem before machines achieve this status.\nRegardless of how \u003ca href=\"https://en.wikipedia.org/wiki/Moltbook\"\u003ebizarre they appear to\nact\u003c/a\u003e already.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://x.com/thorstenball/status/2022310010391302259\"\u003eI too am the bottleneck\nnow\u003c/a\u003e.  But you know what?\nTwo years ago, I too was the bottleneck.  I was the bottleneck all along.  The\nmachine did not really change that.  And for as long as I carry responsibilities\nand am accountable, this will remain true.  If we manage to push accountability\nupwards, it might change, but so far, how that would happen is not clear.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eHistorically, writing code was slower than reviewing code.\u003c/p\u003e\n\u003cp\u003eIt might not have felt that way, because code reviews sat in queues until\nsomeone got around to picking it up.  But if you compare the\nactual acts themselves, creation was usually the more expensive part.  In teams\nwhere people both wrote and reviewed code, it never felt like \u0026#8220;we should\nprobably program slower.\u0026#8221;\u003c/p\u003e\n\u003cp\u003eSo when more and more people tell me they no longer know what code is in their\nown codebase, I...",
+      "date_published": "2026-02-13T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "651438487806513b",
@@ -3522,20 +3536,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "fb26376b39bda9a7",
-      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
-      "title": "Two years in review",
-      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "8d07cbef0a5ec80b",
       "url": "https://blog.d11r.eu/cryo/",
       "title": "I signed up for cryonics",
@@ -3548,6 +3548,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "fb26376b39bda9a7",
+      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
+      "title": "Two years in review",
+      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -3639,5 +3653,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-17T13:13:39Z"
+  "_signal_generated": "2026-05-17T19:04:15Z"
 }
