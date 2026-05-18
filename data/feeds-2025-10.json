@@ -71,6 +71,11 @@
       "title": "Why agent orchestration is harder than kubernetes - Lessons while building Agentflow",
       "summary": "TL;DR: While building AgentFlow, an open source orchestration engine for AI agents, I discovered...",
       "date_published": "2025-10-23T16:15:12Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -85,6 +90,11 @@
       "title": "Serverless economics: why Cloud Run crushes App Runner (until it doesn’t)",
       "summary": "This analysis is based on official pricing documentation and straightforward cost calculations.      ...",
       "date_published": "2025-10-20T04:10:35Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -205,6 +215,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-10"
 }

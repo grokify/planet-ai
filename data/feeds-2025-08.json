@@ -8,10 +8,17 @@
       "title": "Ready-to-eat knowledge economy",
       "summary": "Your AI teacher is free, available 24/7, and infinitely patient. Stop asking for permission to learn.",
       "date_published": "2025-08-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "learning",
+        "hot-take"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -22,10 +29,18 @@
       "title": "The visibility game",
       "summary": "Organizations will always reward perceived value over hidden value. The question is whether you'll play the game as it is.",
       "date_published": "2025-08-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "career",
+        "communication",
+        "personal"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -66,10 +81,18 @@
       "title": "GPU memory virtualization for LLMs",
       "summary": "LLM inference is shifting from compute-bound to memory-bound. Treating GPU memory like an OS does RAM is the path forward.",
       "date_published": "2025-08-21T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "llm",
+        "gpu",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -94,10 +117,20 @@
       "url": "https://siddhantkhare2694.medium.com/attention-by-subtraction-5ca5fe8f357a?source=rss-d33fc21fba5d------2",
       "title": "Attention by subtraction",
       "date_published": "2025-08-16T08:42:08Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "attention",
+        "focus",
+        "deep-work",
+        "adhd",
+        "mental-health"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -108,6 +141,11 @@
       "title": "How to make AI code edits more accurate",
       "summary": "A technical examination of production-grade LSP-MCP integration  After spending months analyzing AI...",
       "date_published": "2025-08-15T05:07:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -232,6 +270,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-08"
 }

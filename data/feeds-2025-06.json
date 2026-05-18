@@ -98,10 +98,18 @@
       "title": "Why context engineering matters more than prompt engineering",
       "summary": "Prompt engineering optimizes the question. Context engineering optimizes the information the model sees before it answers. Here's why the latter wins.",
       "date_published": "2025-06-15T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "context-engineering",
+        "ai-systems",
+        "llm"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -127,6 +135,11 @@
       "title": "Claude code is costly - unless you do this",
       "summary": "Claude Code is a powerful AI development tool, but it comes with a rate limit if you're on the Pro...",
       "date_published": "2025-06-14T07:25:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -330,6 +343,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-06"
 }

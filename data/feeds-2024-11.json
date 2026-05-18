@@ -8,6 +8,11 @@
       "title": "2x Faster, 40% less RAM: The Cloud Run stdout logging hack",
       "summary": "Sometimes, the simplest solutions yield the most dramatic improvements. In a recent private project,...",
       "date_published": "2024-11-24T17:57:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -22,6 +27,11 @@
       "title": "Deep dive: optimizing self-hosted GitHub Actions Runners on AWS and GCP for cost efficiency",
       "summary": "Running self-hosted GitHub Actions runners on the cloud provides great control, but the costs can...",
       "date_published": "2024-11-20T14:52:31Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -66,6 +76,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2024-11"
 }

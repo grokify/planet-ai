@@ -33,10 +33,18 @@
       "title": "The plumbing behind Claude Code",
       "summary": "I read Claude Code's leaked source. Not magic, just good engineering. 10 patterns that show what actually matters when building AI tools.",
       "date_published": "2026-03-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "engineering",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -81,6 +89,11 @@
       "title": "AI Agent stack you need Context, Auth, and Cognitive Debt",
       "summary": "Most AI content teaches you how to write prompts.  This is not that.  I've spent three years at Ona...",
       "date_published": "2026-03-28T05:27:53Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -221,20 +234,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -261,6 +260,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -364,10 +385,18 @@
       "title": "The agent observability gap",
       "summary": "We have better observability for a Node.js microservice than for an agent that just rewrote half a codebase. Here is what is missing.",
       "date_published": "2026-03-14T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "observability",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -482,6 +511,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2026-03"
 }

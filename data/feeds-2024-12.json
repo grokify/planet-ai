@@ -7,10 +7,19 @@
       "url": "https://siddhantkhare2694.medium.com/genz-the-worst-creatures-of-humankind-adfaf5427de1?source=rss-d33fc21fba5d------2",
       "title": "GenZ: the worst creatures of humankind?",
       "date_published": "2024-12-28T20:20:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "gen-z",
+        "lifestyle",
+        "life-lessons",
+        "life"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -21,6 +30,11 @@
       "title": "Querying S3 logs in a flash with DuckDB 🦆",
       "summary": "Amazon S3 server access logs are a treasure trove of valuable information, detailing requests made to...",
       "date_published": "2024-12-08T12:14:55Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -35,6 +49,11 @@
       "title": "Submission for the DevCycle Feature Flag Challenge: AI Feature Flag Suggestions 🧠",
       "summary": "This is a submission for the DevCycle Feature Flag Challenge: Feature Flag Funhouse           What I...",
       "date_published": "2024-12-07T18:03:11Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -49,6 +68,11 @@
       "title": "Turbocharging AWS Lambda: How to eliminate cold starts forever",
       "summary": "Imagine rushing to grab your morning coffee, only to find the barista needs to boot up the espresso...",
       "date_published": "2024-12-01T18:23:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -58,6 +82,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2024-12"
 }

@@ -22,6 +22,11 @@
       "title": "Securing Agentic AI: authorization patterns for autonomous systems",
       "summary": "Why traditional access control fails for AI agents, and how relationship-based authorization provides...",
       "date_published": "2025-11-29T11:28:52Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -64,6 +69,11 @@
       "title": "Context Engineering: The critical Infrastructure challenge in production LLM systems",
       "summary": "The $10M question nobody's asking   While the industry obsesses over model parameters and...",
       "date_published": "2025-11-17T17:03:08Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -126,6 +136,11 @@
       "title": "AWS S3 Vectors at scale: Real performance numbers at 10 million Vectors",
       "summary": "Introduction   AWS S3 Vectors promises \"billions of vectors with sub-second queries\" and up...",
       "date_published": "2025-11-06T10:42:37Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -177,6 +192,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -189,21 +217,8 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-11"
 }

@@ -37,10 +37,20 @@
       "url": "https://siddhantkhare2694.medium.com/the-work-finds-you-back-3c56a28e43a9?source=rss-d33fc21fba5d------2",
       "title": "The work finds you back",
       "date_published": "2025-07-23T02:32:31Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "careers",
+        "growth",
+        "technology",
+        "software-engineering",
+        "personal-growth"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -65,10 +75,18 @@
       "title": "Ship. Share. Repeat.",
       "summary": "Most people think you build skills, then market them. It turns out this is backwards. The market is always watching, and the feedback loop is so long you don't notice.",
       "date_published": "2025-07-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "career",
+        "personal",
+        "craft"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -167,6 +185,11 @@
       "title": "An easy way to stop Claude code from forgetting the rules",
       "summary": "You spend time setting up Claude Code with specific instructions in your CLAUDE.md file. Maybe you...",
       "date_published": "2025-07-02T20:45:23Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -219,6 +242,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-07"
 }

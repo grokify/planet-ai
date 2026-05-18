@@ -36,10 +36,19 @@
       "title": "Bangalore is not an upgrade",
       "summary": "I turned down two roles at global tech companies this year. Not because of the money. Because of relocation. The assumption global companies keep getting wrong about hiring in India.",
       "date_published": "2026-05-14T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "career",
+        "india",
+        "hiring",
+        "personal"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -90,10 +99,19 @@
       "title": "I built an AI agent that orders food for your entire team",
       "summary": "Your team fills a Google Form. The agent reads it, picks a restaurant, builds a Swiggy cart per person, and waits for you to confirm.",
       "date_published": "2026-04-30T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "agents",
+        "mcp",
+        "swiggy",
+        "india"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -104,10 +122,20 @@
       "title": "Attackers are now targeting your AI coding tool",
       "summary": "The Bitwarden CLI supply chain attack explicitly hunted Claude Code, Cursor, and Codex CLI configs. The same week, DPRK confirmed slopsquatting works in the wild. Here is what happened and what to do.",
       "date_published": "2026-04-29T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "security",
+        "supply-chain",
+        "mcp",
+        "agent-trace",
+        "slopsquatting"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -182,10 +210,19 @@
       "title": "The Vercel breach started at a tool nobody was watching",
       "summary": "The Vercel breach did not start at Vercel. It started at Context.ai. And the fix is not rotating credentials. It is a different credential model for AI tools entirely.",
       "date_published": "2026-04-20T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "security",
+        "oauth",
+        "ai-tools",
+        "agentic-authz"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -244,13 +281,36 @@
       "title": "Why you stop caring mid-review",
       "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
       "date_published": "2026-04-11T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "personal",
+        "engineering",
+        "writing",
+        "career"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "fd99cda5b61a0d3a",
+      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out",
+      "title": "I've sold out",
+      "summary": "I've sold out",
+      "date_published": "2026-04-08T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "0558262df33a167a",
@@ -271,20 +331,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "fd99cda5b61a0d3a",
-      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out",
-      "title": "I've sold out",
-      "summary": "I've sold out",
-      "date_published": "2026-04-08T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2b81f57c03a5159c",
@@ -348,10 +394,18 @@
       "title": "Tracing what agents do, not what they say",
       "summary": "Stripe merges 1,000+ agent PRs per week. Spotify vetoes 25% of agent sessions. Cursor runs hundreds of agents in parallel. Dashboards show the model layer. Traces show the system layer. You need both.",
       "date_published": "2026-04-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "agents",
+        "observability",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -431,10 +485,18 @@
       "title": "The plumbing behind Claude Code",
       "summary": "I read Claude Code's leaked source. Not magic, just good engineering. 10 patterns that show what actually matters when building AI tools.",
       "date_published": "2026-03-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "engineering",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -479,6 +541,11 @@
       "title": "AI Agent stack you need Context, Auth, and Cognitive Debt",
       "summary": "Most AI content teaches you how to write prompts.  This is not that.  I've spent three years at Ona...",
       "date_published": "2026-03-28T05:27:53Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -619,20 +686,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -659,6 +712,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -762,10 +837,18 @@
       "title": "The agent observability gap",
       "summary": "We have better observability for a Node.js microservice than for an agent that just rewrote half a codebase. Here is what is missing.",
       "date_published": "2026-03-14T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "observability",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -885,10 +968,18 @@
       "title": "Claude Code's broken permission model",
       "summary": "Fifty approval prompts or full shell access. Nothing in between. The permission model needs infrastructure, not prompts.",
       "date_published": "2026-02-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "security",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -946,10 +1037,18 @@
       "title": "You're tired because your AI has no feedback loop",
       "summary": "Not prompts. Not models. Feedback loops. The engineering discipline that separates teams thriving with AI from teams drowning in reviews is called backpressure.",
       "date_published": "2026-02-22T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "engineering",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -1248,10 +1347,18 @@
       "title": "AI fatigue is real and nobody talks about it",
       "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
       "date_published": "2026-02-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "mental-health",
+        "engineering",
+        "personal"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -1300,6 +1407,11 @@
       "title": "Ona (formerly Gitpod) is re-launching its Open Source program",
       "summary": "Gitpod started as an open-source project. Long before “AI productivity” became a thing, the core...",
       "date_published": "2026-02-03T14:36:58Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1564,6 +1676,11 @@
       "title": "Containers aren’t a sandbox for AI agents",
       "summary": "Where containers stop being simple   Containers are sold as a solved abstraction. You...",
       "date_published": "2026-01-10T18:04:07Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1606,10 +1723,18 @@
       "title": "2025 was the year everything changed",
       "summary": "Bought my first home. Gave my first international conference talk. Shipped AI tools used by Fortune 500 companies. My honest 2025 wrap.",
       "date_published": "2025-12-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "year-review",
+        "personal",
+        "career"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -1635,6 +1760,11 @@
       "title": "The Engineering guide to Context window efficiency",
       "summary": "A deep dive into semantic deduplication for LLM context windows     If you're building with RAG...",
       "date_published": "2025-12-23T08:28:57Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1692,6 +1822,11 @@
       "title": "Beyond finding: Remediating CVE-2025-55182 across hundreds of repositories with Ona Automations",
       "summary": "Finding vulnerable code is only half the battle. When a critical CVE drops, engineering teams face a...",
       "date_published": "2025-12-09T08:15:19Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1768,6 +1903,11 @@
       "title": "Securing Agentic AI: authorization patterns for autonomous systems",
       "summary": "Why traditional access control fails for AI agents, and how relationship-based authorization provides...",
       "date_published": "2025-11-29T11:28:52Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1810,6 +1950,11 @@
       "title": "Context Engineering: The critical Infrastructure challenge in production LLM systems",
       "summary": "The $10M question nobody's asking   While the industry obsesses over model parameters and...",
       "date_published": "2025-11-17T17:03:08Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1872,6 +2017,11 @@
       "title": "AWS S3 Vectors at scale: Real performance numbers at 10 million Vectors",
       "summary": "Introduction   AWS S3 Vectors promises \"billions of vectors with sub-second queries\" and up...",
       "date_published": "2025-11-06T10:42:37Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -1923,6 +2073,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -1935,19 +2098,6 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "5aa636aeaa43d614",
@@ -2018,6 +2168,11 @@
       "title": "Why agent orchestration is harder than kubernetes - Lessons while building Agentflow",
       "summary": "TL;DR: While building AgentFlow, an open source orchestration engine for AI agents, I discovered...",
       "date_published": "2025-10-23T16:15:12Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -2032,6 +2187,11 @@
       "title": "Serverless economics: why Cloud Run crushes App Runner (until it doesn’t)",
       "summary": "This analysis is based on official pricing documentation and straightforward cost calculations.      ...",
       "date_published": "2025-10-20T04:10:35Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -2157,10 +2317,18 @@
       "title": "What I'm trying to escape as an Indian engineer",
       "summary": "Competence earns respect, but originality creates legacy.",
       "date_published": "2025-09-13T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "career",
+        "originality",
+        "personal"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2201,10 +2369,18 @@
       "title": "Caring pays off",
       "summary": "Whatever you do, care. Care enough to notice. Care enough to act. Care enough to finish things well.",
       "date_published": "2025-09-06T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "craft",
+        "personal",
+        "work"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2215,10 +2391,17 @@
       "title": "Ready-to-eat knowledge economy",
       "summary": "Your AI teacher is free, available 24/7, and infinitely patient. Stop asking for permission to learn.",
       "date_published": "2025-08-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "learning",
+        "hot-take"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2229,10 +2412,18 @@
       "title": "The visibility game",
       "summary": "Organizations will always reward perceived value over hidden value. The question is whether you'll play the game as it is.",
       "date_published": "2025-08-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "career",
+        "communication",
+        "personal"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2273,10 +2464,18 @@
       "title": "GPU memory virtualization for LLMs",
       "summary": "LLM inference is shifting from compute-bound to memory-bound. Treating GPU memory like an OS does RAM is the path forward.",
       "date_published": "2025-08-21T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "llm",
+        "gpu",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2301,10 +2500,20 @@
       "url": "https://siddhantkhare2694.medium.com/attention-by-subtraction-5ca5fe8f357a?source=rss-d33fc21fba5d------2",
       "title": "Attention by subtraction",
       "date_published": "2025-08-16T08:42:08Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "attention",
+        "focus",
+        "deep-work",
+        "adhd",
+        "mental-health"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2315,6 +2524,11 @@
       "title": "How to make AI code edits more accurate",
       "summary": "A technical examination of production-grade LSP-MCP integration  After spending months analyzing AI...",
       "date_published": "2025-08-15T05:07:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -2473,10 +2687,20 @@
       "url": "https://siddhantkhare2694.medium.com/the-work-finds-you-back-3c56a28e43a9?source=rss-d33fc21fba5d------2",
       "title": "The work finds you back",
       "date_published": "2025-07-23T02:32:31Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "careers",
+        "growth",
+        "technology",
+        "software-engineering",
+        "personal-growth"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2501,10 +2725,18 @@
       "title": "Ship. Share. Repeat.",
       "summary": "Most people think you build skills, then market them. It turns out this is backwards. The market is always watching, and the feedback loop is so long you don't notice.",
       "date_published": "2025-07-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "career",
+        "personal",
+        "craft"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2603,6 +2835,11 @@
       "title": "An easy way to stop Claude code from forgetting the rules",
       "summary": "You spend time setting up Claude Code with specific instructions in your CLAUDE.md file. Maybe you...",
       "date_published": "2025-07-02T20:45:23Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -2750,10 +2987,18 @@
       "title": "Why context engineering matters more than prompt engineering",
       "summary": "Prompt engineering optimizes the question. Context engineering optimizes the information the model sees before it answers. Here's why the latter wins.",
       "date_published": "2025-06-15T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "context-engineering",
+        "ai-systems",
+        "llm"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -2779,6 +3024,11 @@
       "title": "Claude code is costly - unless you do this",
       "summary": "Claude Code is a powerful AI development tool, but it comes with a rate limit if you're on the Pro...",
       "date_published": "2025-06-14T07:25:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3001,10 +3251,19 @@
       "title": "Authorization patterns for AI agents: beyond API keys",
       "summary": "API keys give all-or-nothing access. AI agents need fine-grained, task-scoped, auditable authorization. Here's how to build it with OpenFGA.",
       "date_published": "2025-05-20T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "agents",
+        "security",
+        "authorization",
+        "openfga"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -3029,6 +3288,11 @@
       "title": "Extending Claude's Brain: How MCP makes AI actually useful for developers",
       "summary": "Model Context Protocol (MCP) is a protocol created by Anthropic designed to enable AI models to...",
       "date_published": "2025-03-26T04:17:44Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3043,6 +3307,11 @@
       "title": "How docs AI search works: Mintlify-Style with OpenAI Agents SDK",
       "summary": "Documentation remains a critical resource for developers, serving as the definitive guide and...",
       "date_published": "2025-03-23T19:02:56Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3078,10 +3347,19 @@
       "url": "https://siddhantkhare2694.medium.com/surviving-tech-bureaucracy-how-genuine-competence-cuts-through-buzzwords-628a47da6e90?source=rss-d33fc21fba5d------2",
       "title": "Surviving tech bureaucracy: How genuine competence cuts through buzzwords",
       "date_published": "2025-03-08T08:49:37Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "engineering",
+        "career-advice",
+        "careers",
+        "growth"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -3092,6 +3370,11 @@
       "title": "Isolating AI Agents with DevContainer: A secure and scalable approach",
       "summary": "AI coding agents like Cline and RooCode are powerful but unpredictable. A simple misconfiguration...",
       "date_published": "2025-03-04T17:58:39Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3106,6 +3389,11 @@
       "title": "Tackling Cold Starts in AWS Lambda: A Deep Dive with LLRT",
       "summary": "AWS Lambda is the go-to serverless computing service for developers who love event-driven...",
       "date_published": "2025-02-24T06:17:31Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3186,6 +3474,11 @@
       "url": "https://siddhantkhare2694.medium.com/engineering-with-intent-a-mental-checklist-for-clear-thinking-f4f21ff2431e?source=rss-d33fc21fba5d------2",
       "title": "Engineering with intent: A mental checklist for clear thinking",
       "date_published": "2025-02-08T11:23:08Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3235,6 +3528,11 @@
       "title": "How we slashed CI build time using Go’s cache",
       "summary": "Our CI pipeline’s integration tests were running sluggishly. The primary bottleneck wasn't the tests...",
       "date_published": "2025-02-01T21:51:15Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3291,6 +3589,11 @@
       "title": "Binary embedding: shrink vector storage by 95%",
       "summary": "Introduction   When working with large RAG (Retrieval-Augmented Generation) systems, getting...",
       "date_published": "2025-01-12T12:50:16Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3304,10 +3607,19 @@
       "url": "https://siddhantkhare2694.medium.com/genz-the-worst-creatures-of-humankind-adfaf5427de1?source=rss-d33fc21fba5d------2",
       "title": "GenZ: the worst creatures of humankind?",
       "date_published": "2024-12-28T20:20:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "gen-z",
+        "lifestyle",
+        "life-lessons",
+        "life"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -3318,6 +3630,11 @@
       "title": "Querying S3 logs in a flash with DuckDB 🦆",
       "summary": "Amazon S3 server access logs are a treasure trove of valuable information, detailing requests made to...",
       "date_published": "2024-12-08T12:14:55Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3332,6 +3649,11 @@
       "title": "Submission for the DevCycle Feature Flag Challenge: AI Feature Flag Suggestions 🧠",
       "summary": "This is a submission for the DevCycle Feature Flag Challenge: Feature Flag Funhouse           What I...",
       "date_published": "2024-12-07T18:03:11Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3346,6 +3668,11 @@
       "title": "Turbocharging AWS Lambda: How to eliminate cold starts forever",
       "summary": "Imagine rushing to grab your morning coffee, only to find the barista needs to boot up the espresso...",
       "date_published": "2024-12-01T18:23:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3360,6 +3687,11 @@
       "title": "2x Faster, 40% less RAM: The Cloud Run stdout logging hack",
       "summary": "Sometimes, the simplest solutions yield the most dramatic improvements. In a recent private project,...",
       "date_published": "2024-11-24T17:57:54Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3374,6 +3706,11 @@
       "title": "Deep dive: optimizing self-hosted GitHub Actions Runners on AWS and GCP for cost efficiency",
       "summary": "Running self-hosted GitHub Actions runners on the cloud provides great control, but the costs can...",
       "date_published": "2024-11-20T14:52:31Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -3653,5 +3990,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z"
+  "_signal_generated": "2026-05-18T19:41:13Z"
 }

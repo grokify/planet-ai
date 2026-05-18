@@ -8,10 +8,18 @@
       "title": "Claude Code's broken permission model",
       "summary": "Fifty approval prompts or full shell access. Nothing in between. The permission model needs infrastructure, not prompts.",
       "date_published": "2026-02-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "security",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -69,10 +77,18 @@
       "title": "You're tired because your AI has no feedback loop",
       "summary": "Not prompts. Not models. Feedback loops. The engineering discipline that separates teams thriving with AI from teams drowning in reviews is called backpressure.",
       "date_published": "2026-02-22T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "engineering",
+        "agents",
+        "infrastructure"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -371,10 +387,18 @@
       "title": "AI fatigue is real and nobody talks about it",
       "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
       "date_published": "2026-02-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "mental-health",
+        "engineering",
+        "personal"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -423,6 +447,11 @@
       "title": "Ona (formerly Gitpod) is re-launching its Open Source program",
       "summary": "Gitpod started as an open-source project. Long before “AI productivity” became a thing, the core...",
       "date_published": "2026-02-03T14:36:58Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -446,6 +475,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2026-02"
 }

@@ -244,6 +244,11 @@
       "title": "Containers aren’t a sandbox for AI agents",
       "summary": "Where containers stop being simple   Containers are sold as a solved abstraction. You...",
       "date_published": "2026-01-10T18:04:07Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -281,6 +286,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2026-01"
 }

@@ -8,10 +8,18 @@
       "title": "2025 was the year everything changed",
       "summary": "Bought my first home. Gave my first international conference talk. Shipped AI tools used by Fortune 500 companies. My honest 2025 wrap.",
       "date_published": "2025-12-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "year-review",
+        "personal",
+        "career"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -37,6 +45,11 @@
       "title": "The Engineering guide to Context window efficiency",
       "summary": "A deep dive into semantic deduplication for LLM context windows     If you're building with RAG...",
       "date_published": "2025-12-23T08:28:57Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -94,6 +107,11 @@
       "title": "Beyond finding: Remediating CVE-2025-55182 across hundreds of repositories with Ona Automations",
       "summary": "Finding vulnerable code is only half the battle. When a critical CVE drops, engineering teams face a...",
       "date_published": "2025-12-09T08:15:19Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
@@ -151,6 +169,6 @@
       "_signal_feed_url": "https://www.fast.ai/index.html"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-12"
 }

@@ -22,15 +22,24 @@
       "title": "Authorization patterns for AI agents: beyond API keys",
       "summary": "API keys give all-or-nothing access. AI agents need fine-grained, task-scoped, auditable authorization. Here's how to build it with OpenFGA.",
       "date_published": "2025-05-20T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "agents",
+        "security",
+        "authorization",
+        "openfga"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-05-18T15:23:29Z",
+  "_signal_generated": "2026-05-18T19:41:13Z",
   "_signal_period": "2025-05"
 }
