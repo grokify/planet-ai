@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "9629aaa2b254f0bc",
+      "url": "https://siddhantkhare.com/writing/agent-trace-whats-next",
+      "title": "What's next for agent-trace",
+      "summary": "agent-trace shipped two months ago as a debugging tool. People started asking how to run it in production. v0.4.0 and v0.5.0 are the answer.",
+      "date_published": "2026-05-22T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "observability",
+        "infrastructure",
+        "open-source"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "064ab27d71a396b0",
       "url": "https://ergosphere.blog/posts/the-loneliest-point/",
       "title": "The Loneliest Point",
@@ -114,6 +137,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-05-22T14:32:33Z",
+  "_signal_generated": "2026-05-22T19:40:14Z",
   "_signal_period": "2026-05"
 }

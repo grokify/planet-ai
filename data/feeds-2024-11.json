@@ -22,25 +22,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "8f586b4084f64000",
-      "url": "https://dev.to/siddhantkcode/deep-dive-optimizing-self-hosted-github-actions-runners-on-aws-and-gcp-for-cost-efficiency-58o8",
-      "title": "Deep dive: optimizing self-hosted GitHub Actions Runners on AWS and GCP for cost efficiency",
-      "summary": "Running self-hosted GitHub Actions runners on the cloud provides great control, but the costs can...",
-      "date_published": "2024-11-20T14:52:31Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "2bf600261b253dbc",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
@@ -76,6 +57,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-05-22T14:32:33Z",
+  "_signal_generated": "2026-05-22T19:40:14Z",
   "_signal_period": "2024-11"
 }
