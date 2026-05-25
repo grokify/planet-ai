@@ -3,20 +3,6 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "1d801cd079c3e22e",
-      "url": "https://blog.d11r.eu/social-engineering/",
-      "title": "Book review: Social Engineering: The Art of Human Hacking",
-      "summary": "\u003cp\u003e★★☆☆☆\u003c/p\u003e\n\u003cp\u003eThe only interesting part of this book was the stories from SE engagements, and even these became boring.\u003c/p\u003e\n\u003cp\u003eI don\u0026rsquo;t like the overly enthusiastic style, the random jokes, the \u0026ldquo;useless fact\u0026rdquo; sections. It\u0026rsquo;s like I\u0026rsquo;m listening to a hybrid of a bad stand-up routine and a sales pitch. I also genuinely dislike the formatting and the presentation, e.g. a bunch of random hyperlinks on a paper page.\u003c/p\u003e\n\u003cp\u003eBut I mostly don\u0026rsquo;t like the content. I want this book to be either a collection of stories from engagements with lessons learned, or I want a training manual. This feels like a book that could have been a blog post that could have been a series of tweets.\u003c/p\u003e\n\u003cp\u003eI didn\u0026rsquo;t keep detailed notes on everything I disliked, but here\u0026rsquo;s some stuff of the top of my head:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eAcademic research. I don\u0026rsquo;t need to have an overview of a barely-related study that may or may not have been replicated. I don\u0026rsquo;t get the obsession with trying to appear \u0026ldquo;scientific\u0026rdquo; and citing off studies that don\u0026rsquo;t really add to the point.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eDISC. I guess any framework is useful when you\u0026rsquo;re totally lost but this just feels like a horoscope, or like MBTI. Again, it could be useful because you start thinking, but I dislike the implication that it describes people or that it has any predictive power.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eRecycled pop psychology. It\u0026rsquo;s just a bunch of stuff I\u0026rsquo;ve read before, e.g. from Cialdini. But it\u0026rsquo;s not what makes or breaks a social engineer! Like yeah, psychology is important, but I want the subject-matter expertise, not pop-psych I and a million other people have already read.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eOverall, it all feels so very cartoonish. The style of presentation, the people, their reactions. I don\u0026rsquo;t know how to say it better but it feels like it has no real depth. I\u0026rsquo;m sorry because I was really looking forward to reading this book.\u003c/p\u003e\n\u003cp\u003e2 stars for SE engagement stories.\u003c/p\u003e",
-      "date_published": "2021-12-25T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "f4c6cab832bb86fe",
       "url": "https://neilkakkar.com/How-I-Own-Projects-as-a-Software-Engineer.html",
       "title": "How I Own Projects as a Software Engineer",
@@ -37,6 +23,6 @@
       "_signal_feed_url": "https://neilkakkar.com/"
     }
   ],
-  "_signal_generated": "2026-05-25T09:58:40Z",
+  "_signal_generated": "2026-05-25T14:47:49Z",
   "_signal_period": "2021-12"
 }
