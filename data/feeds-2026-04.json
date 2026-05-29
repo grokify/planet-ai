@@ -151,6 +151,29 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "date_published": "2026-04-11T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "engineering",
+        "writing",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "d108ad12756728fb",
       "url": "https://blog.d11r.eu/meetup-2026/",
       "title": "Scott Alexander gentrified my meetup",
@@ -183,29 +206,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
-      "date_published": "2026-04-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "engineering",
-        "writing",
-        "career"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "0558262df33a167a",
@@ -340,40 +340,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
-      "id": "e64b0dee613d4a9b",
-      "url": "https://ergosphere.blog/posts/the-machines-are-fine/",
-      "title": "The threat is comfortable drift toward not understanding what you're doing",
-      "summary": "AI tools in academic research pose a subtle but profound danger - they enable students to bypass intellectual development and produce publishable work without building the foundational understanding necessary for independent scientific thinking.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ergosphere"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Academia",
-        "Learning",
-        "Intellectual Development"
-      ],
-      "_signal_feed_title": "Ergosphere",
-      "_signal_feed_url": "https://ergosphere.blog",
-      "_signal_priority": true,
-      "_signal_rank": 14,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47647788",
-          "id": "47647788",
-          "score": 865
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-04-04-the-threat-is-comfortable-drift-toward-not-underst.html"
-        }
-      ]
-    },
-    {
       "id": "068253b9db3bc029",
       "url": "https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec?source=rss-c1ec701babb7------2",
       "title": "Gas Town: from Clown Show to v1.0",
@@ -398,6 +364,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-05-29T09:48:24Z",
+  "_signal_generated": "2026-05-29T14:56:52Z",
   "_signal_period": "2026-04"
 }
