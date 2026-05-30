@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "95e5b6e228c0f800",
+      "url": "https://siddhantkhare.com/writing/ai-experimentation-stack",
+      "title": "Build your own AI experimentation stack",
+      "summary": "Netflix spent years building their experiment platform. You have the tools and a weekend. The hard part is not spinning things up. It is tearing them down cleanly when the idea fails.",
+      "date_published": "2026-05-30T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "infrastructure",
+        "experimentation",
+        "build-vs-buy",
+        "stripe",
+        "vercel"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "5d6fe56b2f98812c",
       "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564?source=rss-c1ec701babb7------2",
       "title": "The Last Technical Interview",
@@ -215,6 +239,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-05-30T02:46:41Z",
+  "_signal_generated": "2026-05-30T08:24:17Z",
   "_signal_period": "2026-05"
 }
