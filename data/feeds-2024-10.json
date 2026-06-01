@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "3234828509421f5e",
-      "url": "https://www.fast.ai/posts/2024-10-29-screen-time/index.html",
+      "id": "33642de1437dd17c",
+      "url": "https://www.fast.ai/posts/2024-10-29-screen-time/",
       "title": "In defense of screen time",
-      "summary": " My daughter is constantly creating– her passions include making art, writing fiction, coding interactive games, and composing music. Yet, I regularly see news articles and media pundits suggesting that my husband and I are doing things all wrong. The reason for these claims? My daughter uses screen-based tools, at least partially, and in some cases, entirely, to pursue the interests I listed in my first sentence. To give more detail on how she pursues her passions: ",
-      "date_published": "2024-10-28T14:00:00Z",
+      "summary": " Pundits say my husband and I are parenting wrong. ",
+      "date_published": "2024-10-28T13:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -20,7 +20,7 @@
         "education"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
       "id": "74a7122d921743a8",
@@ -37,6 +37,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2024-10"
 }

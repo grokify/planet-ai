@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "2bf600261b253dbc",
+      "id": "c57207ff301c9c3e",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
-      "summary": " \u003cem\u003eUpdate from Jeremy 11 months later\u003c/em\u003e: This was so popular it sold out within 24 hours of me posting this. We’ve got a page with \u003ca href=\"https://solve.it.com/testimonials\"\u003ehundreds of comments\u003c/a\u003e from the alums. Since it went so well, we’ve spent this year building on it to create a full scalable platform, and we’re doing a new course with it starting Nov 3 2025. To avoid missing out, please sign up as soon as you can here: \u003ca href=\"https://solve.it.com/\"\u003esolve.it.com\u003c/a\u003e. ",
-      "date_published": "2024-11-06T14:00:00Z",
+      "summary": " fast.ai is joining Answer.AI, and we’re announcing a new kind of educational experience, ‘How To Solve It With Code’ ",
+      "date_published": "2024-11-06T13:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -21,7 +21,7 @@
         "courses"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
       "id": "d1c5a62271e735c3",
@@ -38,6 +38,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2024-11"
 }

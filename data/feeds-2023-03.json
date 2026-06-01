@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "446206a916f82fcf",
+      "id": "8e82a6fb166efeae",
       "url": "https://www.fast.ai/posts/2023-03-20-wittgenstein.html",
       "title": "GPT 4 and the Uncharted Territories of Language",
-      "summary": " “\u003cem\u003eThe limits of my language mean the limits of my world.\u003c/em\u003e” — Ludwig Wittgenstein ",
-      "date_published": "2023-03-19T14:00:00Z",
+      "summary": " Language is a source of limitation and liberation. GPT 4 pushes this idea to the extreme by giving us access to unlimited language. ",
+      "date_published": "2023-03-19T13:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -20,7 +20,7 @@
         "ai-in-society"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
       "id": "df913f6b17efaf70",
@@ -83,6 +83,6 @@
       "_signal_feed_url": "https://reorx.com/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2023-03"
 }

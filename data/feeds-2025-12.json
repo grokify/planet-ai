@@ -149,11 +149,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "4bd035fe816feccf",
-      "url": "https://www.fast.ai/posts/2025-12-03-boredom/index.html",
+      "id": "f7bd7e7972abcb7e",
+      "url": "https://www.fast.ai/posts/2025-12-03-boredom/",
       "title": "Stop Saying Boredom is Good for Kids",
-      "summary": " Chronic boredom is harmful to adults, causing stress, disengagement, and poor well-being. Academic researchers have shown that \u003ca href=\"https://www.bbc.com/worklife/article/20210701-the-damaging-effects-of-boreout-at-work\"\u003eboredom in the workplace\u003c/a\u003e can be just as damaging as burnout. But search for information about childhood boredom and you’ll find the opposite message: articles describing boredom for kids as “fantastic”, “important”, and full of benefits. ",
-      "date_published": "2025-12-02T14:00:00Z",
+      "summary": " Chronic boredom causes stress, disengagement, and poor well-being in adults. So why do we glorify it for children? ",
+      "date_published": "2025-12-02T13:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -166,9 +166,9 @@
         "education"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2025-12"
 }

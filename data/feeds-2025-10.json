@@ -17,11 +17,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "504ea704eaad91b9",
+      "id": "ac7e5692390c3912",
       "url": "https://www.fast.ai/posts/2025-10-30-build-to-last.html",
       "title": "Build to Last",
-      "summary": " Note from Jeremy: We’re teaching a course starting Nov 3rd on how to build towards software mastery and craftsmanship whilst leveraging AI effectively. Have a look at \u003ca href=\"https://solve.it.com\"\u003esolve.it.com\u003c/a\u003e if you’re interested. ",
-      "date_published": "2025-10-29T14:00:00Z",
+      "summary": " Chris Lattner on software craftsmanship and AI ",
+      "date_published": "2025-10-29T13:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -35,7 +35,7 @@
         "technical"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
       "id": "af1f8ef366654590",
@@ -132,11 +132,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "be3b2f81c40d6013",
+      "id": "1008db450b624643",
       "url": "https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers.html",
       "title": "Let’s Build the GPT Tokenizer: A Complete Guide to Tokenization in LLMs",
-      "summary": " \u003cem\u003e18 months ago, Andrej Karpathy \u003ca href=\"https://x.com/karpathy/status/1760740503614836917\"\u003eset a challenge\u003c/a\u003e: “Can you take my 2h13m tokenizer video and translate the video into the format of a book chapter”. We’ve done it, and the chapter is below, including key pieces of code inlined, and images from the video at key points (hyperlinked to the video timestamp). It’s a great video for learning this key piece of how LLMs work, and this new text version is great too.\u003c/em\u003e ",
-      "date_published": "2025-10-15T14:00:00Z",
+      "summary": " A text and code version of Karpathy’s famous tokenizer video. ",
+      "date_published": "2025-10-15T13:00:00Z",
       "authors": [
         {
           "name": "Andrej Karpathy, via Solveit and Kerem Turgutlu"
@@ -149,14 +149,14 @@
         "technical"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
-      "id": "cff08e1bb1d70d69",
+      "id": "e56ee903f7f010f6",
       "url": "https://www.fast.ai/posts/2025-10-15-solveit2.html",
       "title": "How to Solve it With Code course now available",
-      "summary": " \u003cstrong\u003etl/dr:\u003c/strong\u003e This is a copy of a one-off email I sent to all fast.ai forum users, with a long-overdue update. I had planned to send this email \u003ca href=\"https://www.fast.ai/posts/2024-11-07-solveit.html\"\u003ea year ago\u003c/a\u003e to let you know you could sign up for our new fast.ai course, “How to Solve it With Code”, but by the time I woke up the day after launching it, it was full. :O The good news is that we’ve spent the last year making it much better, and a brand new version is ready to go now. You can jump straight to it here: \u003ca href=\"https://solve.it.com/\"\u003esolve.it.com\u003c/a\u003e . It’s designed mainly for experienced coders, AI practitioners, and data scientists, although folks from nearly any technical field should find it helpful. ",
-      "date_published": "2025-10-14T14:00:00Z",
+      "summary": " An email sent to all fast.ai forum users. ",
+      "date_published": "2025-10-14T13:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -169,7 +169,7 @@
         "courses"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
       "id": "cfc8f3a031959497",
@@ -215,6 +215,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2025-10"
 }

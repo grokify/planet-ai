@@ -195,27 +195,6 @@
       "_signal_rank": 1
     },
     {
-      "id": "c160e1375eb7eef0",
-      "url": "https://www.fast.ai/posts/2026-02-17-education/index.html",
-      "title": "I Don’t Want a Learning Dashboard for My Child",
-      "summary": " Often debates about education are framed as non-tech versus AI approaches, but too often, AI ed tech just magnifies the same failures of traditional school. ",
-      "date_published": "2026-02-16T14:00:00Z",
-      "authors": [
-        {
-          "name": "Rachel Thomas"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Deep Learning",
-        "education",
-        "technical"
-      ],
-      "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
-    },
-    {
       "id": "df9a025dfbdd4e5c",
       "url": "https://neilkakkar.com/burnout-anxiety-at-30.html",
       "title": "What I learned about burnout and anxiety at 30",
@@ -455,6 +434,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2026-02"
 }

@@ -111,11 +111,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "24f5cc30fc544ffe",
+      "id": "103b2c84c93ccd4a",
       "url": "https://www.fast.ai/posts/2025-11-07-solveit-features.html",
       "title": "A Guide to Solveit Features",
-      "summary": " Large language models make it remarkably easy to generate code. Ask ChatGPT or Claude to build an application, and you’ll receive hundreds of lines of working code in seconds. But this creates a problem: you get code you don’t understand, and when you need to modify it, fix a bug, or add a feature, you’re stuck. ",
-      "date_published": "2025-11-06T14:00:00Z",
+      "summary": " An overview of the features of the Solveit platform, which is designed to make exploration and iterative development easier and faster. ",
+      "date_published": "2025-11-06T13:00:00Z",
       "authors": [
         {
           "name": "Solveit and Kerem Turgutlu"
@@ -128,7 +128,7 @@
         "technical"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     },
     {
       "id": "ce3086052ce13015",
@@ -219,6 +219,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2025-11"
 }

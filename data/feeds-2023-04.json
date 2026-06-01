@@ -21,7 +21,7 @@
       "id": "ba193c25b23bacf3",
       "url": "https://www.fast.ai/posts/2023-04-04-part2-2023.html",
       "title": "From Deep Learning Foundations to Stable Diffusion",
-      "summary": " Today we’re releasing our new course, \u003ca href=\"https://course.fast.ai/Lessons/part2.html\"\u003eFrom Deep Learning Foundations to Stable Diffusion\u003c/a\u003e, which is part 2 of \u003ca href=\"https://course.fast.ai\"\u003ePractical Deep Learning for Coders\u003c/a\u003e. ",
+      "summary": " We’ve released our new course with over 30 hours of video content. ",
       "date_published": "2023-04-03T14:00:00Z",
       "authors": [
         {
@@ -35,9 +35,9 @@
         "courses"
       ],
       "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/index.html"
+      "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-06-01T03:41:08Z",
+  "_signal_generated": "2026-06-01T11:26:32Z",
   "_signal_period": "2023-04"
 }
