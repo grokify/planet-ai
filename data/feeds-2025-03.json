@@ -60,7 +60,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "dad5eab4be56cef7",
@@ -104,6 +104,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-06-09T14:43:14Z",
+  "_signal_generated": "2026-06-09T20:03:34Z",
   "_signal_period": "2025-03"
 }
