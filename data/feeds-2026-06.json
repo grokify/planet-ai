@@ -3,6 +3,26 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "ec7849eeaa41d033",
+      "url": "https://lucumr.pocoo.org/2026/6/10/gaslighting/",
+      "title": "Gaslighting Openness",
+      "content_html": "\u003cp\u003eI have been a staunch supporter of Open Source for a long time, including\n\u003ca href=\"/2023/11/19/cathedral-and-bazaaar-licensing/\"\u003eexperiments\u003c/a\u003e\n\u003ca href=\"/2024/9/23/fsl-agpl-open-source-businesses/\"\u003ein\u003c/a\u003e\n\u003ca href=\"/2024/9/19/open-source-tax/\"\u003efunding\u003c/a\u003e \u003ca href=\"/2024/10/14/mixing-oss-and-money/\"\u003eit\u003c/a\u003e.\nI\u0026#8217;m a true believer in the idea that Open Source always wins in the long run,\nbut not automatically and not quickly.  Right now it is being stressed by AI\nslop, shifting contributor dynamics, the falling cost of producing code, and\nlarge companies learning to close doors behind them.\u003c/p\u003e\n\u003cp\u003eA lot of that battle today is manipulation of the narrative.  Opinion makers on\nsocial media and in business circles increasingly frame access as\nirresponsibility.  That is why the EU\u0026#8217;s DMA matters, even if many people\n(including myself) reflexively hate EU regulation.  Apple\u0026#8217;s fight over \u003ca href=\"https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/\"\u003edelayed\nAI features in\nEurope\u003c/a\u003e\nis not about Brussels being annoying: it is about whether users can access their\nown devices and data.  The phone is yours, the data is yours, yet Apple decides\nwho may reach it and takes the agency away from you and then tries to make that\nsound like it is in your interest (supposedly it\u0026#8217;s for your safety and security).\u003c/p\u003e\n\u003cp\u003eThe closer you get to the core of AI, the more this shows up.  Anthropic has\nevery financial incentive to restrict what people can do with \u003ca href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\"\u003eMythos and\nFable\u003c/a\u003e, and they wrap\nthose restrictions in safety and (national) security language.  Some\nrestrictions may be defensible, but not all of them are.  They trained their\nmodels on public works, then block Open Source attempts to learn from and\ndistill these systems.\u003c/p\u003e\n\u003cp\u003eDisliking the EU, China, or any other large government should not make us forget\nthat true democratized access to technology including AI is in all our interest.\nSome temporary product pain, including delayed Apple AI features, will be worth\npaying if it keeps gates open.  We should not let companies own the narrative\nthat preventing access is in our interest, particularly not as Europeans where\nthe odds are already stacked against us by our underdeveloped capital markets,\nbrain drain and internal fighting.\u003c/p\u003e\n",
+      "summary": "\u003cp\u003eI have been a staunch supporter of Open Source for a long time, including\n\u003ca href=\"/2023/11/19/cathedral-and-bazaaar-licensing/\"\u003eexperiments\u003c/a\u003e\n\u003ca href=\"/2024/9/23/fsl-agpl-open-source-businesses/\"\u003ein\u003c/a\u003e\n\u003ca href=\"/2024/9/19/open-source-tax/\"\u003efunding\u003c/a\u003e \u003ca href=\"/2024/10/14/mixing-oss-and-money/\"\u003eit\u003c/a\u003e.\nI\u0026#8217;m a true believer in the idea that Open Source always wins in the long run,\nbut not automatically and not quickly.  Right now it is being stressed by AI\nslop, shifting contributor...",
+      "date_published": "2026-06-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
+    },
+    {
       "id": "bbb1708fbdcccf34",
       "url": "https://lalitm.com/post/perfetto-security-bugs-ai/",
       "title": "17 bugs in 10 weeks from AI security scanning",
@@ -37,6 +57,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-06-10T15:26:18Z",
+  "_signal_generated": "2026-06-10T20:25:32Z",
   "_signal_period": "2026-06"
 }
