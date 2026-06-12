@@ -512,6 +512,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "fd99cda5b61a0d3a",
+      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out",
+      "title": "I've sold out",
+      "summary": "I've sold out",
+      "date_published": "2026-04-08T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "0558262df33a167a",
       "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
       "title": "Mario and Earendil",
@@ -530,20 +544,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "fd99cda5b61a0d3a",
-      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out",
-      "title": "I've sold out",
-      "summary": "I've sold out",
-      "date_published": "2026-04-08T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2b81f57c03a5159c",
@@ -2625,20 +2625,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "9f8a4ed77531e598",
-      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
-      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
-      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
-      "date_published": "2025-08-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "da2a377cc538381d",
       "url": "https://blog.d11r.eu/energy-beginners-guide/",
       "title": "Energy, a Beginner's Guide (notes)",
@@ -2651,6 +2637,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "9f8a4ed77531e598",
+      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
+      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
+      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
+      "date_published": "2025-08-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "d06d7a99f1ad4dcc",
@@ -3922,20 +3922,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "8d07cbef0a5ec80b",
-      "url": "https://blog.d11r.eu/cryo/",
-      "title": "I signed up for cryonics",
-      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "fb26376b39bda9a7",
       "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
       "title": "Two years in review",
@@ -3948,6 +3934,20 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "8d07cbef0a5ec80b",
+      "url": "https://blog.d11r.eu/cryo/",
+      "title": "I signed up for cryonics",
+      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -3978,5 +3978,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-06-12T10:05:25Z"
+  "_signal_generated": "2026-06-12T14:51:21Z"
 }
