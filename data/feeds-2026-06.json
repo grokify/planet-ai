@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "c54a522da5fa832a",
+      "url": "https://siddhantkhare.com/writing/from-internship-to-ona-joining-openai",
+      "title": "My first company is joining OpenAI. I started there at 19.",
+      "summary": "What four years at Gitpod and Ona taught me about public work, trust, messy ownership, and getting closer to rare work.",
+      "date_published": "2026-06-14T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "career",
+        "startups",
+        "developer-tools",
+        "personal"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "c4ea56a2226a998d",
       "url": "https://lucumr.pocoo.org/2026/6/13/americans-only/",
       "title": "Dangerous Technology For Americans Only",
@@ -45,8 +68,8 @@
     {
       "id": "bbb1708fbdcccf34",
       "url": "https://lalitm.com/post/perfetto-security-bugs-ai/",
-      "title": "17 bugs in 10 weeks from AI security scanning",
-      "summary": "\u003cp\u003eOver the last several weeks, I\u0026rsquo;ve been receiving more security bug reports for\nPerfetto\u0026rsquo;s trace processor than I ever have before, all of them found by AI. And\nI\u0026rsquo;m very happy about it! These are bugs that would almost certainly not have\nbeen found a year ago and it feels good to close these loopholes even though\ntrace processor is by no means security critical.\u003c/p\u003e\n\u003cp\u003eFor years, security researchers concentrated their time on the highest-stakes\ntargets: kernels, cryptography libraries, password managers. But there\u0026rsquo;s a lot\nof code out there which is security-relevant but not truly security-critical. In\nmy experience, these sorts of projects didn\u0026rsquo;t draw much attention. Now systems\nin the long tail can get that attention which they wouldn\u0026rsquo;t have before.\u003c/p\u003e\n\u003ch2 id=\"why-is-this-happening\"\u003eWhy is this happening\u003c/h2\u003e\n\u003cp\u003eTrace processor is a project which sits squarely in that long tail. It\u0026rsquo;s a C++\nlibrary (yes, Rust would be the obvious choice today but it\u0026rsquo;s not practical to\nrewrite, see footnote \u003csup id=\"fnref:1\"\u003e\u003ca href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\"\u003e1\u003c/a\u003e\u003c/sup\u003e) for processing recorded traces of various\nformats. These are typically traces you collected yourself or in your test infra\nand process offline so \u0026ldquo;untrusted input\u0026rdquo; isn\u0026rsquo;t much of a concern.\u003c/p\u003e",
+      "title": "Security analysis is finally reaching software's long tail",
+      "summary": "\u003cp\u003e\u003cem\u003eThis post was formerly titled \u0026ldquo;17 bugs in 10 weeks from AI security scanning\u0026rdquo;.\nIt was changed upon feedback from trusted readers who suggested, while accurate,\nit did not give a good sense of what I\u0026rsquo;m \u003cem\u003eactually\u003c/em\u003e arguing in the post.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eOver the last several weeks, I\u0026rsquo;ve been receiving more security bug reports for\nPerfetto\u0026rsquo;s trace processor than I ever have before, all of them found by AI. And\nI\u0026rsquo;m very happy about it! These are bugs that would almost certainly not have\nbeen found a year ago and it feels good to close these loopholes even though\ntrace processor is by no means security critical.\u003c/p\u003e\n\u003cp\u003eFor years, security researchers concentrated their time on the highest-stakes\ntargets: kernels, cryptography libraries, password managers. But there\u0026rsquo;s a lot\nof code out there which is security-relevant but not truly security-critical. In\nmy experience, these sorts of projects didn\u0026rsquo;t draw much attention. Now systems\nin the long tail can get that attention which they wouldn\u0026rsquo;t have before.\u003c/p\u003e",
       "date_published": "2026-06-07T15:26:00Z",
       "tags": [
         "Programming",
@@ -77,6 +100,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-06-14T13:55:28Z",
+  "_signal_generated": "2026-06-14T19:21:42Z",
   "_signal_period": "2026-06"
 }
