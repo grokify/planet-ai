@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "a5a7a8651745c3b3",
+      "url": "https://lalitm.com/post/til-iroh/",
+      "title": "TIL: Iroh: peer-to-peer networking for app developers",
+      "summary": "\u003cp\u003eI came across \u003ca href=\"https://www.iroh.computer/\"\u003eIroh\u003c/a\u003e\n(\u003ca href=\"https://news.ycombinator.com/item?id=48542480\"\u003evia\u003c/a\u003e,\n\u003ca href=\"https://lobste.rs/s/cslljn/iroh_1_0_dial_keys_not_ips\"\u003evia\u003c/a\u003e) today as it hit\n1.0 and found it a really interesting solution to a problem I knew existed but\nhad not thought a lot about.\u003c/p\u003e\n\u003cp\u003eJudging from the comment sections, it seems pretty clear that \u003cem\u003elots\u003c/em\u003e of people\nare confused as to exactly \u003cem\u003ewhat\u003c/em\u003e Iroh is. I don\u0026rsquo;t think their\n\u003ca href=\"https://www.iroh.computer/blog/v1\"\u003elaunch post\u003c/a\u003e does their product justice at\nall, and their tagline is \u0026ldquo;IP addresses break, dial keys instead\u0026rdquo; which sounds\ncool, but if you think about it for just a second, you\u0026rsquo;ll end up with lots of\nquestions. The biggest one is: \u0026ldquo;so how is this different from a mesh VPN like\nTailscale, ZeroTier, Netbird, etc.?\u0026rdquo;\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s only after reading a lot of developers\u0026rsquo; comments on the threads that I feel\nI understand: Iroh is aimed at \u003cem\u003eapplication\u003c/em\u003e developers who want to communicate\nP2P between machines running their app, while mesh networks are aimed\nat \u003cem\u003enetwork admins\u003c/em\u003e who want to connect devices they own/manage together.\u003c/p\u003e",
+      "date_published": "2026-06-16T01:36:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "c54a522da5fa832a",
       "url": "https://siddhantkhare.com/writing/from-internship-to-ona-joining-openai",
       "title": "My first company is joining OpenAI. I started there at 19.",
@@ -100,6 +114,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-06-15T20:51:45Z",
+  "_signal_generated": "2026-06-16T03:43:20Z",
   "_signal_period": "2026-06"
 }
