@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "5752eeeb4f1b924c",
+      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b?source=rss-c1ec701babb7------2",
+      "title": "The Flat Curve Society",
+      "content_html": "\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*41EEUrrzzmBVn8-UZ9oGjA.jpeg\" /\u003e\u003cfigcaption\u003eThe Flat Curve Society\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eHi-ho, we’ve reached the moment, in this movie we’re all watching together on X, where model intelligence has become dangerous. Dario predicted years ago that it would happen this year. With Fable being (briefly) shut off by the USG, it’s the first highly visible sign that we’ve crossed into treacherous waters.\u003c/p\u003e\u003cp\u003eWhich is too bad, really. I was hoping that we’d get a couple more generations of model upgrades, powerful enough to convince all remaining skeptics, before we got to one that was a security problem. But the Mythos class (Fable being the sloppily-guardrailed version they released last week) has everyone spooked.\u003c/p\u003e\u003cp\u003eNow that we know models are getting dangerous, we can do some extrapolating.\u003c/p\u003e\u003cp\u003eThe AI race isn’t going to slow down, and AI will continue to grow exponentially in capability. Unfortunately, most of you aren’t going to see it progress anymore.\u003c/p\u003e\u003cp\u003eI am now in the camp who believe that we are only at most two or three model generations away from AI finally being controlled like nuclear weapons. Only a few will have access to superintelligence above the classes of models we’re seeing this year. As far as I can tell, most Fortune 500 companies will either not have access at all, or it will be tightly controlled for only a small subset of the company. And it will be supervised.\u003c/p\u003e\u003cp\u003eI think those with access to powerful frontier models will sell intelligence like a vending machine: You send them a software spec or a problem to solve, and their models implement it for you, on their servers, with your dollars. And since most companies aren’t going to want to send their code and problems to the model vendors, I think the world will learn to live with the models we do have access to.\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*APBipdbgLcUuG9Y1WIoo3Q.jpeg\" /\u003e\u003cfigcaption\u003eSuperintelligence Under Lock and Key\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eEvery government will restrict access, acting on its own. Nuclear weapons are scarce because it’s hard to get enriched uranium. AI is going the same way, with the chokepoint being the supply chain — something governments can actually clamp down on. China will lock superintelligence inside its own borders as hard as the USG will. And if China ends up taking the frontier lead, it just changes where the power is concentrated, but not the overall shape of the world we’re going to be operating in.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eA World of Mediocre Models\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eMany of us hoped OSS models would keep us on the exponential curve. They trail the frontier by roughly seven months. But they stay on that curve by training on compute which increasingly takes international-relations-level dealmaking to secure. Maybe distillation or some clever peer-to-peer training scheme keeps them in the race. But to push past Fable class they’d have to do it while the whole hardware-and-software supply chain gets locked down the way the nuclear chain was. And the frontier labs themselves are going to decline to help train the next dangerous open model.\u003c/p\u003e\u003cp\u003eIf OSS hits Fable class next year anyway, that’s great for the world. But open models are not going to blow past Fable class, not with a huge compute wall and government lockdowns looming.\u003c/p\u003e\u003cp\u003eSo again, today’s models are roughly as good as we’re going to get.\u003c/p\u003e\u003cp\u003eAs disappointing as I find that in some ways, I find it still has a lot of upside to be happy about. Because today’s models, particularly Fable-class, are plenty good enough. They will still utterly transform coding and knowledge work. It’s just not going to be a walk in the park. It will take a big, multi-year effort to pivot.\u003c/p\u003e\u003cp\u003eI’m going to assume for the rest of this post that we will all get Fable back, and that we may even get one higher class of model before further advancements become inaccessible to all but a very few.\u003c/p\u003e\u003cp\u003eMany of you have been expecting the hockey-stick AI advancement curve to level out soon, refusing to believe that it’s truly on an exponential curve that could lead to it being so much smarter than humans. You predicted AI would not be able to replace human engineers.\u003c/p\u003e\u003cp\u003eIn a way, you turned out to be right. A very practical way.\u003c/p\u003e\u003cp\u003eIn reality, behind the scenes, the curve is NOT flattening at all; the exponential growth will continue, and you will be able to see outwardly observable signs of it, e.g. in data center growth.\u003c/p\u003e\u003cp\u003eBut the curve will appear to flatten out for you, through two separate phenomena.\u003c/p\u003e\u003cp\u003eThe first reason is the one we already mentioned: they’re going to keep the smartest (and thus dangerous) models out of our hands. So most of us never get a chance to try them out. And those models certainly won’t be replacing engineers, if we can’t use them.\u003c/p\u003e\u003cp\u003eThe other reason’s kind of interesting, and it took me a while to see that it’s really the same reason wearing a different hat.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eA World of Mediocre Users\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eSome people are already reporting they can’t tell the difference between Opus 4.8 and Fable 5. I’ve been calling this the “discernment horizon”: every human has a ceiling on model intelligence past which all the models start to feel about the same. But there are actually two ceilings, both instructive.\u003c/p\u003e\u003cp\u003eThe first I’ll call the demand horizon. It’s set by the hardest problem you bring. If all you have handy are easy problems, they don’t give a smarter model any room to pull ahead — the outputs look the same because the problem never stretched either one.\u003c/p\u003e\u003cp\u003eI call my hard problems “back-pocket evals,” and I collect them. Whenever I give a project to a model, and it can’t do the project, I add it to my pocket-eval list. Then every time a new model drops, it’s like Christmas. I try it out on all my pocket evals and see which ones it can now solve.\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*mFhM2Q7wYa-s0NOmRyNavw.jpeg\" /\u003e\u003cfigcaption\u003ePocket Evals\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eConcrete example: No Opus-class model has been able to write the React client for my game; it’s just way too complicated and fiddly. Fable was absolutely smashing it. Easy way for me to see the difference vs. Opus. But I also have other problems that will prove too hard for Fable. I will collect them eagerly as it chomps through my work. All you need is ambition, and you can create your own pocket eval collection.\u003c/p\u003e\u003cp\u003eSo my demand horizon is super high, and will last at least three or four more model generations, if I can manage to get access to that level of intelligence, which seems unlikely. I don’t have my hopes up. But at least I will be able to \u003cem\u003etell\u003c/em\u003e if it’s actually that smart, using my evals.\u003c/p\u003e\u003cp\u003eThe demand horizon is where you can’t tell two models apart because you don’t have a hard enough problem. That is benign enough, even kind of flattering: it just means your work isn’t hard enough right now. But bring an unusually hard problem one day, and your horizon widens on the spot, as you watch the cheaper model fumble some task the expensive one nails. Like my React client.\u003c/p\u003e\u003cp\u003eThere is a darker horizon, which I think of as the discernment horizon. This one is set not by the hardest problem you can pose, but by the hardest answer you can judge. Past this scary line, you can’t tell whether the model is right, because checking the work is itself beyond you.\u003c/p\u003e\u003cp\u003eI’ve been chewing on this problem since my Drunken Rants days, when I’d write about how hard it is to interview someone smarter than you. How do you know they’re not a charlatan, if they’re professing expertise in an area you know nothing about? You can’t, really.\u003c/p\u003e\u003cp\u003eEveryone has a discernment horizon, even Dario. Past some level of capability there is no human alive who can verify the model output.\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*SF1BasFag8DKAfmOsuzaig.jpeg\" /\u003e\u003cfigcaption\u003eThe Discernment Horizon\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eThis takes us full circle to \u003cem\u003ewhy\u003c/em\u003e they are starting to lock down the models. You can’t hand out an intelligence engine that nobody can supervise. It’s pointless to own because you won’t know if it’s helping you or walking you off a cliff. Superhuman \u003cem\u003emeans\u003c/em\u003e unverifiable.\u003c/p\u003e\u003cp\u003eSo the safety people see a potential weapon, and the rest of us see a tool that we can’t effectively supervise. In both cases, you don’t need or want the more powerful model. You want the safer one, even if it’s less capable.\u003c/p\u003e\u003cp\u003eCompanies also have both of these horizons. For plenty of companies, Fable is already past the demand horizon — every problem they’ve got, it handles, and a smarter model would change nothing they could measure. For the harder shops the binding limit is discernment: the AI produces work that nobody can grade. A terrible outcome, assuming you don’t want to surrender your business to AI entirely.\u003c/p\u003e\u003cp\u003eAs a result of all this, the curve is flattening for most of us. I think commodity intelligence will soon stop growing exponentially, or at least, it will appear that way, and we’ll all operate as if it’s true.\u003c/p\u003e\u003cp\u003eI had never spent much time considering the possibility that the intelligence curve would flatten out. But now that it seems to be happening, let’s look at some of the clear and obvious implications for the industry.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eSaaS is Back, Baby\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eIt’s clearly going to be too expensive to rebuild all the SaaS at the top of the pyramid. Yes, there will be models that can do it, but access and cost will both be prohibitive.\u003c/p\u003e\u003cp\u003eSaaS actually came rocketing back over the past month all on its own, after spending much of the past year on the ropes, pummeled from all directions by threats of in-house rewrites and fears of Claude taking it all.\u003c/p\u003e\u003cp\u003eThen companies learned about token efficiency the hard way, with huge firms blowing their yearly budgets in months. A few months ago, everyone was planning to tell their CFO they could cancel a bunch of SaaS subscriptions and bring their dependencies in-house. No longer. Now the buy-vs-build decision is tilted heavily towards buy. If you despise your current SaaS enough, then sure, you may be motivated to rewrite it with AI. But buying SaaS has predictable costs that are usually already in the budget, whereas vibe-coding replacements could be an expensive gamble.\u003c/p\u003e\u003cp\u003eIf we see a plateau in accessible model capabilities, then the other dreams we had about AI in SaaS fade too: not just replacing it, but transforming it with agentic behaviors and monitoring. Today’s models aren’t good enough to replace a person yet (jailbreakable, confusable, etc.), so you can’t just swap an agent in for an SRE or a trained customer service rep. And the models that \u003cem\u003ecould\u003c/em\u003e reliably replace humans may be too dangerous to \u003cem\u003egive\u003c/em\u003e to most people.\u003c/p\u003e\u003cp\u003eSo SaaS looks like it might be fine, even without agentic behaviors. It just needs to save you the money of building and maintaining it in-house.\u003c/p\u003e\u003cp\u003eSaaS still has its problems: users subsidizing the 80% of the features they don’t use, dollars extracted from local economies to enrich Silicon Valley, enshittification creeping up the pyramid. But it remains fundamentally about crystallization of knowledge. Groups of people build stuff that’s tricky, stuff you wouldn’t want to do yourself, and rent it to you. The AI models powerful enough to replace most of that “easily” will either be unavailable or prohibitively expensive.\u003c/p\u003e\u003cp\u003eIt feels to me like the SaaS model is here to stay.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eAI Literacy 101\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eToday’s models, while quite capable, are still very difficult to work with. Even Fable likely struggles with large monoliths and other complex legacy code arrangements. It’s hard to get a consistently high quality bar. And of course efficiency is a monstrous issue.\u003c/p\u003e\u003cp\u003eI’d been hoping for models that are smart enough that you don’t need much training to work with them. But with today’s models, you cannot expect people to be born AI-literate. They need help in order to use today’s coding agents and harnesses.\u003c/p\u003e\u003cp\u003eIn the next section I will provide a fairly precise and measurable definition of AI literacy. I did not invent it, but I believe it is good enough for your planning, and mine.\u003c/p\u003e\u003cp\u003eFirst, though, why does it matter whether your employees are AI literate? The answer is a bit complicated, but it boils down to two factors. One is that your company will have to pivot to using AI. And the other is that all your employees are feeling anxious about AI. This tension is actively playing out at all companies around the globe.\u003c/p\u003e\u003cp\u003ePivoting to AI will change everyone’s job at least a little, and probably change the shape of your company a lot. Which just feeds the anxiety, in a loop.\u003c/p\u003e\u003cp\u003eIf you are pushing on change in your company without first having addressed AI literacy, in a quantitative but also deeply empathetic way, then you are fueling anxiety, resentment, and pushback. Your org will resist change.\u003c/p\u003e\u003cp\u003eAI adoption is the key culture challenge of 2026–2027. If you can manage to get your (hostile) employees past the hurdle, and genuinely get them excited about how they can use AI to accelerate themselves, then magic happens. They will automatically begin reshaping your business processes together towards using supervised agentic flows.\u003c/p\u003e\u003cp\u003eI’ve seen this happening all over, but concretely, Gene and I saw it at Arkana Labs in April under the guidance of their VP Eng, Owen Parker. Arkana offers world-class overnight kidney-disease diagnosis, and they have utterly unique business processes. But those processes can all be sped up here and there with AI. Given how obsessed Arkana is, culturally, with fast and accurate turnaround, the employees themselves are getting excited about the opportunities, and pushing hard on what might be possible with agents.\u003c/p\u003e\u003cp\u003eHaving seen enough of this I maintain that once most people “get” AI, you just need to guide them, and they’ll start broadly doing the right things for your team.\u003c/p\u003e\u003cp\u003eConversely, as long as your teammates remain non-AI-savvy, they will resist AI. Which means that until you can get your org over the hump, you’re facing resistance, anxiety, and potentially even morale issues.\u003c/p\u003e\u003cp\u003eSo how do we fix it? How do we get people to “get” AI?\u003c/p\u003e\u003cp\u003eIt turns out, Netflix has handed us the answer. Thank you, Netflix!\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eAI Literacy: Beginner Cohorts\u003c/strong\u003e\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*7FvNDJkCUQ_Af7umgoN-BA.jpeg\" /\u003e\u003cfigcaption\u003eVibe Coding Workshops\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eI watched a mind-blowing presentation in April from Ezra Savard, who ran a training study/experiment at Netflix from December through March. He gave the presentation at Gene Kim’s AI Summit in San Jose. The study’s goal was to train Netflix engineers on agentic coding, and measure the impact.\u003c/p\u003e\u003cp\u003eEzra’s presentation was all properly rigorous and disclaimed (e.g. for minor selection bias), but they felt pretty strongly about the results being directionally correct, so I’ll skip all that.\u003c/p\u003e\u003cp\u003eNote that I’ll be framing this as “AI literacy” but that’s my term, not Ezra’s, and he never mentions literacy in his talk. He talks about the journey from being non-users, to users, to power users. But AI is becoming a foundational skill for modern knowledge work, so I will make the case in this post that we are talking about a new form of literacy.\u003c/p\u003e\u003cp\u003eEzra’s first big discovery to share is that they found three cohorts, which I’m calling the beginner levels of AI literacy. Ezra characterized the cohorts in terms of their average token spend on a “qualified” day using AI, meaning a day where they are using it heavily. They needed at least 3 days a week to be in the cohort.\u003c/p\u003e\u003cp\u003eHere are the three beginner cohorts they found, defined by spend:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003e0M tokens/day\u003c/strong\u003e: devs who aren’t using coding agents for their regular work\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e4M tokens/day\u003c/strong\u003e: using a single agent synchronously throughout the workday\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e12M-15M tokens/day\u003c/strong\u003e: letting 2 to 4 agents work without watching\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSo: No agent, then single-agent, then multi-agent. I think this is a solid working definition of baseline AI literacy. If your entire org isn’t at \u003cem\u003eleast\u003c/em\u003e at single-agent literacy, then they will be fighting you on bringing in more AI, even if it’s just passive resistance.\u003c/p\u003e\u003cp\u003eEzra shared that some power-user graduates of his course were legitimately spending much higher amounts, over 50M/day.\u003c/p\u003e\u003cp\u003eBut he also cautioned that beyond the 15M/day mark, token spend is no longer a valuable measure, since people are by then clever enough to invent reasons to burn tokens. \u003cem\u003e(After that, you switch to measuring outcomes, as I’ll discuss below.)\u003c/em\u003e\u003c/p\u003e\u003cp\u003eHowever, and this is the wonderful part, up \u003cem\u003eto\u003c/em\u003e that point (15M tokens/day), measuring your employees’ token spend at a coarse level can provide powerful insight into where your organization stands on AI literacy, and how much training lies ahead of you.\u003c/p\u003e\u003cp\u003eFortunately, Ezra has good news for you there: People can jump cohorts in 5 hours. That’s how long it takes people, in the right training setting, to graduate from AI illiteracy to AI savviness. And they stay there. It’s like flipping a switch. 96% of the trainees remained in the second cohort for six weeks after the course without showing signs of slowing down.\u003c/p\u003e\u003cp\u003eWhat’s the right training setup, you ask? Ezra’s team spent considerable effort honing the formula. The training must be done a team at a time, with 5 to 10 people, including their manager. The manager _must_ opt the team in, during regular work hours, as “blessed” company time. The trainees must bring their actual work, and the instructor(s) will help them learn how to do it with agents.\u003c/p\u003e\u003cp\u003eThey found that if they cut corners anywhere — shorter classes, larger audiences, individual opt-in classes — they didn’t get the same results. It didn’t “stick.”\u003c/p\u003e\u003cp\u003eAs for the third cohort: once a manager has a team full of single-agent users, they can opt their team into the multi-agent course. This is another 5 hours, and teaches them the additional skills needed to wrangle multiple asynchronous agents, while maintaining a high quality bar. This course saw the same strong adoption, with the vast majority jumping into multi-agent work and staying there.\u003c/p\u003e\u003cp\u003eSo it takes roughly 5 hours of focused training per employee to get them to basic literacy. And after a few weeks of practice, another 5 hours to get them to become power users.\u003c/p\u003e\u003cp\u003eAnd as for impact, Ezra reported some surprising findings, such as there being a large difference in the amount of code produced by agentic coders. But when they dug in, they found it was entirely attributable to the additional test code they were writing. Overall, they found that the course had a large positive impact on productivity for those who attended.\u003c/p\u003e\u003cp\u003eIf you want to start having conversations with your company about pivoting to AI, then I strongly recommend you begin with an AI literacy audit, followed by training everyone up at least into the single-agent cohort.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eAdvanced Cohorts\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eGetting people over the FUD hump, and teaching them to spend tokens to accelerate their own work, solves your first culture problem. And it will help you tremendously in your conversations about how to bring in AI, without getting so much pushback.\u003c/p\u003e\u003cp\u003eNetflix gave us an optimized solution to the FUD hump. You train up some “Line Cook” instructors who teach the intro course. Ezra told me and Gene that they had started with our book, which was kinda cool. But the exact curriculum barely matters; you can teach it however you like. And then you get everyone through it, 5 hours and ten people at a time.\u003c/p\u003e\u003cp\u003eOnce you’ve taught everyone how to spend tokens, your second culture problem emerges, which is teaching people how NOT to spend tokens. Token efficiency is a fairly advanced topic. There are many, many ways that models can steer you wrong, and the most efficient agentic coders focus on maximizing their outcomes for a given token budget.\u003c/p\u003e\u003cp\u003eAt this point I should share a joke made by Pierre Racz, the brilliant Founder/CEO of Genetec, one of the world’s largest physical-security monitoring companies. He prefers to write his code by hand, and when I described how these measurements work, he observed wryly, “Well then it’s not that I’m not using AI, I’m just \u003cem\u003eextremely\u003c/em\u003e token-efficient.”\u003c/p\u003e\u003cp\u003eAnd it’s a funny joke, but there’s an underlying lesson there too, which is that if you can trivially do a task by hand, then do it by hand! Over time, you can save a bunch of tokens just by being thoughtful. Type !git push instead of asking the agent to do it, and your habit probably saves you 100k tokens on average, each time you push.\u003c/p\u003e\u003cp\u003eYou know the meme with the bell curve and the troglodyte at the bottom and the Jedi at the top, and they’re doing the same thing? Well here the beginner-thing that the Jedi masters is low token spend.\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*e3RNtiUi6e-koK0oYV0vHQ.jpeg\" /\u003e\u003cfigcaption\u003eThe journey from beginner to master\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eToken spend only signals literacy on the way up. It’s a skill you build. But then it flips, and the thing you need to start measuring is token waste. Minimizing that is another set of skills.\u003c/p\u003e\u003cp\u003eYou will find that your beginner cohorts are absolute token pigs, and that’s OK. Encourage them to explore and learn. They need to master the skill of spending before they can focus on savings.\u003c/p\u003e\u003cp\u003eYou will find that people don’t automatically know how to conserve tokens. They will be 200k tokens deep into a conversation and ask the AI what time it is. Argh! Or maybe whether a specific file exists in their home directory. This is a skill that needs training, too.\u003c/p\u003e\u003cp\u003eSo at some point you will probably want to have a third training course, this one on efficiency techniques and good token hygiene.\u003c/p\u003e\u003cp\u003eThen, give your newly AI-savvy people budgets. Make them earn budget increases with real outcomes. However you do it, measuring outcomes is going to become critically important, so you can differentiate your effective builders from your vanity builders.\u003c/p\u003e\u003cp\u003eWe’ve talked about the beginner literacy cohorts (spend-based), and the advanced cohorts (efficiency, waste management). At the top of the AI literacy curve, your thinking becomes more strategic. You worry about saving large numbers of tokens while achieving your desired outcomes.\u003c/p\u003e\u003cp\u003eThe first example everyone hits is buy vs build. Will you let your engineers try to rewrite random SaaS, or will you just re-up and go with the known spend? You have to start being strategic with agentic project allocation.\u003c/p\u003e\u003cp\u003eAnother interesting challenge you face: How will you route every task to the dumbest model that can handle it? You will need to be able to tag work with intelligence tiers, and build a router. That router is the discernment horizon encoded as infrastructure. Most work sits below the line and goes to the cheap model, and the occasional task that pokes above it gets escalated to the expensive tier.\u003c/p\u003e\u003cp\u003eAt the highest levels, AI literacy turns into the art of achieving great outcomes with the least spend.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eA Craft Needs a Plateau\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eWe are seeing a plateau in intelligence. It is artificial: the exponential increase continues behind the scenes, gated away from you. And at some point you won’t be able to tell it’s getting better, even if you could see it. The intelligence curve is as real as the Earth is round, but just as flat from where you stand. Welcome to the Flat Curve Society.\u003c/p\u003e\u003cp\u003eThe Mythos graduating class will become the accepted trade-off between capability and risk for the general public. And we will see incremental updates that patch edge-case behavior, but nothing like the jumps we have enjoyed for the past several years.\u003c/p\u003e\u003cp\u003eThe plateau is not a bad thing. A plateau lets us set up a camp and start building. We’ve been on unstable ground. Think how hard it has been lately to be a startup founder, with everything you build being obsoleted with each model release. That’s finally slowing down now, and it will give us firm footing.\u003c/p\u003e\u003cp\u003eWe have an engineering problem ahead of us. As good as Opus and Fable are, they have their limits. We all need to learn the art of task decomposition and breaking up software monoliths, to keep them within those limits. We will still need engineers, and engineering. We’ll have super smart helpers, but it will still be pretty similar to the landscape today.\u003c/p\u003e\u003cp\u003eI kind of like the plateau that’s coming. Stability feels like a precondition for the new craft of building software with these super smart helpers. It is a craft that only gets harder, and more valuable, the weaker your models are. Sonnet-class and Opus-class will stay relevant for years, because they save money and stay broadly available even after the frontier moves on. The models that would obsolete today’s hard-won techniques of the craft are evidently too dangerous to give to us anyway.\u003c/p\u003e\u003cp\u003eThe world is currently tinkering with setting up 24x7 autonomous agents, and it looks like the difficulties we face there today will remain with us tomorrow. There is a large engineering effort underway to build the control plane(s) that allows today’s models to run today’s large businesses. That, too, is a craft, or at least, it’s part of the tools of the trade.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eTrain Your Flat-Curvers\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eThe key takeaway here (beyond not committing seppuku just yet if you’re a SaaS vendor) is that we have a \u003cem\u003emassive\u003c/em\u003e AI training and literacy problem ahead of us. But it’s solvable. It will just take time and effort.\u003c/p\u003e\u003cp\u003eThe models we have today, and the ones coming this year, will not one-shot your entire Fortune 100 code base. They are capable of amazing things, but they will still require grown-up human supervision.\u003c/p\u003e\u003cp\u003eThis means you’ll need engineers. All the cool things that we’ve talked about — with impromptu 2-pizza teams forming, 2- to 3-person teams being a sweet spot, and roles starting to blur together (or at least talk to each other more) — will likely continue. But everyone will need training and time and patience and careful budget management.\u003c/p\u003e\u003cp\u003eAI Literacy does not come for free. The only thing you get for free is AI Anxiety. But it’s fairly easy to teach people to spend tokens. Teaching them to save tokens? Well, that’s the new meta. Good luck. Make sure they can do it Pierre’s way first.\u003c/p\u003e\u003cp\u003eThat’s all I had for today’s post. Hope you enjoyed it. See you at the AI Engineer Conference in San Francisco at the end of the month!\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*l3vx3p6UiFCzQ43cDmE_JA.jpeg\" /\u003e\u003cfigcaption\u003eCampground Craft\u003c/figcaption\u003e\u003c/figure\u003e\u003cimg src=\"https://medium.com/_/stat?event=post.clientViewed\u0026referrerSource=full_rss\u0026postId=36c8b01eb33b\" width=\"1\" height=\"1\" alt=\"\"\u003e",
+      "summary": "\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*41EEUrrzzmBVn8-UZ9oGjA.jpeg\" /\u003e\u003cfigcaption\u003eThe Flat Curve Society\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eHi-ho, we’ve reached the moment, in this movie we’re all watching together on X, where model intelligence has become dangerous. Dario predicted years ago that it would happen this year. With Fable being (briefly) shut off by the USG, it’s the first highly visible sign that we’ve crossed into treacherous waters.\u003c/p\u003e\u003cp\u003eWhich is too...",
+      "date_published": "2026-06-19T03:31:56Z",
+      "authors": [
+        {
+          "name": "Steve Yegge"
+        }
+      ],
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "AI",
+        "ai-training",
+        "ai-safety",
+        "model-safety",
+        "ai-literacy"
+      ],
+      "_signal_feed_title": "Stories by Steve Yegge on Medium",
+      "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
+    },
+    {
       "id": "573bd8958798f783",
       "url": "https://lalitm.com/post/syntaqlite-06/",
       "title": "syntaqlite 0.6: SQLite dot commands and pyodide",
@@ -128,6 +152,20 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
+      "id": "6c8f258681c58fc2",
+      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
+      "title": "How to build a shitty robot",
+      "summary": "A work in progress post about building a shitty robot.",
+      "date_published": "2026-05-30T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "95e5b6e228c0f800",
       "url": "https://siddhantkhare.com/writing/ai-experimentation-stack",
       "title": "Build your own AI experimentation stack",
@@ -150,20 +188,6 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "6c8f258681c58fc2",
-      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
-      "title": "How to build a shitty robot",
-      "summary": "A work in progress post about building a shitty robot.",
-      "date_published": "2026-05-30T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "5d6fe56b2f98812c",
@@ -526,27 +550,18 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "5d4d0c2061eba1f6",
-      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
-      "title": "Why you stop caring mid-review",
-      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
+      "id": "d108ad12756728fb",
+      "url": "https://blog.d11r.eu/meetup-2026/",
+      "title": "Scott Alexander gentrified my meetup",
+      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
       "date_published": "2026-04-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
       "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "engineering",
-        "writing",
-        "career"
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
       ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "6a4d9596033e0efa",
@@ -569,18 +584,27 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
-      "id": "d108ad12756728fb",
-      "url": "https://blog.d11r.eu/meetup-2026/",
-      "title": "Scott Alexander gentrified my meetup",
-      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
+      "id": "5d4d0c2061eba1f6",
+      "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
+      "title": "Why you stop caring mid-review",
+      "summary": "There's a moment in every long review cycle where you quietly check out. It doesn't look like giving up. It looks like being collaborative.",
       "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
       ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "engineering",
+        "writing",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -930,28 +954,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "ambition",
-        "career"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -978,6 +980,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -1280,6 +1304,34 @@
       "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
+      "id": "44285a565700fb09",
+      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
+      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
+      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
+      "date_published": "2026-02-19T00:00:00Z",
+      "authors": [
+        {
+          "name": "Ben Gregory"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Engineering",
+        "Product Development"
+      ],
+      "_signal_feed_title": "Kasava Blog",
+      "_signal_feed_url": "https://www.kasava.dev/blog",
+      "_signal_priority": true,
+      "_signal_rank": 3,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47078324",
+          "id": "47078324"
+        }
+      ]
+    },
+    {
       "id": "fc44166e3e729564",
       "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
       "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
@@ -1305,34 +1357,6 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=47086557",
           "id": "47086557"
-        }
-      ]
-    },
-    {
-      "id": "44285a565700fb09",
-      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
-      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
-      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
-      "date_published": "2026-02-19T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ben Gregory"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Engineering",
-        "Product Development"
-      ],
-      "_signal_feed_title": "Kasava Blog",
-      "_signal_feed_url": "https://www.kasava.dev/blog",
-      "_signal_priority": true,
-      "_signal_rank": 3,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47078324",
-          "id": "47078324"
         }
       ]
     },
@@ -1476,6 +1500,28 @@
       "_signal_feed_url": "https://reorx.com/"
     },
     {
+      "id": "79caba98118d8639",
+      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
+      "title": "AI fatigue is real and nobody talks about it",
+      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
+      "date_published": "2026-02-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "mental-health",
+        "engineering",
+        "personal"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "e509decbf9709dda",
       "url": "https://www.linkedin.com/posts/hernanwyler_aimanagement-airiskmanagement-agenticai-activity-7426369346152747008-m0qt",
       "title": "AI Risk Management Framework",
@@ -1503,28 +1549,6 @@
         "author": "hernanwyler",
         "postId": "7426369346152747008"
       }
-    },
-    {
-      "id": "79caba98118d8639",
-      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
-      "title": "AI fatigue is real and nobody talks about it",
-      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
-      "date_published": "2026-02-08T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "mental-health",
-        "engineering",
-        "personal"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "92dc9c0bdbcacd7f",
@@ -1768,31 +1792,6 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
-      "id": "f48d59472a23e9e6",
-      "url": "https://steve-yegge.medium.com/bags-and-the-creator-economy-249b924a621a?source=rss-c1ec701babb7------2",
-      "title": "BAGS and the Creator Economy",
-      "content_html": "\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*wwKYQ1dgtEUrD_D4_yi5Fw.jpeg\" /\u003e\u003cfigcaption\u003e“You might want to claim that $49k.”\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eI’ve told this bizarre story to a few people now, including my wife Linh, who was certain it was a scam, and everyone’s eyes cross trying to understand it. I told it again at lunch to some old colleagues, same reaction. It’s hilarious to watch. I wish I could see your face as you read this post.\u003c/p\u003e\u003cp\u003e\u003cem\u003eEdit: I think it’s important that you be aware of two things. One is that I am making money off this post (to be spent towards Gas Town tokens) simply by describing what’s happening. Second, I’m not endorsing buying crypto, though I am very happy that people are doing it.\u003c/em\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e\u003cem\u003eDisclosure:\u003c/em\u003e\u003c/strong\u003e\u003cem\u003e I receive creator royalties/trading fees associated with $GAS trading on the BAGS platform, and I may benefit financially from that activity. I did not create $GAS and I have no ownership or control over the token or its smart contract (including no ability to change token terms). $GAS is \u003c/em\u003e\u003cstrong\u003e\u003cem\u003enot\u003c/em\u003e\u003c/strong\u003e\u003cem\u003e equity and does not give you any ownership interest in Gas Town or my work. This post is for informational purposes only and is not a solicitation or recommendation to buy, sell, or hold any token. Crypto markets are volatile and speculative — do not risk money you can’t afford to lose. References to “fees” or “market cap” are historical anecdotes, not guarantees of future performance.\u003c/em\u003e\u003c/p\u003e\u003cp\u003eI was on a \u003ca href=\"https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04?postPublishedType=repub\"\u003eGas Town\u003c/a\u003e thread on LinkedIn on Monday, and noticed that one of the commenters was saying something along the lines of “yo Steve, you have $49k in BAGS and you might want to claim it. Geoffrey Huntley picked up his $56k last week.” I was mildly annoyed, and was about to ignore it and move on, but the mention of the prestigious Huntley had somehow turned it into Schrödinger’s Spam.\u003c/p\u003e\u003cp\u003eAfter mulling it for an hour or two, I DM’ed them asking what it was about, and the commenter replied with a big long string of words that I didn’t understand at all. Looking back, I’m sure my eyes were crossing when I first heard the explanation. I’ve included the screen cap. You be the judge.\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/737/1*a2QgIW5zzYGrqiJSSRvspg.png\" /\u003e\u003c/figure\u003e\u003cp\u003eIn other words, this unknown Internet Person was telling me that blah blah blah blah stuff stuff stuff blah there’s a lot of money waiting for me blah blah blah more stuff… as long as I buy some Solana to unlock my earnings.\u003c/p\u003e\u003cp\u003eWoah, what am I, some sorta dumbass? Well yeah, actually. So I went for it.\u003c/p\u003e\u003cp\u003eLong story short, I actually \u003cem\u003edid\u003c/em\u003e claim my earnings this morning; the total was up to $68k by then, and it’s $75k now. And by the time this post makes the rounds, well, let’s just say I’m going to have some more claiming to do. The hardest part of the whole process was my dipshit bank, actually.\u003c/p\u003e\u003cp\u003eWould you like to know more? I’ve been studying this from all angles and it’s still one of the weirdest things I’ve encountered. Allow me to get richer just by telling you about it. Maybe the catch is I’ll go to jail! If that happens, at least Huntley and I will be able to hang out.\u003c/p\u003e\u003ch3\u003eOvercoming a Lifetime of Suspicion\u003c/h3\u003e\u003cp\u003eWhen I was a kid, a \u003cem\u003elong\u003c/em\u003e fuckin’ time ago, this ancient looking dude named Ed McMahon (who was probably a lot younger than I am now, lol) would go to people’s houses and surprise them with giant-sized checks for millions of dollars. He would have been an annoying influencer today. It wasn’t actually him, it was AFP but whatever, everyone thought it was Ed. And \u003cem\u003eeveryone\u003c/em\u003e subscribed to those sweepstakes and gave Ed some of their money. Every dumbass middle-America household, including mine.\u003c/p\u003e\u003cp\u003eIt was all a huge scam and Ed shoulda been behind bars and Publisher’s Clearing House got sued repeatedly by the responsible U.S. government, back when we had one. PCH finally closed their doors for good in 2025, ironically the same year our responsible government did the same.\u003c/p\u003e\u003cp\u003eAs a result of all this hooha, everyone in my generation grew up \u003cem\u003eextremely\u003c/em\u003e distrustful of anyone saying “You can win free money, just like people you see on TV, with just a small up-front fee to unlock your potential.” There’s \u003cem\u003ealways\u003c/em\u003e a deposit required to unlock that invisible magic free money. That’s how you tell it’s fake and you ain’t gettin’ shit.\u003c/p\u003e\u003cp\u003eThe 1990s were filled with email scams like this, too. The whole Nigerian Prince was a real thing back then, and they got thousands of grandmas. And real-world scams too; we knew a guy at UW in our CS undergrad program who got scammed in person out of $5k (via ATM withdrawal) by a couple of very talented Eastern European social engineering scammers. It was a wild story. He was really shaken by it.\u003c/p\u003e\u003cp\u003eAnd we know that with AI, new forms of social engineering and phishing scams are right around the corner. Imminent, even.\u003c/p\u003e\u003cp\u003eSo yeah, this BAGS message about free money had some alarm bells going off.\u003c/p\u003e\u003ch3\u003eSending a Check to the Prince\u003c/h3\u003e\u003cp\u003eBut like I say, I’m a dumbass. So I told my wife, “hey Baby, some person I don’t know online told me I have $49k waiting to claim for myself, and I just need to set up a wallet and deposit a small amount into it directly from my bank account to unlock the funds.” I think you can imagine the look she gave me. A warranted look, to be sure.\u003c/p\u003e\u003cp\u003e\u003cem\u003eExcept\u003c/em\u003e, this unknown Helpful Person had mentioned Geoffrey Huntley, author of the famous \u003ca href=\"https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum\"\u003eRalph Wiggum official Anthropic plugin\u003c/a\u003e, and they also gave me a pointer to the site where this alleged trading was all taking place, on \u003ca href=\"http://bags.fm\"\u003ebags.fm\u003c/a\u003e.\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*2cKM3UoVD-HCbg4wM7aLBg.png\" /\u003e\u003cfigcaption\u003ebags.fm — the BAGS trading site\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eI figured, what’s the worst that could happen? My bank account gets drained, identity theft, my other accounts get drained… meh! I’ve still got Gas Town, which is gonna be the biggest thing ever.\u003c/p\u003e\u003cp\u003eSo after thinking it over for approximately 359 milliseconds, I decided to take the plunge, save the Nigerian Prince, and spent the next several hours on the phone with my bank and then driving through the rain to give my bank a handwritten soggy slip of physical paper with my name and some account numbers on it, because even fancy banks aren’t that much different today than they were back when they were getting robbed by people in stagecoaches. By comparison, all the BAGS crypto-side stuff was totally squared away and worked instantaneously.\u003c/p\u003e\u003cp\u003eThe guy at the desk (I can’t resist, this is at Charles Schwab for a new investor checking account, the whole experience was uniformly awful from phone to branch) wants to know why I’m opening the new account, since it has an attached brokerage account. I tell him it’s to collect my $50k of crypto money that Gas Town currency speculators created in $7M of transactions in the past 24h, and as the creator I’m entitled to 99% of the transaction fees.\u003c/p\u003e\u003cp\u003eHe looks at me like I said it’s for bioterrorism and asks me a bunch of increasingly incredulous questions. The more I explain the less he believes me. At some point he has asked even more than my wife did, and I’m starting to get irritated; I have a lot of money with these twats.\u003c/p\u003e\u003cp\u003eSo anyway, Schwab tells me it’s gonna be 10 days before I can have my debit card and I just bypassed the whole damn thing and went with a different bank, and finally claimed my $GASfees, which were up to $68k when they finally hit my wallet. It’s at $76k in the screenshot I just took.\u003c/p\u003e\u003cp\u003eAll makes perfect sense so far, yeah?\u003c/p\u003e\u003cp\u003eOK, I confess. I don’t know what the hell is going on either. But let me tell you what I have figured out. Don’t use fucking Charles Schwab. And \u003cem\u003ealso…\u003c/em\u003e\u003c/p\u003e\u003cp\u003eNote: The next few sections are about online gambling in all its forms, where “investing” is the buy-and-hold long-form “acceptable” form of gambling because it’s tied to world GDP growth. Cryptocurrencies are subject to wild swings and spikes, and the currency tied to Gas Town is on a wild swing up. But it’s still gambling, and this stuff is only for people who are into that… which is not me, and should probably not be you either.\u003c/p\u003e\u003ch3\u003eBAGS is a Market for Fueling Creation\u003c/h3\u003e\u003cp\u003ePeople love to bet, and they bet on all sorts of stuff. They go to casinos and horse races, they bet on games and sporting events — some of the biggest companies in the world are for online gambling.\u003c/p\u003e\u003cp\u003eIn the stock markets, people are betting on whether companies will grow. There are all sorts: commodities markets and futures markets and crypto markets, all manner of places you can go to make money by predicting winners.\u003c/p\u003e\u003cp\u003eMany types of betting provide little benefit to humanity. But to my surprise, BAGS is an innovation engine, similar in some ways to the stock market, where people are trying to predict and foster corporate winners. \u003cstrong\u003eBAGS is a trading market targeted at predicting and fostering creators\u003c/strong\u003e: individuals or maybe small teams who are out there creating amazing things.\u003c/p\u003e\u003cp\u003eAs we move into 2026 with tools like Gas Town, individual creators will be able to produce things that rival the output of big companies. One creator can make a product using Gas Town that would have taken a whole company before. Creators are a force that is quickly beginning to matter at a global economic scale.\u003c/p\u003e\u003cp\u003eBut the stock market isn’t pointed in that direction, and that ship is way too big to turn that quickly. That’s where BAGS comes in.\u003c/p\u003e\u003ch3\u003eIs BAGS Just Bitcoin in Disguise?\u003c/h3\u003e\u003cp\u003eBAGS is a cryptocurrency market that supports creators. The investors are betting on whether some creator’s thing will be a hit. People create tokens/coins in Bagsapp, which are are bought and sold, and their value floats on an open market. A creation’s popularity can be a signal as to whether it’s going to be a hit, and so the popularity no doubt drives a lot of the short-term movement in the market value of BAGS coins.\u003c/p\u003e\u003cp\u003eBecause of that, it might feel, at first blush, like BAGS is just another form of Bitcoin or Dogecoin. But for Bitcoin and its ilk, the \u003cem\u003eonly\u003c/em\u003e trading signal is popularity, because the only value Bitcoin provides is \u003cem\u003erarity\u003c/em\u003e. That’s all they have. They’re like LV handbags. People want them because people want them. There are probably betting markets for high-end handbag prices at this point. There’s no real value to humanity in any of it. Bitcoin is sort of soulless. It has the world’s fanciest ledger just to prove someone dug it out of the mathematical soil and then sold it to someone else.\u003c/p\u003e\u003cp\u003eIn contrast, the stock market directly and indirectly fuels innovation — even if over the short term it can be a popularity betting machine like Bitcoin. In the long term, the stock market rewards companies that demonstrate good outcomes. That’s usually earnings, but any good outcome can be rewarded by the market.\u003c/p\u003e\u003cp\u003eBAGS is doing the same thing for small creators. BAGS was structured by its own creator, \u003ca href=\"https://medium.com/u/45be3a3d98ab\"\u003eFinnbags\u003c/a\u003e, so that the trading system’s “exhaust” (trading fees) becomes fuel for innovators. As the creator of Gas Town, I get 99% of those trading fees, thanks to the person who set up the $GAS coin.\u003c/p\u003e\u003cp\u003eThat is where my magical Nigerian Prince Ed McMahon check money came from. It came from Finn, BAGS, and the $GAS community. Thank you!!\u003c/p\u003e\u003ch3\u003eThe Raging Creator Economy\u003c/h3\u003e\u003cp\u003eSo BAGS is an engine that fuels creation, just like the stock market. That’s not some sort of abstract marketing speak; I literally made $75k today from “market exhaust” (fees from people betting on popularity) which I, as a creator of something with legitimate value, am now able to re-invest in funding my creation, which increases the chance it will be an even bigger hit. So BAGS is an engine! Gas Town, the OSS product, is getting a huge boost from this cash influx from BAGS, the speculation market. Not so different from the stock market, is it?\u003c/p\u003e\u003cp\u003eWhy do I think this is important enough to merit a big-ass blog post? Because with AI, the creator economy is going to dwarf the corporate economy. In the next 2 years everything is going to get turned upside-down, with people using code factories like Gas Town to speed up all knowledge work and indeed all online creation.\u003c/p\u003e\u003cp\u003eMillions of independent creators will appear when everyone can \u003ca href=\"https://www.amazon.com/Vibe-Coding-Building-Production-Grade-Software/dp/1966280025\"\u003evibe code\u003c/a\u003e, which is roughly 2 frontier-model upgrades from now. Call it summertime. We’re going to need mechanisms to sort through all the noise to find the genuine hits. When the internet came out, search engines like Google and news aggregators like Reddit and Hacker News arose to help us sort through the giant pile of noise, to get to what we needed.\u003c/p\u003e\u003cp\u003eWith AI, big software companies are facing an onslaught later this year: hordes of ravenous creators who have Gas Town and clusters of local GPUs. There will be so much great software that people will be turning up their noses at classic corporate offerings. It’ll be a bloodbath like the old Los Angeles music industry when indie music and then social media hit.\u003c/p\u003e\u003cp\u003eThis is straight-up economic pressure at work. BAGS is an outlet for the market money that’s trying to find its way to fueling (and predicting) innovation — money that would have gone into the stock market if the stock market were anywhere near flexible enough.\u003c/p\u003e\u003cp\u003eThe stock market is a great model: a strong, consensus-based signal of success for big corporations. We are going to need a market to do the same for the long tail, when it gets big enough to start wagging the dog. BAGS is well-positioned to become that market. I wouldn’t sleep on it.\u003c/p\u003e\u003ch3\u003eBAGS of Cash\u003c/h3\u003e\u003cp\u003eYou laugh, and turn up your nose, and look me up and down with disdain, and say, “perhaps.” Perhaps, indeed. But when I was back at Google in maybe, I dunno, 2010-ish? I remember Google engineers were buying bitcoin at like ten thousand bitcoin per dollar, some crazy shit like that. There was a lot of buzz but I was like nah sleeeeeeeeeeep. I slept on it.\u003c/p\u003e\u003cp\u003eNow of course it’s easier to lose sleep over it. If you had spent a dollar on bitcoin back then, just over a decade ago, feels like yesterday, you would have ten thousand shiny bitcoins each worth $150,000 USD today. Each.\u003c/p\u003e\u003cp\u003eMy point being that we have demonstrable evidence of pressure for a new trading market for the burgeoning creator economy. There is a sense of static in the air, like I felt back in 1998 at Amazon, where you can tell something \u003cem\u003ereally\u003c/em\u003e big is happening.\u003c/p\u003e\u003cp\u003eI have no idea which markets the money will find its way to, but BAGS seems exceptionally well-positioned to find a path similar to the one that Bitcoin did those fateful twelve years ago. Except unlike Bitcoin’s pure speculation, BAGS is at least theoretically, and by design, anchored on real-world long-term value, like stocks.\u003c/p\u003e\u003ch3\u003eBack to $GAS Town\u003c/h3\u003e\u003cp\u003eAnd now you know as much as I do. All this is just my own speculation, in more ways than one. But someone created a $GAS coin for Gas Town after I launched it. And they hit it pretty big. Gas Town went viral, the coin hit it big, and it has had millions of dollars in trades. And I got a pretty nice check from the deal. Last I saw, Geoffrey’s was up to $120k, nice work!\u003c/p\u003e\u003cp\u003eNow that I’m pushing into federating Gas Towns into Wastelands with my Highway Operating Protocol (HOP), I might wind up spending thousands a month, out of my own pocket, just to try to get this MIT-licensed open-source tool working for the world. Thousands a month that my wife assures me I don’t have available to spend. So I am grateful. BAGS is \u003cem\u003edirectly\u003c/em\u003e supporting my innovation and helping me improve it, and I am truly appreciative.\u003c/p\u003e\u003cp\u003eOn January 1st I took all my chips and pushed them to the center of the table. I already placed my bet. I am 100% fine with promoting Gas Town, of course, as a product. And I appreciate the folks at BAGS for their social mission. I don’t think YOU should do any of this nefarious crypto gambling stuff. At all. But I heartily applaud the people who out out there making this happen.\u003c/p\u003e\u003cp\u003eI personally have bet my whole career and staked my entire professional reputation on Gas Town, and when I see a community of earnest young weird-word-using investors cheering Gas Town on, well, I hope they all get \u003cem\u003efilthy\u003c/em\u003e rich.\u003c/p\u003e\u003cp\u003eAh, me. Ten thousand bitcoin for a dollar. I remember the mailing lists, people talking about it. Anyone could do it. I probably would have done it and then lost them. I get why that one dude dedicated his adult life to digging in landfills for his hard drive.\u003c/p\u003e\u003cp\u003eAnyway, more delightful Gas Town content to come. Thank you very much to the BAGS community at large, and \u003ca href=\"https://medium.com/u/45be3a3d98ab\"\u003eFinnbags\u003c/a\u003e for creating it. And a huge thanks to the \u003ca href=\"https://x.com/i/communities/2011478562680029637\"\u003eGas Town $GAS community\u003c/a\u003e on X for your support for Gas Town. I find your taste to be impeccable.\u003c/p\u003e\u003cp\u003eLet’s goooooooo! ⛽\u003c/p\u003e\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*WpgmmdrcPbYPolEaA7u2Cg.jpeg\" /\u003e\u003cfigcaption\u003eGas Town and the Creator Economy\u003c/figcaption\u003e\u003c/figure\u003e\u003cimg src=\"https://medium.com/_/stat?event=post.clientViewed\u0026referrerSource=full_rss\u0026postId=249b924a621a\" width=\"1\" height=\"1\" alt=\"\"\u003e",
-      "summary": "\u003cfigure\u003e\u003cimg alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*wwKYQ1dgtEUrD_D4_yi5Fw.jpeg\" /\u003e\u003cfigcaption\u003e“You might want to claim that $49k.”\u003c/figcaption\u003e\u003c/figure\u003e\u003cp\u003eI’ve told this bizarre story to a few people now, including my wife Linh, who was certain it was a scam, and everyone’s eyes cross trying to understand it. I told it again at lunch to some old colleagues, same reaction. It’s hilarious to watch. I wish I could see your face as you read this post.\u003c/p\u003e\u003cp\u003e\u003cem\u003eEdit: I...",
-      "date_published": "2026-01-15T02:44:42Z",
-      "authors": [
-        {
-          "name": "Steve Yegge"
-        }
-      ],
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "AI",
-        "memecoins",
-        "vibe-coding",
-        "cryptomarket",
-        "creator-economy",
-        "gastown"
-      ],
-      "_signal_feed_title": "Stories by Steve Yegge on Medium",
-      "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     },
     {
       "id": "93af93e597aba3df",
@@ -2211,6 +2210,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -2223,19 +2235,6 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "5aa636aeaa43d614",
@@ -2844,6 +2843,20 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "817f1e01f48d2c81",
+      "url": "https://blog.d11r.eu/ai-md/",
+      "title": "Why is it so hard to export Markdown from Gemini?",
+      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
+      "date_published": "2025-07-23T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "407e10abdd7813b9",
       "url": "https://siddhantkhare.com/writing/ship-share-repeat",
       "title": "Ship. Share. Repeat.",
@@ -2864,20 +2877,6 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "817f1e01f48d2c81",
-      "url": "https://blog.d11r.eu/ai-md/",
-      "title": "Why is it so hard to export Markdown from Gemini?",
-      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
-      "date_published": "2025-07-23T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "a72763d4addf4d5c",
@@ -3954,20 +3953,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "fb26376b39bda9a7",
-      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
-      "title": "Two years in review",
-      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "8d07cbef0a5ec80b",
       "url": "https://blog.d11r.eu/cryo/",
       "title": "I signed up for cryonics",
@@ -3980,6 +3965,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "fb26376b39bda9a7",
+      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
+      "title": "Two years in review",
+      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -4010,5 +4009,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-06-18T20:21:41Z"
+  "_signal_generated": "2026-06-19T03:58:30Z"
 }
