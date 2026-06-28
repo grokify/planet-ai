@@ -42,27 +42,8 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "6d8e753dba60d4b3",
-      "url": "https://dev.to/siddhantkcode/submission-for-the-devcycle-feature-flag-challenge-ai-feature-flag-suggestions-566m",
-      "title": "Submission for the DevCycle Feature Flag Challenge: AI Feature Flag Suggestions 🧠",
-      "summary": "This is a submission for the DevCycle Feature Flag Challenge: Feature Flag Funhouse           What I...",
-      "date_published": "2024-12-07T18:03:11Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-06-28T03:29:05Z",
+  "_signal_generated": "2026-06-28T08:47:13Z",
   "_signal_period": "2024-12"
 }

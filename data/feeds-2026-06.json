@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "33fcd0444c38f2bd",
+      "url": "https://siddhantkhare.com/writing/your-agent-should-not-inherit-your-admin-token",
+      "title": "Your agent should not inherit your admin token",
+      "summary": "Agents need delegated access, not inherited human access. Put policy between the agent and the tool before agents touch real systems.",
+      "date_published": "2026-06-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "security",
+        "authorization",
+        "mcp",
+        "openfga"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "11ab5e6cf2195892",
       "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
       "title": "The Coming Loop",
@@ -192,6 +216,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-06-28T03:29:05Z",
+  "_signal_generated": "2026-06-28T08:47:13Z",
   "_signal_period": "2026-06"
 }
