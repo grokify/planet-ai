@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "20dd7befd46ef1fc",
+      "url": "https://lalitm.com/post/on-when-impressive-performance/",
+      "title": "On \"When impressive performance gains do not matter\"",
+      "summary": "\u003cp\u003e\u003ca href=\"https://blog.colinbreck.com/when-impressive-performance-gains-do-not-matter/\"\u003eWhen impressive performance gains do not matter\u003c/a\u003e\nis a very nice article covering some ways in which going after performance alone\nis not sufficient without considering the wider picture. It resonated a lot with\nhow I think about performance.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIf there are multiple bottlenecks in the pipeline—and with these systems, this\nis common—the overall throughput will not improve until every last bottleneck\nis removed.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eHis focus is on distributed systems bottlenecks, but I\u0026rsquo;ve hit the same\n\u0026ldquo;do-nothing\u0026rdquo; speedups when optimizing client side programs. Usually this comes\nfrom spending a lot of time \u003cem\u003ethinking\u003c/em\u003e something was the bottleneck when it\nwasn\u0026rsquo;t. CPU profiling is where this bites me most: it tells me \u0026ldquo;function X is\ntaking 30% of the cycles\u0026rdquo; and I think \u0026ldquo;oooo, there\u0026rsquo;s a lot of gains to be made\nthere\u0026rdquo;. I build a microbenchmark for X, optimize it and there\u0026rsquo;s only a marginal\ngain at the high level. While disappointing, I\u0026rsquo;ve become used to it over time\nand internalized that performance is highly non-linear and actually knowing\nwhere the problem lies is really hard.\u003c/p\u003e",
+      "date_published": "2026-06-30T15:25:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "33fcd0444c38f2bd",
       "url": "https://siddhantkhare.com/writing/your-agent-should-not-inherit-your-admin-token",
       "title": "Your agent should not inherit your admin token",
@@ -216,6 +230,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     }
   ],
-  "_signal_generated": "2026-06-30T14:11:28Z",
+  "_signal_generated": "2026-06-30T19:50:21Z",
   "_signal_period": "2026-06"
 }
