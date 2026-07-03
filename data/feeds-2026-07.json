@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "409544e2574ca958",
+      "url": "https://lalitm.com/post/perfetto-v57/",
+      "title": "Perfetto v57: fixing PyTorch traces, plus journald logs and an AI skill",
+      "summary": "\u003cp\u003eWe just\n\u003ca href=\"https://github.com/google/perfetto/releases/tag/v57.1\"\u003ereleased Perfetto v57\u003c/a\u003e\nand I wanted to share the new things I\u0026rsquo;m most excited about. This is something I\nwanted to do for past releases but I just never quite got round to it. It\u0026rsquo;s also\nsomething I plan on doing more of going forward: there might even be dedicated\npieces if I think the feature deserves it!\u003c/p\u003e\n\u003ch2 id=\"pytorch-traces-reliably-work\"\u003ePyTorch traces reliably work!\u003c/h2\u003e\n\u003cp\u003eWhat I\u0026rsquo;m most excited about in this release isn\u0026rsquo;t a feature but a bugfix. If you\nused the\n\u003ca href=\"https://docs.pytorch.org/tutorials/recipes/recipes/profiler_recipe.html\"\u003ePyTorch profiler\u003c/a\u003e\nand opened the resulting trace in Perfetto, there was a decent chance some of\nyour events would just not show up; specifically this would happen when these\nevents overlapped each other on a single track.\u003c/p\u003e\n\u003cp\u003eTechnically, PyTorch is in the wrong here. The Chrome Trace Event (JSON) format\nsays duration events on a track have to nest and can\u0026rsquo;t overlap; if you need\noverlap, you\u0026rsquo;re supposed to use async events. \u003ccode\u003echrome://tracing\u003c/code\u003e appears to\nhandle them, but its rendering is actually buggy as soon as a trace has real\noverlaps; people just learned to live with it. So when a\n\u003ca href=\"https://github.com/google/perfetto/issues/4280\"\u003ebug\u003c/a\u003e came in January about\noverlapping events being broken, I closed it as working-as-intended because I\ncouldn\u0026rsquo;t see any easy fix from our end.\u003c/p\u003e",
+      "date_published": "2026-07-02T23:23:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "8312cd584f684fd4",
       "url": "https://blog.d11r.eu/charter-cities/",
       "title": "Charter cities make sense in Europe",
@@ -17,6 +31,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-02T19:19:22Z",
+  "_signal_generated": "2026-07-03T02:37:54Z",
   "_signal_period": "2026-07"
 }
