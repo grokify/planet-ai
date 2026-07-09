@@ -18,11 +18,11 @@
       "_signal_feed_url": "https://reorx.com/"
     },
     {
-      "id": "ba193c25b23bacf3",
+      "id": "18ee43d65c202dda",
       "url": "https://www.fast.ai/posts/2023-04-04-part2-2023.html",
       "title": "From Deep Learning Foundations to Stable Diffusion",
       "summary": " We’ve released our new course with over 30 hours of video content. ",
-      "date_published": "2023-04-03T14:00:00Z",
+      "date_published": "2023-04-04T00:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -38,6 +38,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-07-09T02:38:01Z",
+  "_signal_generated": "2026-07-09T09:37:45Z",
   "_signal_period": "2023-04"
 }

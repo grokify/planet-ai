@@ -195,6 +195,27 @@
       "_signal_rank": 1
     },
     {
+      "id": "6d575ccd367b6a54",
+      "url": "https://www.fast.ai/posts/2026-02-17-education/",
+      "title": "I Don’t Want a Learning Dashboard for My Child",
+      "summary": " What analog and AI education both get wrong ",
+      "date_published": "2026-02-17T00:00:00Z",
+      "authors": [
+        {
+          "name": "Rachel Thomas"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "education",
+        "technical"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/"
+    },
+    {
       "id": "df9a025dfbdd4e5c",
       "url": "https://neilkakkar.com/burnout-anxiety-at-30.html",
       "title": "What I learned about burnout and anxiety at 30",
@@ -434,6 +455,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-09T02:38:01Z",
+  "_signal_generated": "2026-07-09T09:37:45Z",
   "_signal_period": "2026-02"
 }

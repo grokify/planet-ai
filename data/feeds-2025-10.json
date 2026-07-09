@@ -17,11 +17,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "ac7e5692390c3912",
+      "id": "1e7bc6bf85519920",
       "url": "https://www.fast.ai/posts/2025-10-30-build-to-last.html",
       "title": "Build to Last",
       "summary": " Chris Lattner on software craftsmanship and AI ",
-      "date_published": "2025-10-29T13:00:00Z",
+      "date_published": "2025-10-30T00:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -132,11 +132,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "1008db450b624643",
+      "id": "f73911e3b3536d66",
       "url": "https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers.html",
       "title": "Let’s Build the GPT Tokenizer: A Complete Guide to Tokenization in LLMs",
       "summary": " A text and code version of Karpathy’s famous tokenizer video. ",
-      "date_published": "2025-10-15T13:00:00Z",
+      "date_published": "2025-10-16T00:00:00Z",
       "authors": [
         {
           "name": "Andrej Karpathy, via Solveit and Kerem Turgutlu"
@@ -152,11 +152,11 @@
       "_signal_feed_url": "https://www.fast.ai/"
     },
     {
-      "id": "e56ee903f7f010f6",
+      "id": "7b223764b63746d7",
       "url": "https://www.fast.ai/posts/2025-10-15-solveit2.html",
       "title": "How to Solve it With Code course now available",
       "summary": " An email sent to all fast.ai forum users. ",
-      "date_published": "2025-10-14T13:00:00Z",
+      "date_published": "2025-10-15T00:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -215,6 +215,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-07-09T02:38:01Z",
+  "_signal_generated": "2026-07-09T09:37:45Z",
   "_signal_period": "2025-10"
 }

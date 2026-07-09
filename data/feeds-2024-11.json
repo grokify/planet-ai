@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "c57207ff301c9c3e",
+      "id": "c2793fa9bccd6db1",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
       "summary": " fast.ai is joining Answer.AI, and we’re announcing a new kind of educational experience, ‘How To Solve It With Code’ ",
-      "date_published": "2024-11-06T13:00:00Z",
+      "date_published": "2024-11-07T00:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -38,6 +38,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-09T02:38:01Z",
+  "_signal_generated": "2026-07-09T09:37:45Z",
   "_signal_period": "2024-11"
 }

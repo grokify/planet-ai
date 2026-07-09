@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "33642de1437dd17c",
+      "id": "c0675669512e36ed",
       "url": "https://www.fast.ai/posts/2024-10-29-screen-time/",
       "title": "In defense of screen time",
       "summary": " Pundits say my husband and I are parenting wrong. ",
-      "date_published": "2024-10-28T13:00:00Z",
+      "date_published": "2024-10-29T00:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -37,6 +37,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-09T02:38:01Z",
+  "_signal_generated": "2026-07-09T09:37:45Z",
   "_signal_period": "2024-10"
 }
