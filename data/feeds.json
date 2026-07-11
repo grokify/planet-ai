@@ -292,20 +292,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
-      "id": "6c8f258681c58fc2",
-      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
-      "title": "How to build a shitty robot",
-      "summary": "A work in progress post about building a shitty robot.",
-      "date_published": "2026-05-30T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "95e5b6e228c0f800",
       "url": "https://siddhantkhare.com/writing/ai-experimentation-stack",
       "title": "Build your own AI experimentation stack",
@@ -328,6 +314,20 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "6c8f258681c58fc2",
+      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
+      "title": "How to build a shitty robot",
+      "summary": "A work in progress post about building a shitty robot.",
+      "date_published": "2026-05-30T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "5d6fe56b2f98812c",
@@ -2331,6 +2331,19 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "c07f2ba931891e76",
+      "url": "https://lalitm.com/page/archive/",
+      "title": "Archive",
+      "date_published": "2025-11-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "9ae61ff0836268f6",
       "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp",
       "title": "What if you don't need MCP at all?",
@@ -2343,19 +2356,6 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "c07f2ba931891e76",
-      "url": "https://lalitm.com/page/archive/",
-      "title": "Archive",
-      "date_published": "2025-11-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Databases",
-        "AI"
-      ],
-      "_signal_feed_title": "Lalit Maganti",
-      "_signal_feed_url": "https://lalitm.com/"
     },
     {
       "id": "5aa636aeaa43d614",
@@ -4055,20 +4055,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "fb26376b39bda9a7",
-      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
-      "title": "Two years in review",
-      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "8d07cbef0a5ec80b",
       "url": "https://blog.d11r.eu/cryo/",
       "title": "I signed up for cryonics",
@@ -4081,6 +4067,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "fb26376b39bda9a7",
+      "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
+      "title": "Two years in review",
+      "summary": "Reminiscing about the times I didn't watch TV at night but built stuff.",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "2c72e519f336fd5b",
@@ -4097,5 +4097,5 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-07-11T13:10:28Z"
+  "_signal_generated": "2026-07-11T18:57:03Z"
 }
