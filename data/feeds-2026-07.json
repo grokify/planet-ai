@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "07a7459bed0dcdac",
+      "url": "https://lalitm.com/post/git-history/",
+      "title": "The git history command deserves more attention",
+      "summary": "\u003cp\u003eWorking with lots of changes in parallel on git can be painful. You end up\njuggling branches and commits, and running scary \u003ccode\u003erebase -i\u003c/code\u003e commands that can\nleave your tree in a half-broken state if you so much as sneeze.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jj-vcs/jj\"\u003e\u003ccode\u003ejj\u003c/code\u003e\u003c/a\u003e, an alternative to \u003ccode\u003egit\u003c/code\u003e, gets discussed a\nlot these days (\u003ca href=\"https://news.ycombinator.com/item?id=48692083\"\u003e1\u003c/a\u003e,\n\u003ca href=\"https://lobste.rs/s/beqyuc/evan_s_jujutsu_tutorial\"\u003e2\u003c/a\u003e,\n\u003ca href=\"https://lobste.rs/s/fg3sgh/jj_tui_terminal_user_interface_jujutsu\"\u003e3\u003c/a\u003e,\n\u003ca href=\"https://lobste.rs/s/27dxjg/petty_reason_we_didn_t_end_up_using_jj\"\u003e4\u003c/a\u003e) and is\noften pitched as a solution. While I\u0026rsquo;m very sold on the \u003cem\u003eproblems\u003c/em\u003e \u003ccode\u003ejj\u003c/code\u003e is\ntrying to solve, the way it solves them hasn\u0026rsquo;t quite hit home with me. Every 3\nmonths, for the last 1.5 years, I try it out for a few days, really trying to\nmake it part of my workflow but eventually I give up and go back to git.\u003csup id=\"fnref:1\"\u003e\u003ca href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\"\u003e1\u003c/a\u003e\u003c/sup\u003e\u003c/p\u003e\n\u003cp\u003eThat\u0026rsquo;s where \u003ccode\u003egit history\u003c/code\u003e comes in. It\u0026rsquo;s an \u003cstrong\u003eexperimental\u003c/strong\u003e\n\u003ca href=\"https://git-scm.com/docs/git-history\"\u003ecommand\u003c/a\u003e that arrived across two\nreleases,\n\u003ca href=\"https://github.com/git/git/blob/master/Documentation/RelNotes/2.54.0.adoc\"\u003e2.54\u003c/a\u003e\n(April, \u003ccode\u003ereword\u003c/code\u003e and \u003ccode\u003esplit\u003c/code\u003e subcommands) and\n\u003ca href=\"https://github.com/git/git/blob/master/Documentation/RelNotes/2.55.0.adoc\"\u003e2.55\u003c/a\u003e\n(June, \u003ccode\u003efixup\u003c/code\u003e subcommand). It got a flurry of attention on each release day,\nand then, as far as I can tell, not much community discussion since. Which is a\nshame, because IMO it already delivers several of the benefits people tout for\n\u003ccode\u003ejj\u003c/code\u003e without needing to switch your whole workflow. And the cool thing is that\nit\u0026rsquo;s part of the core git distribution, so you can try it without installing\nanything.\u003c/p\u003e",
+      "date_published": "2026-07-13T18:40:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "77528771607da1d9",
       "url": "https://blog.d11r.eu/bucket-doom/",
       "title": "The mosquito bucket of doom works",
@@ -65,6 +79,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-13T19:19:21Z",
+  "_signal_generated": "2026-07-14T02:07:04Z",
   "_signal_period": "2026-07"
 }
