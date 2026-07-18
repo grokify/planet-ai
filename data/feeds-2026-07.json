@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "a899323a7fb51494",
+      "url": "https://siddhantkhare.com/writing/retry-is-not-a-loop",
+      "title": "Retry is not a loop, its a data structure",
+      "summary": "Under partial failure, retry loops can rearrange history. If order, duplication, or staleness matters, retry needs state.",
+      "date_published": "2026-07-18T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "engineering",
+        "distributed-systems",
+        "reliability",
+        "architecture"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "a59097aea8a2e6c3",
       "url": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
       "title": "What I'm Changing After A Year Of Blogging",
@@ -130,6 +153,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-18T13:05:59Z",
+  "_signal_generated": "2026-07-18T18:58:16Z",
   "_signal_period": "2026-07"
 }

@@ -23,27 +23,8 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "79e53fe62b05479d",
-      "url": "https://dev.to/siddhantkcode/querying-s3-logs-in-a-flash-with-duckdb-p44",
-      "title": "Querying S3 logs in a flash with DuckDB 🦆",
-      "summary": "Amazon S3 server access logs are a treasure trove of valuable information, detailing requests made to...",
-      "date_published": "2024-12-08T12:14:55Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-07-18T13:05:59Z",
+  "_signal_generated": "2026-07-18T18:58:16Z",
   "_signal_period": "2024-12"
 }
