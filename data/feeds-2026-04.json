@@ -241,6 +241,40 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "e64b0dee613d4a9b",
+      "url": "https://ergosphere.blog/posts/the-machines-are-fine/",
+      "title": "The threat is comfortable drift toward not understanding what you're doing",
+      "summary": "AI tools in academic research pose a subtle but profound danger - they enable students to bypass intellectual development and produce publishable work without building the foundational understanding necessary for independent scientific thinking.",
+      "date_published": "2026-04-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Ergosphere"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Academia",
+        "Learning",
+        "Intellectual Development"
+      ],
+      "_signal_feed_title": "Ergosphere",
+      "_signal_feed_url": "https://ergosphere.blog",
+      "_signal_priority": true,
+      "_signal_rank": 14,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47647788",
+          "id": "47647788",
+          "score": 865
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-04-04-the-threat-is-comfortable-drift-toward-not-underst.html"
+        }
+      ]
+    },
+    {
       "id": "068253b9db3bc029",
       "url": "https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec?source=rss-c1ec701babb7------2",
       "title": "Gas Town: from Clown Show to v1.0",
@@ -265,6 +299,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-07-20T19:39:42Z",
+  "_signal_generated": "2026-07-21T02:23:04Z",
   "_signal_period": "2026-04"
 }
