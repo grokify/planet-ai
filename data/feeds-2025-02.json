@@ -44,7 +44,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "541fb9ab02a78c14",
@@ -86,7 +86,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "baaf570528a52bec",
@@ -161,6 +161,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-07-24T13:28:33Z",
+  "_signal_generated": "2026-07-24T19:19:24Z",
   "_signal_period": "2025-02"
 }
