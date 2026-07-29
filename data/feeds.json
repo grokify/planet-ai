@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "1c19faa87ea299f3",
+      "url": "https://siddhantkhare.com/writing/the-review-queue-is-the-bottleneck",
+      "title": "The review queue is the bottleneck",
+      "summary": "Agent coding tools need to make their work reviewable, not just generate more code.",
+      "date_published": "2026-07-29T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "ai-tools",
+        "engineering",
+        "code-review"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "eea09f9bafeab3f8",
       "url": "https://lalitm.com/post/ai-subsystem-maintainer/",
       "title": "AI agents are not subsystem maintainers",
@@ -434,6 +457,20 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
+      "id": "6c8f258681c58fc2",
+      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
+      "title": "How to build a shitty robot",
+      "summary": "A work in progress post about building a shitty robot.",
+      "date_published": "2026-05-30T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "95e5b6e228c0f800",
       "url": "https://siddhantkhare.com/writing/ai-experimentation-stack",
       "title": "Build your own AI experimentation stack",
@@ -456,20 +493,6 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "6c8f258681c58fc2",
-      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
-      "title": "How to build a shitty robot",
-      "summary": "A work in progress post about building a shitty robot.",
-      "date_published": "2026-05-30T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "5d6fe56b2f98812c",
@@ -1159,28 +1182,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "ambition",
-        "career"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -1207,6 +1208,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -3958,28 +3981,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "cf91b5d40d0da519",
-      "url": "https://siddhantkhare2694.medium.com/genz-the-worst-creatures-of-humankind-adfaf5427de1?source=rss-d33fc21fba5d------2",
-      "title": "GenZ: the worst creatures of humankind?",
-      "date_published": "2024-12-28T20:20:54Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "gen-z",
-        "lifestyle",
-        "life-lessons",
-        "life"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "c2793fa9bccd6db1",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
@@ -4133,20 +4134,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "8d07cbef0a5ec80b",
-      "url": "https://blog.d11r.eu/cryo/",
-      "title": "I signed up for cryonics",
-      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
-      "date_published": "2024-07-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "fb26376b39bda9a7",
       "url": "https://mariozechner.at/posts/2024-07-15-two-years-in-review",
       "title": "Two years in review",
@@ -4161,6 +4148,20 @@
       "_signal_feed_url": "https://mariozechner.at"
     },
     {
+      "id": "8d07cbef0a5ec80b",
+      "url": "https://blog.d11r.eu/cryo/",
+      "title": "I signed up for cryonics",
+      "summary": "\u003cp\u003eI have successfully signed up for cryonics. I have chosen \u003ca href=\"https://www.tomorrow.bio/\"\u003eTomorrow Bio\u003c/a\u003e as my provider because they\u0026rsquo;re in Germany, and that\u0026rsquo;s close by.\u003c/p\u003e\n\u003cp\u003eI have what\u0026rsquo;s called a \u0026ldquo;term life insurance\u0026rdquo;, which will expire in 2054. Basically I pay a premium every month to cover the costs of cryopreservation in case I die. If I\u0026rsquo;m still alive in 30 years, then I have to figure out how to pay for my cryopreservation once I die. Essentially the deal is \u0026ldquo;here\u0026rsquo;s coverage for if you die one of these days, but you really need to figure out how to earn more money and how to invest it\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eSo now I\u0026rsquo;m officially racing against the clock to figure out investments which will net me whatever the cost of preservation is in the future (hundreds of thousands of euros). I mean, I\u0026rsquo;ve always been racing against time, but it\u0026rsquo;s just official right now.\u003c/p\u003e\n\u003cp\u003eWith that being said, I feel like I am not fulfilling my earnings potential. It\u0026rsquo;s above average for the region, but I don\u0026rsquo;t know if regional comparisons are a good reference class. I think that \u0026ldquo;people in the Western world with remote-first jobs that have a similar level of mental capability as I do\u0026rdquo; is a much better reference class than \u0026ldquo;people in Croatia\u0026rdquo;, and in that reference class, I\u0026rsquo;m \u003cstrong\u003esignificantly below average\u003c/strong\u003e, which directly affects how long I am going to live. So it\u0026rsquo;s not vanity or greed, it\u0026rsquo;s quite literally a question of life and death.\u003c/p\u003e\n\u003cp\u003eSo yeah, that\u0026rsquo;s something to fix.\u003c/p\u003e",
+      "date_published": "2024-07-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "2c72e519f336fd5b",
       "url": "https://mariozechner.at/posts/2024-07-14-dissecting-history",
       "title": "Dissecting history",
@@ -4173,7 +4174,21 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
+      "id": "992828276c2f2a1d",
+      "url": "https://blog.d11r.eu/ai-disrespectful/",
+      "title": "Using AI is disrespectful",
+      "summary": "\u003cp\u003eI just got sent a link to an AI platform that can be used to generate videos. Their selling point is that you can make instructional videos by simply typing up a prompt, and they\u0026rsquo;ll generate a human-looking avatar who\u0026rsquo;ll say all the right things.\u003c/p\u003e\n\u003cp\u003ePeople complain for a bunch of reasons around the use of AI, for example whether it\u0026rsquo;s ethical for companies to profit off scraping the public domain and training their AI models on that.\u003c/p\u003e\n\u003cp\u003eThat (and others) are good questions, but I think there\u0026rsquo;s another, more banal aspect to complain about, and that is that \u003cem\u003eusing AI is disrespectful\u003c/em\u003e.\u003c/p\u003e\n\u003cp\u003eIf you make me watch your grotesque video about avoiding phishing, and I know that you didn\u0026rsquo;t even bother to present yourself, that\u0026rsquo;s somehow even worse than if you\u0026rsquo;re making me watch your own abominable video where you \u003cem\u003edid\u003c/em\u003e present.\u003c/p\u003e\n\u003cp\u003eYour email reads like ChatGPT? Oh, thank you my lord, for responding to this humble peasant; I know you don\u0026rsquo;t have time and can\u0026rsquo;t be bothered to stoop so low as to type up the words yourself, so your \u003cem\u003eai\u003c/em\u003ede was the one to write, yet I appreciate you responding.\u003c/p\u003e\n\u003cp\u003eWhere have we collectively gone astray? How did we go from \u0026ldquo;hey, can you see if this email is clear enough\u0026rdquo; to \u0026ldquo;can you write a response to this email?\u0026rdquo;.\u003c/p\u003e\n\u003cp\u003eAND THEN how the hell did we decide to put that into overdrive and reach for new levels of abomination, making goddamn AI VIDEO?\u003c/p\u003e\n\u003cp\u003eJesus Christ, at least I can skim through your dumbass email and get to the point, I can\u0026rsquo;t do that with your video.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/soprano_respect.gif\" alt=\"Those who want respect, give respect\"\u003e\u003c/p\u003e",
+      "date_published": "2024-06-27T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-29T08:34:05Z"
+  "_signal_generated": "2026-07-29T14:01:58Z"
 }

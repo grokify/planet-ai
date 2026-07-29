@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "1c19faa87ea299f3",
+      "url": "https://siddhantkhare.com/writing/the-review-queue-is-the-bottleneck",
+      "title": "The review queue is the bottleneck",
+      "summary": "Agent coding tools need to make their work reviewable, not just generate more code.",
+      "date_published": "2026-07-29T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "ai-tools",
+        "engineering",
+        "code-review"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "eea09f9bafeab3f8",
       "url": "https://lalitm.com/post/ai-subsystem-maintainer/",
       "title": "AI agents are not subsystem maintainers",
@@ -203,6 +226,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-07-29T08:34:05Z",
+  "_signal_generated": "2026-07-29T14:01:58Z",
   "_signal_period": "2026-07"
 }
