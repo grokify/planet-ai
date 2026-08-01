@@ -1,0 +1,30 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "6cbd8b2089bee5ef",
+      "url": "https://siddhantkhare.com/writing/building-an-internal-platform-for-ai-agents",
+      "title": "Building an Internal Platform for AI Agents",
+      "summary": "A technical guide to the control plane behind production coding agents: workload selection, identity, sandboxes, context, workflow graphs, CI, observability, and human control.",
+      "date_published": "2026-08-01T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "engineering",
+        "infrastructure"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-08-01T13:11:22Z",
+  "_signal_period": "2026-08"
+}
