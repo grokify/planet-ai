@@ -219,40 +219,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "e64b0dee613d4a9b",
-      "url": "https://ergosphere.blog/posts/the-machines-are-fine/",
-      "title": "The threat is comfortable drift toward not understanding what you're doing",
-      "summary": "AI tools in academic research pose a subtle but profound danger - they enable students to bypass intellectual development and produce publishable work without building the foundational understanding necessary for independent scientific thinking.",
-      "date_published": "2026-04-04T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ergosphere"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Academia",
-        "Learning",
-        "Intellectual Development"
-      ],
-      "_signal_feed_title": "Ergosphere",
-      "_signal_feed_url": "https://ergosphere.blog",
-      "_signal_priority": true,
-      "_signal_rank": 14,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47647788",
-          "id": "47647788",
-          "score": 865
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-04-04-the-threat-is-comfortable-drift-toward-not-underst.html"
-        }
-      ]
-    },
-    {
       "id": "2f94f34d611e2b19",
       "url": "https://siddhantkhare.com/writing/tracing-what-agents-do",
       "title": "Tracing what agents do, not what they say",
@@ -299,6 +265,6 @@
       "_signal_feed_url": "https://medium.com/@steve-yegge?source=rss-c1ec701babb7------2"
     }
   ],
-  "_signal_generated": "2026-08-05T19:24:12Z",
+  "_signal_generated": "2026-08-06T02:11:50Z",
   "_signal_period": "2026-04"
 }
