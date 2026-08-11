@@ -159,7 +159,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "d1cdada0efe3c51d",
@@ -239,6 +239,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-08-11T12:55:10Z",
+  "_signal_generated": "2026-08-11T18:56:52Z",
   "_signal_period": "2026-01"
 }
