@@ -3,6 +3,21 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "b271773f9971509d",
+      "url": "https://lalitm.com/responsibility-is-taken-before-it-is-given/",
+      "title": "Responsibility Is Taken Before It Is Given",
+      "content_html": "\u003cp\u003eTo get promoted as a software engineer in Big Tech, you generally need to show “ownership” of a product or area. This means being responsible for it and deciding what should happen over time.\u003c/p\u003e\n\u003cp\u003eI often hear more junior engineers ask: “How can I demonstrate ownership when my manager hasn’t given me anything to own?” This way of thinking is a trap: an easy one to fall into, but a trap nonetheless.\u003c/p\u003e\n\u003cp\u003eThe problem is that they are treating responsibility as a complete, self-contained opportunity that someone must give them first. In my experience, they’ve got it the wrong way round: \u003cstrong\u003eresponsibility is demonstrated before it is formally given.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003ePut yourself in the shoes of your technical lead (TL): by “giving” you responsibility, they are implicitly accepting the consequences of your decisions. They need to trust you not only to get work done but to exercise judgement without constant supervision.\u003c/p\u003e\n\u003cp\u003eThe most important question they ask themselves is: “Does this person deal with problems the same way I would, \u003cstrong\u003eor better\u003c/strong\u003e?” If the answer is yes, they can trust you with more responsibility.\u003c/p\u003e\n\u003ch2 id=\"how-i-became-an-owner\"\u003eHow I Became an Owner\u003ca class=\"heading-anchor\" href=\"#how-i-became-an-owner\" aria-label=\"Permalink to How I Became an Owner\"\u003e#\u003c/a\u003e\n\u003c/h2\u003e\n\u003cp\u003eWhen I started working on \u003ca href=\"https://perfetto.dev/\"\u003ePerfetto\u003c/a\u003e, I built its trace-analysis tooling mostly under my TL’s direction. As I began making implementation decisions myself, he would often spot major issues I had missed.\u003c/p\u003e\n\u003cp\u003eFor example, I built separate classes for three or four data structures I thought were unrelated. My TL insisted they were all tables, even though I couldn’t see how to unify them. Today, Perfetto’s trace processor has more than 100 tables, all declaratively defined and generated from that common abstraction.\u003c/p\u003e\n\u003cp\u003eI always tried to understand his thought process: how had he even thought of something I had missed? What approach had he used to get there?\u003c/p\u003e\n\u003cp\u003eOver time, I adopted his approaches myself, using them to pressure-test API changes or performance improvements before proposing them. More of my ideas started receiving a simple “yes, go ahead.” By then, I was setting the agenda myself: talking to users, understanding their problems, translating those into code changes and deciding what to improve next.\u003c/p\u003e\n\u003cp\u003eSometimes the dynamic even reversed: he would suggest something, and I would explain why it would not work.\u003c/p\u003e\n\u003cp\u003eEventually, my TL started calling me “the owner of the trace-analysis tools” instead of “the engineer who works on them.”\u003c/p\u003e\n\u003ch2 id=\"take-responsibility-without-overstepping\"\u003eTake Responsibility Without Overstepping\u003ca class=\"heading-anchor\" href=\"#take-responsibility-without-overstepping\" aria-label=\"Permalink to Take Responsibility Without Overstepping\"\u003e#\u003c/a\u003e\n\u003c/h2\u003e\n\u003cp\u003eTo be clear, this does \u003cem\u003enot\u003c/em\u003e mean grabbing projects or stepping on other people to demonstrate ownership. If you exercise sound judgement within your existing scope, a reasonable TL should gradually trust you with more responsibility.\u003c/p\u003e\n\u003cp\u003eOf course, this does not work with a bad manager or in a bad environment, where earning responsibility may be more about politics than judgement.\u003c/p\u003e\n\u003cp\u003eFormal responsibility is a trailing indicator, not a leading one. You’ll find that people begin trusting and deferring to your judgement before the responsibility becomes explicit. \u003cstrong\u003eResponsibility is taken in small increments before it is given in full.\u003c/strong\u003e\u003c/p\u003e",
+      "summary": "To get promoted as a software engineer in Big Tech, you generally need to show “ownership” of a product or area. This means being responsible for it and deciding what should happen over time.\nI often hear more junior engineers ask: “How can I demonstrate ownership when my manager hasn’t given me anything to own?” This way of thinking is a trap: an easy one to fall into, but a trap nonetheless.\nThe problem is that they are treating responsibility as a complete, self-contained opportunity that someone must give them first. In my experience, they’ve got it the wrong way round: responsibility is demonstrated before it is formally given.\nPut yourself in the shoes of your technical lead (TL): by “giving” you responsibility, they are implicitly accepting the consequences of your decisions. They need to trust you not only to get work done but to exercise judgement without constant supervision.",
+      "date_published": "2026-08-15T19:31:41Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "c3832172d4a4b05b",
       "url": "https://lalitm.com/post/changing-devtools-is-cheap-owning-them-isnt/",
       "title": "Changing Devtools Is Cheap. Owning Them Isn’t.",
@@ -55,6 +70,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-08-15T18:22:30Z",
+  "_signal_generated": "2026-08-16T01:04:24Z",
   "_signal_period": "2026-08"
 }
