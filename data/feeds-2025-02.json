@@ -47,11 +47,11 @@
       "_signal_feed_url": "https://www.beabetterdev.com/"
     },
     {
-      "id": "541fb9ab02a78c14",
+      "id": "e194386a0dc6d8da",
       "url": "https://www.fast.ai/posts/2025-02-20-fasttransform.html",
       "title": "fasttransform: Reversible Pipelines Made Simple",
       "summary": " Introducing fasttransform, a Python library that makes data transformations reversible and extensible through the power of multiple dispatch. ",
-      "date_published": "2025-02-20T00:00:00Z",
+      "date_published": "2025-02-19T14:00:00Z",
       "authors": [
         {
           "name": "Rens Dimmendaal, Hamel Husain, \u0026 Jeremy Howard"
@@ -161,11 +161,11 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "b6deafe4c8c23613",
+      "id": "8ca833fac701a747",
       "url": "https://www.fast.ai/posts/2025-02-03-cpath-foundation/",
       "title": "What AI can tell us about microscope slides",
       "summary": " A friendly introduction to Foundation Models for Computational Pathology ",
-      "date_published": "2025-02-03T00:00:00Z",
+      "date_published": "2025-02-02T14:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -201,6 +201,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2025-02"
 }

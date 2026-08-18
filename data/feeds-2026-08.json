@@ -3,6 +3,42 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "39d539131d2311b9",
+      "url": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+      "title": "My friends all hate AI; I just joined an AI startup",
+      "summary": " Over a decade after co-founding fast.ai, I am returning to the field ",
+      "date_published": "2026-08-17T14:00:00Z",
+      "authors": [
+        {
+          "name": "Rachel Thomas"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "education",
+        "ai-in-society"
+      ],
+      "_signal_feed_title": "fast.ai",
+      "_signal_feed_url": "https://www.fast.ai/"
+    },
+    {
+      "id": "74df9f25895180ed",
+      "url": "https://lalitm.com/post/pytorch-profiles-perfetto/",
+      "title": "PyTorch profiles are going to look much better in Perfetto",
+      "content_html": "\u003cp\u003ePyTorch profiles are going to look much better in the next release of\nPerfetto.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://lalitm.com/post/perfetto-v57/\"\u003eLast time\u003c/a\u003e, I explained how PyTorch\u0026rsquo;s\nprofiler emits events that overlap in ways that are technically forbidden by the\n\u003ca href=\"https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview\"\u003eChrome JSON Trace Event spec\u003c/a\u003e. As a result, Perfetto used to drop\nthese events on the floor. In the last release we stopped doing that, keeping\nall the events and merging the overlapping ones back together for display.\u003c/p\u003e\n\u003cp\u003eUnfortunately, this fix is more of a workaround: in practice, the trace simply\ndoes \u003cem\u003enot\u003c/em\u003e record which events contain which, so we have to guess how they\nshould be nested. So exactly as I had expected, we received a\n\u003ca href=\"https://github.com/google/perfetto/issues/6656\"\u003ebug report\u003c/a\u003e complaining of poor\nrendering.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/pytorch-layout/01-before.png\" alt=\"Perfetto timeline before the layout fix: each repeated call tree is pushed further down the track\"\u003e\u003c/p\u003e\n\u003cp\u003eOur rendering algorithm for slices (the bars on the timeline), one we had used\nfor years, computed a\nbounding box around every stack, processed those boxes in start-time order, and\nplaced each into the lowest free rows. It works, but in the pathological case a\nwide, shallow event could start first, occupy the width of the track, and push a\nmuch taller stack down. That is exactly what happened in the reported trace.\u003c/p\u003e\n\u003cp\u003eI \u003ca href=\"https://github.com/google/perfetto/pull/6686\"\u003echanged the algorithm\u003c/a\u003e to sort\nthe boxes tallest-first, then place each into the lowest contiguous rows that\nremain free for its entire time interval. Deep call trees claim the low rows\nfirst; broad one-row markers settle outside them.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://lalitm.com/img/pytorch-layout/02-after.png\" alt=\"Perfetto timeline after the layout fix: the call trees align at the top and the track is much shorter\"\u003e\u003c/p\u003e\n\u003cp\u003eThe same trace is now far more compact and readable. This still cannot\nreconstruct information missing from the trace, but it is at least a much better\nvisual guess.\u003c/p\u003e",
+      "summary": "PyTorch profiles are going to look much better in the next release of Perfetto.\nLast time, I explained how PyTorch’s profiler emits events that overlap in ways that are technically forbidden by the Chrome JSON Trace Event spec. As a result, Perfetto used to drop these events on the floor. In the last release we stopped doing that, keeping all the events and merging the overlapping ones back together for display.\nUnfortunately, this fix is more of a workaround: in practice, the trace simply does not record which events contain which, so we have to guess how they should be nested. So exactly as I had expected, we received a bug report complaining of poor rendering.\nOur rendering algorithm for slices (the bars on the timeline), one we had used for years, computed a bounding box around every stack, processed those boxes in start-time order, and placed each into the lowest free rows. It works, but in the pathological case a wide, shallow event could start first, occupy the width of the track, and push a much taller stack down. That is exactly what happened in the reported trace.",
+      "date_published": "2026-08-17T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Databases",
+        "AI"
+      ],
+      "_signal_feed_title": "Lalit Maganti",
+      "_signal_feed_url": "https://lalitm.com/"
+    },
+    {
       "id": "b271773f9971509d",
       "url": "https://lalitm.com/responsibility-is-taken-before-it-is-given/",
       "title": "Responsibility Is Taken Before It Is Given",
@@ -70,6 +106,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2026-08"
 }

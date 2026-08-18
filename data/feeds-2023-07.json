@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "e631e482917b045e",
+      "id": "f4bd6dd514c68c58",
       "url": "https://www.fast.ai/posts/2023-07-29-ai-centralizes-power/",
       "title": "The real risk of AI is how it concentrates power",
       "summary": " Moving AI ethics beyond explainability and fairness to justice ",
-      "date_published": "2023-07-29T00:00:00Z",
+      "date_published": "2023-07-28T14:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -37,11 +37,11 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "917324652aded0a5",
+      "id": "2566b96208ba8bae",
       "url": "https://www.fast.ai/posts/2023-11-07-dislightenment.html",
       "title": "AI Safety and the Age of Dislightenment",
       "summary": " Model licensing \u0026 surveillance will likely be counterproductive by concentrating power in unsustainable ways ",
-      "date_published": "2023-07-10T00:00:00Z",
+      "date_published": "2023-07-09T14:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -57,6 +57,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2023-07"
 }

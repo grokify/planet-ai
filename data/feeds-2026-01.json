@@ -41,11 +41,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "8ac24640a8391376",
+      "id": "e14e6e673eaf1453",
       "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
       "title": "Breaking the Spell of Vibe Coding",
       "summary": " Sinister variations on the positive state of flow ",
-      "date_published": "2026-01-28T00:00:00Z",
+      "date_published": "2026-01-27T14:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -90,11 +90,11 @@
       }
     },
     {
-      "id": "93ad9370d8177ea7",
+      "id": "b2883bbedc88e5c8",
       "url": "https://www.fast.ai/posts/2026-01-21-reading-LLMs/",
       "title": "How To Use AI for the Ancient Art of Close Reading",
       "summary": " Experiments in reading with LLMs ",
-      "date_published": "2026-01-21T00:00:00Z",
+      "date_published": "2026-01-20T14:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -239,6 +239,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2026-01"
 }

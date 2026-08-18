@@ -151,11 +151,11 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "2fbd88ffdcb23e29",
+      "id": "b85bef45824a14fa",
       "url": "https://www.fast.ai/posts/2025-12-03-boredom/",
       "title": "Stop Saying Boredom is Good for Kids",
       "summary": " Chronic boredom causes stress, disengagement, and poor well-being in adults. So why do we glorify it for children? ",
-      "date_published": "2025-12-03T00:00:00Z",
+      "date_published": "2025-12-02T14:00:00Z",
       "authors": [
         {
           "name": "Rachel Thomas"
@@ -171,6 +171,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2025-12"
 }

@@ -3,11 +3,11 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "98da31632e1e0a6a",
+      "id": "025874ecb5f35a02",
       "url": "https://www.fast.ai/posts/2023-09-04-learning-jumps/",
       "title": "Can LLMs learn from a single example?",
       "summary": " We’ve noticed an unusual training pattern in fine-tuning LLMs. At first we thought it’s a bug, but now we think it shows LLMs can learn effectively from a single example. ",
-      "date_published": "2023-09-04T00:00:00Z",
+      "date_published": "2023-09-03T14:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard and Jonathan Whitaker"
@@ -23,6 +23,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2023-09"
 }

@@ -23,11 +23,11 @@
       "_signal_feed_url": "https://www.answer.ai/"
     },
     {
-      "id": "c2793fa9bccd6db1",
+      "id": "2bf600261b253dbc",
       "url": "https://www.fast.ai/posts/2024-11-07-solveit.html",
       "title": "A New Chapter for fast.ai: How To Solve It With Code",
       "summary": " fast.ai is joining Answer.AI, and we’re announcing a new kind of educational experience, ‘How To Solve It With Code’ ",
-      "date_published": "2024-11-07T00:00:00Z",
+      "date_published": "2024-11-06T14:00:00Z",
       "authors": [
         {
           "name": "Jeremy Howard"
@@ -58,6 +58,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-08-17T18:32:42Z",
+  "_signal_generated": "2026-08-18T01:00:09Z",
   "_signal_period": "2024-11"
 }
