@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "b7aa27d3b01ad04e",
+      "url": "https://siddhantkhare.com/writing/a-trace-is-not-evidence-if-you-dont-know-what-it-missed",
+      "title": "A trace is not evidence if you don't know what it missed",
+      "summary": "A useful agent trace must show what it missed, not just what it recorded.",
+      "date_published": "2026-08-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "observability",
+        "security",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "72b47eff2cc1b081",
       "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
       "title": "Fast and Hard Code",
@@ -181,6 +204,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-08-23T12:32:15Z",
+  "_signal_generated": "2026-08-23T18:23:19Z",
   "_signal_period": "2026-08"
 }
