@@ -44,7 +44,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -86,7 +86,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "10b590e95c39b16a",
@@ -129,24 +129,6 @@
       "_signal_feed_url": "https://www.answer.ai/"
     },
     {
-      "id": "baaf570528a52bec",
-      "url": "https://siddhantkhare2694.medium.com/engineering-with-intent-a-mental-checklist-for-clear-thinking-f4f21ff2431e?source=rss-d33fc21fba5d------2",
-      "title": "Engineering with intent: A mental checklist for clear thinking",
-      "date_published": "2025-02-08T11:23:08Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "54d1e200851df528",
       "url": "https://blog.d11r.eu/who-is-leaving/",
       "title": "Who's leaving the company?",
@@ -182,6 +164,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-08-30T15:58:32Z",
+  "_signal_generated": "2026-08-30T20:29:32Z",
   "_signal_period": "2025-02"
 }
