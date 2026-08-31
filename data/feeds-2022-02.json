@@ -15,22 +15,8 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
-      "id": "a6bb4f1378c1a1e4",
-      "url": "https://blog.d11r.eu/email/",
-      "title": "Managers, email and productivity",
-      "summary": "\u003cp\u003eOne of the key skills I learned is various forms of discipline. A key discipline is the discipline not to look at my work chat when I\u0026rsquo;m not at work. The dangers are obvious: there are rarely any emergencies, so you\u0026rsquo;re always looking at stuff that can wait until tomorrow. But now you\u0026rsquo;ve looked, and now it\u0026rsquo;s in your head, and now you can\u0026rsquo;t stop thinking about it, and you don\u0026rsquo;t rest. Thinks go downhill from there.\u003c/p\u003e\n\u003cp\u003eAnother key discipline is not looking at my work chat even when I\u0026rsquo;m at work. There is very little reason to have it on all the time. You\u0026rsquo;re available, you can \u0026ldquo;quickly\u0026rdquo; resolve other people\u0026rsquo;s questions, but the effect on your own productivity is generally bad. How do you focus on deep work if there\u0026rsquo;s a constant pinging sound from new messages? And let\u0026rsquo;s be honest, most messages in the work chat aren\u0026rsquo;t instrumental for accomplishing work, and indeed are often not even related to work.\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;But I\u0026rsquo;m a manager or a CTO, so I have to be available to answer other people\u0026rsquo;s questions. Email and meetings are where I spend my days.\u0026rdquo; There are a couple of objections I have here. If you\u0026rsquo;re in a managing position, say a CTO, you might think to yourself \u0026ldquo;my job is to unblock other people; to allow other people to do their job\u0026rdquo;. And that\u0026rsquo;s actually pretty good and noble, in particular when compared to the default \u003cem\u003eevil\u003c/em\u003e management: making up work that nobody needs to do. And it is true that your role seems uniquely suited for unblocking other people and allowing them to do their work. And that\u0026rsquo;s why you need to be quick to respond to emails and chat messages - if a developer or a development manager are unclear about something important, the sooner you clarify that something for them, or the sooner you make an important decision, the sooner \u003cem\u003ethey\u003c/em\u003e are able to produce their own value. So far, so good.\u003c/p\u003e\n\u003cp\u003eThe problem is that your role is not exclusively unblocking. The question \u003cem\u003ewhat should I be doing\u003c/em\u003e (at work) is a logical followup to the question \u003cem\u003ewhat am I uniquely suited for in my current position\u003c/em\u003e. And unblocking, yeah, sure, but a CTO or a manager can afford to do more than unblocking. For example, you can try to think about strategy. You can try to figure out what are the customer pain points that no process has managed to catch yet. Indeed, you and you only are in a unique position where you can see the blind spots left after methodologies, frameworks, and overlapping departments. So if you spend all day answering email - thinking you\u0026rsquo;ll speed up the process - you\u0026rsquo;re not spending all day doing something more important. And it\u0026rsquo;s often the case that questions answer themselves - or someone else answers them. Perhaps someone with good email discipline.\u003c/p\u003e\n\u003cp\u003eGood email discipline is not having your chat and email open all the time just because everyone else does that. Good email discipline means checking your messages 1-3 times a day and that\u0026rsquo;s it. The rest can wait until tomorrow. This might seem like sabotage, but far from it. In the long run it\u0026rsquo;s good for the company because, guess what: everyone can take time to focus now. When you don\u0026rsquo;t respond straight away but in a couple of hours or days, you train people not to expect very fast answers. Or at least, not to expect them immediately. So they maybe do their own digging and search your internal wiki. And maybe they find the information they need straight away - without interrupting you, or your flow. With time, everyone benefits because everyone can focus.\u003c/p\u003e",
-      "date_published": "2022-02-10T18:51:58Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-08-31T03:22:21Z",
+  "_signal_generated": "2026-08-31T12:35:34Z",
   "_signal_period": "2022-02"
 }
