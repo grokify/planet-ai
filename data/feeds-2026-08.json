@@ -17,6 +17,30 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "e48671204752e3cd",
+      "url": "https://siddhantkhare.com/writing/apple-gpu-trace-attribution",
+      "title": "A Metal trace is not your workload until you attribute it by process",
+      "summary": "Five controlled Metal captures matched known dispatch counts by PID. Trace-wide totals still included 36.5% to 57.5% unrelated intervals.",
+      "date_published": "2026-08-31T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "metal",
+        "gpu",
+        "observability",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "7e8f6c0184a189cd",
       "url": "https://siddhantkhare.com/writing/ttft-http-client",
       "title": "Your LLM's time to first token might be measuring your HTTP client",
@@ -283,6 +307,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-08-31T12:35:34Z",
+  "_signal_generated": "2026-08-31T22:22:48Z",
   "_signal_period": "2026-08"
 }

@@ -3,25 +3,6 @@
   "title": "Planet AI",
   "items": [
     {
-      "id": "bc9323648097d7a4",
-      "url": "https://dev.to/siddhantkcode/tackling-cold-starts-in-aws-lambda-a-deep-dive-with-llrt-17d7",
-      "title": "Tackling Cold Starts in AWS Lambda: A Deep Dive with LLRT",
-      "summary": "AWS Lambda is the go-to serverless computing service for developers who love event-driven...",
-      "date_published": "2025-02-24T06:17:31Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "2cf7cd1b7d585431",
       "url": "https://beabetterdev.com/2025/02/23/why-amazon-never-makes-the-same-mistake-twice/?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=why-amazon-never-makes-the-same-mistake-twice",
       "title": "Why Amazon Never Makes The Same Mistake Twice",
@@ -44,7 +25,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -86,7 +67,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "10b590e95c39b16a",
@@ -164,6 +145,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-08-31T12:35:34Z",
+  "_signal_generated": "2026-08-31T22:22:48Z",
   "_signal_period": "2025-02"
 }
