@@ -1,0 +1,32 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "08023ad92b425a6d",
+      "url": "https://siddhantkhare.com/writing/llm-unified-memory-oom",
+      "title": "The weights fit. The inference workload didn't.",
+      "summary": "A 16,081,490,933-byte model hit a clean-boot Metal OOM at 256 prompt tokens on a 24 GiB M5 Pro. Stage checkpoints show why file size was never a fit proof.",
+      "date_published": "2026-09-01T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "mlx",
+        "apple-silicon",
+        "memory",
+        "observability"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-09-02T10:32:45Z",
+  "_signal_period": "2026-09"
+}

@@ -102,27 +102,8 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "df7e39219a1941d8",
-      "url": "https://dev.to/siddhantkcode/isolating-ai-agents-with-devcontainer-a-secure-and-scalable-approach-4hi4",
-      "title": "Isolating AI Agents with DevContainer: A secure and scalable approach",
-      "summary": "AI coding agents like Cline and RooCode are powerful but unpredictable. A simple misconfiguration...",
-      "date_published": "2025-03-04T17:58:39Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-09-02T02:41:30Z",
+  "_signal_generated": "2026-09-02T10:32:45Z",
   "_signal_period": "2025-03"
 }
