@@ -3,6 +3,55 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "506ec79bcc13f88d",
+      "url": "https://siddhantkhare.com/writing/glm-latency-cost-tradeoff",
+      "title": "The fastest passing system was not the cheapest one",
+      "summary": "Eight pinned OpenRouter requests split the decision: GLM-5.3 won passing throughput, while Flash bought far more passing cases per dollar.",
+      "date_published": "2026-09-03T17:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "performance",
+        "cost",
+        "benchmarking",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "28092c0cb419626d",
+      "url": "https://siddhantkhare.com/writing/xctrace-xml-references",
+      "title": "Parsing 7,585 XML references to count 400 Metal dispatches",
+      "summary": "How LLMTraceFX resolves xctrace XML references, preserves process identity, handles sentinels, and checks the result against known dispatch counts.",
+      "date_published": "2026-09-02T17:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "metal",
+        "xctrace",
+        "xml",
+        "parsing",
+        "observability",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "365bba5582e2dd03",
       "url": "https://blog.d11r.eu/ai-writing/",
       "title": "Technical writing in the age of AI",
@@ -41,6 +90,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-09-03T15:43:33Z",
+  "_signal_generated": "2026-09-03T20:26:47Z",
   "_signal_period": "2026-09"
 }
