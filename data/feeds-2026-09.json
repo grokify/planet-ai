@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "8ae705aba2567213",
+      "url": "https://siddhantkhare.com/writing/benchmark-evidence-lineage",
+      "title": "A benchmark result without lineage is just a screenshot",
+      "summary": "A technical guide to connecting heterogeneous AI performance evidence without erasing measurement scope, failure state, or claim boundaries.",
+      "date_published": "2026-09-04T17:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "observability",
+        "performance",
+        "evidence",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "506ec79bcc13f88d",
       "url": "https://siddhantkhare.com/writing/glm-latency-cost-tradeoff",
       "title": "The fastest passing system was not the cheapest one",
@@ -90,6 +114,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-09-04T15:42:09Z",
+  "_signal_generated": "2026-09-04T20:13:32Z",
   "_signal_period": "2026-09"
 }
