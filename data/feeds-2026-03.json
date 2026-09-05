@@ -69,6 +69,34 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "90da9b06fe87682b",
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down",
+      "title": "Thoughts on slowing the fuck down",
+      "summary": "Thoughts on slowing the fuck down",
+      "date_published": "2026-03-25T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at",
+      "_signal_priority": true,
+      "_signal_rank": 12,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47517539",
+          "id": "47517539",
+          "score": 892
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-thoughts-on-slowing-the-fuck-down.html"
+        }
+      ]
+    },
+    {
       "id": "21fe1b39a21d8a46",
       "url": "https://www.claudescode.dev/?window=since_launch",
       "title": "90% of Claude-linked output going to GitHub repos with \u003c2 stars",
@@ -100,34 +128,6 @@
         {
           "platform": "frontierpulse",
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-90%-of-claude-linked-output-going-to-github-repos.html"
-        }
-      ]
-    },
-    {
-      "id": "90da9b06fe87682b",
-      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down",
-      "title": "Thoughts on slowing the fuck down",
-      "summary": "Thoughts on slowing the fuck down",
-      "date_published": "2026-03-25T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at",
-      "_signal_priority": true,
-      "_signal_rank": 12,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47517539",
-          "id": "47517539",
-          "score": 892
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-thoughts-on-slowing-the-fuck-down.html"
         }
       ]
     },
@@ -166,28 +166,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "ambition",
-        "career"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -214,6 +192,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -420,20 +420,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "6ce183439dfe67ff",
-      "url": "https://blog.d11r.eu/kurtz/",
-      "title": "Notes on \"Heart of Darkness\"",
-      "summary": "\u003cp\u003eFirst of, Heart of Darkness by Joseph Conrad is a good book. I like it.\u003c/p\u003e\n\u003cp\u003eIt was a bit difficult to read because of Conrad\u0026rsquo;s style, but I don\u0026rsquo;t hold it against him, or the book. It\u0026rsquo;s better for it.\u003c/p\u003e\n\u003cp\u003eI will skip the summary, and just share some of my observations, and notes.\u003c/p\u003e\n\u003cp\u003eAlso, obviously \u0026ndash; spoilers ahead.\u003c/p\u003e\n\u003ch2 id=\"what-ideas\"\u003eWhat ideas??\u003c/h2\u003e\n\u003cp\u003eMarlow keeps saying how everyone else talked about Kurtz\u0026rsquo;s ideas, how Kurtz himself talked about his ideas, his ideas, his ideas\u0026hellip; ideas\u0026hellip;\u003c/p\u003e\n\u003cp\u003eWhat bloody ideas? I get it that we are maybe not supposed to know the full extent of his ideas, that it\u0026rsquo;s intentional that way, but honestly I think it\u0026rsquo;s not even that.\u003c/p\u003e\n\u003cp\u003eTimes have changed.\u003c/p\u003e\n\u003cp\u003eToday is much different than, say, one hundred years ago.\u003c/p\u003e\n\u003cp\u003eWe get a couple of glimpses of these fabled ideas of Kurtz, and they\u0026rsquo;re\u0026hellip; what? That a white man, with his might, and ships, and guns, and technology, must appear as a supernatural being to those men there living as if in the First Age, in the primeval forests.\u003c/p\u003e\n\u003cp\u003eI get that it\u0026rsquo;s kind of stupid to be annoyed by the differences between two times, and to judge people of one time by the standard of another time. I get that it\u0026rsquo;s sort of silly to say that ancient Greeks were a morally corrupt society because they kept slaves, or that the medieval kingdoms were morally corrupt because they did not use democracy (it wasn\u0026rsquo;t invented yet!), and many of today\u0026rsquo;s moral goods we take for granted.\u003c/p\u003e\n\u003cp\u003eBut man, today, every bozo with a blog has \u003cem\u003eI D E A S\u003c/em\u003e.\u003c/p\u003e\n\u003cp\u003eGo on Substack and you\u0026rsquo;ll read numerous accounts from bloggers left and right, extreme and moderate, earnest and shitposting, that are of the caliber of Kurtz\u0026rsquo;s ideas, or even more\u0026hellip; that.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m one such bozo! Everyone has ideas!\u003c/p\u003e\n\u003cp\u003eI don\u0026rsquo;t know if we\u0026rsquo;re living in genuinely different times or what, but that constant dick-glazing from everyone, including partially from Marlow, towards Kurtz is totally bizarre.\u003c/p\u003e\n\u003ch2 id=\"ok-but-kurtz-wasnt-really-a-person\"\u003eOk but Kurtz wasn\u0026rsquo;t really a person\u003c/h2\u003e\n\u003cp\u003eOK, maybe he was an allegory, not an actual person but an embodiment \u0026ndash; a personification \u0026ndash; of colonialism.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m ok with this interpretation, it\u0026rsquo;s not like there\u0026rsquo;s anything \u003cem\u003ecorrect\u003c/em\u003e here, \u003cem\u003el\u0026rsquo;auteur est mort\u003c/em\u003e, but still, even as a figure, I can\u0026rsquo;t help but see the stark difference between the irreverent times of today and the glazing of yore. If Kurtz wrote his little memo intended for the International Society for the Suppression of Savage Customs, and posted it today, he\u0026rsquo;d get fifty counter-essays of roughly the same caliber within a week.\u003c/p\u003e\n\u003ch2 id=\"the-great-man-theory-probably-has-some-value\"\u003eThe Great Man theory probably has some value\u003c/h2\u003e\n\u003cp\u003eIt\u0026rsquo;s the spirit of that time I think.\u003c/p\u003e\n\u003cp\u003eToday it\u0026rsquo;s more cynical, more averaged, more collectivist, more liberal.\u003c/p\u003e\n\u003cp\u003eThere\u0026rsquo;s a sense of recognition of the masses, of the immense small steps that make up the large strides that a society makes, versus the idea of one man pushing society by himself.\u003c/p\u003e\n\u003cp\u003eI think it\u0026rsquo;s probably roughly correct!\u003c/p\u003e\n\u003cp\u003eBut again, the disappearance of classical arts and classical education and classical norms and classical thought may have been a bit\u0026hellip; too much. Everything is by committee today. Most of all, the skills taught to young men and women are, well, ok, and I guess appropriate for the times, but I cannot help but feel that we have lost something that was expressed by the admiration of others towards Kurtz.\u003c/p\u003e\n\u003cp\u003eOratory.\u003c/p\u003e\n\u003cp\u003eSpeaking, and being heard, and moving people with one\u0026rsquo;s speech, is not really that valued.\u003c/p\u003e\n\u003cp\u003eAgain, everything is by the committee and of the committee, everything is ritualized.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s a great checks-and-balances system that prevents you from being led into a holy war, but sometimes society could use a bit of Muad\u0026rsquo;Dib; sometimes you should speak over the rituals imposed by the elders and make your voice heard to all the sietches, and to hell the customs.\u003c/p\u003e\n\u003cp\u003eWell I don\u0026rsquo;t know. I think it\u0026rsquo;s valuable. And I think we\u0026rsquo;ve lost it a bit.\u003c/p\u003e\n\u003ch2 id=\"marlows-ramblings\"\u003eMarlow\u0026rsquo;s ramblings\u003c/h2\u003e\n\u003cp\u003eMarlow speaks and thinks \u0026ndash; that is, Conrad writes \u0026ndash; in such a weird and convoluted way.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s difficult to pinpoint what he actually means. Like, what are you trying to say my man?\u003c/p\u003e\n\u003cp\u003eBut it\u0026rsquo;s not completely schizophrenic, it has structure, it has thought, and it\u0026rsquo;s really\u0026hellip; poetic. Musical. Rhythmic.\u003c/p\u003e\n\u003cp\u003eIf Marlow were an LLM, he\u0026rsquo;d have a pretty high temperature setting. It\u0026rsquo;s very difficult to predict the next sequence of tokens.\u003c/p\u003e\n\u003cp\u003eAnd given how much I am forced to read slop these days, it was a welcome rest (and exercise) for my mind, to read something of a more human, if slightly mad, mind-process.\u003c/p\u003e\n\u003ch2 id=\"civilization-is-a-thin-veneer\"\u003eCivilization is a thin veneer\u003c/h2\u003e\n\u003cp\u003eUltimately to the meat of the book: you come to the Congo, and all your ideas and idealism are stripped away almost immediately; immediately you start raiding and pillaging and killing and so on.\u003c/p\u003e\n\u003cp\u003eToday this is not news; we are very aware of how societies of south have suffered at the hands of the societies of north.\u003c/p\u003e\n\u003cp\u003eI guess they were really surprised by this at that time? Though I don\u0026rsquo;t know how.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s roughly the same period when von Clausewitz published his ruminations On War, where he pretty openly says that there\u0026rsquo;s no such thing as international law, and it\u0026rsquo;s just force and overpowering and submitting your enemy.\u003c/p\u003e\n\u003cp\u003eBut anyway, civilization \u003cem\u003eis\u003c/em\u003e a thin veneer, easily stripped away by the slightest of circumstances. It\u0026rsquo;s why zombie fiction is so popular these days. We no longer have \u0026ldquo;uncivilized\u0026rdquo; places on this Earth, or at least it is not popular to call them that, but you can have these things in fiction, and see how men and women transform in societies where the state has crumbled.\u003c/p\u003e\n\u003cp\u003eCivilization is a thin veneer and it\u0026rsquo;s probably why I have these prepper-like tendencies of mine; that and maybe some poverty-induced trauma.\u003c/p\u003e\n\u003ch2 id=\"overall\"\u003eOverall\u003c/h2\u003e\n\u003cp\u003e\u0026hellip;it\u0026rsquo;s a good book! I enjoyed it a lot.\u003c/p\u003e\n\u003cp\u003eI have this desire to visit Africa. I don\u0026rsquo;t know why.\u003c/p\u003e\n\u003cp\u003eMaybe if you\u0026rsquo;re a white European in your thirties, some gene activates inside you if you haven\u0026rsquo;t yet made your fortune, and forces you to migrate south to\u0026hellip; I don\u0026rsquo;t know, build a \u003ca href=\"https://en.wikipedia.org/wiki/Cape_to_Cairo_Railway\"\u003erailroad from South Africa to Egypt\u003c/a\u003e, or to start driving a truck and try to deliver some machinery to \u003ca href=\"https://youtu.be/GslPzhFLyas\"\u003esanctioned Sudan while repairing your truck by shoving bananas in the axle\u003c/a\u003e. Or at least to \u003ca href=\"https://www.youtube.com/watch?v=k2Qp2zEBBm4\"\u003ecross the Congo jungle on bicycle\u003c/a\u003e.\u003c/p\u003e",
-      "date_published": "2026-03-02T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "34b6735a1bb48bb5",
       "url": "https://www.answer.ai/posts/2026-03-02-oai-dow-contract.html",
       "title": "Can a Contract Freeze the Law on Autonomous Weapons?",
@@ -452,6 +438,20 @@
       ],
       "_signal_feed_title": "Answer.AI",
       "_signal_feed_url": "https://www.answer.ai/"
+    },
+    {
+      "id": "6ce183439dfe67ff",
+      "url": "https://blog.d11r.eu/kurtz/",
+      "title": "Notes on \"Heart of Darkness\"",
+      "summary": "\u003cp\u003eFirst of, Heart of Darkness by Joseph Conrad is a good book. I like it.\u003c/p\u003e\n\u003cp\u003eIt was a bit difficult to read because of Conrad\u0026rsquo;s style, but I don\u0026rsquo;t hold it against him, or the book. It\u0026rsquo;s better for it.\u003c/p\u003e\n\u003cp\u003eI will skip the summary, and just share some of my observations, and notes.\u003c/p\u003e\n\u003cp\u003eAlso, obviously \u0026ndash; spoilers ahead.\u003c/p\u003e\n\u003ch2 id=\"what-ideas\"\u003eWhat ideas??\u003c/h2\u003e\n\u003cp\u003eMarlow keeps saying how everyone else talked about Kurtz\u0026rsquo;s ideas, how Kurtz himself talked about his ideas, his ideas, his ideas\u0026hellip; ideas\u0026hellip;\u003c/p\u003e\n\u003cp\u003eWhat bloody ideas? I get it that we are maybe not supposed to know the full extent of his ideas, that it\u0026rsquo;s intentional that way, but honestly I think it\u0026rsquo;s not even that.\u003c/p\u003e\n\u003cp\u003eTimes have changed.\u003c/p\u003e\n\u003cp\u003eToday is much different than, say, one hundred years ago.\u003c/p\u003e\n\u003cp\u003eWe get a couple of glimpses of these fabled ideas of Kurtz, and they\u0026rsquo;re\u0026hellip; what? That a white man, with his might, and ships, and guns, and technology, must appear as a supernatural being to those men there living as if in the First Age, in the primeval forests.\u003c/p\u003e\n\u003cp\u003eI get that it\u0026rsquo;s kind of stupid to be annoyed by the differences between two times, and to judge people of one time by the standard of another time. I get that it\u0026rsquo;s sort of silly to say that ancient Greeks were a morally corrupt society because they kept slaves, or that the medieval kingdoms were morally corrupt because they did not use democracy (it wasn\u0026rsquo;t invented yet!), and many of today\u0026rsquo;s moral goods we take for granted.\u003c/p\u003e\n\u003cp\u003eBut man, today, every bozo with a blog has \u003cem\u003eI D E A S\u003c/em\u003e.\u003c/p\u003e\n\u003cp\u003eGo on Substack and you\u0026rsquo;ll read numerous accounts from bloggers left and right, extreme and moderate, earnest and shitposting, that are of the caliber of Kurtz\u0026rsquo;s ideas, or even more\u0026hellip; that.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m one such bozo! Everyone has ideas!\u003c/p\u003e\n\u003cp\u003eI don\u0026rsquo;t know if we\u0026rsquo;re living in genuinely different times or what, but that constant dick-glazing from everyone, including partially from Marlow, towards Kurtz is totally bizarre.\u003c/p\u003e\n\u003ch2 id=\"ok-but-kurtz-wasnt-really-a-person\"\u003eOk but Kurtz wasn\u0026rsquo;t really a person\u003c/h2\u003e\n\u003cp\u003eOK, maybe he was an allegory, not an actual person but an embodiment \u0026ndash; a personification \u0026ndash; of colonialism.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m ok with this interpretation, it\u0026rsquo;s not like there\u0026rsquo;s anything \u003cem\u003ecorrect\u003c/em\u003e here, \u003cem\u003el\u0026rsquo;auteur est mort\u003c/em\u003e, but still, even as a figure, I can\u0026rsquo;t help but see the stark difference between the irreverent times of today and the glazing of yore. If Kurtz wrote his little memo intended for the International Society for the Suppression of Savage Customs, and posted it today, he\u0026rsquo;d get fifty counter-essays of roughly the same caliber within a week.\u003c/p\u003e\n\u003ch2 id=\"the-great-man-theory-probably-has-some-value\"\u003eThe Great Man theory probably has some value\u003c/h2\u003e\n\u003cp\u003eIt\u0026rsquo;s the spirit of that time I think.\u003c/p\u003e\n\u003cp\u003eToday it\u0026rsquo;s more cynical, more averaged, more collectivist, more liberal.\u003c/p\u003e\n\u003cp\u003eThere\u0026rsquo;s a sense of recognition of the masses, of the immense small steps that make up the large strides that a society makes, versus the idea of one man pushing society by himself.\u003c/p\u003e\n\u003cp\u003eI think it\u0026rsquo;s probably roughly correct!\u003c/p\u003e\n\u003cp\u003eBut again, the disappearance of classical arts and classical education and classical norms and classical thought may have been a bit\u0026hellip; too much. Everything is by committee today. Most of all, the skills taught to young men and women are, well, ok, and I guess appropriate for the times, but I cannot help but feel that we have lost something that was expressed by the admiration of others towards Kurtz.\u003c/p\u003e\n\u003cp\u003eOratory.\u003c/p\u003e\n\u003cp\u003eSpeaking, and being heard, and moving people with one\u0026rsquo;s speech, is not really that valued.\u003c/p\u003e\n\u003cp\u003eAgain, everything is by the committee and of the committee, everything is ritualized.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s a great checks-and-balances system that prevents you from being led into a holy war, but sometimes society could use a bit of Muad\u0026rsquo;Dib; sometimes you should speak over the rituals imposed by the elders and make your voice heard to all the sietches, and to hell the customs.\u003c/p\u003e\n\u003cp\u003eWell I don\u0026rsquo;t know. I think it\u0026rsquo;s valuable. And I think we\u0026rsquo;ve lost it a bit.\u003c/p\u003e\n\u003ch2 id=\"marlows-ramblings\"\u003eMarlow\u0026rsquo;s ramblings\u003c/h2\u003e\n\u003cp\u003eMarlow speaks and thinks \u0026ndash; that is, Conrad writes \u0026ndash; in such a weird and convoluted way.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s difficult to pinpoint what he actually means. Like, what are you trying to say my man?\u003c/p\u003e\n\u003cp\u003eBut it\u0026rsquo;s not completely schizophrenic, it has structure, it has thought, and it\u0026rsquo;s really\u0026hellip; poetic. Musical. Rhythmic.\u003c/p\u003e\n\u003cp\u003eIf Marlow were an LLM, he\u0026rsquo;d have a pretty high temperature setting. It\u0026rsquo;s very difficult to predict the next sequence of tokens.\u003c/p\u003e\n\u003cp\u003eAnd given how much I am forced to read slop these days, it was a welcome rest (and exercise) for my mind, to read something of a more human, if slightly mad, mind-process.\u003c/p\u003e\n\u003ch2 id=\"civilization-is-a-thin-veneer\"\u003eCivilization is a thin veneer\u003c/h2\u003e\n\u003cp\u003eUltimately to the meat of the book: you come to the Congo, and all your ideas and idealism are stripped away almost immediately; immediately you start raiding and pillaging and killing and so on.\u003c/p\u003e\n\u003cp\u003eToday this is not news; we are very aware of how societies of south have suffered at the hands of the societies of north.\u003c/p\u003e\n\u003cp\u003eI guess they were really surprised by this at that time? Though I don\u0026rsquo;t know how.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s roughly the same period when von Clausewitz published his ruminations On War, where he pretty openly says that there\u0026rsquo;s no such thing as international law, and it\u0026rsquo;s just force and overpowering and submitting your enemy.\u003c/p\u003e\n\u003cp\u003eBut anyway, civilization \u003cem\u003eis\u003c/em\u003e a thin veneer, easily stripped away by the slightest of circumstances. It\u0026rsquo;s why zombie fiction is so popular these days. We no longer have \u0026ldquo;uncivilized\u0026rdquo; places on this Earth, or at least it is not popular to call them that, but you can have these things in fiction, and see how men and women transform in societies where the state has crumbled.\u003c/p\u003e\n\u003cp\u003eCivilization is a thin veneer and it\u0026rsquo;s probably why I have these prepper-like tendencies of mine; that and maybe some poverty-induced trauma.\u003c/p\u003e\n\u003ch2 id=\"overall\"\u003eOverall\u003c/h2\u003e\n\u003cp\u003e\u0026hellip;it\u0026rsquo;s a good book! I enjoyed it a lot.\u003c/p\u003e\n\u003cp\u003eI have this desire to visit Africa. I don\u0026rsquo;t know why.\u003c/p\u003e\n\u003cp\u003eMaybe if you\u0026rsquo;re a white European in your thirties, some gene activates inside you if you haven\u0026rsquo;t yet made your fortune, and forces you to migrate south to\u0026hellip; I don\u0026rsquo;t know, build a \u003ca href=\"https://en.wikipedia.org/wiki/Cape_to_Cairo_Railway\"\u003erailroad from South Africa to Egypt\u003c/a\u003e, or to start driving a truck and try to deliver some machinery to \u003ca href=\"https://youtu.be/GslPzhFLyas\"\u003esanctioned Sudan while repairing your truck by shoving bananas in the axle\u003c/a\u003e. Or at least to \u003ca href=\"https://www.youtube.com/watch?v=k2Qp2zEBBm4\"\u003ecross the Congo jungle on bicycle\u003c/a\u003e.\u003c/p\u003e",
+      "date_published": "2026-03-02T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "9562ccbb314c2a6b",
@@ -476,6 +476,6 @@
       "_signal_feed_url": "https://beabetterdev.com/"
     }
   ],
-  "_signal_generated": "2026-09-05T09:54:37Z",
+  "_signal_generated": "2026-09-05T14:30:13Z",
   "_signal_period": "2026-03"
 }
