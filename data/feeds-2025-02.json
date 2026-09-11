@@ -25,7 +25,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -67,7 +67,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://www.beabetterdev.com/"
+      "_signal_feed_url": "https://beabetterdev.com/"
     },
     {
       "id": "10b590e95c39b16a",
@@ -145,6 +145,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-09-11T15:49:04Z",
+  "_signal_generated": "2026-09-11T20:23:47Z",
   "_signal_period": "2025-02"
 }
