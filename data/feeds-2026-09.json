@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "cd564c7b5ee38baa",
+      "url": "https://siddhantkhare.com/writing/kv-cache-truth-auditor",
+      "title": "A cache hit is not proof that you skipped the work",
+      "summary": "A deterministic KV-cache truth auditor checks engine attestations against an independent token oracle, observed prompt work, output identity, evaluator correctness, and a hash-bound bundle.",
+      "date_published": "2026-09-13T06:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "kv-cache",
+        "observability",
+        "verification",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "d72ebf1ffbd0b5e6",
       "url": "https://lalitm.com/post/buildprof/",
       "title": "I made a build visualizer to understand Bun’s compile times",
@@ -213,6 +237,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-09-13T11:01:59Z",
+  "_signal_generated": "2026-09-13T15:33:13Z",
   "_signal_period": "2026-09"
 }
