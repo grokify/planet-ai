@@ -93,28 +93,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "a82a3fb687c230c6",
-      "url": "https://siddhantkhare.com/writing/why-context-engineering-matters",
-      "title": "Why context engineering matters more than prompt engineering",
-      "summary": "Prompt engineering optimizes the question. Context engineering optimizes the information the model sees before it answers. Here's why the latter wins.",
-      "date_published": "2025-06-15T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "context-engineering",
-        "ai-systems",
-        "llm"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "100e8768f542b805",
       "url": "https://steipete.me/posts/2025/llm-codes-transform-developer-docs/",
       "title": "llm.codes: Make Apple Docs AI-Readable",
@@ -386,6 +364,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-09-20T03:12:21Z",
+  "_signal_generated": "2026-09-20T10:33:27Z",
   "_signal_period": "2025-06"
 }
