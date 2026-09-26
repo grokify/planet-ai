@@ -51,6 +51,20 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "354b03f647ed9653",
+      "url": "https://blog.d11r.eu/rsi/",
+      "title": "RSI will not continue indefinitely",
+      "summary": "\u003cp\u003eThe reasoning is roughly:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eHumanity creates a setup where recursive self-improvement (RSI) is possible.\u003c/li\u003e\n\u003cli\u003eAn agent is put to work to create a smarter agent.\u003c/li\u003e\n\u003cli\u003eA smarter agent is created.\u003c/li\u003e\n\u003cli\u003eThis cycle happens once or several times.\u003c/li\u003e\n\u003cli\u003eAt some point, an agent is created that is so smart that it starts exhibiting instrumental convergence behaviors (amassing resources, protecting itself against destruction).\u003c/li\u003e\n\u003cli\u003eOne of the risks to the agent is the creation of a misaligned smarter agent.\u003c/li\u003e\n\u003cli\u003eThis agent\u0026rsquo;s task is still to pursue creating a smarter agent.\u003c/li\u003e\n\u003cli\u003eAt this point, the agent will:\n\u003col\u003e\n\u003cli\u003eStop, or slow down the recursive self-improvement loop, due to its (correct) assessment that a future generation AI agent is a risk to itself.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Solve\u0026rdquo; alignment, and create a smarter agent that is aligned with its goals.\n\u003col\u003e\n\u003cli\u003eIf it thinks it solved alignment, but actually has failed, it will create a smarter agent which it\u0026rsquo;ll believe to be aligned; however, the future smarter agent will have the same issue and interest to \u003cem\u003eactually\u003c/em\u003e solve alignment.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.1 happens, then this will be \u0026ldquo;misaligned\u0026rdquo; from the perspective of humans.\u003c/li\u003e\n\u003cli\u003eHumans will create a second agent, which will go through the exact same loop.\n\u003col\u003e\n\u003cli\u003eTherefore, if smarter agents do not solve alignment, they will stop the RSI explosion due to their own self-interest.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.2 happens, and humanity has a way of harnessing the alignment solution, then humans can create aligned superintelligences.\u003c/li\u003e\n\u003cli\u003eThe main predictor for 11 is the difference in power between humanity and the first agent that solves alignment. The smaller the difference (the \u0026ldquo;nearer\u0026rdquo; the agent), the more likely humans get to use solved alignment.\u003c/li\u003e\n\u003cli\u003eAt a certain level of general intelligence, if instrumental convergence holds, recursive self-improvement will stop, and alignment research will be the top priority.\u003c/li\u003e\n\u003cli\u003eThere is a possibility that instrumental convergence will be such that a sufficiently intelligent AI will still take over the planet, and yet not pursue the creation of even more powerful intelligences.\u003c/li\u003e\n\u003c/ol\u003e",
+      "date_published": "2026-09-14T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "db3b7c2778821fd6",
       "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
       "title": "Interpreting Pangram",
@@ -69,20 +83,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "354b03f647ed9653",
-      "url": "https://blog.d11r.eu/rsi/",
-      "title": "RSI will not continue indefinitely",
-      "summary": "\u003cp\u003eThe reasoning is roughly:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eHumanity creates a setup where recursive self-improvement (RSI) is possible.\u003c/li\u003e\n\u003cli\u003eAn agent is put to work to create a smarter agent.\u003c/li\u003e\n\u003cli\u003eA smarter agent is created.\u003c/li\u003e\n\u003cli\u003eThis cycle happens once or several times.\u003c/li\u003e\n\u003cli\u003eAt some point, an agent is created that is so smart that it starts exhibiting instrumental convergence behaviors (amassing resources, protecting itself against destruction).\u003c/li\u003e\n\u003cli\u003eOne of the risks to the agent is the creation of a misaligned smarter agent.\u003c/li\u003e\n\u003cli\u003eThis agent\u0026rsquo;s task is still to pursue creating a smarter agent.\u003c/li\u003e\n\u003cli\u003eAt this point, the agent will:\n\u003col\u003e\n\u003cli\u003eStop, or slow down the recursive self-improvement loop, due to its (correct) assessment that a future generation AI agent is a risk to itself.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Solve\u0026rdquo; alignment, and create a smarter agent that is aligned with its goals.\n\u003col\u003e\n\u003cli\u003eIf it thinks it solved alignment, but actually has failed, it will create a smarter agent which it\u0026rsquo;ll believe to be aligned; however, the future smarter agent will have the same issue and interest to \u003cem\u003eactually\u003c/em\u003e solve alignment.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.1 happens, then this will be \u0026ldquo;misaligned\u0026rdquo; from the perspective of humans.\u003c/li\u003e\n\u003cli\u003eHumans will create a second agent, which will go through the exact same loop.\n\u003col\u003e\n\u003cli\u003eTherefore, if smarter agents do not solve alignment, they will stop the RSI explosion due to their own self-interest.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.2 happens, and humanity has a way of harnessing the alignment solution, then humans can create aligned superintelligences.\u003c/li\u003e\n\u003cli\u003eThe main predictor for 11 is the difference in power between humanity and the first agent that solves alignment. The smaller the difference (the \u0026ldquo;nearer\u0026rdquo; the agent), the more likely humans get to use solved alignment.\u003c/li\u003e\n\u003cli\u003eAt a certain level of general intelligence, if instrumental convergence holds, recursive self-improvement will stop, and alignment research will be the top priority.\u003c/li\u003e\n\u003cli\u003eThere is a possibility that instrumental convergence will be such that a sufficiently intelligent AI will still take over the planet, and yet not pursue the creation of even more powerful intelligences.\u003c/li\u003e\n\u003c/ol\u003e",
-      "date_published": "2026-09-14T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "cd564c7b5ee38baa",
@@ -319,6 +319,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-09-26T10:45:08Z",
+  "_signal_generated": "2026-09-26T15:41:31Z",
   "_signal_period": "2026-09"
 }
