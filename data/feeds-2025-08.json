@@ -116,6 +116,7 @@
       "id": "4b6bab066f78610c",
       "url": "https://siddhantkhare2694.medium.com/attention-by-subtraction-5ca5fe8f357a?source=rss-d33fc21fba5d------2",
       "title": "Attention by subtraction",
+      "summary": "The most counterintuitive thing I learned about ADHD is that it’s not really about attention. It’s about decisions. For years I thought my problem was focus. I’d sit down to work and within minutes fi",
       "date_published": "2025-08-16T08:42:08Z",
       "authors": [
         {
@@ -149,7 +150,10 @@
       "tags": [
         "Tech",
         "Development",
-        "AI"
+        "AI",
+        "llm",
+        "mcp",
+        "programming"
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
@@ -270,6 +274,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-09-26T03:20:06Z",
+  "_signal_generated": "2026-09-26T10:45:08Z",
   "_signal_period": "2025-08"
 }
