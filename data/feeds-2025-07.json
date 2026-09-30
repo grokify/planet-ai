@@ -33,30 +33,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "c1539c0002ef16d6",
-      "url": "https://siddhantkhare2694.medium.com/the-work-finds-you-back-3c56a28e43a9?source=rss-d33fc21fba5d------2",
-      "title": "The work finds you back",
-      "summary": "A recent career revelation that changed everything I thought I knew about professional growth The unexpected turn In recent weeks, I learned something that fundamentally changed how I think about care",
-      "date_published": "2025-07-23T02:32:31Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "careers",
-        "growth",
-        "technology",
-        "software-engineering",
-        "personal-growth"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "189bd77edc2e0dd6",
       "url": "https://www.answer.ai/posts/2025-07-23-faststripe.html",
       "title": "The Stripe Experience You Deserve",
@@ -223,6 +199,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-09-30T11:51:41Z",
+  "_signal_generated": "2026-09-30T17:32:36Z",
   "_signal_period": "2025-07"
 }
