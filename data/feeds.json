@@ -3,6 +3,31 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "ec809666d95adccd",
+      "url": "https://siddhantkhare.com/writing/same-coordinates-different-tensors",
+      "title": "The coordinates matched. The tensors did not.",
+      "summary": "MONAI, a medical-imaging framework, matched a custom 3D tiler on every window start but not on padding. Here is what to prove before inference.",
+      "date_published": "2026-10-01T10:15:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "gpu",
+        "computer-vision",
+        "sliding-window",
+        "inference",
+        "verification",
+        "VoxelScope"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "4cc84dede5d891cf",
       "url": "https://siddhantkhare.com/writing/stop-making-the-model-write-hashes",
       "title": "Stop making the model write hashes",
@@ -534,26 +559,6 @@
       "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
-      "id": "d9ce203f1caf1d68",
-      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/",
-      "title": "What Is Reasoning",
-      "content_html": "\u003cp\u003eA few weeks ago \u003ca href=\"https://arxiv.org/html/2608.09867v1\"\u003ea paper was shared\u003c/a\u003e that\nshowed how to extract reasoning traces from closed-weight models.  Together\nwith online discussions about tricking models into leaking them, it made me\ninvestigate it more out of curiosity.  Twitter seems full of half-truths and\nconfusion about how this works, so perhaps this helps some to understand what is\nhappening.\u003c/p\u003e\n\u003ch2\u003eHiding Traces\u003c/h2\u003e\n\u003cp\u003eReasoning traces are usually hidden from us.  \u003ca href=\"https://earendil.com/posts/session-portability/\"\u003eWe have lamented\nthis\u003c/a\u003e, but mostly have to\naccept it.  Open-weight models thankfully reveal them, and from their behavior\nyou can see that their traces can be long and confusing.  This is probably a\ngood reason to separate them from what is normally shown to users.\u003c/p\u003e\n\u003cp\u003eAt minimum, UIs need to detect them.  The industry has done a good job at making\nreasoning traces sound special and exotic, but they really are just text: the\nmodel is trained to emit its thinking into a scratchpad as part of its response,\nbefore its final answer.\u003c/p\u003e\n\u003cp\u003eGPT-OSS\u0026#8217;s Harmony response format makes this easy to see:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u0026lt;|channel|\u0026gt;analysis\u0026lt;|message|\u0026gt;\nI need to work this out ...\n\u0026lt;|end|\u0026gt;\u0026lt;|start|\u0026gt;assistant\u0026lt;|channel|\u0026gt;final\u0026lt;|message|\u0026gt;\nThe answer is ...\n\u0026lt;|return|\u0026gt;\n\u003c/pre\u003e\u003c/div\u003e\n\u003cp\u003eThe markers are special tokens, but the reasoning between them uses \u0026#8220;the same\ntext\u0026#8221; as the final answer (just that GPT chain-of-thought text sounds really\nfunny).  When the model samples the \u003ccode\u003eanalysis\u003c/code\u003e channel token, a parser routes\nthe following text into a separate stream exposed through the Responses API.\nFor closed models, presumably a simple model redacts and summarizes it.\u003c/p\u003e\n\u003ch2\u003eReasoning Effort\u003c/h2\u003e\n\u003cp\u003eHow much budget goes to reasoning?  Earlier APIs exposed reasoning token\nbudgets, making it seem like a property of the sampling process.  In reality,\nreasoning effort is baked into the system prompt.  GPT-OSS puts this into the\nsystem prompt:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003cspan\u003e\u003c/span\u003eReasoning: low\n\u003c/pre\u003e\u003c/div\u003e\n\u003cp\u003eThat\u0026#8217;s it.  Training produces the resulting behavior, such as emitting the\ntoken sequence that switches to the \u003ccode\u003eanalysis\u003c/code\u003e channel.  This also explains why\nchanging the effort invalidates the KV cache.  I think closed GPT models call\nreasoning effort \u0026#8220;juice,\u0026#8221; since you can ask most models how much juice they\nhave.\u003c/p\u003e\n\u003cp\u003eIn \u003ca href=\"https://github.com/antirez/ds4\"\u003eDwarfStar\u003c/a\u003e for DeepSeek with max reasoning\nthis is added to the system prompt:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003cspan\u003e\u003c/span\u003eReasoning Effort: Absolute maximum with no shortcuts permitted.\nYou MUST be very thorough in your thinking and comprehensively decompose the\nproblem to resolve the root cause, rigorously stress-testing your logic against\nall potential paths, edge cases, and adversarial scenarios.\n\u003c/pre\u003e\u003c/div\u003e\n\u003ch2\u003eDon\u0026#8217;t Think\u003c/h2\u003e\n\u003cp\u003eThe destination of reasoning tokens is therefore a learned convention: the\nmodel is trained to keep scratch work out of the \u003ccode\u003efinal\u003c/code\u003e channel.  Trick it into\nthinking it is in that channel and it may leak tokens.  We have even seen older\nmodels, when thinking is disabled, reason into the bash tool and echo their\nthoughts to \u003ccode\u003e/dev/null\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eSo in some sense the only \u0026#8220;special\u0026#8221; behavior for some models is not to think.\nThat at times is done by \u0026#8220;mechanically\u0026#8221; removing the model\u0026#8217;s usual ways to think.\nIn \u003ca href=\"https://github.com/antirez/ds4\"\u003eDwarfStar\u003c/a\u003e, disabled thinking uses the\nprefill \u003ccode\u003e\u0026lt;/think\u0026gt;\u003c/code\u003e, while enabled thinking uses \u003ccode\u003e\u0026lt;think\u0026gt;\u003c/code\u003e, which are the tokens\nthat close and start thinking.  GPT-OSS doesn\u0026#8217;t prefill but lets the model\ndecide either way on its own.\u003c/p\u003e\n\u003cp\u003eBut presumably, some inference APIs prefill the opening token when reasoning is\nenabled, so the model never samples it itself and might prevent the sampling of\nthe reasoning token when disabled since it can be trivially detected.  This may\nexplain why a \u003ca href=\"https://gist.github.com/mitsuhiko/0904a3d89741e8e3bcca1ca93ea076de\"\u003ecustom \u003ccode\u003ethink\u003c/code\u003e\ntool\u003c/a\u003e can\ntrick models into putting some reasoning where it should not go — but only when\nnative reasoning is disabled.\u003c/p\u003e\n\u003cdetails\u003e\u003csummary\u003e\u003csmall\u003eFun fact: this blog post triggered safey checks\u003c/small\u003e\u003c/summary\u003e\n\u003cp\u003eHilariously enough I was unable to use GPT 5.6 terra for spell and grammar checking\non this blog post because of safety filters.  Had to switch to Kimi.\u003c/p\u003e\n\u003cimg src=\"/static/gpt-5.6-terra-spell-check.png\" alt=\"GPT-5.6-terra refusing to spell-check this blog post\" style=\"width: 100%\"\u003e\n\u003c/details\u003e\n",
-      "summary": "\u003cp\u003eA few weeks ago \u003ca href=\"https://arxiv.org/html/2608.09867v1\"\u003ea paper was shared\u003c/a\u003e that\nshowed how to extract reasoning traces from closed-weight models.  Together\nwith online discussions about tricking models into leaking them, it made me\ninvestigate it more out of curiosity.  Twitter seems full of half-truths and\nconfusion about how this works, so perhaps this helps some to understand what is\nhappening.\u003c/p\u003e\n\u003ch2\u003eHiding Traces\u003c/h2\u003e\n\u003cp\u003eReasoning traces are usually hidden from us.  \u003ca...",
-      "date_published": "2026-08-19T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "e1ff181d91263be9",
       "url": "https://www.answer.ai/posts/2026-08-19-llms-code-simpler.html",
       "title": "Why LLMs can’t make your code simpler",
@@ -572,6 +577,26 @@
       ],
       "_signal_feed_title": "Answer.AI",
       "_signal_feed_url": "https://www.answer.ai/"
+    },
+    {
+      "id": "d9ce203f1caf1d68",
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/",
+      "title": "What Is Reasoning",
+      "content_html": "\u003cp\u003eA few weeks ago \u003ca href=\"https://arxiv.org/html/2608.09867v1\"\u003ea paper was shared\u003c/a\u003e that\nshowed how to extract reasoning traces from closed-weight models.  Together\nwith online discussions about tricking models into leaking them, it made me\ninvestigate it more out of curiosity.  Twitter seems full of half-truths and\nconfusion about how this works, so perhaps this helps some to understand what is\nhappening.\u003c/p\u003e\n\u003ch2\u003eHiding Traces\u003c/h2\u003e\n\u003cp\u003eReasoning traces are usually hidden from us.  \u003ca href=\"https://earendil.com/posts/session-portability/\"\u003eWe have lamented\nthis\u003c/a\u003e, but mostly have to\naccept it.  Open-weight models thankfully reveal them, and from their behavior\nyou can see that their traces can be long and confusing.  This is probably a\ngood reason to separate them from what is normally shown to users.\u003c/p\u003e\n\u003cp\u003eAt minimum, UIs need to detect them.  The industry has done a good job at making\nreasoning traces sound special and exotic, but they really are just text: the\nmodel is trained to emit its thinking into a scratchpad as part of its response,\nbefore its final answer.\u003c/p\u003e\n\u003cp\u003eGPT-OSS\u0026#8217;s Harmony response format makes this easy to see:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u0026lt;|channel|\u0026gt;analysis\u0026lt;|message|\u0026gt;\nI need to work this out ...\n\u0026lt;|end|\u0026gt;\u0026lt;|start|\u0026gt;assistant\u0026lt;|channel|\u0026gt;final\u0026lt;|message|\u0026gt;\nThe answer is ...\n\u0026lt;|return|\u0026gt;\n\u003c/pre\u003e\u003c/div\u003e\n\u003cp\u003eThe markers are special tokens, but the reasoning between them uses \u0026#8220;the same\ntext\u0026#8221; as the final answer (just that GPT chain-of-thought text sounds really\nfunny).  When the model samples the \u003ccode\u003eanalysis\u003c/code\u003e channel token, a parser routes\nthe following text into a separate stream exposed through the Responses API.\nFor closed models, presumably a simple model redacts and summarizes it.\u003c/p\u003e\n\u003ch2\u003eReasoning Effort\u003c/h2\u003e\n\u003cp\u003eHow much budget goes to reasoning?  Earlier APIs exposed reasoning token\nbudgets, making it seem like a property of the sampling process.  In reality,\nreasoning effort is baked into the system prompt.  GPT-OSS puts this into the\nsystem prompt:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003cspan\u003e\u003c/span\u003eReasoning: low\n\u003c/pre\u003e\u003c/div\u003e\n\u003cp\u003eThat\u0026#8217;s it.  Training produces the resulting behavior, such as emitting the\ntoken sequence that switches to the \u003ccode\u003eanalysis\u003c/code\u003e channel.  This also explains why\nchanging the effort invalidates the KV cache.  I think closed GPT models call\nreasoning effort \u0026#8220;juice,\u0026#8221; since you can ask most models how much juice they\nhave.\u003c/p\u003e\n\u003cp\u003eIn \u003ca href=\"https://github.com/antirez/ds4\"\u003eDwarfStar\u003c/a\u003e for DeepSeek with max reasoning\nthis is added to the system prompt:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003cspan\u003e\u003c/span\u003eReasoning Effort: Absolute maximum with no shortcuts permitted.\nYou MUST be very thorough in your thinking and comprehensively decompose the\nproblem to resolve the root cause, rigorously stress-testing your logic against\nall potential paths, edge cases, and adversarial scenarios.\n\u003c/pre\u003e\u003c/div\u003e\n\u003ch2\u003eDon\u0026#8217;t Think\u003c/h2\u003e\n\u003cp\u003eThe destination of reasoning tokens is therefore a learned convention: the\nmodel is trained to keep scratch work out of the \u003ccode\u003efinal\u003c/code\u003e channel.  Trick it into\nthinking it is in that channel and it may leak tokens.  We have even seen older\nmodels, when thinking is disabled, reason into the bash tool and echo their\nthoughts to \u003ccode\u003e/dev/null\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eSo in some sense the only \u0026#8220;special\u0026#8221; behavior for some models is not to think.\nThat at times is done by \u0026#8220;mechanically\u0026#8221; removing the model\u0026#8217;s usual ways to think.\nIn \u003ca href=\"https://github.com/antirez/ds4\"\u003eDwarfStar\u003c/a\u003e, disabled thinking uses the\nprefill \u003ccode\u003e\u0026lt;/think\u0026gt;\u003c/code\u003e, while enabled thinking uses \u003ccode\u003e\u0026lt;think\u0026gt;\u003c/code\u003e, which are the tokens\nthat close and start thinking.  GPT-OSS doesn\u0026#8217;t prefill but lets the model\ndecide either way on its own.\u003c/p\u003e\n\u003cp\u003eBut presumably, some inference APIs prefill the opening token when reasoning is\nenabled, so the model never samples it itself and might prevent the sampling of\nthe reasoning token when disabled since it can be trivially detected.  This may\nexplain why a \u003ca href=\"https://gist.github.com/mitsuhiko/0904a3d89741e8e3bcca1ca93ea076de\"\u003ecustom \u003ccode\u003ethink\u003c/code\u003e\ntool\u003c/a\u003e can\ntrick models into putting some reasoning where it should not go — but only when\nnative reasoning is disabled.\u003c/p\u003e\n\u003cdetails\u003e\u003csummary\u003e\u003csmall\u003eFun fact: this blog post triggered safey checks\u003c/small\u003e\u003c/summary\u003e\n\u003cp\u003eHilariously enough I was unable to use GPT 5.6 terra for spell and grammar checking\non this blog post because of safety filters.  Had to switch to Kimi.\u003c/p\u003e\n\u003cimg src=\"/static/gpt-5.6-terra-spell-check.png\" alt=\"GPT-5.6-terra refusing to spell-check this blog post\" style=\"width: 100%\"\u003e\n\u003c/details\u003e\n",
+      "summary": "\u003cp\u003eA few weeks ago \u003ca href=\"https://arxiv.org/html/2608.09867v1\"\u003ea paper was shared\u003c/a\u003e that\nshowed how to extract reasoning traces from closed-weight models.  Together\nwith online discussions about tricking models into leaking them, it made me\ninvestigate it more out of curiosity.  Twitter seems full of half-truths and\nconfusion about how this works, so perhaps this helps some to understand what is\nhappening.\u003c/p\u003e\n\u003ch2\u003eHiding Traces\u003c/h2\u003e\n\u003cp\u003eReasoning traces are usually hidden from us.  \u003ca...",
+      "date_published": "2026-08-19T00:00:00Z",
+      "authors": [
+        {
+          "name": "Armin Ronacher"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Programming",
+        "Python"
+      ],
+      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
+      "_signal_feed_url": "https://lucumr.pocoo.org/"
     },
     {
       "id": "373df3eaed41ba7c",
@@ -1326,6 +1351,20 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
+      "id": "d108ad12756728fb",
+      "url": "https://blog.d11r.eu/meetup-2026/",
+      "title": "Scott Alexander gentrified my meetup",
+      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "5d4d0c2061eba1f6",
       "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
       "title": "Why you stop caring mid-review",
@@ -1347,20 +1386,6 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "d108ad12756728fb",
-      "url": "https://blog.d11r.eu/meetup-2026/",
-      "title": "Scott Alexander gentrified my meetup",
-      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
-      "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -1680,28 +1705,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "ambition",
-        "career"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -1728,6 +1731,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -1987,7 +2012,7 @@
         "Tips"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "050b28a736ef7a70",
@@ -2100,7 +2125,7 @@
         "Career"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "fc44166e3e729564",
@@ -2596,7 +2621,7 @@
         "tools"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "d1cdada0efe3c51d",
@@ -3550,26 +3575,18 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "f4d9a486898ffaac",
-      "url": "https://dev.to/siddhantkcode/how-to-make-ai-code-edits-more-accurate-bbe",
-      "title": "How to make AI code edits more accurate",
-      "summary": "A technical examination of production-grade LSP-MCP integration  After spending months analyzing AI...",
-      "date_published": "2025-08-15T05:07:54Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
+      "id": "da2a377cc538381d",
+      "url": "https://blog.d11r.eu/energy-beginners-guide/",
+      "title": "Energy, a Beginner's Guide (notes)",
+      "summary": "\u003cp\u003eThis is a good book because it gives you \u003cstrong\u003enumbers\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s important to understand the quantities of things around you. I think that\nthere\u0026rsquo;s a sort of deep understanding that you can have when you know the exact\nfigures (or ranges) for many physical phenomena. This is something I hint at in\n\u003ca href=\"https://blog.d11r.eu/basics\"\u003ebeing good at the basics\u003c/a\u003e. Smil\u0026rsquo;s book is a good introduction to such\nthinking.\u003c/p\u003e\n\u003ch2 id=\"energy-in-the-biosphere\"\u003eEnergy in the biosphere\u003c/h2\u003e\n\u003cp\u003eOn celestial matters:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIf the Earth didn\u0026rsquo;t have a \u0026ldquo;buffering\u0026rdquo; mechanism for absorbing solar radiation, and\nit re-radiated all the solar radiation back immediately (\u003ca href=\"https://en.wikipedia.org/wiki/Black-body_radiation\"\u003eblack body\nradiator\u003c/a\u003e), the planet would\nstay at -18°C. So, all water would be permanently frozen. The mean surface\ntemperature is 15°C, which is all caused by greenhouse gases buffering the\nradiation. Buffers = life!\u003c/li\u003e\n\u003cli\u003eThe power of the sun is 3.9x10^26 W. So, each second that the sun shines, it sends\n13 orders of magnitude more energy than all fuels and all primary electricity on\nEarth in a given year.\u003c/li\u003e\n\u003cli\u003eSolar flow on topmost atmosphere is 1376W/m^2, or a little more than 1 kW per meter\nsquared. However, due to the Earth being round, in any given second, some parts\nhave more light, some fewer (towards the poles), and some none (nighttime); the\naverage is 342W/m^2. Then the light goes through a bunch of filtering mechanisms,\nsuch as the ozone layer, different cloud layers, and so on. So, roughly \u003cstrong\u003ehalf\u003c/strong\u003e of\nthe radiation that hit the uppermost atmosphere hits the surface; averaging it out\nover the entire surface of the earth, that\u0026rsquo;s around 170W/m^2.\n\u003cul\u003e\n\u003cli\u003eThis adds up to 2.7x10^24 J every year, around 5000 thousand times more than the\nworld spends each year.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAbout two thirds of global albedo is due to cloud tops.\u003c/li\u003e\n\u003cli\u003eMany equatorial places are poorly insolated due to large amounts of clouds\npreventing the sun from accessing the earth. So, \u0026ldquo;tropical\u0026rdquo; doesn\u0026rsquo;t necessarily\nmean \u0026ldquo;good for placement of pV systems\u0026rdquo;.\u003c/li\u003e\n\u003cli\u003eAll the inbound radiation is eventually re-radiated back to space, but taking into\naccount the \u0026ldquo;buffering\u0026rdquo; effects mentioned above. For example, 95% percent of\nsurface level re-radiation doesn\u0026rsquo;t end up in space directly, but rather gets\nbuffered by the atmosphere. The most dominant greenhouse gas is by far water vapor.\nThe Earth is essentially wrapped in a water cocoon, which protects it from getting\nhow too fast, and getting cold too fast.\u003c/li\u003e\n\u003cli\u003ePlanetary water cycles moves around 585,000 km^3 of water every year. Around 46 PW\nof power is required to vaporize this water; this is half of total insolation.\u003c/li\u003e\n\u003cli\u003eGeothermal power is comparatively small; about 44TW (~90mW/m^2 on average).\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOn plants:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eExternal biodiversity obscures the fact that there are \u003cstrong\u003every few\u003c/strong\u003e metabolic\npathways in organisms. That is, energy comes into the biome \u003cem\u003eonly\u003c/em\u003e through\n\u003cstrong\u003eautotrophs\u003c/strong\u003e: either phototrophs converting solar energy into mass, or\nchemotrophs converting inorganic compounds into mass. Literally everything else\nwhich is alive is downstream of these two producers.\u003c/li\u003e\n\u003cli\u003ePhotosynthesis reminder:\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e6CO2 + 6H2O = C6H12O6 + 6O2\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003cli\u003eEnergy efficiency of photosynthesis is quite low.\u003c/li\u003e\n\u003cli\u003eChlorophylls have narrow absorption bands: 420-450 nm and 630-690 nm. Meaning\nthat all the light outside of these bands is useless for photosynthesis. For\nreference, the human eye can see from 380 to 750 nm. So, around 370 nm worth of\nradiation. Plants can convert around 60 nm worth, so around 6 times less than\nwhat the human eye can see (and much much less if we count in the other radiation\nexcept visible light).\u003c/li\u003e\n\u003cli\u003eMaximum \u003cem\u003etheoretical\u003c/em\u003e efficiency is around 4% of insolation, but in practice, the\nglobal continental average is 0.33%; the average for the entire biosphere is\n0.2%. In other words, if 500 photons hit the surface, only one of those photons\ngets converted into plant mass.\u003c/li\u003e\n\u003cli\u003eDespite the inefficiency, continents produce around 120 billion tonnes of plant\nmass a year; oceans around 110 billion tonnes. Different forests produce\ndifferent amounts, but e.g. continental forests produce around 0.5 kg to 2.5 kg\nper m^2 every year. These rates are roughly equal for grown crops.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-human-history\"\u003eEnergy in human history\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eHuman caloric needs are roughly around 2-3 thousand kcal a day. There are\ndifferences across age, gender, size, as well as level of activity. The basal\nmetabolic rate: 50-80 W for females, 60-90 W for males (again, given average\nsizes).\u003c/li\u003e\n\u003cli\u003eEnergy in food: pure fat gives 39 MJ/kg, protein 23 MJ/kg, carbs 17 MJ/kg. However,\nthe body processes carbohydrates primarily, and the protein comes last (at least\nfor energy needs).\u003c/li\u003e\n\u003cli\u003eTotal amount of energy available at higher trophic levels is reduced. For example,\nall the prey in the world combined has less energy than all the plant food of that\nprey. This explains historical dominance of vegetarianism in foraging societies\n(besides, meat is difficult to get, in addition to not being as abundant as\nplants). The energy return for foraging (the amount of joules from foraged food vs.\nthe amount of joules expended for foraging) is around 10x. So for each joule of\nenergy expended foraging, you\u0026rsquo;d, historically, get around 10x more, sometimes 30x\nmore.\u003c/li\u003e\n\u003cli\u003eAgricultural efficiency in ancient Egypt was 1 person per hectare (the cultivation\nof one hectare of land would energetically meet the needs of one person). That\nnumber grew very slow; some areas reached up to 5 persons per hectare. Europe\n(pre-industrial) never went above 2 persons per hectare.\n\u003cul\u003e\n\u003cli\u003eThere are two reasons for this: growing non-improved crops (where the conversion\nof energy is inefficient, and relatively little is converted into usable food,\nand the rest is converted into inedible phytomass) and lack of nitrogen.\u003c/li\u003e\n\u003cli\u003eAnd an additional reason: it\u0026rsquo;s energetically very costly to perform agricultural\nmanual labor (tilling a hectare of land takes up much much more than foraging a\nhectare of forest).\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHumans can work at around 60-80W; draft animals yield 300-500W (and also don\u0026rsquo;t\nneed specialized feed, as they can eat grass).\u003c/li\u003e\n\u003cli\u003eDry wood has around 16 MJ/kg. That\u0026rsquo;s pretty low energy density. Compare:\n\u003cul\u003e\n\u003cli\u003eCoal: 24 MJ/kg\u003c/li\u003e\n\u003cli\u003eDiesel: 45 MJ/kg\u003c/li\u003e\n\u003cli\u003eGasoline: 46 MJ/kg\u003c/li\u003e\n\u003cli\u003eNatural gas: 55 MJ/kg\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe low energy density of wood is not a problem if the source is dense (and you can\nharvest a lot from a small acreage), but that\u0026rsquo;s not the case: there\u0026rsquo;s usually no\nmore than 200t per hectare (20 kg/m^2), the yield is 300 MJ/m^2. Since it takes\n50-100 years to return to pre-harvest state, you need to divide the harvested\nenergy by the time to regenerate. For example, dividing by 50 years, you get 0.2\nW/m^2 (of sustainable wood energy).\u003c/li\u003e\n\u003cli\u003eTraditional charcoaling gives 0.04 W/m^2 (again, by taking sustainable harvesting\nfigures). Pretty wasteful.\u003c/li\u003e\n\u003cli\u003eEnergy needs in pre-industrial cities: 10-30 watts per m2 (that\u0026rsquo;s for heating,\ncooking, metallurgy, and so on). This means that if they relied solely on wood,\ncities would need forests 50-150 times their size nearby (for sustainable\nharvesting).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-the-modern-world\"\u003eEnergy in the modern world\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEvery civilization is fundamentally solar: fossil fuels are essentially batteries\nfor solar energy. The difference between pre-industrial and industrial\ncivilizations is whether they\u0026rsquo;re locally solar (recent phytomass) or remotely solar\n(old phytomass=fossil fuels).\u003c/li\u003e\n\u003cli\u003eCoals are basically just plants in swamps, subjected to high temperatures and\npressures for up to 350 million years. Many of these plants are still around, in\nsmaller form. For example, mosses up to 30 meters in height vs. today\u0026rsquo;s moss.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Peak oil\u0026rdquo; is unjustifiably pessimistic; there is little chance of hitting a\nsupermassive oil field like Saudi Arabia\u0026rsquo;s Ghawar field, but the total oil reserves\nare still pretty large.\u003c/li\u003e\n\u003cli\u003eA third of the world\u0026rsquo;s electricity is \u003cem\u003enot\u003c/em\u003e generated by the combustion of fossil\nfuels.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-everyday-life\"\u003eEnergy in everyday life\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eThe Mediterranean diet has switched to much more meat, fish, butter, and cheese;\noriginally it was much more heavy on bread, fruit, potatoes, and olive oil. The\ntrue (original) Mediterranean diet now survives only among the rural elderly\npopulation.\u003c/li\u003e\n\u003cli\u003eAmerican walls (wood frame, drywall, insulation) provide around 4x more insulation\nthan sturdier European brick walls.\u003c/li\u003e\n\u003cli\u003eDark roofs get up to 50°C hotter than the air temperature in summer; white or light\nroofs are just 10°C hotter.\u003c/li\u003e\n\u003cli\u003eOne lumen of US electric light is three orders of magnitude more affordable in 2015\nthan in 1900.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Phantom loads\u0026rdquo; (vampire power; use of electricity even when everything is turned\noff) is around 50 W per household in the US; combined, that\u0026rsquo;s more electricity than\nSingapore\u0026rsquo;s use in a year.\u003c/li\u003e\n\u003cli\u003eEnergy costs of various items, in GJ/t (for reference, one tonne of crude oil is 42\nGJ/t):\n\u003cul\u003e\n\u003cli\u003eexcavating sand: 0.1 GJ/t\u003c/li\u003e\n\u003cli\u003equarrying stone: 1 GJ/t\u003c/li\u003e\n\u003cli\u003eextracting construction wood: 1.5-3 GJ/t\u003c/li\u003e\n\u003cli\u003ecement: 3.5 GJ/t\u003c/li\u003e\n\u003cli\u003eadding steel to concrete makes it 3x more expensive\u003c/li\u003e\n\u003cli\u003einsulation: 10 GJ/t\u003c/li\u003e\n\u003cli\u003ea three-bedroom house costs around 500 GJ (around 12 tonnes of crude oil)\u003c/li\u003e\n\u003cli\u003ewheat, corn, fruits: 4 GJ/t\u003c/li\u003e\n\u003cli\u003erice: 10 GJ/t\u003c/li\u003e\n\u003cli\u003epeppers, tomatoes, greenhouse veggies: 40 GJ/t\u003c/li\u003e\n\u003cli\u003ewheat contains four times as much energy as was used to produce it; greenhouse\ntomatoes can have up to 50x \u003cstrong\u003eless\u003c/strong\u003e energy than what was used to produce them\n\u003cul\u003e\n\u003cli\u003ehowever, food\u0026rsquo;s total energy cost is dominated by packaging \u0026amp; transport\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
+      "date_published": "2025-08-15T00:00:00Z",
       "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "llm",
-        "mcp",
-        "programming"
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
       ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "9f8a4ed77531e598",
@@ -3584,20 +3601,6 @@
       ],
       "_signal_feed_title": "{ Mario Zechner }",
       "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
-      "id": "da2a377cc538381d",
-      "url": "https://blog.d11r.eu/energy-beginners-guide/",
-      "title": "Energy, a Beginner's Guide (notes)",
-      "summary": "\u003cp\u003eThis is a good book because it gives you \u003cstrong\u003enumbers\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eIt\u0026rsquo;s important to understand the quantities of things around you. I think that\nthere\u0026rsquo;s a sort of deep understanding that you can have when you know the exact\nfigures (or ranges) for many physical phenomena. This is something I hint at in\n\u003ca href=\"https://blog.d11r.eu/basics\"\u003ebeing good at the basics\u003c/a\u003e. Smil\u0026rsquo;s book is a good introduction to such\nthinking.\u003c/p\u003e\n\u003ch2 id=\"energy-in-the-biosphere\"\u003eEnergy in the biosphere\u003c/h2\u003e\n\u003cp\u003eOn celestial matters:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIf the Earth didn\u0026rsquo;t have a \u0026ldquo;buffering\u0026rdquo; mechanism for absorbing solar radiation, and\nit re-radiated all the solar radiation back immediately (\u003ca href=\"https://en.wikipedia.org/wiki/Black-body_radiation\"\u003eblack body\nradiator\u003c/a\u003e), the planet would\nstay at -18°C. So, all water would be permanently frozen. The mean surface\ntemperature is 15°C, which is all caused by greenhouse gases buffering the\nradiation. Buffers = life!\u003c/li\u003e\n\u003cli\u003eThe power of the sun is 3.9x10^26 W. So, each second that the sun shines, it sends\n13 orders of magnitude more energy than all fuels and all primary electricity on\nEarth in a given year.\u003c/li\u003e\n\u003cli\u003eSolar flow on topmost atmosphere is 1376W/m^2, or a little more than 1 kW per meter\nsquared. However, due to the Earth being round, in any given second, some parts\nhave more light, some fewer (towards the poles), and some none (nighttime); the\naverage is 342W/m^2. Then the light goes through a bunch of filtering mechanisms,\nsuch as the ozone layer, different cloud layers, and so on. So, roughly \u003cstrong\u003ehalf\u003c/strong\u003e of\nthe radiation that hit the uppermost atmosphere hits the surface; averaging it out\nover the entire surface of the earth, that\u0026rsquo;s around 170W/m^2.\n\u003cul\u003e\n\u003cli\u003eThis adds up to 2.7x10^24 J every year, around 5000 thousand times more than the\nworld spends each year.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAbout two thirds of global albedo is due to cloud tops.\u003c/li\u003e\n\u003cli\u003eMany equatorial places are poorly insolated due to large amounts of clouds\npreventing the sun from accessing the earth. So, \u0026ldquo;tropical\u0026rdquo; doesn\u0026rsquo;t necessarily\nmean \u0026ldquo;good for placement of pV systems\u0026rdquo;.\u003c/li\u003e\n\u003cli\u003eAll the inbound radiation is eventually re-radiated back to space, but taking into\naccount the \u0026ldquo;buffering\u0026rdquo; effects mentioned above. For example, 95% percent of\nsurface level re-radiation doesn\u0026rsquo;t end up in space directly, but rather gets\nbuffered by the atmosphere. The most dominant greenhouse gas is by far water vapor.\nThe Earth is essentially wrapped in a water cocoon, which protects it from getting\nhow too fast, and getting cold too fast.\u003c/li\u003e\n\u003cli\u003ePlanetary water cycles moves around 585,000 km^3 of water every year. Around 46 PW\nof power is required to vaporize this water; this is half of total insolation.\u003c/li\u003e\n\u003cli\u003eGeothermal power is comparatively small; about 44TW (~90mW/m^2 on average).\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOn plants:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eExternal biodiversity obscures the fact that there are \u003cstrong\u003every few\u003c/strong\u003e metabolic\npathways in organisms. That is, energy comes into the biome \u003cem\u003eonly\u003c/em\u003e through\n\u003cstrong\u003eautotrophs\u003c/strong\u003e: either phototrophs converting solar energy into mass, or\nchemotrophs converting inorganic compounds into mass. Literally everything else\nwhich is alive is downstream of these two producers.\u003c/li\u003e\n\u003cli\u003ePhotosynthesis reminder:\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e6CO2 + 6H2O = C6H12O6 + 6O2\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003cli\u003eEnergy efficiency of photosynthesis is quite low.\u003c/li\u003e\n\u003cli\u003eChlorophylls have narrow absorption bands: 420-450 nm and 630-690 nm. Meaning\nthat all the light outside of these bands is useless for photosynthesis. For\nreference, the human eye can see from 380 to 750 nm. So, around 370 nm worth of\nradiation. Plants can convert around 60 nm worth, so around 6 times less than\nwhat the human eye can see (and much much less if we count in the other radiation\nexcept visible light).\u003c/li\u003e\n\u003cli\u003eMaximum \u003cem\u003etheoretical\u003c/em\u003e efficiency is around 4% of insolation, but in practice, the\nglobal continental average is 0.33%; the average for the entire biosphere is\n0.2%. In other words, if 500 photons hit the surface, only one of those photons\ngets converted into plant mass.\u003c/li\u003e\n\u003cli\u003eDespite the inefficiency, continents produce around 120 billion tonnes of plant\nmass a year; oceans around 110 billion tonnes. Different forests produce\ndifferent amounts, but e.g. continental forests produce around 0.5 kg to 2.5 kg\nper m^2 every year. These rates are roughly equal for grown crops.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-human-history\"\u003eEnergy in human history\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eHuman caloric needs are roughly around 2-3 thousand kcal a day. There are\ndifferences across age, gender, size, as well as level of activity. The basal\nmetabolic rate: 50-80 W for females, 60-90 W for males (again, given average\nsizes).\u003c/li\u003e\n\u003cli\u003eEnergy in food: pure fat gives 39 MJ/kg, protein 23 MJ/kg, carbs 17 MJ/kg. However,\nthe body processes carbohydrates primarily, and the protein comes last (at least\nfor energy needs).\u003c/li\u003e\n\u003cli\u003eTotal amount of energy available at higher trophic levels is reduced. For example,\nall the prey in the world combined has less energy than all the plant food of that\nprey. This explains historical dominance of vegetarianism in foraging societies\n(besides, meat is difficult to get, in addition to not being as abundant as\nplants). The energy return for foraging (the amount of joules from foraged food vs.\nthe amount of joules expended for foraging) is around 10x. So for each joule of\nenergy expended foraging, you\u0026rsquo;d, historically, get around 10x more, sometimes 30x\nmore.\u003c/li\u003e\n\u003cli\u003eAgricultural efficiency in ancient Egypt was 1 person per hectare (the cultivation\nof one hectare of land would energetically meet the needs of one person). That\nnumber grew very slow; some areas reached up to 5 persons per hectare. Europe\n(pre-industrial) never went above 2 persons per hectare.\n\u003cul\u003e\n\u003cli\u003eThere are two reasons for this: growing non-improved crops (where the conversion\nof energy is inefficient, and relatively little is converted into usable food,\nand the rest is converted into inedible phytomass) and lack of nitrogen.\u003c/li\u003e\n\u003cli\u003eAnd an additional reason: it\u0026rsquo;s energetically very costly to perform agricultural\nmanual labor (tilling a hectare of land takes up much much more than foraging a\nhectare of forest).\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHumans can work at around 60-80W; draft animals yield 300-500W (and also don\u0026rsquo;t\nneed specialized feed, as they can eat grass).\u003c/li\u003e\n\u003cli\u003eDry wood has around 16 MJ/kg. That\u0026rsquo;s pretty low energy density. Compare:\n\u003cul\u003e\n\u003cli\u003eCoal: 24 MJ/kg\u003c/li\u003e\n\u003cli\u003eDiesel: 45 MJ/kg\u003c/li\u003e\n\u003cli\u003eGasoline: 46 MJ/kg\u003c/li\u003e\n\u003cli\u003eNatural gas: 55 MJ/kg\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe low energy density of wood is not a problem if the source is dense (and you can\nharvest a lot from a small acreage), but that\u0026rsquo;s not the case: there\u0026rsquo;s usually no\nmore than 200t per hectare (20 kg/m^2), the yield is 300 MJ/m^2. Since it takes\n50-100 years to return to pre-harvest state, you need to divide the harvested\nenergy by the time to regenerate. For example, dividing by 50 years, you get 0.2\nW/m^2 (of sustainable wood energy).\u003c/li\u003e\n\u003cli\u003eTraditional charcoaling gives 0.04 W/m^2 (again, by taking sustainable harvesting\nfigures). Pretty wasteful.\u003c/li\u003e\n\u003cli\u003eEnergy needs in pre-industrial cities: 10-30 watts per m2 (that\u0026rsquo;s for heating,\ncooking, metallurgy, and so on). This means that if they relied solely on wood,\ncities would need forests 50-150 times their size nearby (for sustainable\nharvesting).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-the-modern-world\"\u003eEnergy in the modern world\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEvery civilization is fundamentally solar: fossil fuels are essentially batteries\nfor solar energy. The difference between pre-industrial and industrial\ncivilizations is whether they\u0026rsquo;re locally solar (recent phytomass) or remotely solar\n(old phytomass=fossil fuels).\u003c/li\u003e\n\u003cli\u003eCoals are basically just plants in swamps, subjected to high temperatures and\npressures for up to 350 million years. Many of these plants are still around, in\nsmaller form. For example, mosses up to 30 meters in height vs. today\u0026rsquo;s moss.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Peak oil\u0026rdquo; is unjustifiably pessimistic; there is little chance of hitting a\nsupermassive oil field like Saudi Arabia\u0026rsquo;s Ghawar field, but the total oil reserves\nare still pretty large.\u003c/li\u003e\n\u003cli\u003eA third of the world\u0026rsquo;s electricity is \u003cem\u003enot\u003c/em\u003e generated by the combustion of fossil\nfuels.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"energy-in-everyday-life\"\u003eEnergy in everyday life\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eThe Mediterranean diet has switched to much more meat, fish, butter, and cheese;\noriginally it was much more heavy on bread, fruit, potatoes, and olive oil. The\ntrue (original) Mediterranean diet now survives only among the rural elderly\npopulation.\u003c/li\u003e\n\u003cli\u003eAmerican walls (wood frame, drywall, insulation) provide around 4x more insulation\nthan sturdier European brick walls.\u003c/li\u003e\n\u003cli\u003eDark roofs get up to 50°C hotter than the air temperature in summer; white or light\nroofs are just 10°C hotter.\u003c/li\u003e\n\u003cli\u003eOne lumen of US electric light is three orders of magnitude more affordable in 2015\nthan in 1900.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Phantom loads\u0026rdquo; (vampire power; use of electricity even when everything is turned\noff) is around 50 W per household in the US; combined, that\u0026rsquo;s more electricity than\nSingapore\u0026rsquo;s use in a year.\u003c/li\u003e\n\u003cli\u003eEnergy costs of various items, in GJ/t (for reference, one tonne of crude oil is 42\nGJ/t):\n\u003cul\u003e\n\u003cli\u003eexcavating sand: 0.1 GJ/t\u003c/li\u003e\n\u003cli\u003equarrying stone: 1 GJ/t\u003c/li\u003e\n\u003cli\u003eextracting construction wood: 1.5-3 GJ/t\u003c/li\u003e\n\u003cli\u003ecement: 3.5 GJ/t\u003c/li\u003e\n\u003cli\u003eadding steel to concrete makes it 3x more expensive\u003c/li\u003e\n\u003cli\u003einsulation: 10 GJ/t\u003c/li\u003e\n\u003cli\u003ea three-bedroom house costs around 500 GJ (around 12 tonnes of crude oil)\u003c/li\u003e\n\u003cli\u003ewheat, corn, fruits: 4 GJ/t\u003c/li\u003e\n\u003cli\u003erice: 10 GJ/t\u003c/li\u003e\n\u003cli\u003epeppers, tomatoes, greenhouse veggies: 40 GJ/t\u003c/li\u003e\n\u003cli\u003ewheat contains four times as much energy as was used to produce it; greenhouse\ntomatoes can have up to 50x \u003cstrong\u003eless\u003c/strong\u003e energy than what was used to produce them\n\u003cul\u003e\n\u003cli\u003ehowever, food\u0026rsquo;s total energy cost is dominated by packaging \u0026amp; transport\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e",
-      "date_published": "2025-08-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "d06d7a99f1ad4dcc",
@@ -3717,20 +3720,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "817f1e01f48d2c81",
-      "url": "https://blog.d11r.eu/ai-md/",
-      "title": "Why is it so hard to export Markdown from Gemini?",
-      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
-      "date_published": "2025-07-23T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "189bd77edc2e0dd6",
       "url": "https://www.answer.ai/posts/2025-07-23-faststripe.html",
       "title": "The Stripe Experience You Deserve",
@@ -3749,6 +3738,20 @@
       ],
       "_signal_feed_title": "Answer.AI",
       "_signal_feed_url": "https://www.answer.ai/"
+    },
+    {
+      "id": "817f1e01f48d2c81",
+      "url": "https://blog.d11r.eu/ai-md/",
+      "title": "Why is it so hard to export Markdown from Gemini?",
+      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
+      "date_published": "2025-07-23T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "a72763d4addf4d5c",
@@ -4310,7 +4313,7 @@
         "Cloudwatch"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "2cf7cd1b7d585431",
@@ -4335,7 +4338,7 @@
         "correction of error"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "e194386a0dc6d8da",
@@ -4377,7 +4380,7 @@
         "CDK"
       ],
       "_signal_feed_title": "Be a Better Dev",
-      "_signal_feed_url": "https://beabetterdev.com/"
+      "_signal_feed_url": "https://d2yeaxazqu9ejn.cloudfront.net/"
     },
     {
       "id": "10b590e95c39b16a",
@@ -4630,41 +4633,7 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
-      "id": "0dfa3f2bd937a51f",
-      "url": "https://www.fast.ai/posts/2024-10-29-screen-time/",
-      "title": "In defense of screen time",
-      "summary": " Pundits say my husband and I are parenting wrong. ",
-      "date_published": "2024-10-28T14:00:00Z",
-      "authors": [
-        {
-          "name": "Rachel Thomas"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Deep Learning",
-        "education"
-      ],
-      "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/"
-    },
-    {
-      "id": "74a7122d921743a8",
-      "url": "https://blog.d11r.eu/pibu1/",
-      "title": "Political ideology from the bottom up, part 1",
-      "summary": "\u003cp\u003eI would like to figure out my political worldview. I feel like I have a patchwork of various ideas and opinions, but no coherent worldview. I\u0026rsquo;ll read something and be like \u0026ldquo;huh, that makes sense\u0026rdquo;, and then I\u0026rsquo;ll read something else and also be like \u0026ldquo;huh, that also makes sense\u0026rdquo;. I\u0026rsquo;m sufficiently high openness that I can integrate various different ideas (or I have just read enough of LessWrong), but it feels like I \u003cem\u003ejust don\u0026rsquo;t know enough\u003c/em\u003e and don\u0026rsquo;t have formed opinions on things.\u003c/p\u003e\n\u003cp\u003eI guess there\u0026rsquo;s an upside to this - not having an opinion about things is better than having a strong opinion without knowing about the subject. But realistically, both are different flavors of bad. You \u003cem\u003edo\u003c/em\u003e actually want to have opinions. You need to have an idea of what things are good and what things are bad. That way, you can: a) predict the future a little bit better, and b) steer your society towards a better future.\u003c/p\u003e\n\u003ch2 id=\"policy-and-ideology\"\u003ePolicy and ideology\u003c/h2\u003e\n\u003cp\u003eIdeologies are high-level (low-resolution) descriptions of your policies. When someone says that they are authoritarian right, I translate that into: \u0026ldquo;ok, this person would like to ban abortions and build walls around the country\u0026rdquo; (same for other quadrants). These are specific policies that they would like to implement, and when you look at all of it together, they roughly belong to a quadrant on the political compass.\u003c/p\u003e\n\u003cp\u003eWhat happens if your policy opinions are all over the place? I sometimes joke that I am a radical centrist: various radical political opinions on all parts of the political compass, which averages to the center. This is, of course, different than a \u0026ldquo;regular\u0026rdquo; centrist, someone who doesn\u0026rsquo;t have particularly strong opinions one way or the other, and still ends up, on average, at the same place on the compass.\u003c/p\u003e\n\u003cp\u003eI think that this joke will turn out to be quite true as I inspect and form my political views. I was once asked, quite bluntly, what I was politically. How do I lean, left or right, authoritarian or libertarian? I didn\u0026rsquo;t know how to answer. There are so many individual questions that I have half-baked opinions on (meaning: I am not sure how much to trust my own opinion; it\u0026rsquo;s more like a feeling than an opinion) that I find it extremely difficult to call myself one thing over the other. As soon as I call myself \u0026ldquo;left-wing\u0026rdquo; I can think of several right-wing stances that I would endorse, and that goes the other way around.\u003c/p\u003e\n\u003cp\u003eThe following series of posts is an inquiry into values, and specifically, policies. To an extent, I don\u0026rsquo;t need to know what \u003cem\u003eideology\u003c/em\u003e I belong to, I need to know what\u0026rsquo;s the best \u003cem\u003epolicy\u003c/em\u003e for a specific question. Then, the ideology question answers itself.\u003c/p\u003e\n\u003ch2 id=\"philosophy-and-ideology\"\u003ePhilosophy and ideology\u003c/h2\u003e\n\u003cp\u003eBut it is pretty obvious that different people have different ideas on what \u0026ldquo;good\u0026rdquo; looks like, socially and politically. They think differently when asked \u0026ldquo;imagine an ideal society\u0026rdquo; - they see different economic systems, different aesthetics, different things that a society does.\u003c/p\u003e\n\u003cp\u003eTo answer a policy question, maybe you don\u0026rsquo;t yet have a political ideology, but you must have some sort of vision of what good \u003cem\u003eis\u003c/em\u003e, and for that you need some sort of philosophy, or aesthetics, or vision.\u003c/p\u003e\n\u003cp\u003eHere are some bits of the aesthetic-political vision that I have for humanity, and which will ultimately guide me in answering policy questions:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eHumanity should reach for the stars. We should, at some point, expand into space, and have more and more scientific and technological discoveries that help us answer fundamental questions about existence.\u003c/li\u003e\n\u003cli\u003eHumanity should put an end to suffering, or at least strike a significant blow to suffering. This is just technologically enabled compassion. This compassion should extend to all beings, both future and present, both human and non-human, and possibly non-organic as well.\u003c/li\u003e\n\u003cli\u003eHumanity should maximize liberty and happiness.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003ePhilosophically, I would call myself a transhumanist. I do have sympathy for some of the concerns of my diametrical opponents - anarcho-primitivists - but even taking these concerns into account, I still side with transhumanism on many questions.\u003c/p\u003e\n\u003ch2 id=\"methodology\"\u003eMethodology\u003c/h2\u003e\n\u003cp\u003eI will write a series of posts which will essentially just ask popular policy questions, with the intent of arriving at a specific policy that I endorse. Popular, because there\u0026rsquo;s a million possible policy questions, and I don\u0026rsquo;t expect to be able to answer every single one of them.\u003c/p\u003e\n\u003cp\u003eI believe it is important to write down my thought process because I want people to be able to look up how I arrived at a political stance and then give me info that I didn\u0026rsquo;t have when I was forming the opinion. I want to hear opposing arguments!\u003c/p\u003e\n\u003cp\u003eEssentially, what I am doing is just answering the \u003ca href=\"https://www.politicalcompass.org/test\"\u003epolitical compass test\u003c/a\u003e in a long-winded way.\u003c/p\u003e\n\u003cp\u003eThere, they explicitly say the following:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003ePlease note that this isn’t a survey, and these aren’t questions. They’re propositions.\u003c/p\u003e\n\u003cp\u003ePropositions are a very different proposition!\u003c/p\u003e\n\u003cp\u003eTo question the logic of individual ones that irritate you is to miss the point.\u003c/p\u003e\n\u003cp\u003eSome propositions are extreme, and some are moderate.\u003c/p\u003e\n\u003cp\u003eThat’s how we can show you whether you lean towards extremism or moderation on the Compass.\u003c/p\u003e\n\u003cp\u003eYour responses should not be overthought. Some of them are intentionally vague.\u003c/p\u003e\n\u003cp\u003eTheir purpose is to trigger reactions in the mind, measuring feelings and prejudices rather than detailed opinions on policy.\u003c/p\u003e\n\u003cp\u003eAll of them are necessarily biased, but we have a careful balance of biases!\u003c/p\u003e\n\u003cp\u003eThis is something that most of our critics simply don’t understand.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eWell, I want to do the exact opposite. I \u003cem\u003ewant\u003c/em\u003e detailed opinions on policy, and I \u003cem\u003edon\u0026rsquo;t want\u003c/em\u003e feelings and prejudices. Their premise is that it\u0026rsquo;s worth measuring one\u0026rsquo;s political ideology even in the absence of specific knowledge (=detailed opinion on policy). I reject that premise, at least for my own purpose. Ideology is a description of policy, and if you have no policy to begin with, you can end up anywhere on the compass and it won\u0026rsquo;t matter much. I don\u0026rsquo;t particularly care about measuring \u003cem\u003evibes\u003c/em\u003e.\u003c/p\u003e",
-      "date_published": "2024-10-20T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-10-01T12:21:30Z"
+  "_signal_generated": "2026-10-01T22:17:59Z"
 }

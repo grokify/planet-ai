@@ -1,0 +1,33 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "ec809666d95adccd",
+      "url": "https://siddhantkhare.com/writing/same-coordinates-different-tensors",
+      "title": "The coordinates matched. The tensors did not.",
+      "summary": "MONAI, a medical-imaging framework, matched a custom 3D tiler on every window start but not on padding. Here is what to prove before inference.",
+      "date_published": "2026-10-01T10:15:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "gpu",
+        "computer-vision",
+        "sliding-window",
+        "inference",
+        "verification",
+        "VoxelScope"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-10-01T22:17:59Z",
+  "_signal_period": "2026-10"
+}
