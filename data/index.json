@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-04T11:44:20.120601143Z",
+  "generated": "2026-10-04T16:23:03.182861284Z",
   "title": "Planet AI",
   "files": [
     {
       "month": "2026-10",
       "filename": "feeds-2026-10.json",
-      "count": 1
+      "count": 3
     },
     {
       "month": "2026-09",
@@ -75,7 +75,7 @@
     {
       "month": "2025-08",
       "filename": "feeds-2025-08.json",
-      "count": 15
+      "count": 13
     },
     {
       "month": "2025-07",

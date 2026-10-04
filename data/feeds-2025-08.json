@@ -76,28 +76,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "cb220fb0fa8dca9f",
-      "url": "https://siddhantkhare.com/writing/gpu-memory-virtualization-for-llms",
-      "title": "GPU memory virtualization for LLMs",
-      "summary": "LLM inference is shifting from compute-bound to memory-bound. Treating GPU memory like an OS does RAM is the path forward.",
-      "date_published": "2025-08-21T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "llm",
-        "gpu",
-        "infrastructure"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "b0ee3ee2dd3970f4",
       "url": "https://steipete.me/posts/just-one-more-prompt/",
       "title": "Just One More Prompt",
@@ -111,30 +89,6 @@
       ],
       "_signal_feed_title": "Peter Steinberger",
       "_signal_feed_url": "https://steipete.me/"
-    },
-    {
-      "id": "4b6bab066f78610c",
-      "url": "https://siddhantkhare2694.medium.com/attention-by-subtraction-5ca5fe8f357a?source=rss-d33fc21fba5d------2",
-      "title": "Attention by subtraction",
-      "summary": "The most counterintuitive thing I learned about ADHD is that it’s not really about attention. It’s about decisions. For years I thought my problem was focus. I’d sit down to work and within minutes fi",
-      "date_published": "2025-08-16T08:42:08Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "attention",
-        "focus",
-        "deep-work",
-        "adhd",
-        "mental-health"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "9f8a4ed77531e598",
@@ -252,6 +206,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-10-04T11:44:20Z",
+  "_signal_generated": "2026-10-04T16:23:03Z",
   "_signal_period": "2025-08"
 }

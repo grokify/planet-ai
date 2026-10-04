@@ -3,6 +3,55 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "34d7e16d2567c6d4",
+      "url": "https://siddhantkhare.com/writing/repeatable-output-is-not-verified-evidence",
+      "title": "Repeatable output is not verified evidence",
+      "summary": "A local Qwen3 study repeated every model outcome and validated every citation. All 18 runs still failed admission. A frozen claim-skeleton compiler narrowed the model's job, yet 12 of 18 new runs remained refused.",
+      "date_published": "2026-10-04T12:15:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "verification",
+        "evidence",
+        "compilers",
+        "evaluation",
+        "VoxelScope"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "8fc74e686f8b07c7",
+      "url": "https://siddhantkhare.com/writing/security-agent-frozen-evidence",
+      "title": "Inspect the context before a security agent runs",
+      "summary": "A tenant-boundary defect shows Distill in use: locked inputs, inspectable manifests, repeatable builds, and explicit integrity failures.",
+      "date_published": "2026-10-04T06:47:46Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "security",
+        "context-engineering",
+        "evaluation",
+        "verification",
+        "engineering"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "ec809666d95adccd",
       "url": "https://siddhantkhare.com/writing/same-coordinates-different-tensors",
       "title": "The coordinates matched. The tensors did not.",
@@ -28,6 +77,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-10-04T11:44:20Z",
+  "_signal_generated": "2026-10-04T16:23:03Z",
   "_signal_period": "2026-10"
 }
