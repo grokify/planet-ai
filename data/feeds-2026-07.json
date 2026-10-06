@@ -143,26 +143,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "64aa2601ebe3aaed",
-      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
-      "title": "The Tower Keeps Rising",
-      "content_html": "\u003cp\u003eI feel that some vibecoded software changes somewhat randomly and unexpectedly.\nThat made me think about Bruegel\u0026#8217;s \u003ca href=\"https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)\"\u003e\u0026#8220;The Tower of\nBabel\u0026#8221;\u003c/a\u003e which shows\nan already quite chaotic depiction of the Tower of Babel.  The story is one of\npride and ambition and ultimately why people no longer speak the same language.\nBut it is also a story about the unity that makes technological progress work.\u003c/p\u003e\n\u003cp\u003eThe text begins with a technology upgrade:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eAnd they said one to another, Go to, let us make brick, and burn them\nthoroughly.  And they had brick for stone, and slime had they for morter.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThey use it for a civilizational project:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003elet us build us a city and a tower, whose top may reach unto heaven\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eBut when God assesses the situation the bricks are not what concern him:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003ethe people is one, and they have all one language, […] and now nothing will be\nrestrained from them.\u003csup class=\"footnote-ref\" id=\"fnref-1\"\u003e\u003ca href=\"#fn-1\"\u003e1\u003c/a\u003e\u003c/sup\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eThey get their power through coordination which they have because they share a\nlanguage.  They can use this to coordination to combine their powers and build\nsomething no one of them could build alone.  God does not take away the bricks\nor their knowledge of how to make them but their ability to understand one\nanother.\u003c/p\u003e\n\u003cp\u003eWith AI-assisted programming we should get better tools which lets us build more\nambitious software.  That is certainly true at the level of the individual and\nwithout doubt a developer with an agent can change a codebase dramatically\nquicker.  But large software projects have never been limited only by how\nquickly an individual can produce code but they are limited by how well people\ncan coordinate their understanding of the system they are changing.\u003c/p\u003e\n\u003cp\u003eThe shared language of a software project is the common understanding shared\namong its developers.  This language is rarely written down in one place but it\nlives in documentation and code.  It can also just be something that comes up in\ncode review or watercooler conversations or when one engineer has to explain a\nchange to someone else.  It can be about the architecture of the code, the\ntradeoffs made or which invariants need to be upheld.\u003c/p\u003e\n\u003cp\u003eIn the days before agents some of that shared understanding was maintained by\nfriction.  If I wanted to change someone\u0026#8217;s storage layer, I usually had to read\ntheir code and ask them questions.  Changing that code might have required\ncoordination with another team whose service depended on it.  Some of this\nfriction was useful as it forced communication.  It also was a good touchpoint\nfor both of us discover if we still understood how the system worked.  I had\nplenty of experiences in my career where through conversations with my fellow\nengineer we collectively had to understand again why the system we had worked as\nit did before we did some changes to it.\u003c/p\u003e\n\u003cp\u003eBut with agents I can ask an agent to add OAuth, you can ask one to add caching,\nand somebody else can ask one to rebuild the database from first principles and\nmake the UI pink.  Each change can be reasonable in isolation but since it\u0026#8217;s\nfrictionless, none of us necessarily has to talk to the others or familiarize\nourselves with the code we are changing.  The more we use agents, the less we\nfeel the pain as agents feel none of it, and a useful signal is gone.\u003c/p\u003e\n\u003cp\u003eWhen I look at some vibecoded scaled-up projects the codebases mirror the story\nof Babel mostly because nobody needs to communicate.  Obviously nothing stops us\nto talk to one another, but nothing forces us either.  Every developer has a\ntireless machine that can explain a corner of the tower and make whatever local\nmodification they want.\u003c/p\u003e\n\u003cp\u003eUnlike in the bible though, in AI-assisted engineering, construction can\ncontinue after shared understanding has already collapsed.  The complete lack of\nan immediate failure is what makes it curious and a bit disorienting.  The tower\ndoes not fall, it just keeps rising.\u003c/p\u003e\n\u003cdiv class=\"footnotes\"\u003e\n\u003col\u003e\n\u003cli id=\"fn-1\"\u003e\n\u003cp\u003e\u003ca href=\"https://www.biblegateway.com/passage/?search=Genesis%2011%3A3-6\u0026amp;version=KJV\"\u003eGenesis 11:3-6, KJV\u003c/a\u003e.\u003ca href=\"#fnref-1\" class=\"footnote\"\u003e\u0026#8617;\u003c/a\u003e\u003c/p\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/div\u003e\n",
-      "summary": "\u003cp\u003eI feel that some vibecoded software changes somewhat randomly and unexpectedly.\nThat made me think about Bruegel\u0026#8217;s \u003ca href=\"https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)\"\u003e\u0026#8220;The Tower of\nBabel\u0026#8221;\u003c/a\u003e which shows\nan already quite chaotic depiction of the Tower of Babel.  The story is one of\npride and ambition and ultimately why people no longer speak the same language.\nBut it is also a story about the unity that makes technological progress work.\u003c/p\u003e\n\u003cp\u003eThe text...",
-      "date_published": "2026-07-13T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "77528771607da1d9",
       "url": "https://blog.d11r.eu/bucket-doom/",
       "title": "The mosquito bucket of doom works",
@@ -206,6 +186,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-10-06T12:41:18Z",
+  "_signal_generated": "2026-10-06T22:16:04Z",
   "_signal_period": "2026-07"
 }
