@@ -3,6 +3,20 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "d8d481c435ca1e96",
+      "url": "https://blog.d11r.eu/sveltia/",
+      "title": "I'm trying out Sveltia CMS",
+      "summary": "\u003cp\u003eI\u0026rsquo;m trying out \u003ca href=\"https://sveltiacms.app/en/\"\u003eSveltia CMS\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eLooks like it\u0026rsquo;s working nicely.\u003c/p\u003e\n\u003ch1 id=\"heading\"\u003eHeading\u003c/h1\u003e\n\u003cp\u003eAlso, a screenshot:\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/20261011-202831.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eImpressive. Very nice.\u003c/p\u003e\n\u003c/blockquote\u003e",
+      "date_published": "2026-10-11T20:27:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "f6fa71e41f1fe039",
       "url": "https://blog.d11r.eu/modern-cars/",
       "title": "I hate modern cars",
@@ -111,6 +125,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-10-11T12:02:36Z",
+  "_signal_generated": "2026-10-11T21:26:05Z",
   "_signal_period": "2026-10"
 }
