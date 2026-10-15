@@ -3,6 +3,30 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "6564c46e76726d8d",
+      "url": "https://siddhantkhare.com/writing/why-my-coding-agent-runs-insert-statements",
+      "title": "A clever memory pattern in Copilot’s harness",
+      "summary": "In one controlled Copilot SDK/CLI session, SQL task rows stayed readable after compaction and a graceful runtime restart.",
+      "date_published": "2026-10-15T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "copilot",
+        "sql",
+        "context-engineering",
+        "evidence"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "d8d481c435ca1e96",
       "url": "https://blog.d11r.eu/sveltia/",
       "title": "I'm trying out Sveltia CMS",
@@ -125,6 +149,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-10-15T16:14:43Z",
+  "_signal_generated": "2026-10-15T20:53:45Z",
   "_signal_period": "2026-10"
 }
