@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T20:53:45.085550565Z",
+  "generated": "2026-10-16T02:59:01.880867359Z",
   "title": "Planet AI",
   "files": [
     {
@@ -65,12 +65,12 @@
     {
       "month": "2025-10",
       "filename": "feeds-2025-10.json",
-      "count": 15
+      "count": 16
     },
     {
       "month": "2025-09",
       "filename": "feeds-2025-09.json",
-      "count": 5
+      "count": 4
     },
     {
       "month": "2025-08",
