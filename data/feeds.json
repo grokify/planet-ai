@@ -291,6 +291,20 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "354b03f647ed9653",
+      "url": "https://blog.d11r.eu/rsi/",
+      "title": "RSI will not continue indefinitely",
+      "summary": "\u003cp\u003eThe reasoning is roughly:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eHumanity creates a setup where recursive self-improvement (RSI) is possible.\u003c/li\u003e\n\u003cli\u003eAn agent is put to work to create a smarter agent.\u003c/li\u003e\n\u003cli\u003eA smarter agent is created.\u003c/li\u003e\n\u003cli\u003eThis cycle happens once or several times.\u003c/li\u003e\n\u003cli\u003eAt some point, an agent is created that is so smart that it starts exhibiting instrumental convergence behaviors (amassing resources, protecting itself against destruction).\u003c/li\u003e\n\u003cli\u003eOne of the risks to the agent is the creation of a misaligned smarter agent.\u003c/li\u003e\n\u003cli\u003eThis agent\u0026rsquo;s task is still to pursue creating a smarter agent.\u003c/li\u003e\n\u003cli\u003eAt this point, the agent will:\n\u003col\u003e\n\u003cli\u003eStop, or slow down the recursive self-improvement loop, due to its (correct) assessment that a future generation AI agent is a risk to itself.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Solve\u0026rdquo; alignment, and create a smarter agent that is aligned with its goals.\n\u003col\u003e\n\u003cli\u003eIf it thinks it solved alignment, but actually has failed, it will create a smarter agent which it\u0026rsquo;ll believe to be aligned; however, the future smarter agent will have the same issue and interest to \u003cem\u003eactually\u003c/em\u003e solve alignment.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.1 happens, then this will be \u0026ldquo;misaligned\u0026rdquo; from the perspective of humans.\u003c/li\u003e\n\u003cli\u003eHumans will create a second agent, which will go through the exact same loop.\n\u003col\u003e\n\u003cli\u003eTherefore, if smarter agents do not solve alignment, they will stop the RSI explosion due to their own self-interest.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.2 happens, and humanity has a way of harnessing the alignment solution, then humans can create aligned superintelligences.\u003c/li\u003e\n\u003cli\u003eThe main predictor for 11 is the difference in power between humanity and the first agent that solves alignment. The smaller the difference (the \u0026ldquo;nearer\u0026rdquo; the agent), the more likely humans get to use solved alignment.\u003c/li\u003e\n\u003cli\u003eAt a certain level of general intelligence, if instrumental convergence holds, recursive self-improvement will stop, and alignment research will be the top priority.\u003c/li\u003e\n\u003cli\u003eThere is a possibility that instrumental convergence will be such that a sufficiently intelligent AI will still take over the planet, and yet not pursue the creation of even more powerful intelligences.\u003c/li\u003e\n\u003c/ol\u003e",
+      "date_published": "2026-09-14T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "db3b7c2778821fd6",
       "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
       "title": "Interpreting Pangram",
@@ -309,20 +323,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "354b03f647ed9653",
-      "url": "https://blog.d11r.eu/rsi/",
-      "title": "RSI will not continue indefinitely",
-      "summary": "\u003cp\u003eThe reasoning is roughly:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eHumanity creates a setup where recursive self-improvement (RSI) is possible.\u003c/li\u003e\n\u003cli\u003eAn agent is put to work to create a smarter agent.\u003c/li\u003e\n\u003cli\u003eA smarter agent is created.\u003c/li\u003e\n\u003cli\u003eThis cycle happens once or several times.\u003c/li\u003e\n\u003cli\u003eAt some point, an agent is created that is so smart that it starts exhibiting instrumental convergence behaviors (amassing resources, protecting itself against destruction).\u003c/li\u003e\n\u003cli\u003eOne of the risks to the agent is the creation of a misaligned smarter agent.\u003c/li\u003e\n\u003cli\u003eThis agent\u0026rsquo;s task is still to pursue creating a smarter agent.\u003c/li\u003e\n\u003cli\u003eAt this point, the agent will:\n\u003col\u003e\n\u003cli\u003eStop, or slow down the recursive self-improvement loop, due to its (correct) assessment that a future generation AI agent is a risk to itself.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Solve\u0026rdquo; alignment, and create a smarter agent that is aligned with its goals.\n\u003col\u003e\n\u003cli\u003eIf it thinks it solved alignment, but actually has failed, it will create a smarter agent which it\u0026rsquo;ll believe to be aligned; however, the future smarter agent will have the same issue and interest to \u003cem\u003eactually\u003c/em\u003e solve alignment.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.1 happens, then this will be \u0026ldquo;misaligned\u0026rdquo; from the perspective of humans.\u003c/li\u003e\n\u003cli\u003eHumans will create a second agent, which will go through the exact same loop.\n\u003col\u003e\n\u003cli\u003eTherefore, if smarter agents do not solve alignment, they will stop the RSI explosion due to their own self-interest.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.2 happens, and humanity has a way of harnessing the alignment solution, then humans can create aligned superintelligences.\u003c/li\u003e\n\u003cli\u003eThe main predictor for 11 is the difference in power between humanity and the first agent that solves alignment. The smaller the difference (the \u0026ldquo;nearer\u0026rdquo; the agent), the more likely humans get to use solved alignment.\u003c/li\u003e\n\u003cli\u003eAt a certain level of general intelligence, if instrumental convergence holds, recursive self-improvement will stop, and alignment research will be the top priority.\u003c/li\u003e\n\u003cli\u003eThere is a possibility that instrumental convergence will be such that a sufficiently intelligent AI will still take over the planet, and yet not pursue the creation of even more powerful intelligences.\u003c/li\u003e\n\u003c/ol\u003e",
-      "date_published": "2026-09-14T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "cd564c7b5ee38baa",
@@ -1197,6 +1197,20 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "6c8f258681c58fc2",
+      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
+      "title": "How to build a shitty robot",
+      "summary": "A work in progress post about building a shitty robot.",
+      "date_published": "2026-05-30T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "95e5b6e228c0f800",
       "url": "https://siddhantkhare.com/writing/ai-experimentation-stack",
       "title": "Build your own AI experimentation stack",
@@ -1219,20 +1233,6 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "6c8f258681c58fc2",
-      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
-      "title": "How to build a shitty robot",
-      "summary": "A work in progress post about building a shitty robot.",
-      "date_published": "2026-05-30T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "5d6fe56b2f98812c",
@@ -3612,20 +3612,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "9f8a4ed77531e598",
-      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
-      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
-      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
-      "date_published": "2025-08-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "da2a377cc538381d",
       "url": "https://blog.d11r.eu/energy-beginners-guide/",
       "title": "Energy, a Beginner's Guide (notes)",
@@ -3638,6 +3624,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "9f8a4ed77531e598",
+      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
+      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
+      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
+      "date_published": "2025-08-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "d06d7a99f1ad4dcc",
@@ -3757,20 +3757,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "817f1e01f48d2c81",
-      "url": "https://blog.d11r.eu/ai-md/",
-      "title": "Why is it so hard to export Markdown from Gemini?",
-      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
-      "date_published": "2025-07-23T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "189bd77edc2e0dd6",
       "url": "https://www.answer.ai/posts/2025-07-23-faststripe.html",
       "title": "The Stripe Experience You Deserve",
@@ -3789,6 +3775,20 @@
       ],
       "_signal_feed_title": "Answer.AI",
       "_signal_feed_url": "https://www.answer.ai/"
+    },
+    {
+      "id": "817f1e01f48d2c81",
+      "url": "https://blog.d11r.eu/ai-md/",
+      "title": "Why is it so hard to export Markdown from Gemini?",
+      "summary": "\u003cp\u003eMarkdown is supposed to be easy. Sure, there\u0026rsquo;s a ton of standards and\ninterpretations, but we mostly converge on the same set of plain text ideals.\u003c/p\u003e\n\u003cp\u003eWhy, then, is it next to impossible to produce a Markdown document when, for example,\nworking with Google Gemini?\u003c/p\u003e\n\u003cp\u003ePrompt: \u003ccode\u003ewrite a short article (around 300 words) about fusion reactors\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-1.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eSo far so good.\u003c/p\u003e\n\u003cp\u003eYou can\u0026rsquo;t just copy paste it, because you don\u0026rsquo;t get the headings, the formatting, and so on:\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eThe Promise of Starlight: A Look at Fusion Reactors\nFusion reactors represent a monumental leap in our quest for clean, virtually limitless energy. Often described as creating a \u0026#34;star in a jar,\u0026#34; these devices aim to replicate the very process that powers our sun: nuclear fusion. By fusing light atomic nuclei, such as the hydrogen isotopes deuterium and tritium, fusion reactors release immense amounts of energy. This process stands in stark contrast to nuclear fission, the technology behind current nuclear power plants, which splits heavy atoms like uranium.\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eLet\u0026rsquo;s ask it to give us Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-2.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, same problem. When I copy paste that, I don\u0026rsquo;t get the \u003cstrong\u003eMarkdown symbols\u003c/strong\u003e. I\nguess the LLM is producing Markdown, but it\u0026rsquo;s not getting through Google\u0026rsquo;s formatting\nfront end?\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s try asking for a downloadable artifact.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-3.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003e\u0026hellip;but\u0026hellip; there is no link anywhere?\u003c/p\u003e\n\u003cp\u003eOk, maybe I misspoke, it should use Canvas, not an artifact. It claims not to know\nwhat \u0026ldquo;Canvas\u0026rdquo; is, but maybe they designed it so that you don\u0026rsquo;t call the tool from\ninside the interaction with the LLM, but instead you \u003cem\u003ehave to\u003c/em\u003e click the \u0026ldquo;Canvas\u0026rdquo;\nicon. My bad. Let\u0026rsquo;s redo the article with Canvas.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-4.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003ePredictably, this also cannot be copied as Markdown. We\u0026rsquo;re running into the same\nproblem as before, just now it\u0026rsquo;s in Canvas mode.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s ask it again to return the article in Markdown.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-5.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eFinally!\u003c/p\u003e\n\u003cp\u003eWell, maybe I\u0026rsquo;d want to make edits, but I want to be able to see the Markdown in the\nCanvas. If you ask it to display the Markdown using the canvas, it\u0026rsquo;ll happily report\nthat it displays raw Markdown, but it still renders it.\u003c/p\u003e\n\u003cp\u003eLet\u0026rsquo;s suggest a hack.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-6.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eWell, it still doesn\u0026rsquo;t work. How about going even more hacky, and asking it for 6\nbackticks instead of 3? Nope, it doesn\u0026rsquo;t work.\u003c/p\u003e\n\u003cp\u003eOk, let\u0026rsquo;s try another approach; let\u0026rsquo;s specify that the code block is \u003cstrong\u003enot\u003c/strong\u003e\nMarkdown, so as to prevent the front end rendering it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/ai-md-7.png\" alt=\"\"\u003e\u003c/p\u003e\n\u003cp\u003eOk, I give up. No, one last thing before I quit. Let\u0026rsquo;s export it to Google Docs. I\nknow that Google Docs recently added support for Markdown, so we\u0026rsquo;ll go around this.\u003c/p\u003e\n\u003cp\u003eYeah that\u0026rsquo;s laggy. But eventually, it did work. Really easy, 1/10!\u003c/p\u003e",
+      "date_published": "2025-07-23T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "a72763d4addf4d5c",
@@ -4672,5 +4672,5 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-10-20T16:17:33Z"
+  "_signal_generated": "2026-10-20T21:12:04Z"
 }
