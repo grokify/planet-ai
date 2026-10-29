@@ -56,26 +56,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "dd84e353dc567a31",
-      "url": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides/",
-      "title": "Codeberg Divides",
-      "content_html": "\u003cp\u003eCodeberg recently \u003ca href=\"https://lobste.rs/s/ax914v/protecting_our_floss_commons_from_llms\"\u003echanged its\nterms\u003c/a\u003e to\nexclude projects that are largely written with generative AI.  Considering I\n\u003ca href=\"/2026/4/28/before-github/\"\u003ewant GitHub to get some competition\u003c/a\u003e I have thoughts\nabout this.\u003c/p\u003e\n\u003cp\u003eGitHub\u0026#8217;s governance has never been democratic and there is plenty about the\nplatform that I dislike.  Yet I do not need my infrastructure to be democratic\nbut I need it to be predictable and reasonably neutral towards the Open Source\nsoftware hosted on it.  A democratic provider without a clear constitution can\nbe worse at those things than a corporation is.\u003c/p\u003e\n\u003cp\u003eCodeberg is entirely within its rights to do run the platform like they want.\nIt is a German association with members and a democratic process, and that\nprocess produced a result.  But a democratic vote says nothing about whether the\ndecision is a good one, particularly for the people already depending on the\nplatform.  A majority can still decide that certain projects and people no\nlonger belong.\u003c/p\u003e\n\u003cp\u003eThe new \u003ca href=\"https://codeberg.org/Codeberg/org/src/branch/main/TermsOfUse.md\"\u003eterms prohibit\nprojects\u003c/a\u003e that\nmostly consist of code written by generative AI tools.  That\u0026#8217;s fine, but these\ndays I could not assign authorship percentages to my recent projects.  For me\nthis rule is quite vague and I would bet that it makes it hard to enforce.  In\npractice my assumptoin is that \u003ca href=\"/2026/4/11/the-center-has-a-bias/\"\u003ethe center will\nleave\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eIf anything a harsher line would probably be preferable.  If Codeberg wants no\nLLM involvement, it should say so.  On the other hand if the objection is just\nspam and abusive resource consumption, it should write rules for those instead.\nNow it defers the details of the policy to moderators and the communit which\nalready draws a much harder boundary than the text does, judging by the tone of\nthe discussion around it.\u003c/p\u003e\n\u003cp\u003eIt is a shame that the Open Source and Free Software communities are splitting\nthis deeply over LLMs and agents.  These systems have problems, but these tools\nare also becoming part of how software is made.  The Open Source world needs to\nfigure out how to engage with that future.  More importantly, LLMs if used well,\nshould be welcome to the Open Source community as they can be used to reclaim\ncontrol and take power away from large corporations.\u003c/p\u003e\n\u003cp\u003eI want GitHub to face true competition in the Open Source space.  I would\nparticularly like some of it to come from associations rather than another large\nentity.  As a European project, Codeberg naturally matters to me even more.  I\njust wish Codeberg were more forward-looking here and be willing to host the\nOpen Source software of tomorrow and not only software approved by the community\ntoday.\u003c/p\u003e\n",
-      "summary": "\u003cp\u003eCodeberg recently \u003ca href=\"https://lobste.rs/s/ax914v/protecting_our_floss_commons_from_llms\"\u003echanged its\nterms\u003c/a\u003e to\nexclude projects that are largely written with generative AI.  Considering I\n\u003ca href=\"/2026/4/28/before-github/\"\u003ewant GitHub to get some competition\u003c/a\u003e I have thoughts\nabout this.\u003c/p\u003e\n\u003cp\u003eGitHub\u0026#8217;s governance has never been democratic and there is plenty about the\nplatform that I dislike.  Yet I do not need my infrastructure to be democratic\nbut I need it to be...",
-      "date_published": "2026-07-24T00:00:00Z",
-      "authors": [
-        {
-          "name": "Armin Ronacher"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Programming",
-        "Python"
-      ],
-      "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
-      "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
       "id": "a899323a7fb51494",
       "url": "https://siddhantkhare.com/writing/retry-is-not-a-loop",
       "title": "Retry is not a loop, its a data structure",
@@ -186,6 +166,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     }
   ],
-  "_signal_generated": "2026-10-29T12:13:41Z",
+  "_signal_generated": "2026-10-29T22:24:03Z",
   "_signal_period": "2026-07"
 }
