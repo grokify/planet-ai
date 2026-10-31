@@ -106,34 +106,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "90da9b06fe87682b",
-      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down",
-      "title": "Thoughts on slowing the fuck down",
-      "summary": "Thoughts on slowing the fuck down",
-      "date_published": "2026-03-25T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at",
-      "_signal_priority": true,
-      "_signal_rank": 12,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47517539",
-          "id": "47517539",
-          "score": 892
-        },
-        {
-          "platform": "frontierpulse",
-          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-thoughts-on-slowing-the-fuck-down.html"
-        }
-      ]
-    },
-    {
       "id": "21fe1b39a21d8a46",
       "url": "https://www.claudescode.dev/?window=since_launch",
       "title": "90% of Claude-linked output going to GitHub repos with \u003c2 stars",
@@ -165,6 +137,34 @@
         {
           "platform": "frontierpulse",
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-90%-of-claude-linked-output-going-to-github-repos.html"
+        }
+      ]
+    },
+    {
+      "id": "90da9b06fe87682b",
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down",
+      "title": "Thoughts on slowing the fuck down",
+      "summary": "Thoughts on slowing the fuck down",
+      "date_published": "2026-03-25T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at",
+      "_signal_priority": true,
+      "_signal_rank": 12,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47517539",
+          "id": "47517539",
+          "score": 892
+        },
+        {
+          "platform": "frontierpulse",
+          "url": "https://grokify.github.io/frontierpulse/articles/2026-03-25-thoughts-on-slowing-the-fuck-down.html"
         }
       ]
     },
@@ -492,6 +492,6 @@
       "_signal_feed_url": "https://www.answer.ai/"
     }
   ],
-  "_signal_generated": "2026-10-31T16:46:00Z",
+  "_signal_generated": "2026-10-31T20:56:54Z",
   "_signal_period": "2026-03"
 }
