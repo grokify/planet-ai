@@ -23,28 +23,6 @@
       "_signal_feed_url": "https://www.answer.ai/"
     },
     {
-      "id": "54bd76f97076175e",
-      "url": "https://siddhantkhare.com/writing/what-im-trying-to-escape-as-an-indian-engineer",
-      "title": "What I'm trying to escape as an Indian engineer",
-      "summary": "Competence earns respect, but originality creates legacy.",
-      "date_published": "2025-09-13T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "career",
-        "originality",
-        "personal"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ae3ddb78ad7e0f43",
       "url": "https://steipete.me/posts/2025/claude-code-anonymous/",
       "title": "Claude Code Anonymous",
@@ -75,6 +53,6 @@
       "_signal_feed_url": "https://steipete.me/"
     }
   ],
-  "_signal_generated": "2026-11-01T04:08:24Z",
+  "_signal_generated": "2026-11-01T12:37:38Z",
   "_signal_period": "2025-09"
 }

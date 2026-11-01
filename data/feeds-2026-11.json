@@ -1,0 +1,32 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Planet AI",
+  "items": [
+    {
+      "id": "799aac87e20a5f98",
+      "url": "https://siddhantkhare.com/writing/memory-journal-trip",
+      "title": "I asked Codex to pick ten photos from my trip",
+      "summary": "352 photos, ten carousel slots. I used my Apple Photos MCP server with Codex to find candidates, revise the shortlist and build a travel film.",
+      "date_published": "2026-11-01T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "mcp",
+        "codex",
+        "python",
+        "photography",
+        "personal"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    }
+  ],
+  "_signal_generated": "2026-11-01T12:37:38Z",
+  "_signal_period": "2026-11"
+}
