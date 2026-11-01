@@ -3,6 +3,31 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "9762950381984804",
+      "url": "https://siddhantkhare.com/writing/cluster-scaled-to-zero-before-first-request",
+      "title": "The cluster scaled to zero before its first request",
+      "summary": "An LLM serving simulator drained all four GPU replicas at its first autoscaler tick, before any request arrived. 0 of 200 requests completed. The repro, the root cause, the fix, and how real autoscalers set a floor.",
+      "date_published": "2026-11-01T03:30:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "llm",
+        "inference",
+        "autoscaling",
+        "kubernetes",
+        "gpu",
+        "open-source"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "799aac87e20a5f98",
       "url": "https://siddhantkhare.com/writing/memory-journal-trip",
       "title": "I asked Codex to pick ten photos from my trip",
@@ -27,6 +52,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-11-01T12:37:38Z",
+  "_signal_generated": "2026-11-01T21:39:20Z",
   "_signal_period": "2026-11"
 }
