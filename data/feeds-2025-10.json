@@ -69,28 +69,6 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
-      "id": "8e5c4218a02beb3f",
-      "url": "https://dev.to/siddhantkcode/why-agent-orchestration-is-harder-than-kubernetes-lessons-while-building-agentflow-4jm3",
-      "title": "Why agent orchestration is harder than kubernetes - Lessons while building Agentflow",
-      "summary": "TL;DR: While building AgentFlow, an open source orchestration engine for AI agents, I discovered...",
-      "date_published": "2025-10-23T16:15:12Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "architecture",
-        "kubernetes",
-        "agents"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "57db38d1824558ee",
       "url": "https://lalitm.com/til-the-documentation-system-divio/",
       "title": "TIL: The Documentation System (Divio)",
@@ -245,6 +223,6 @@
       "_signal_feed_url": "https://www.answer.ai/"
     }
   ],
-  "_signal_generated": "2026-11-07T04:29:19Z",
+  "_signal_generated": "2026-11-07T12:23:02Z",
   "_signal_period": "2025-10"
 }

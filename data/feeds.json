@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "b8e2e1f337046c8c",
+      "url": "https://siddhantkhare.com/writing/how-much-of-an-agent-run-is-model-work",
+      "title": "Your agent's clock is not the model's clock",
+      "summary": "Two parallel tools can do forty seconds of work in twenty seconds. Before buying faster inference, separate model-call latency, tool waits and the cost of a validated change.",
+      "date_published": "2026-11-06T19:05:06Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "inference",
+        "performance",
+        "evidence"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "9762950381984804",
       "url": "https://siddhantkhare.com/writing/cluster-scaled-to-zero-before-first-request",
       "title": "The cluster scaled to zero before its first request",
@@ -1575,20 +1598,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "d108ad12756728fb",
-      "url": "https://blog.d11r.eu/meetup-2026/",
-      "title": "Scott Alexander gentrified my meetup",
-      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
-      "date_published": "2026-04-11T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
-    },
-    {
       "id": "5d4d0c2061eba1f6",
       "url": "https://siddhantkhare.com/writing/why-you-stop-caring-mid-review",
       "title": "Why you stop caring mid-review",
@@ -1610,6 +1619,20 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
+      "id": "d108ad12756728fb",
+      "url": "https://blog.d11r.eu/meetup-2026/",
+      "title": "Scott Alexander gentrified my meetup",
+      "summary": "\u003cp\u003eOn 10 April 2026, I organized an ACX/LW/rationality meetup.\u003c/p\u003e\n\u003cp\u003eInitially, I intended for it to be just our regular meetup, and \u0026ldquo;regular\u0026rdquo; for Zagreb is between 3 and 10 people having a couple of beers.\u003c/p\u003e\n\u003cp\u003eSkyler of \u003ca href=\"https://www.rationalitymeetups.org/\"\u003eRationality Meetups\u003c/a\u003e contacted me saying that Scott would be in Zagreb in April, and we coordinated so that the meetup could accommodate Scott\u0026rsquo;s schedule.\u003c/p\u003e\n\u003cp\u003eAt first, I thought, man, this is serious now.\nI\u0026rsquo;ll have to actually reserve a table.\u003c/p\u003e\n\u003cp\u003eOnce the \u0026ldquo;Going\u0026rdquo; RSVPs started coming in, I was like: shit, this is even more serious now.\nI\u0026rsquo;m going to have to reserve \u003cstrong\u003etwo\u003c/strong\u003e tables.\u003c/p\u003e\n\u003cp\u003eSoon after, when I first started receiving emails from people announcing that they would be travelling from the Netherlands, Germany, Sweden, Estonia, Slovakia, Slovenia, and probably other countries which I forgot, I started to panic a little bit.\u003c/p\u003e\n\u003cp\u003eLuckily, I managed to somehow reserve a big event space from the company where I work.\nNot sure what would have happened if we stuck to the original venue, but I imagine it would probably be a massive fail.\nAt one point, I think I counted 54 individuals, but could have miscounted.\u003c/p\u003e\n\u003cp\u003ePeople mingled, ate food, and had a nice time.\nScott gave a nice Q\u0026amp;A session, answering mostly AI-safety-related questions.\nI\u0026rsquo;m sorry I couldn\u0026rsquo;t get the microphone working, but it was a last-minute event space so\u0026hellip; Count yourselves lucky to have had somewhere to sit!\u003c/p\u003e\n\u003cp\u003eThank you, Scott, for giving sensible directions and imposing some structure on the chaos.\u003c/p\u003e\n\u003cp\u003eSpecial thanks to Dorian for helping with logistics and everything in general, and to everyone who helped clean up afterwards!\u003c/p\u003e\n\u003cp\u003eSee some of you on the next meetup.\u003c/p\u003e\n\u003cp\u003ePS: here\u0026rsquo;s the \u003ca href=\"https://t.me/+8o2y2zhYI6kwYzc0\"\u003einvite link to the LessWrong Croatia group\u003c/a\u003e.\nIf you\u0026rsquo;re interested in attending future meetups, this is the easiest way to be informed about them.\nOtherwise, feel free to \u003ca href=\"mailto:dt@d11r.eu\"\u003eemail me\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.d11r.eu/meetup-2026.jpg\" alt=\"Meetup photo\"\u003e\u003c/p\u003e",
+      "date_published": "2026-04-11T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "fd99cda5b61a0d3a",
@@ -1929,28 +1952,6 @@
       ]
     },
     {
-      "id": "7c575ebe30cbed0a",
-      "url": "https://siddhantkhare.com/writing/ambition-tax",
-      "title": "The ambition tax",
-      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
-      "date_published": "2026-03-23T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "personal",
-        "ambition",
-        "career"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "ca71712b028ffde9",
       "url": "https://blog.d11r.eu/theory-building/",
       "title": "Vibecoders can't build for longevity",
@@ -1977,6 +1978,28 @@
           "url": "https://grokify.github.io/frontierpulse/articles/2026-03-23-vibecoders-cant-build-for-longevity.html"
         }
       ]
+    },
+    {
+      "id": "7c575ebe30cbed0a",
+      "url": "https://siddhantkhare.com/writing/ambition-tax",
+      "title": "The ambition tax",
+      "summary": "Nobody told me that ambition has a tax. Not the long hours or the missed weekends. The quieter kind.",
+      "date_published": "2026-03-23T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "personal",
+        "ambition",
+        "career"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "6a001ded6b2970a1",
@@ -2307,34 +2330,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
-      "id": "44285a565700fb09",
-      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
-      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
-      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
-      "date_published": "2026-02-19T00:00:00Z",
-      "authors": [
-        {
-          "name": "Ben Gregory"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Engineering",
-        "Product Development"
-      ],
-      "_signal_feed_title": "Kasava Blog",
-      "_signal_feed_url": "https://www.kasava.dev/blog",
-      "_signal_priority": true,
-      "_signal_rank": 3,
-      "_signal_discussions": [
-        {
-          "platform": "hackernews",
-          "url": "https://news.ycombinator.com/item?id=47078324",
-          "id": "47078324"
-        }
-      ]
-    },
-    {
       "id": "fc44166e3e729564",
       "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
       "title": "Minions: Stripe's one-shot, end-to-end coding agents (Part 2)",
@@ -2360,6 +2355,34 @@
           "platform": "hackernews",
           "url": "https://news.ycombinator.com/item?id=47086557",
           "id": "47086557"
+        }
+      ]
+    },
+    {
+      "id": "44285a565700fb09",
+      "url": "https://www.kasava.dev/blog/ai-as-exoskeleton",
+      "title": "Stop Thinking of AI as a Coworker. It's an Exoskeleton.",
+      "summary": "Organizations viewing AI as an autonomous agent tend to disappoint, while those treating it as an amplifier of human capability achieve better results. Advocates for a micro-agent architecture where discrete tasks receive AI support while humans retain decision-making authority.",
+      "date_published": "2026-02-19T00:00:00Z",
+      "authors": [
+        {
+          "name": "Ben Gregory"
+        }
+      ],
+      "tags": [
+        "AI",
+        "Engineering",
+        "Product Development"
+      ],
+      "_signal_feed_title": "Kasava Blog",
+      "_signal_feed_url": "https://www.kasava.dev/blog",
+      "_signal_priority": true,
+      "_signal_rank": 3,
+      "_signal_discussions": [
+        {
+          "platform": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=47078324",
+          "id": "47078324"
         }
       ]
     },
@@ -2544,6 +2567,28 @@
       "_signal_feed_url": "https://reorx.com/"
     },
     {
+      "id": "79caba98118d8639",
+      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
+      "title": "AI fatigue is real and nobody talks about it",
+      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
+      "date_published": "2026-02-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "mental-health",
+        "engineering",
+        "personal"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "e509decbf9709dda",
       "url": "https://www.linkedin.com/posts/hernanwyler_aimanagement-airiskmanagement-agenticai-activity-7426369346152747008-m0qt",
       "title": "AI Risk Management Framework",
@@ -2571,28 +2616,6 @@
         "author": "hernanwyler",
         "postId": "7426369346152747008"
       }
-    },
-    {
-      "id": "79caba98118d8639",
-      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
-      "title": "AI fatigue is real and nobody talks about it",
-      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
-      "date_published": "2026-02-08T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "mental-health",
-        "engineering",
-        "personal"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "92dc9c0bdbcacd7f",
@@ -3277,28 +3300,6 @@
       ],
       "_signal_feed_title": "Lalit Maganti",
       "_signal_feed_url": "https://lalitm.com/"
-    },
-    {
-      "id": "8e5c4218a02beb3f",
-      "url": "https://dev.to/siddhantkcode/why-agent-orchestration-is-harder-than-kubernetes-lessons-while-building-agentflow-4jm3",
-      "title": "Why agent orchestration is harder than kubernetes - Lessons while building Agentflow",
-      "summary": "TL;DR: While building AgentFlow, an open source orchestration engine for AI agents, I discovered...",
-      "date_published": "2025-10-23T16:15:12Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "architecture",
-        "kubernetes",
-        "agents"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "57db38d1824558ee",
@@ -4503,5 +4504,5 @@
       "_signal_feed_url": "https://www.answer.ai/"
     }
   ],
-  "_signal_generated": "2026-11-07T04:29:19Z"
+  "_signal_generated": "2026-11-07T12:23:02Z"
 }

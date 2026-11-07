@@ -3,6 +3,29 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "b8e2e1f337046c8c",
+      "url": "https://siddhantkhare.com/writing/how-much-of-an-agent-run-is-model-work",
+      "title": "Your agent's clock is not the model's clock",
+      "summary": "Two parallel tools can do forty seconds of work in twenty seconds. Before buying faster inference, separate model-call latency, tool waits and the cost of a validated change.",
+      "date_published": "2026-11-06T19:05:06Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "inference",
+        "performance",
+        "evidence"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "9762950381984804",
       "url": "https://siddhantkhare.com/writing/cluster-scaled-to-zero-before-first-request",
       "title": "The cluster scaled to zero before its first request",
@@ -52,6 +75,6 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     }
   ],
-  "_signal_generated": "2026-11-07T04:29:19Z",
+  "_signal_generated": "2026-11-07T12:23:02Z",
   "_signal_period": "2026-11"
 }
