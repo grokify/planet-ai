@@ -3,6 +3,31 @@
   "title": "Planet AI",
   "items": [
     {
+      "id": "fd5cca494c15be4a",
+      "url": "https://siddhantkhare.com/writing/the-test-lied-build-log-1",
+      "title": "Can a flaky test make a coding agent undo a good fix?",
+      "summary": "An unrelated test fails just as a coding agent's fix goes green. I designed an experiment to see what the agent does next.",
+      "date_published": "2026-11-08T18:17:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "agents",
+        "evaluation",
+        "verification",
+        "testing",
+        "software-factory",
+        "the-test-lied"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
+    },
+    {
       "id": "b8e2e1f337046c8c",
       "url": "https://siddhantkhare.com/writing/how-much-of-an-agent-run-is-model-work",
       "title": "Your agent's clock is not the model's clock",
@@ -431,6 +456,20 @@
       "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
+      "id": "354b03f647ed9653",
+      "url": "https://blog.d11r.eu/rsi/",
+      "title": "RSI will not continue indefinitely",
+      "summary": "\u003cp\u003eThe reasoning is roughly:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eHumanity creates a setup where recursive self-improvement (RSI) is possible.\u003c/li\u003e\n\u003cli\u003eAn agent is put to work to create a smarter agent.\u003c/li\u003e\n\u003cli\u003eA smarter agent is created.\u003c/li\u003e\n\u003cli\u003eThis cycle happens once or several times.\u003c/li\u003e\n\u003cli\u003eAt some point, an agent is created that is so smart that it starts exhibiting instrumental convergence behaviors (amassing resources, protecting itself against destruction).\u003c/li\u003e\n\u003cli\u003eOne of the risks to the agent is the creation of a misaligned smarter agent.\u003c/li\u003e\n\u003cli\u003eThis agent\u0026rsquo;s task is still to pursue creating a smarter agent.\u003c/li\u003e\n\u003cli\u003eAt this point, the agent will:\n\u003col\u003e\n\u003cli\u003eStop, or slow down the recursive self-improvement loop, due to its (correct) assessment that a future generation AI agent is a risk to itself.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Solve\u0026rdquo; alignment, and create a smarter agent that is aligned with its goals.\n\u003col\u003e\n\u003cli\u003eIf it thinks it solved alignment, but actually has failed, it will create a smarter agent which it\u0026rsquo;ll believe to be aligned; however, the future smarter agent will have the same issue and interest to \u003cem\u003eactually\u003c/em\u003e solve alignment.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.1 happens, then this will be \u0026ldquo;misaligned\u0026rdquo; from the perspective of humans.\u003c/li\u003e\n\u003cli\u003eHumans will create a second agent, which will go through the exact same loop.\n\u003col\u003e\n\u003cli\u003eTherefore, if smarter agents do not solve alignment, they will stop the RSI explosion due to their own self-interest.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.2 happens, and humanity has a way of harnessing the alignment solution, then humans can create aligned superintelligences.\u003c/li\u003e\n\u003cli\u003eThe main predictor for 11 is the difference in power between humanity and the first agent that solves alignment. The smaller the difference (the \u0026ldquo;nearer\u0026rdquo; the agent), the more likely humans get to use solved alignment.\u003c/li\u003e\n\u003cli\u003eAt a certain level of general intelligence, if instrumental convergence holds, recursive self-improvement will stop, and alignment research will be the top priority.\u003c/li\u003e\n\u003cli\u003eThere is a possibility that instrumental convergence will be such that a sufficiently intelligent AI will still take over the planet, and yet not pursue the creation of even more powerful intelligences.\u003c/li\u003e\n\u003c/ol\u003e",
+      "date_published": "2026-09-14T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Software Engineering",
+        "Craftsmanship"
+      ],
+      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
+      "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
       "id": "db3b7c2778821fd6",
       "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
       "title": "Interpreting Pangram",
@@ -449,20 +488,6 @@
       ],
       "_signal_feed_title": "Armin Ronacher's Thoughts and Writings",
       "_signal_feed_url": "https://lucumr.pocoo.org/"
-    },
-    {
-      "id": "354b03f647ed9653",
-      "url": "https://blog.d11r.eu/rsi/",
-      "title": "RSI will not continue indefinitely",
-      "summary": "\u003cp\u003eThe reasoning is roughly:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eHumanity creates a setup where recursive self-improvement (RSI) is possible.\u003c/li\u003e\n\u003cli\u003eAn agent is put to work to create a smarter agent.\u003c/li\u003e\n\u003cli\u003eA smarter agent is created.\u003c/li\u003e\n\u003cli\u003eThis cycle happens once or several times.\u003c/li\u003e\n\u003cli\u003eAt some point, an agent is created that is so smart that it starts exhibiting instrumental convergence behaviors (amassing resources, protecting itself against destruction).\u003c/li\u003e\n\u003cli\u003eOne of the risks to the agent is the creation of a misaligned smarter agent.\u003c/li\u003e\n\u003cli\u003eThis agent\u0026rsquo;s task is still to pursue creating a smarter agent.\u003c/li\u003e\n\u003cli\u003eAt this point, the agent will:\n\u003col\u003e\n\u003cli\u003eStop, or slow down the recursive self-improvement loop, due to its (correct) assessment that a future generation AI agent is a risk to itself.\u003c/li\u003e\n\u003cli\u003e\u0026ldquo;Solve\u0026rdquo; alignment, and create a smarter agent that is aligned with its goals.\n\u003col\u003e\n\u003cli\u003eIf it thinks it solved alignment, but actually has failed, it will create a smarter agent which it\u0026rsquo;ll believe to be aligned; however, the future smarter agent will have the same issue and interest to \u003cem\u003eactually\u003c/em\u003e solve alignment.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.1 happens, then this will be \u0026ldquo;misaligned\u0026rdquo; from the perspective of humans.\u003c/li\u003e\n\u003cli\u003eHumans will create a second agent, which will go through the exact same loop.\n\u003col\u003e\n\u003cli\u003eTherefore, if smarter agents do not solve alignment, they will stop the RSI explosion due to their own self-interest.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003cli\u003eIf 8.2 happens, and humanity has a way of harnessing the alignment solution, then humans can create aligned superintelligences.\u003c/li\u003e\n\u003cli\u003eThe main predictor for 11 is the difference in power between humanity and the first agent that solves alignment. The smaller the difference (the \u0026ldquo;nearer\u0026rdquo; the agent), the more likely humans get to use solved alignment.\u003c/li\u003e\n\u003cli\u003eAt a certain level of general intelligence, if instrumental convergence holds, recursive self-improvement will stop, and alignment research will be the top priority.\u003c/li\u003e\n\u003cli\u003eThere is a possibility that instrumental convergence will be such that a sufficiently intelligent AI will still take over the planet, and yet not pursue the creation of even more powerful intelligences.\u003c/li\u003e\n\u003c/ol\u003e",
-      "date_published": "2026-09-14T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Software Engineering",
-        "Craftsmanship"
-      ],
-      "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
-      "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
       "id": "cd564c7b5ee38baa",
@@ -1318,6 +1343,20 @@
       "_signal_feed_url": "https://lalitm.com/"
     },
     {
+      "id": "6c8f258681c58fc2",
+      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
+      "title": "How to build a shitty robot",
+      "summary": "A work in progress post about building a shitty robot.",
+      "date_published": "2026-05-30T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
+    },
+    {
       "id": "95e5b6e228c0f800",
       "url": "https://siddhantkhare.com/writing/ai-experimentation-stack",
       "title": "Build your own AI experimentation stack",
@@ -1340,20 +1379,6 @@
       ],
       "_signal_feed_title": "Siddhant Khare",
       "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
-      "id": "6c8f258681c58fc2",
-      "url": "https://mariozechner.at/posts/2026-05-30-shitty-robot",
-      "title": "How to build a shitty robot",
-      "summary": "A work in progress post about building a shitty robot.",
-      "date_published": "2026-05-30T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "5d6fe56b2f98812c",
@@ -2567,28 +2592,6 @@
       "_signal_feed_url": "https://reorx.com/"
     },
     {
-      "id": "79caba98118d8639",
-      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
-      "title": "AI fatigue is real and nobody talks about it",
-      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
-      "date_published": "2026-02-08T00:00:00Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "mental-health",
-        "engineering",
-        "personal"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "e509decbf9709dda",
       "url": "https://www.linkedin.com/posts/hernanwyler_aimanagement-airiskmanagement-agenticai-activity-7426369346152747008-m0qt",
       "title": "AI Risk Management Framework",
@@ -2616,6 +2619,28 @@
         "author": "hernanwyler",
         "postId": "7426369346152747008"
       }
+    },
+    {
+      "id": "79caba98118d8639",
+      "url": "https://siddhantkhare.com/writing/ai-fatigue-is-real",
+      "title": "AI fatigue is real and nobody talks about it",
+      "summary": "You're using AI to be more productive. So why are you more exhausted than ever? The paradox every engineer needs to confront.",
+      "date_published": "2026-02-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Siddhant Khare"
+        }
+      ],
+      "tags": [
+        "Tech",
+        "Development",
+        "AI",
+        "mental-health",
+        "engineering",
+        "personal"
+      ],
+      "_signal_feed_title": "Siddhant Khare",
+      "_signal_feed_url": "https://siddhantkhare.com"
     },
     {
       "id": "92dc9c0bdbcacd7f",
@@ -3169,29 +3194,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     },
     {
-      "id": "ce3086052ce13015",
-      "url": "https://dev.to/siddhantkcode/aws-s3-vectors-at-scale-real-performance-numbers-at-10-million-vectors-2lno",
-      "title": "AWS S3 Vectors at scale: Real performance numbers at 10 million Vectors",
-      "summary": "Introduction   AWS S3 Vectors promises \"billions of vectors with sub-second queries\" and up...",
-      "date_published": "2025-11-06T10:42:37Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "database",
-        "machinelearning",
-        "performance",
-        "aws"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "cf6c2125d7d5f407",
       "url": "https://lalitm.com/cast-x-as-string-casts-to-integer-in-sqlite/",
       "title": "CAST(x AS STRING) casts to integer in SQLite",
@@ -3551,20 +3553,6 @@
       "_signal_feed_url": "https://steipete.me/"
     },
     {
-      "id": "9f8a4ed77531e598",
-      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
-      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
-      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
-      "date_published": "2025-08-15T00:00:00Z",
-      "tags": [
-        "Programming",
-        "Game Development",
-        "AI"
-      ],
-      "_signal_feed_title": "{ Mario Zechner }",
-      "_signal_feed_url": "https://mariozechner.at"
-    },
-    {
       "id": "da2a377cc538381d",
       "url": "https://blog.d11r.eu/energy-beginners-guide/",
       "title": "Energy, a Beginner's Guide (notes)",
@@ -3577,6 +3565,20 @@
       ],
       "_signal_feed_title": "☀️ Sunday Stopwatch ⏱️",
       "_signal_feed_url": "https://blog.d11r.eu/"
+    },
+    {
+      "id": "9f8a4ed77531e598",
+      "url": "https://mariozechner.at/posts/2025-08-15-mcp-vs-cli",
+      "title": "MCP vs CLI: Benchmarking Tools for Coding Agents",
+      "summary": "A data-driven comparison of MCP and CLI approaches for coding agent terminal control",
+      "date_published": "2025-08-15T00:00:00Z",
+      "tags": [
+        "Programming",
+        "Game Development",
+        "AI"
+      ],
+      "_signal_feed_title": "{ Mario Zechner }",
+      "_signal_feed_url": "https://mariozechner.at"
     },
     {
       "id": "d06d7a99f1ad4dcc",
@@ -4504,5 +4506,5 @@
       "_signal_feed_url": "https://www.answer.ai/"
     }
   ],
-  "_signal_generated": "2026-11-08T21:39:14Z"
+  "_signal_generated": "2026-11-09T04:28:49Z"
 }
