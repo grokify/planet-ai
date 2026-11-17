@@ -16,28 +16,8 @@
       ],
       "_signal_feed_title": "Reorx’s Forge",
       "_signal_feed_url": "https://reorx.com/"
-    },
-    {
-      "id": "ba193c25b23bacf3",
-      "url": "https://www.fast.ai/posts/2023-04-04-part2-2023.html",
-      "title": "From Deep Learning Foundations to Stable Diffusion",
-      "summary": " We’ve released our new course with over 30 hours of video content. ",
-      "date_published": "2023-04-03T14:00:00Z",
-      "authors": [
-        {
-          "name": "Jeremy Howard"
-        }
-      ],
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Deep Learning",
-        "courses"
-      ],
-      "_signal_feed_title": "fast.ai",
-      "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-11-16T14:39:49Z",
+  "_signal_generated": "2026-11-17T01:30:36Z",
   "_signal_period": "2023-04"
 }

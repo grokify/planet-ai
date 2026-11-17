@@ -68,28 +68,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     },
     {
-      "id": "c6af6eb3b88f99e8",
-      "url": "https://dev.to/siddhantkcode/context-engineering-the-critical-infrastructure-challenge-in-production-llm-systems-4id0",
-      "title": "Context Engineering: The critical Infrastructure challenge in production LLM systems",
-      "summary": "The $10M question nobody's asking   While the industry obsesses over model parameters and...",
-      "date_published": "2025-11-17T17:03:08Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "software",
-        "programming",
-        "architecture"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "855e43fd412e6388",
       "url": "https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/",
       "title": "TIL: Number in man page titles (e.g. sleep(3))",
@@ -184,6 +162,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-11-16T14:39:49Z",
+  "_signal_generated": "2026-11-17T01:30:36Z",
   "_signal_period": "2025-11"
 }
