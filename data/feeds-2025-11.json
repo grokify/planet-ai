@@ -17,28 +17,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     },
     {
-      "id": "11b9b91de496a09e",
-      "url": "https://dev.to/siddhantkcode/securing-agentic-ai-authorization-patterns-for-autonomous-systems-3ajo",
-      "title": "Securing Agentic AI: authorization patterns for autonomous systems",
-      "summary": "Why traditional access control fails for AI agents, and how relationship-based authorization provides...",
-      "date_published": "2025-11-29T11:28:52Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "openfga",
-        "security",
-        "agents"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "cbb7b4651e7a634f",
       "url": "https://lalitm.com/fixits-are-good-for-the-soul/",
       "title": "We stopped roadmap work for a week and fixed 189 bugs",
@@ -162,6 +140,6 @@
       "_signal_feed_url": "https://mariozechner.at"
     }
   ],
-  "_signal_generated": "2026-11-19T15:10:33Z",
+  "_signal_generated": "2026-11-20T00:15:00Z",
   "_signal_period": "2025-11"
 }
