@@ -105,28 +105,6 @@
       "_signal_feed_url": "https://blog.d11r.eu/"
     },
     {
-      "id": "fd0b512cc07c24be",
-      "url": "https://dev.to/siddhantkcode/beyond-finding-remediating-cve-2025-55182-across-hundreds-of-repositories-with-ona-automations-1p3n",
-      "title": "Beyond finding: Remediating CVE-2025-55182 across hundreds of repositories with Ona Automations",
-      "summary": "Finding vulnerable code is only half the battle. When a critical CVE drops, engineering teams face a...",
-      "date_published": "2025-12-09T08:15:19Z",
-      "authors": [
-        {
-          "name": "Siddhant Khare"
-        }
-      ],
-      "tags": [
-        "Tech",
-        "Development",
-        "AI",
-        "programming",
-        "productivity",
-        "security"
-      ],
-      "_signal_feed_title": "Siddhant Khare",
-      "_signal_feed_url": "https://siddhantkhare.com"
-    },
-    {
       "id": "249835d30806e4df",
       "url": "https://lalitm.com/post/homepage-redesign-light-mode-and-more/",
       "title": "Homepage Redesign, Light Mode and More",
@@ -177,6 +155,6 @@
       "_signal_feed_url": "https://www.fast.ai/"
     }
   ],
-  "_signal_generated": "2026-11-27T01:27:13Z",
+  "_signal_generated": "2026-11-27T16:03:15Z",
   "_signal_period": "2025-12"
 }
